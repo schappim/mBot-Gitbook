@@ -1,3 +1,12 @@
-# First Chapter
+# Section 1: Get to know your mBot
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+In this section, you will learn about the components that make up the Mbot. 
+
+You will look inside the box and learn about its contents. Then, you will assemble the mBot.
+
+The Mbot is not just a collection of the parts that come in a box. It is a platform that allows you to build robotic contraptions using various kinds of mechanical and electronic parts. 
+
+The Mbot is a bit like Lego, but for robotics. In this section, you will also spend a bit of time to learn about other useful components that don't come in the box but that are good to know about since you can use them to extend the basic functionality and features of the mBot.
+
+In this section you will also spend a bit of time to learn about the software applications that you can use to program your Mbot.
+
