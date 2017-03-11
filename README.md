@@ -1,6 +1,4 @@
-# My Awesome Book
+# Getting Started with mBot
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
-
+A practical introduction to STEM education and robotics with the mBot, the world's friendliest robot kit.
 
