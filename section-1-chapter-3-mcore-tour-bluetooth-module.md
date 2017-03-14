@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 2: Assembly: mCore tour, Bluetooth module
+## Chapter 2: Assembly: mCore tour and bluetooth module
 
 ---
 
@@ -20,13 +20,21 @@ You might like to inspect all the parts that up this module. The integrated circ
 
 ![](file:///C:\Users\dimit\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg "Img.1.3.1.jpg")
 
-Other interesting things that are on the microcontroller module are the infrared receiver and the infrared transmitter. With the infrared receiver, we are able to use the remote controller \(the one that comes with the mbod\) and get it to move in particular directions. We can also enable other functionality, programmatically created in the mbod. All made possible by the receiver. The transmitter, on the other hand, can get the mbod to transmit infrared signals, like to other mbods, for example.
+\[Image 1: the microcontroller\]
+
+Other interesting things that are on the microcontroller module are the infrared receiver and the infrared transmitter. With the infrared receiver, we are able to use the remote controller \(the one that comes with the mbod\) and get it to move in particular directions. We can also enable other functionality, programmatically created in the mbod. All made possible by the receiver. The transmitter, on the other hand, can get the mbod to transmit infrared signals like, for example, to other mbods.
 
 ![](file:///C:\Users\dimit\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg "Img.1.3.2.jpg")
 
+\[Image 2: The infrared receiver and transmiter\]
 
+There is a buzzer, so that the input can make noises. There are two RGB-color LEDs, which can create any kind of color. In between them there is a light sensor which is used by the mbod in order to figure out whether it is day or night, whether a light is turned on or off, or simply put, whether there is light or darkness.
 
-This component here is a buzzer so that the input can make noises. I also have two color RGB LEDs, this device here and that, color LEDs, can create any kind of color I can imagine with those two components. This device in the middle is a light sensor. The mbod can use this device here to figure out whether it is day or night, whether a light is turned on or off, or whether it's in darkness and things of that sort.
+![](/assets/Img.1.3.3)
+
+\[Image 3: Buzzer, LEDs and light sensor\]
+
+**{up to here by Dimitri}**
 
 I've got a button here so I can get my input to react to the button being pressed, it can make a noise, for example, it can start its motor, it's just a general purpose button, it's not a reset button, like this one here. There's a reset button here. If you press that, you reset the execution of the program on the mbod and basically you reset the program.
 
