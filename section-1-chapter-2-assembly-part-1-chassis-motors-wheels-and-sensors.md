@@ -90,5 +90,15 @@ The range finder needs to point forwards, the end of the mBot with the smiley fa
 
 Place the range finder module at the front of the chassis and align it as I show in Image 1.2.10. Take one hex screw and use it to secure one side of the module. Don't tighten it too much; if you do it will be harder to adjust the other other screw opening with the corresponding hole in the chassis. Insert the second scree, and once you are happy that the module is properly attach, tighten them slightly more.
 
-Finally for this chapter, let's work on the cables. Next, let's attach the cables. I've got two cables here, one for each sensor. I get the first one, connect it to the line-following sensor, and I will pass that through the small hall on the chassis to go to through the top side of the chassis, where the microcontroller module eventually will be. We're going to push that there and then pull the cable out so that I expose the cable up the top. Then, plug the second cable to the range finder.
+Finally for this chapter, let's work on the cables. Under the mBot, there are two cables from the motors and one from the line follower module \(see Image 1.2.11\). You must pass those cables through an opening in the chassis to the top of the mBot so that later you can connect them to the mCore.
+
+![](/assets/IMG_9620.JPG)
+
+\[Image 1.2.11: Pass the cables from the motors and the line module to the top of the mBot\]
+
+Turn the mBot over, and plug the second cable to the range finder. The assembly for this chapter is complete.
+
+![](/assets/IMG_9619.JPG)
+
+\[Image 1.2.12: Connect the last cable to the range finder module\]
 
