@@ -14,15 +14,17 @@ In this chapter, you will learn about:
 
 ---
 
-Now put the chassis of the mbod aside and work with the makeBlock, the microcontroller module. Remove the protective film as there is no need for this anymore. The first thing to do is to actually gently open up the casing by applying a little pressure on either side. It should come off easily as there is no screw holding it in place.
+Now put the chassis of the mBot aside and work with the mCore, the microcontroller module. Remove the protective film from the bottom of the mBlock as there is no need for it anymore. The first thing to do is to gently open up the case by prying open that two sides. It should come off easily as there is no screw holding it in place.
 
-You might like to inspect all the parts that up this module. The integrated circuit in the middle is the ~~**Atmel® and **~~ATmega328/P microcontroller: the brains of the mbod. It’s the same microcontroller that you find on an Arduino UNO.
+You might like to inspect all the parts that up this module. The integrated circuit in the middle is the ATmega328/P microcontroller. this is the the brain of the mBot. It’s the same microcontroller that you find on an Arduino UNO.
 
 ![](file:///C:\Users\dimit\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg "Img.1.3.1.jpg")
 
 \[Image 1: the microcontroller\]
 
-Other interesting things that are on the microcontroller module are the infrared receiver and the infrared transmitter. With the infrared receiver, we are able to use the remote controller \(the one that comes with the mbod\) and get it to move in particular directions. We can also enable other functionality, programmatically created in the mbod. All made possible by the receiver. The transmitter, on the other hand, can get the mbod to transmit infrared signals like, for example, to other mbods.
+Other interesting things that are on the microcontroller module are the infrared receiver and the infrared transmitter. With the infrared receiver, we are able to use the remote controller \(the one that comes with the mBot\) and get it to move in particular directions. We can program the mBot so that it performs a particular behaviour when a button of the remote controller is pressed. For example, we can program key "0" to play a tone, and button "1" to make the mBot spin.
+
+With the transmitter, on the other hand, can get the mBot to transmit infrared signals to other mBots.
 
 ![](file:///C:\Users\dimit\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg "Img.1.3.2.jpg")
 
