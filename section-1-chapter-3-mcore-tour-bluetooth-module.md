@@ -16,7 +16,7 @@ In this chapter, you will learn about:
 
 Now put the chassis of the mbod aside and work with the makeBlock, the microcontroller module. Remove the protective film as there is no need for this anymore. The first thing to do is to actually gently open up the casing by applying a little pressure on either side. It should come off easily as there is no screw holding it in place.
 
-You might like to inspect all the parts that up this module. The integrated circuit in the middle is the Atmel® and ATmega328/P microcontroller: the brains of the mbod. It’s the same microcontroller that you find on an Arduino UNO.
+You might like to inspect all the parts that up this module. The integrated circuit in the middle is the ~~**Atmel® and **~~ATmega328/P microcontroller: the brains of the mbod. It’s the same microcontroller that you find on an Arduino UNO.
 
 ![](file:///C:\Users\dimit\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg "Img.1.3.1.jpg")
 
