@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 2: Assembly....
+## Chapter 2: Assembly
 
 ---
 
