@@ -8,59 +8,87 @@
 
 In this chapter, you will learn about:
 
-* 1
+* How to attach the two Direct Current \(DC\) motors to the mBot chassis
 * 2
 * 3
 
 ---
 
-For the assembly process I recommended that you put aside about 15, have to be 20 minutes. This is said earlier, small kids, say, seven years and older should be able to complete this process with a bit of supervision. There are a few small pieces that the supervisor needs to be mindful of. It need a bit of accurate manipulation.
+For the assembly process I recommended that you put aside about 15 to 20 minutes. Because there are a few tiny parts involved, especially screws that need precision placement and should definately not be eaten, young children should be supervised.
 
-Let's get started. The first thing to do is to begin with the chassis and connect the two-geared DC motors to the chassis. Notice that the chassis has a front, it's a smiley face. This is a front, and a back. I'm going to orient my chassis like this, and notice then that at the back I've got the two large holes from either side, and this is the way a DC motor shaft has to be inserted through like that.
+The first thing to do is to begin with the chassis and attach the two-geared DC motors. Notice that the chassis is not symmetrical, it has a front and a back. The front is the side with the smiley face. 
 
-![](/assets/2017-03-13_06-52-38.png)
+![](/assets/IMG_9611.JPG)
 
-\[Image 1.2.1: Attaching the motors to the chassis\]
+\[Image 1.2.1: The smiley face indicates the front of the chassis\]
 
-Play around with the positioning of the motor. You want the white shaft to come out of the large whole, but then there's also a small indentation. This indentation here, that has to go through this smaller hole. That keeps the motor in place, like that. I should do that, you notice that, I'll use the motor to show this.
+Place the chassis on the table with the rear towards the left. Notice that close to the rear end of the chasis, as you look at it from the sides, are two large holes, one on each side. This is where the motor shaft must be placed.
 
-There are a couple of holes that go from one end of the motor casing to the other. This is where you'll insert the long screws through to attach the motor onto the chassis. These screws, let's see where are they? They are in here. We're going to open up the large pack. It's the small bits and pieces. Screws, spaces, then here are the long screws for the motors.
+![](/assets/IMG_9609.JPG)
+
+\[Image 1.2.2: The shaft of the motor must be placed in the large hole in the rear of the mBot\]
+
+Take one of the motors and position it so that its shaft goes through the large hole in the rear of the mBot. There is on small indentantion on the plastic case of the motors that goes through a smaller hole close to the shaft. Carefully align the motor case so that you can see two screw holes as you are looking down from the side of the chassis. Image 1.2.2 cam help you find the right posisioning of the motor.
+
+Once the motor case snugs into place, take two long screws and their nuts and use them to secure the motors in place. I find it easier to start with the screw that is closer to the outside of the chassis because it is easier to reach. Once you tighten that screw, the motor will be safely attached to the chassis and it will be easier to tighten the second screw.
+
+![](/assets/IMG_9610.JPG)
+
+\[Image 1.2.3: Attaching the motors to the chassis\]
+
+Be patient. Use the screwdriver to drive the screw in the channel of the motor case. Use your fingers to hold the nut in place while you turn the screw, and turn the screwdriver just enough to produce some tension, without damaging the threads. 
 
 ![](/assets/2017-03-13_06-55-35.png)
 
-Okay, there we are. I'll grab two of those. I also need the nuts. This little bag here has the nuts to go with the screws. Make sure none of them are left in the bag. We're going to need every single one of them. Here's a nut, going to take the screw, and make sure that my motor is properly aligned so wide shaft from the motor and this little indentation onto fits on the chassis.
+\[Image 1.2.4: Attaching the motors to the chassis\]
 
-Then, I'll push the screw through the opening on the chassis. It might go all the way in. If you push it hard enough it will. Just make sure that the screw head is on the outside of the chassis because you need to be able to use your screw driver with it. Some people, by mistake, they put it on the other side, then of course, they can use the screw driver, and have to take it out.
+Repeat this process for both motors.
 
-All right, I will use a Philips screw head on my screw driver, and position the nut on the other side of the screw, and start turning the screw driver to secure the nut against the screw. Okay. Same thing with the second screw. Just push it through all the way. Here's the nut. Place the nut onto the screw and start turning the screw driver.
+Once you are finished with the motors, continue to work on the wheels. The kit contains two white plastic wheels with two black rubber wheel covers.Inside this rubber wheel cover, there is a small channel in which you need to insert the wheel. Gently push the wheel into the channel of the cover. Do the same for the second wheel. 
 
-Now, this bit is kind of tricky and small kids will have trouble with, so keep an eye on the kids. You'll probably have a few accidents with the nuts, and roll off the table and onto the floor, and then you have to go hunting for these little bits. All right, other side now. Again, I find it much easier to start with a top screw because it's just easier to work with a nut on the other side.
+![](/assets/IMG_9612.JPG)
 
-Therefore, we have a bit a little easily secure the motor against the chassis and they will go for the harder bit, that's the screw on the bottom. Okay, so that's one. That's two. I've got my motors with the two screws and the two nuts secured against the chassis. These are not going anywhere, correct. Next, let's do the wheels.
+\[Image 1.2.5: Assemble the wheels\]
 
-We've got two wheels with plastic or rubber wheel covers. Let's assemble them. You can see that inside this plastic wheel, we've got a small groove in which the wheel can secure against. Gently slide one into the other. Okay, that's one. Do the same for the other wheel. There's the other. The bag that contains the screws that we want is this one here.
+One of the plastic bags contains two long screws that we need for securing the wheels against the motor shafts. Find the ones that are thin, long and have a pointy tip.
 
-I can see that the screws here are the ones that got a pointy end, and they're quite thin. These are the ones that we want to use for our wheels.
+![](/assets/IMG_9614.JPG)
 
-Open this little bag, get the four screws out. Let's attach the first one. Notice that the wheel has got two sides. One is the one in which the screw is going to go like that. This one, of course, is on the outside. The other one has got an insert that fits with the shaft of the motor. Manipulate a little bit on to the motor until it slides in, and then secure the wheel onto the motor with the screw. Don't screw these too far and then apply too much force because these are just plastic bits. If you screw it too much, you're going to ruin the threads.
+\[Image 1.2.6: Use two of these screws to secure the wheels against the motor shafts\]
 
-If you do that though, just remember that you've got another little bag with a spare parts for the motors.
+Using the Philips screwhead, drive the screw into the shaft. Don't use too much force. All the components are plastic and especially the screw threads are easy to damage.![](/assets/IMG_9613.JPG)
 
-These things here are the shaft of the motor, it's plastic. If you are having problems with the wheels not turning when the motor is turning, then mostly the shaft on the wheel has its teeth, so I should take that out of the bag to be able to get a view of this. What happens is that the teeth on the shaft, these teeth here are probably been grind down and therefore they are not connecting to the gears inside the yellow box. If this happens, you will have to open up this yellow box and replace this part.
+\[Image 1.2.7: Attach the wheels to the motor shafts\]
 
-Luckily enough, this part comes in a package with the mBot, so you can keep them as spares. Don't lose them. Keep them somewhere safe. It's a matter of time that this actually will happen. If you turn the wheels like this, one way when the motor is pushing them the other way, then you will eventually damage the gears. Not a huge deal since there are replacements around. You can also get replacements by ordering them.
+If you do damage one of these parts remember that the kit comes with spares, and you can also order more from MakeBlock.
 
-So second wheel on. I use another screw with a pointy end, that in there, and tighten the screw without overdoing it. Use a thumb to keep the wheel stopped so that the wheel doesn't turn as you turn the screwdriver. If I don't get my thumb on the wheel, so I turn the screwdriver, they will all turn. Okay, done. This part is finished.
+One more thing to remember is that inside the motor gear box are several plastic gears. Those can also be damaged during operation, or can wear off over time. If you are having problems with the wheels not turning when the motor is turning, the most likely cause is the the gears inside the gear box are damaged. If this happens, you can open up the yellow gear box and replace this part instead of buying a new motor. Replacement gear are included in the kit.
 
-The next thing to do, is to attach the line from a module. To do that, I need my line from my module plus the module with the wheel. I've got a mini wheel here. I need to assemble one module on top of the other, and then secure them on to the chassis. So remember that right now, I'm looking at the bottom of the mBot and the line-following sensors need to point to the bottom.
+The next thing to do, is to attach the line follower module. This component is mounted at the front of the mBot, together with the front wheel module. First, find two hexagonal screws. Then, place the line module with the sensor pointing down at the front of the chassis. On top of the line module place the mini wheel module, with the wheel towards the back of the mBot. If you place the wheel pointing towards the front, you will block the line sensors. 
 
-I'm not going to plug that in like this, but like this. And notice that there are one, two, three pairs of holes here. You want to use the one in the middle. You don't want this bit to extend too far in front of it. You go for the middle. And then, you want to also attach the mini wheel module right on top of the line-following module like that facing backwards instead of forwards. Because if you do it like that, you will obstruct the sensors with a wheel. So we'll do it backwards like that.
+So remember that right now, you should be looking at the bottom of the mBot and the line-following sensors need to point to the bottom. 
 
-Now, for this, we will need to use the short and thick screws. These screws here, they don't require a nut. They just screw it directly on to the chassis, because the chassis already has the threads on it. So going to take my assembly, put the screw in through it, and then attach it on to the chassis. Now, these are hexagon heads. So I need to flip my screwdriver so I can use a hexagon bit at the end.
+Look at Images 1.2.8 and 1.2.9 to work out the placement of the line follower module and mini wheel module combo.
 
-All right, I'll start with the first screw. Here we go. It plugs right in, they're easy to screw in. With the first screw, don't tighten it too much. You need to be able to allow the module to give a little bit so that you can align it with the second hole. And they've got this second screw going in. Okay, now you can screw both screws in, tighten them in a little bit more. Done. Then, flip the mBot over and what we do next is to attach the range finder.
+![](/assets/IMG_9615.JPG)
 
-The range finder needs to point forwards, remember, back, forwards, you know which way is forwards because it's got this smiley face in front of it. So we want to attach the range finder in like that. Just put in the first screw, leave it a little loose, and insert the second screw. I'm not tightening the screws so that the range finder is nice and secure. Here we go, okay.
+\[Image 1.2.8: Attach the wheels to the motor shafts, view 1\]
+
+![](/assets/IMG_9616.JPG)
+
+\[Image 1.2.9: Attach the wheels to the motor shafts, view 2\]
+
+To secure the two modules against the chasis, use the short and thick screws. They screw directly on to the chassis, because the chassis holes already have the threads. 
+
+Last, for this chapter, time to attach the range finder module.
+
+The range finder needs to point forwards, the end of the mBot with the smiley face on it. 
+
+![](/assets/IMG_9611 %281%29.JPG)
+
+\[Image 1.2.10: Attach the rangefinder module to the front of the mBot\]
+
+So we want to attach the range finder in like that. Just put in the first screw, leave it a little loose, and insert the second screw. I'm not tightening the screws so that the range finder is nice and secure. Here we go, okay.
 
 Next, let's attach the cables. I've got two cables here, one for each sensor. I get the first one, connect it to the line-following sensor, and I will pass that through the small hall on the chassis to go to through the top side of the chassis, where the microcontroller module eventually will be. We're going to push that there and then pull the cable out so that I expose the cable up the top. Then, plug the second cable to the range finder.
 
