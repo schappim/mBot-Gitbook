@@ -28,7 +28,7 @@ With the transmitter, on the other hand, can get the mBot to transmit infrared s
 
 ![](file:///C:\Users\dimit\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg "Img.1.3.2.jpg")
 
-\[Image 2: The infrared receiver and transmiter\]
+\[Image 2: The infrared receiver and transmitter\]
 
 There is a buzzer, so that the input can make noises. There are two RGB-color LEDs, which can create any kind of color. In between them there is a light sensor which is used by the mbod in order to figure out whether it is day or night, whether a light is turned on or off, or simply put, whether there is light or darkness.
 
