@@ -32,7 +32,7 @@ Then, remove second piece of paper that protect the adhesive tape of the second 
 
 At this point, also insert the four AA batteries, because soon we will be placing the mCore controller over the battery pack.
 
-Professional tip: Place the battery pack in a way to the its cable comes out at the front of the mBot. This way, the cable has got a longer distance to travel to the back of the mBot where the battery socket will be. This will make it less likely that the cable will interfere with the wheels.
+**Professional tip:** Place the battery pack in a way to the its cable comes out at the front of the mBot. This way, the cable has got a longer distance to travel to the back of the mBot where the battery socket will be. This will make it less likely that the cable will interfere with the wheels.
 
 Your battery pack will sit on the chassis like this.
 
@@ -40,17 +40,33 @@ Your battery pack will sit on the chassis like this.
 
 \[Image 1.4.2: Attach the battery pack to the top of the mBot chassis\]
 
+Route the cables so that the battery cable comes out of the back of the mBot, the cables from the motors and line follower module to the right \(as you are observing the mBot from the front\), and the cable from the distance module to the left.
 
+![](/assets/2017-03-15_14-26-09.png)
 
-Then, on top of it, you'll have your microcontroller module like this. The battery pack is sandwiched in between the chassis and the microcontroller unit like that. We need somehow to secure the battery pack on the chassis. For that, we'll use some Velcro tape that will make it easy to secure the battery packs so it doesn't bounce around. Another little gadget that I'd like to mention is this long cable.
+\[Image 1.4.3: Cable arrangement before attaching the mCore\]
 
-There's less of an issue then for the cable to get tangled into the wheels or other components. Be careful when you are placing the battery pack onto the chassis to do it so that the cable has a longer distance to travel to the back of the mBot. Then, you have it connected to the microcontroller board. Just a little bit. Now, I'm going to use my Velcro tape and remove the protective paper from one side and stick it to here. Then remove the paper from the other side and stick it here.  
-Now, I'm going to use the one Velcro tape that was available and keep the other one as a spare. Okay, that's good. Done. The battery pack is not falling off. It's not going anywhere. Happy with that. Next, we'll attach the microcontroller module onto the mBot. To do that, we'll use these spaces. Get the spaces out of the bag and the bit with threads will go down the bottom. That's one, two, three and four.  
-Then, on top of it, I will place the microcontroller module but before I do that, a good piece of advice is to rearrange all your wires so that once you place the microcontroller module on, it will be easy to connect them to the appropriate place on the board. Let's start with the sensors first. The sensors will connect to the colored large plugs, large connectors. I'd like to have my rangefinder connected to number three port and the line follower to number two port.  
-Even though you can connect them to anyone of the ports and then you can configure your firmware, your program that is to use the appropriate port to which the sensor is connected, by default, the programs that come with the mBot expect that they'll find the sensors on a particular port. To avoid the trouble of having to make those changes in the software, let's start by plugging them into the appropriate place. That is number two for the line follower and number three for the rangefinder.  
-Got to rearrange my wires so that they are facing like this. Rangefinder goes towards the right of the mBot so that I connect that eventually to number three connector. Then, the line follower, I'll push it towards the left so that I can connect that to number two connector, eventually. Something similar happens with the motors as well. The motors are on the bottom of the mBot. As the mBot is facing away from me, its rangefinder is facing away from me, this is the left side and this is the right side.  
-I want to connect the motor on the left side to connector M2. Then, the motor on the right side to connector M1 but both of those connectors on the left of the microblock module. I need to just manipulate the cable so that I push them through this little hole in the bottom with the other two cables are coming through and pull them out like this towards the left of the mBot. I'll do the same thing with the other motor. All right. Push it towards the left again. You can see why it's important to do this before I plug in the motor because there's just not going to be enough space to be able to do this comfortably.  
-The one last check, this is coming from the line follower. It's on the left side of my mBot so that it can reach number two connector easily. All right. Now, that I've got my wires where I want them, I'll secure the microcontroller block onto the spaces with the short screws with the hexagonal screw head. Awesome. That's good.  
-Let's do the connections now. The cable that is coming from the line follower will go to number two connector. The rangefinder go to number three. Now, let's double-check here. One of those is for the left motor. Actually, start with the right where it goes to M1. One of those is the left and one of those is the right. Let's see. When I pull this cable, looks like I get tension on this motor here. You can see the other end of the cable is moving. This is the left motor and I need to connect the left motor to connector M1. I need to move it upside-down like this. I've got these two little piece of plastic facing downwards. Then, push it into the connector.  
-It's only possible to connect these wires one way because of the shape of the connector. You can see that there are two little threads of plastic that ensure that you can only plug these the right way. Of course, for the second wire, there's only one place to connect it and that is M2.
+Now you are ready to attach the mCore module. The battery pack will be sandwiched in between the chassis and the microcontroller unit
+
+**Professional tip: **Even though you can modules to almost any available socket on the mCore and then programmatically configure them,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to make those changes in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 1.4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the rangefinder module to socket 4.
+
+Now, that you have the wires routed correctly, go ahead and attach the mCore. Start with the four bronze spacers. To attach the spacers you don't need any tools, just use your fingers to screw them into the holes that match their thread.
+
+![](/assets/2017-03-15_14-36-52.png)
+
+\[Image 1.4.4: Use these spacers to attach the mCore over the battery pack\]
+
+Then place the mCore on the spacers, and secure it in place with four short screws with the hexagonal heads.
+
+![](/assets/2017-03-15_14-37-23.png)
+
+\[Image 1.4.5: Attach the mCore on the spacers, over the battery pack\]
+
+Let's do the connections now. The cable that is coming from the line follower will go to connector number two. The rangefinder goes to number three. The left motor goes to motor connector M1 and the right motor to motor connector M2.
+
+Image 1.4.6 summarises the connections.
+
+![](/assets/2017-03-15_14-42-26.png)
+
+\[Image 1.4.6: A summary of the connections\]
 
