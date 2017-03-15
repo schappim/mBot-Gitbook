@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 2: Assembly: mCore tour and bluetooth module
+## Chapter 3: Assembly: mCore tour and bluetooth module
 
 ---
 
