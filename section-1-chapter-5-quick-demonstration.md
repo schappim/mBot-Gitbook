@@ -22,21 +22,37 @@ Let's start with the first demonstration mode: remote control car!
 
 \[Image 1.5.1: The remote controller allows you to activate the build-in demonstration programs on the mBot\]
 
-Turn on your mBot and place it on the floor. Make sure the the coin-cell battery is properly inserted in the remote controller. Then, point the remote controller towards the mBot, and press the "A" key. This will enables the remote control car mode.
+Turn on your mBot and place it on the floor. Make sure the the coin-cell \(CR2025\) battery is properly inserted in the remote controller. Then, point the remote controller towards the mBot, and press the "A" key. This will enables the remote control car mode.
 
 Now press any of the directional keys, and see how your mBot responds by moving accordingly. Have a bit of fun with this mode before moving to the next one.
 
+Put a few objects on the floor around your mBot, and press the "B" key on the remote controller. This will start the obstacle avoidance program. Your mBot will start moving at a straight line, but as soon as it gets close to an obstacle it will stop and turn to a different direction, then move forwards again. It will keep doing that until you turn it off, or change the program that is running on it. 
 
+The obstacle avoidance program uses the rangefinder module to detect obstacles in front of it, and changes course when it gets to close to one of them. Later in this book you will learn how to program this kind of behaviour.
 
-All right. I'm going to plug in the power supply as well. The barrel connector will go to the six volts. And turn it on. Right, good power. Now, just to check that the mBot is operating, I'm going to unpack my remote control. It doesn't come with a battery, so I need to get a battery for this. I don't believe that a battery is supplied. No. Let's get the batteries in. I've got a fresh CR2025 Lithium battery, so plug it in the holder and insert it into the remote control, like that.
+![](/assets/mbot escape.JPG)
 
-Now, face the-- I will point my remote control to the infrared receiver, although it's pretty good so it can actually operate your mBot with a remote control from a large range of angles towards it. If I press the A button, that activates the manual control program. So then you can see that I can use the directional keys to move my mBot to a particular direction. Another program that is fun for people to use right out of the box is the line following program.
+\[Image 1.5.2: The mBot program B helps the mBot avoid obstacles\]
 
-Just make a little bit of room here. I'm just going to have a look at a segment of the line that is printed on the sheet of paper that comes with the box, let's say this bit. I'm going to place my mBot, say here, and then instruct it to follow the line by pressing the C button. There you go. This is as fast as you can go. Let's try the other side. All right.
+Next, try out the line follower program. Place the supplied sheet of paper with the large "8" figure printed on it on the floor, and place your mBot somewhere on the line. The line module should be over the line. Turn the mBot on and press the "C" key on the remote controller.
 
-I will stop it by pressing A and going back into manual mode. This is a good fun thing to play with right away. Just spread this on the floor and let your mBot loose. There's another one, another interesting mode which you can activate by pressing B. That is the obstacle avoidance mode. The mBot will use it's range finder to avoid any obstacles. Whenever it detects an obstacle, it will reverse, then it will turn, and then try to go forwards again.
+The mBot will start zooming over the line, without going off it. It will keep going until you press "A" to enable the remote control program again. 
 
-Good fun. Get it back to manual mode. All right, there we go, back to manual mode. I encourage you to play around with your mBot and the programs that come with it at available budgets using the A, B and C buttons on your remote control and the directional buttons so as to control its direction.
+![](/assets/mbot line.JPG)
 
-In the next lecture, I'm going to show you how you can do some simple programming on the mBot using the Scratch graphical programming language on an iPad.
+\[Image 1.5.3: The mBot program C helps the mBot to follow a line\]
+
+How about you create your own line on the floor? 
+
+**You can use the line segments that we supply at the end of this book**, or print yours out and create any kind of line you like for your mBot to follow. Here's one I made:
+
+![](assets/line follower demo 601.JPG)
+
+\[Image 1.5.4: A line made from the basic line parts that ship with this book\]
+
+In the later part of this book you will learn how to implement this kind of behaviour on your mBot. Yes, you will learn how to program your mBot to follow a line!
+
+Fun, isn't it? To stop the mBot, press the "A" button on the remote controller to go back into manual control mode.I encourage you to play around with your mBot and the programs that come with it at available budgets using the A, B and C buttons on your remote control and the directional buttons so as to control its direction.
+
+In the next chapter, I'm going to show you how you can do some simple programming on the mBot using the Scratch graphical programming language on an iPad.
 
