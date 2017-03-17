@@ -53,7 +53,9 @@ Next we can try and control the mBot. The control lever is very much like a joys
 
 Before testing the sprint button make enough space for the mBot to run. You can always lift it up in the air, before it smashes on anything. Keep in mind that the sprint can be reset by using the joystick.
 
-Clicking on random will produce some random effect on the mBot like turning the LEDs on etc.
+Switching "Random" on will produce some random effect on the mBot like turning the LEDs on etc.
+
+
 
 #### The code behind the controls
 
@@ -73,13 +75,15 @@ Go to "Play" and test the Sprint button, once more. Press "Sprint" and hold your
 
 The "Buzz" button produces a note when pressed. Edit the code so that it produces a C6 note when released, too.
 
+#### More controls
+
+Back to "Design" we can see that there are yet more usefull controls that we can add to our mBot. There is, for example, in the "Move" tab a cross-shaped control that we could use, instead of the joystick-like one, to move our mBot.
+
+In tab "Display" we find the "Lightness" button which is interesting to test. Drag and drop it on some empty spot, on the right and go to "Play" to check it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
 
 
 
-
-Now, there's lots more. Go back into the design mode just to show you a couple of other things. So in terms of moving your mBot, you can also use this kind of controller with the four directional buttons instead of the joystick. You've got a button of course, sprint, which is pre-programmed but that you can reprogram and you have a few toggle switches as well.
-
-With the display programming options, you've got again buttons like buzz and random. You've got the RGB LED color wheels, so you can choose any color for your RGB LEDs. You've got a radar warning button toggle switch, lightness button. Actually just try that out, it is quite interesting. When you turn it on, you can see that the intensity of your LEDs increases and then move it all the way to the left and then the LEDs go off. Let's go back to design mode. You can also play music \[laughs\]. It's got a little piano here. I am not going to drop it because there's not enough space on my canvas to drop the little piano or note selector. So I will have to make a bit of room.
+ When you turn it on, you can see that the intensity of your LEDs increases and then move it all the way to the left and then the LEDs go off. Let's go back to design mode. You can also play music \[laughs\]. It's got a little piano here. I am not going to drop it because there's not enough space on my canvas to drop the little piano or note selector. So I will have to make a bit of room.
 
 Let's tap on the lightness box and delete it, it is fine and the same thing with sprint, delete the sprint button. Now to make some room for my music box. Back to play \[beep sound\]. It's not very responsive. That's one of the issues that I want to discuss in a minute. \[beep sound\] It has quite a bit of a lag between the time that I press on the button and the time that the sound actually comes out of the buzzer.
 
