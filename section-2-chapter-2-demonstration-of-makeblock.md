@@ -8,8 +8,7 @@
 
 In this chapter you will learn about:
 
-* 
----
+* ---
 
 In this lecture, I would like to show you the three applications that you can run on a tablet computer. In this case, using your IPad to control your mBot. These three applications are mBlock, mBlockly and Makeblock. Each one of those applications emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so you can get an idea of how you can use them.
 
@@ -17,13 +16,18 @@ In this lecture, I would like to show you the three applications that you can ru
 
 It is a good idea to start with the Makeblock app as it is one that allows you to actually control your mBot without doing any programming at all. Instead, when you start the application, you see a lot of pre-existing apps that you can execute right away, instead of programming the mBot yourself.
 
-After starting the app you see all kinds of mBot types, the simplest one called _mBot_. The ones marked with M+ need some add-on pack, in addition to the mBot.
+After starting the app you see all kinds of mBot types, the simplest one called _mBot_. The ones marked with M+ need some add-on pack \(like, for example, the six-legged robot extension\), in addition to the mBot.
 
-There's a few others, you can see this one here for example, again, Mplus, this one allows you to control your mBot with its six-legged robot pack extension.
+We are going to start with the basic mBot app. After clicking on it we get to see a set of controls:
 
-Let's start with something very simple. Let's go to the mBot app and you can see that already, we've got a set of controls here. So we've got the set of controls. This one here allows you to control the movement of the mBot. This gets a numerical reading of the distance between the sensor and an object in front of it. This one takes the reading from the light sensor inside the mBlock controller. This one, when you switch, there's a toggle switch. When you switch it on and the robot will do some random movement.
+1. control of the movement
+2. numerical reading of the distance between the sensor and an object in front of it
+3. numerical reading of the light sensor
+4. on/off switch that will get the robot to execute a random movement
+5. buzz button that will activate the buzzer and make some noise
+6. sprint button that will get the robot to take off at maximum speed
 
-They've got button that allows you to activate the buzzer to make some noise and once you press the sprint button, as you can probably guess, the robot will sprint, will take off at maximum speed. Apart from what you see here, if you tap on the design tab, then you can reveal the various components that you can drag and drop onto the canvas. For example, if you want to do a display of lights, then you can drag this little component here onto the canvas. Then go back to play note, so tap the play tab and then by sing the color wheel, you can change the color of the integrated RGB LEDs. Of course nothing's happening yet because I haven't connected my IPad to the mBot.
+Apart from what you see here, if you tap on the design tab, then you can reveal the various components that you can drag and drop onto the canvas. For example, if you want to do a display of lights, then you can drag this little component here onto the canvas. Then go back to play note, so tap the play tab and then by sing the color wheel, you can change the color of the integrated RGB LEDs. Of course nothing's happening yet because I haven't connected my IPad to the mBot.
 
 Let's do that now. First thing to do is to turn the mBot on. \[Just move this to the side. All right, you can see that I've got a blue LED and it's blinking on the Bluetooth module. Move that a bit here so you can see the blue LED blinking. This is the location of the Bluetooth module. When the blue LED is blinking, what this means is that the mBot is waiting to be connected to a Bluetooth device and that can be your smartphone, your tablet computer or your desktop computer if it's got a Bluetooth module integrated.
 
