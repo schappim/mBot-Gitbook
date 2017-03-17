@@ -69,15 +69,15 @@ Let's say, for example, that we'd like to hear a note when the button is release
 
 Let's make one last improvement. Go back to the Code \(Design &gt; Sprint Button &gt; Code\) and add a "stop moving" code block right bellow the "wait 1 s".
 
-Go to "Play" and test the Sprint button, once more. Press "Sprint" and hold your finger there for two seconds and then release it to see if, besides hearing a tone, the wheels will stop moving, too.
+Go to "Play" and test the Sprint button, once more. Press "Sprint" and hold your finger there for two seconds and then release it to see if the wheels will stop moving one second after hearing the tone.
+
+The "Buzz" button produces a note when pressed. Edit the code so that it produces a C6 note when released, too.
 
 
 
-Let's try this out, so back to play mode. I am going to hold the mBot up and press on the sprint button and hold it \[machine buzzing noise\] and now I am going to release it \[beep sound\]. There is a noise and a second later, the wheels stop spinning. Great that is exactly what I wanted and there is lots more that you can do for example if you are curious about how the buzz button works, just tap on it while you are in the design mode and check out the code. You can see that that's what the code does.
 
-It has two conditions, two events that this button will respond to. The first one is when button pressed, the second one is when button released. So when button pressed, I want to play a note and now that you know how to program additional actions graphically, you can say, let's say I would like to go to display menu and play another note, perhaps try this one here, another note when the button is released and then change that to \[beep sound\] C6, all right.
 
-Let us go back the play mode and press on the buzz button \[beep sound\], there we go \[beeping sound\]. Suppressing C5 and then releasing F5. Now, there's lots more. Go back into the design mode just to show you a couple of other things. So in terms of moving your mBot, you can also use this kind of controller with the four directional buttons instead of the joystick. You've got a button of course, sprint, which is pre-programmed but that you can reprogram and you have a few toggle switches as well.
+Now, there's lots more. Go back into the design mode just to show you a couple of other things. So in terms of moving your mBot, you can also use this kind of controller with the four directional buttons instead of the joystick. You've got a button of course, sprint, which is pre-programmed but that you can reprogram and you have a few toggle switches as well.
 
 With the display programming options, you've got again buttons like buzz and random. You've got the RGB LED color wheels, so you can choose any color for your RGB LEDs. You've got a radar warning button toggle switch, lightness button. Actually just try that out, it is quite interesting. When you turn it on, you can see that the intensity of your LEDs increases and then move it all the way to the left and then the LEDs go off. Let's go back to design mode. You can also play music \[laughs\]. It's got a little piano here. I am not going to drop it because there's not enough space on my canvas to drop the little piano or note selector. So I will have to make a bit of room.
 
