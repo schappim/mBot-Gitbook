@@ -21,13 +21,11 @@ When it comes to programming the mBot, you have three tools that you can choose 
 * Makeblock
 * mBlock
 
-The first one, mBlock is an application that runs on a Windows or Macintosh computer. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writting a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
+The first one, mBlock is an application that runs on a Windows or Macintosh computer. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writing a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
 
 ![](/assets/2017-03-17_16-33-42.png)
 
 \[Image 2.6.1: This is a view of mBlock, a tool that you can use for programming the mBot using Scratch\]
-
-
 
 A lot more about these later. Now, you can also program your mbot on a mobile device, so Ios or Android tablets or smartphones can also be used to program the mbot.
 
