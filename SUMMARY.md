@@ -9,5 +9,5 @@
 * [Section 1 \| Chapter 5: Quick demonstration](section-1-chapter-5-quick-demonstration.md)
 * [Section 2 \| Chapter 6: Options for programming your mBot](section-2-chapter-6-options-for-programming-your-mbot.md)
 * [Section 2 \| Chapter 1: Introduction](section-2-chapter-1-introduction.md)
-* Section 2 \| Chapter 2: Demonstration of MakeBlock
+* [Section 2 \| Chapter 2: Demonstration of MakeBlock](section-2-chapter-2-demonstration-of-makeblock.md)
 
