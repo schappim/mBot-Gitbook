@@ -37,6 +37,8 @@ First thing to do is to turn the mBot on by toggling the power switch. After tha
 
 In your device, tap onto the Bluetooth icon that is blinking on the top right corner of the screen. That will get the app to start searching for an mBot, in the vicinity, ready to connect. In case you see the message "Device found, please get closer", just get the mBot a little closer to the device. And that is actually all it takes to complete the connection between the app and the mBot.
 
+#### Trying out the different controls
+
 Now we should be able to make a first attempt to change the color of the LEDs on the mBot. Touch the color wheel and try some color. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly. And that is what this simple color wheel does.
 
 Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
@@ -45,7 +47,7 @@ Next, let's try the brightness. Try and cover the top of the mBot, where the sen
 
 Obscuring the light sensor will drop the reading down. The numbers you see on the left are not particular light measuring units but rather an analog input number of the mBot: when the mBot is connected to an analog device, like the light sensor, it produces a number that represents the state of that sensor meaning, when the sensor picks up little light, their number reduces, and when the sensor picks up more light, then the number increases.
 
-Following up we can test the buzz button. Press it and you should hear a noise. 
+Following up we can test the buzz button. Press it and you should hear a noise.
 
 Next we can try and control the mBot. The control lever is very much like a joystick. Try all different directions with it and you should see the mBot react accordingly.
 
@@ -53,9 +55,19 @@ Before testing the sprint button make enough space for the mBot to run. You can 
 
 Clicking on random will produce some random effect on the mBot like turning the LEDs on etc.
 
-Okay, now all of the actions that I've shown you are actually attached to these controls. To show you how that works, I'll go back to design tab and let's have a look at sprint. If you're curious to know how sprint works, just tap on it and then tap on the code button to have a look at the actual code that is triggered when you press on the sprint button. You can see that when the button is pressed, then run forward at speed 255, which is a maximum speed. Then wait for five seconds and then stop moving. It doesn't say anything about what to do when the button is released but there's another condition that you can program.
+#### The code behind the controls
 
-For example, I can get it so that when the button is released to play a note, I can choose a particular note, let's say, \[background noise\]. This one sounds good. F5. I'd like to play this note for one second. Now, I've just done a little bit of reprogramming about the action that the sprint button should take when it's pressed and in this particular case, when it is released.
+It is interesting to see how are all these actions attached to the controls. To have a look at the mechanics behind the controls we should go back to "Design" tab. Let's have a look, for example, at the "Sprint" button. Tap on it and in the menu that opens choose "Code" and the actual code that is triggered when you press on the sprint button will appear.
+
+\[CODE IMG HERE\]
+
+The code is actually self explainatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
+
+Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there. 
+
+Let's say, for example, that we'd like to hear a note when the button is released. Click on "Display" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note" just bellow "when button released" taking care that they fit one into the other, like jigsaw pieces.
+
+ I can choose a particular note, let's say, \[background noise\]. This one sounds good. F5. I'd like to play this note for one second. Now, I've just done a little bit of reprogramming about the action that the sprint button should take when it's pressed and in this particular case, when it is released.
 
 Let's go back and go back into play mode again and see what happens. I am going to lift the mBot so that it doesn't smash into my instruments and just have this its wheels freely rotating and I'll press on this sprint button. There you go, and with the joystick to reset. I will do this again. This time I am going to press on the sprint button and hold it and then wait for a few seconds before I release it and now let's see what the difference is.
 
