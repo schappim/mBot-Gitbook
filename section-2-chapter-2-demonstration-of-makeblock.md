@@ -39,7 +39,9 @@ In your device, tap onto the Bluetooth icon that is blinking on the top right co
 
 Now we should be able to make a first attempt to change the color of the LEDs on the mBot. Touch the color wheel and try some color. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly. And that is what this simple color wheel does.
 
-Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it towards the sensor and you should be able to see the ultrasonic reading, in the app, changing. Like a bit distance is increasing. Good. What about the brightness? I'm going to cover the top of the mBot where the sensor is and you can see that the reading fluctuates and then the reading increases. It fluctuates a lot because, remember that I've got my LEDs that are also producing light that feeds into the sensor.
+Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
+
+Next, let's try the brightness. Try and cover the top of the mBot, where the sensor is located, and you can should be able to see that the corresponding reading in the app increases. Remember to turn off the LEDs on the mBot first, for better results. If you don't, the light the produce will feed into the sensor most probably causing the brightness line in the cart to fluctuate. You can always turn the LEDs on and off by going to Design Mode \(just click on "Design" on the top of your screen\).
 
 I'd like to turn the LEDs off. The simplest way to do it is to go back to design mode and by doing so, the mBot gets reset so the light goes off on the edge of the LEDs. Back to Play. Now that I've turn the integrated RGB LEDs off, I put my hand over the mBot again to get in light going to the light sensor and see what the reading in the gauge is. All right, you can see that the reading drops down to about 390. This is not a particular unit by which we measure light, it's just the analog input number on the Arduino.
 
