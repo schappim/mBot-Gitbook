@@ -15,9 +15,21 @@ In this chapter you will learn about:
 
 \(Un-edited\)
 
-When it comes to programming the mbot, there are several options available and in this lecture, I would like to introduce them to you. The first one is the M-block application that runs on a PC that is Windows or Macintosh computer and M-block is actually the program that we will be using throughout this course to do the bulk of our programming.
+When it comes to programming the mBot, you have three tools that you can choose from:
 
-So M-block is an application that uses blocks and then you use those blocks that represent programming components and programming structures to create a program that will then execute on the mbot. A lot more about these later. Now, you can also program your mbot on a mobile device, so Ios or Android tablets or smartphones can also be used to program the mbot.
+* mBlock
+* Makeblock
+* mBlock
+
+The first one, mBlock is an application that runs on a Windows or Macintosh computer. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writting a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
+
+![](/assets/2017-03-17_16-33-42.png)
+
+\[Image 2.6.1: This is a view of mBlock, a tool that you can use for programming the mBot using Scratch\]
+
+
+
+A lot more about these later. Now, you can also program your mbot on a mobile device, so Ios or Android tablets or smartphones can also be used to program the mbot.
 
 Here you've got three different choices, each one app provides or gives emphasis in a particular aspect of programming. So the first one is Make-block. With Make-block, you can create custom dashboards for your mbot, so you can create a dashboard that includes for example a joystick and a reading of the data coming out of the distance sensor and that is displayed of course on the screen of your tablet. I will be spending a bit of time showing you how to use Make-block in a separate lecture coming up. That is Make-block.
 
