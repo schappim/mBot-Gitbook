@@ -55,8 +55,6 @@ Before testing the sprint button make enough space for the mBot to run. You can 
 
 Switching "Random" on will produce some random effect on the mBot like turning the LEDs on etc.
 
-
-
 #### The code behind the controls
 
 It is interesting to see how are all these actions attached to the controls. To have a look at the mechanics behind the controls we should go back to "Design" tab. Let's have a look, for example, at the "Sprint" button. Tap on it and in the menu that opens choose "Code" and the actual code that is triggered when you press on the sprint button will appear.
@@ -81,9 +79,9 @@ Back to "Design" we can see that there are yet more usefull controls that we can
 
 In tab "Display" we find the "Lightness" button which is interesting to test. Drag and drop it on some empty spot, on the right and go to "Play" to check it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
 
+~~**{up to here by Dimitris - haven't checked out the spelling yet. I need to add images, too}**~~
 
-
- When you turn it on, you can see that the intensity of your LEDs increases and then move it all the way to the left and then the LEDs go off. Let's go back to design mode. You can also play music \[laughs\]. It's got a little piano here. I am not going to drop it because there's not enough space on my canvas to drop the little piano or note selector. So I will have to make a bit of room.
+When you turn it on, you can see that the intensity of your LEDs increases and then move it all the way to the left and then the LEDs go off. Let's go back to design mode. You can also play music \[laughs\]. It's got a little piano here. I am not going to drop it because there's not enough space on my canvas to drop the little piano or note selector. So I will have to make a bit of room.
 
 Let's tap on the lightness box and delete it, it is fine and the same thing with sprint, delete the sprint button. Now to make some room for my music box. Back to play \[beep sound\]. It's not very responsive. That's one of the issues that I want to discuss in a minute. \[beep sound\] It has quite a bit of a lag between the time that I press on the button and the time that the sound actually comes out of the buzzer.
 
