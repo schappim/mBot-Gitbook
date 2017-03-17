@@ -63,17 +63,15 @@ It is interesting to see how are all these actions attached to the controls. To 
 
 The code is actually self explainatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
 
-Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there. 
+Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there.
 
-Let's say, for example, that we'd like to hear a note when the button is released. Click on "Display" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note" just bellow "when button released" taking care that they fit one into the other, like jigsaw pieces.
+Let's say, for example, that we'd like to hear a note when the button is released. Click on "~~**Controls**~~" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just bellow "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as exptected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
 
- I can choose a particular note, let's say, \[background noise\]. This one sounds good. F5. I'd like to play this note for one second. Now, I've just done a little bit of reprogramming about the action that the sprint button should take when it's pressed and in this particular case, when it is released.
+Let's make one last improvement. Go back to the Code \(Design &gt; Sprint Button &gt; Code\) and add a "stop moving" code block right bellow the "wait 1 s".
 
-Let's go back and go back into play mode again and see what happens. I am going to lift the mBot so that it doesn't smash into my instruments and just have this its wheels freely rotating and I'll press on this sprint button. There you go, and with the joystick to reset. I will do this again. This time I am going to press on the sprint button and hold it and then wait for a few seconds before I release it and now let's see what the difference is.
+Go to "Play" and test the Sprint button, once more. Press "Sprint" and hold your finger there for two seconds and then release it to see if, besides hearing a tone, the wheels will stop moving, too.
 
-So pressing and holding, and I am about to release it now and you can hear the noise. You can hear that when I removed my finger from the sprint button, the mBot produced that small noise through its buzzer as I specified. I would like to make one more improvement. I would like to be able to \[machine buzzing noise\] release the button like this \[beep sound\] and not only make the buzzing noise, but also stop the wheels from spinning. So how can I do that?
 
-Let's go back to design mode and let us tap on sprint and code and then I want to do something else here in this when button released event. What I want to do is to go to the move menu and use the stop moving component and just put it here, like that. So now what happens is that when the button is released ,the mBot is going to play the F5 note for one second and then stop from moving.
 
 Let's try this out, so back to play mode. I am going to hold the mBot up and press on the sprint button and hold it \[machine buzzing noise\] and now I am going to release it \[beep sound\]. There is a noise and a second later, the wheels stop spinning. Great that is exactly what I wanted and there is lots more that you can do for example if you are curious about how the buzz button works, just tap on it while you are in the design mode and check out the code. You can see that that's what the code does.
 
