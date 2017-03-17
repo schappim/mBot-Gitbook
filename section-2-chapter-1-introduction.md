@@ -8,7 +8,7 @@
 
 Now that you've assembled your mBot, it's time to play with it. In this section, I'll show you how to use three tablet apps that allow you to program you mBot graphically. They are:
 
-* Makeblock
+* MakeBlock
 * mBlockley
 * mBlock
 
