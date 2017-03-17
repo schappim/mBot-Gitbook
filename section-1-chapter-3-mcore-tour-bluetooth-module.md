@@ -18,7 +18,9 @@ Now put the chassis of the mBot aside and work with the mCore, the microcontroll
 You might like to inspect all the parts that make up this module. Here they are:
 
 1. The integrated circuit in the middle is the ATmega328/P microcontroller. this is the the brain of the mBot. It’s the same microcontroller that you find on an Arduino UNO.
-2. The infrared receiver and the infrared transmitter. With the infrared receiver, we are able to use the remote controller \(the one that comes with the mBot\) and get it to move in particular directions. We can program the mBot so that it performs a particular behaviour when a button of the remote controller is pressed. For example, we can program key "0" to play a tone, and button "1" to make the mBot spin. With the transmitter, on the other hand, we can get the mBot to transmit infrared signals to other mBots.
+2. a. The infrared receiver
+   b. The infrared transmitter.
+   With the infrared receiver, we are able to use the remote controller \(the one that comes with the mBot\) and get it to move in particular directions. We can program the mBot so that it performs a particular behaviour when a button of the remote controller is pressed. For example, we can program key "0" to play a tone, and button "1" to make the mBot spin. With the transmitter, on the other hand, we can get the mBot to transmit infrared signals to other mBots.
 3. There is a buzzer, so that the input can make noises.
 4. There are two RGB-color LEDs, which can create any kind of color. In between them there is a light sensor which is used by the mBot in order to figure out whether it is day or night, whether a light is turned on or off, or simply put, whether there is light or darkness.
 5. There's a general purpose button that can be used for different reactions like making a noise, starting the motor etc.
