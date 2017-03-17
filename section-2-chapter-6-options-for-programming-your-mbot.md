@@ -13,6 +13,8 @@ In this chapter you will learn about:
 
 ---
 
+\(Un-edited\)
+
 When it comes to programming the mbot, there are several options available and in this lecture, I would like to introduce them to you. The first one is the M-block application that runs on a PC that is Windows or Macintosh computer and M-block is actually the program that we will be using throughout this course to do the bulk of our programming.
 
 So M-block is an application that uses blocks and then you use those blocks that represent programming components and programming structures to create a program that will then execute on the mbot. A lot more about these later. Now, you can also program your mbot on a mobile device, so Ios or Android tablets or smartphones can also be used to program the mbot.
