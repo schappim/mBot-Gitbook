@@ -1,4 +1,17 @@
+# Section 2
 
+---
+
+## Chapter 6: options for programming the mBot
+
+---
+
+In this chapter you will learn about:
+
+* The available three applications with which you can program the mBot
+* The basic characteristics of each application so that you can choose the most appropriate one for your objectives
+
+---
 
 When it comes to programming the mbot, there are several options available and in this lecture, I would like to introduce them to you. The first one is the M-block application that runs on a PC that is Windows or Macintosh computer and M-block is actually the program that we will be using throughout this course to do the bulk of our programming.
 
