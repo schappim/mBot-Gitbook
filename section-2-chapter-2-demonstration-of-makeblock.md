@@ -27,11 +27,17 @@ We are going to start with the basic mBot app. After clicking on it we get to se
 5. buzz button that will activate the buzzer and make some noise
 6. sprint button that will get the robot to take off at maximum speed
 
-Apart from what you see here, if you tap on the design tab, then you can reveal the various components that you can drag and drop onto the canvas. For example, if you want to do a display of lights, then you can drag this little component here onto the canvas. Then go back to play note, so tap the play tab and then by sing the color wheel, you can change the color of the integrated RGB LEDs. Of course nothing's happening yet because I haven't connected my IPad to the mBot.
+Tapping on the "Design" tab reveals additional components that can be draged and droped onto the canvas.
 
-Let's do that now. First thing to do is to turn the mBot on. \[Just move this to the side. All right, you can see that I've got a blue LED and it's blinking on the Bluetooth module. Move that a bit here so you can see the blue LED blinking. This is the location of the Bluetooth module. When the blue LED is blinking, what this means is that the mBot is waiting to be connected to a Bluetooth device and that can be your smartphone, your tablet computer or your desktop computer if it's got a Bluetooth module integrated.
 
-In this case, I'm going to connect my mBot to my IPad. To do that, I will tap onto the Bluetooth symbol or icon that is blinking, top right corner of the screen. You can see that now the application is searching for an mBot ready to connect in the vicinity. It says, "Device found, please get closer." I need to get my mBot a little closer to the device and that's it, connection completed.
+
+Before anything, of course, we need to connect the mBot to the iPad and here's how to do this:
+
+#### Connecting the mBot to the iPad
+
+First thing to do is to turn the mBot on by toggling the power switch. After that we should be able to see a blue LED blinking, on the mBot. This is the Bluetooth module waiting to be connected to a Bluetooth device. That can be your smartphone, your tablet or your desktop computer, if it has got a Bluetooth module integrated.
+
+In your device, tap onto the Bluetooth icon that is blinking on the top right corner of the screen. That will get the app to start searching for an mBot, in the vicinity, ready to connect. In case you see the message "Device found, please get closer", just get the mBot a little closer to the device. And that is actually all it takes to complete the connection between the app and the mBot.
 
 Now, let's try with the lights first. I'm going to change the color wheel. Let's go a bit more towards the blue. Yes, the LEDs are turning blue. Let's go to the red, okay and the LEDs are turning red. That's what this simple color wheel does.
 
