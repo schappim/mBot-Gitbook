@@ -78,7 +78,7 @@ Look at Images 1.2.8 and 1.2.9 to work out the placement of the line follower mo
 
 \[Image 1.2.9: Attach the wheels to the motor shafts, view 2\]
 
-To secure the two modules against the chasis, use the short and thick screws. They screw directly on to the chassis, because the chassis holes already have the threads.
+To secure the two modules against the chassis, use the short and thick screws. They screw directly on to the chassis, because the chassis holes already have the threads.
 
 Now, its time to attach the range finder module.
 
