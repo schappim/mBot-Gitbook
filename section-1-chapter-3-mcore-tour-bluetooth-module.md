@@ -33,6 +33,10 @@ You might like to inspect all the parts that make up this module. Here they are:
 12. There is a USB connector that goes to the computer, which is exactly the same connector that you find on an Arduino UNO. 
 13. And finally, there's a connector for the communications module. The mBot operates with two different modules, one is just the radio frequency module and the other one is a Bluetooth module. In our case, we'll be using the Bluetooth module which is very easy to connect: Just align it, plug it in and you've got it connected.
 
+![](/assets/Img.2.3.1.mCore.jpg)
+
+\[Img 2.3.1: the mCore lay-out\]
+
 **Be careful:** One little design issue that I found is that you can actually plug it in the other way around! It will connect but of course it is not going to work because it's plugged in the wrong way. I've seen this happening in large groups of people where mistakenly somebody will just plug the module, then put the cover back on, continue with the assembly of the mBot, and then half an hour later, the thing isn't working and that's because the module was plugged in the wrong way. So be very careful here.
 
 Notice that the antenna design is printed very noticeable on both the the module and the mBot controller board. That's a hint that you can give your students that they have to align the printed shape of the antenna on the module with the one on the mBot controller board, and of course the pins should also match precisely.
