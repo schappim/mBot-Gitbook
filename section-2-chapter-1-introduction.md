@@ -1,0 +1,18 @@
+# Section 2
+
+---
+
+## Chapter 1: Introduction
+
+---
+
+Now that you've assembled your mBot, it's time to play with it. In this section, I'll show you how to use three tablet apps that allow you to program you mBot graphically. They are:
+
+* Makeblock
+* mBlockley
+* mBlock
+
+I'll explain the differences and similarities of each and give you a demonstration. Remember that, in this course, our objective is to build a line following robot. Unfortunately, it's not possible to achieve this objective using these tablets apps because they do not produce code that is fast enough to guide the mBot on the line.
+
+To build a line following application, we'll use the PC version of the mBot software. This is something that I will show you later in this course. But these are great apps for getting started and playing, and that's what we got to do next.
+
