@@ -37,7 +37,7 @@ You might like to inspect all the parts that make up this module. Here they are:
 
 \[Img 2.3.1: the mCore lay-out\]
 
-**Be careful:** One little design issue that I found is that you can actually plug it in the other way around! It will connect but of course it is not going to work because it's plugged in the wrong way. I've seen this happening in large groups of people where mistakenly somebody will just plug the module, then put the cover back on, continue with the assembly of the mBot, and then half an hour later, the thing isn't working and that's because the module was plugged in the wrong way. So be very careful here.
+**Attention:** One little design issue that I found is that you can actually plug it in the other way around! It will connect but of course it is not going to work because it's plugged in the wrong way. I've seen this happening in large groups of people where mistakenly somebody will just plug the module, then put the cover back on, continue with the assembly of the mBot, and then half an hour later, the thing isn't working and that's because the module was plugged in the wrong way. So be very careful here.
 
 Notice that the antenna design is printed very noticeable on both the the module and the mBot controller board. That's a hint that you can give your students that they have to align the printed shape of the antenna on the module with the one on the mBot controller board, and of course the pins should also match precisely.
 
