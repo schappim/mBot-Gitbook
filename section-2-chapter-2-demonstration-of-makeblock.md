@@ -8,7 +8,9 @@
 
 In this chapter you will learn about:
 
-* ---
+* How to control the mBot using MakeBlock on a tablet
+
+---
 
 In this lecture, I would like to show you the three applications that you can run on a tablet computer. In this case, using your IPad to control your mBot. These three applications are mBlock, mBlockly and Makeblock. Each one of those applications emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so you can get an idea of how you can use them.
 
