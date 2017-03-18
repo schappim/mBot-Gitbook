@@ -16,13 +16,11 @@ In this chapter we are going to see what mBlockly is like.
 
 Immediately after starting the app on your tablet, mBlockly will detect a nearby mBot and you can tap on it, on the screen, to connect.
 
-The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs too to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually do that\) for 2 seconds and then run backward at speed 200.
+The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs too to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(without stopping, since there follows no other command  that would change the behaviour of the mBot\).
 
 ![](/assets/Img.2.3.1.jpg)
 
 \[Image 2.3.1: Code\]
-
-You can see this little program gets the mBot to run forwards at a particular speed, in this case, 150. Wait for two seconds, so the motors will continue running for two seconds and then run backwards to a speed of 200.
 
 The action takes place when I tap on to the go button. I’m going to lift my mBot from there, so it doesn’t fly off the table, let it go. That’s forwards for two seconds and then backwards. Notice that because I didn’t specify how much time my mBot should spend going backwards, it just goes backwards indefinitely. You can also notice that there is a little green highlight. Oops, I’m going to stop that. Every time that the instruction is executed in this application, there’s a little green outline around the block that is being executed at the time, so you can see how your program is executing.
 
