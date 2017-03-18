@@ -18,15 +18,13 @@ Immediately after starting the app on your tablet, mBlockly will detect a nearby
 
 The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs too to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). Click on "Go" to execute the instructions.
 
+You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program.
+
+Let's try to make an addition to the code: after the mBot runs backwards for two seconds, it should stop any movement completely. To do that we need to introduce another two-second delay and here is how: Go to "Control" and use the wait component to insert a two-second delay. Then remember I want to stop the motors, which is a movement type of instruction. So go to "Move", pick the "stop moving" block, drag it and place it right under the last two second wait.
+
 ![](/assets/Img.2.3.1.jpg)
 
 \[Image 2.3.1: Code\]
-
-You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program.
-
-.
-
-What I’d like to do next is I’d like to get my robot to move forwards and then two seconds later to start moving backwards, and then two seconds after that, to stop any movement completely. To do that I need to introduce another two-second delay, so I go to Control and use the wait component to insert a two-second delay. Then remember I want to stop the motors, so that is a movement type of instruction. I’ll go to move and there’s a stop moving block here, so I’ll drag that and put right under my last two second to wait.
 
 Let’s try this again. Hit the Go button, forwards two seconds and backwards two seconds and then two seconds later, stop moving. All right. Then you can start combining all the different types of blocks that are available to you in this app. For example, I can get my robot to move clockwise or to start turning clockwise or anticlockwise. I can get interesting displays and send perhaps notifications to the user, using the RGB COLOR LEDs or the buzzer so it can set the LEDs to a particular colour or play a tone through the buzzer.
 
