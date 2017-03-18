@@ -12,7 +12,7 @@ In this chapter you will learn about:
 
 ---
 
-In this lecture, we are going to see three applications that you can run on a tablet computer, like an iPad, to control your mBot. These three applications are called mBlock, mBlockly and Makeblock. Each one emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so that you can get an idea of how you can use them.
+In this Section, we are going to see three applications that you can run on a tablet computer, like an iPad, to control your mBot. These three applications are called **mBlock**, **mBlockly **and **Makeblock**. Each one emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so that you can get an idea of how you can use them.
 
 ### MakeBlock
 
@@ -91,13 +91,9 @@ In the custom menu, you will find all kinds of programmable components.
 
 Another interesting addition in one of the newer versions of this application is the "Draw and Run" option. You can find it back in the begin screen. Clicking on it gives you a canvas in which you can do a little drawing and basically design the path that you would like your mBot to go on. Try, for example, and make a zig-zag route with your finger. When you press "Play", the mBot will try at least to follow the path that you have drawn. Again, take care there's enough space for it. You can experiment with different routes but keep in mind that the path that the mBot actually follows is just an approximation of the path that you have drawn on the path control widget.
 
-
-
 Back to the begin screen you can click on mBot, the one with the two DC motors. Try them out. You will find that you can actually control each one of them independently.
 
-
-
-Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself. 
+Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself.
 
 If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
 
