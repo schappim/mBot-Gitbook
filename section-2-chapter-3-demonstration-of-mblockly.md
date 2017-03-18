@@ -22,7 +22,7 @@ The programming happens using Scratch, which is a block-based programming langua
 
 \[Image 2.3.1: Code\]
 
-You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program
+You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program.
 
 .
 
