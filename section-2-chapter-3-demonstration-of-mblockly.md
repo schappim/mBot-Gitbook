@@ -16,13 +16,15 @@ In this chapter we are going to see what mBlockly is like.
 
 Immediately after starting the app on your tablet, mBlockly will detect a nearby mBot and you can tap on it, on the screen, to connect.
 
-The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs too to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(without stopping, since there follows no other command  that would change the behaviour of the mBot\).
+The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs too to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). Click on "Go" to execute the instructions.
 
 ![](/assets/Img.2.3.1.jpg)
 
 \[Image 2.3.1: Code\]
 
-The action takes place when I tap on to the go button. I’m going to lift my mBot from there, so it doesn’t fly off the table, let it go. That’s forwards for two seconds and then backwards. Notice that because I didn’t specify how much time my mBot should spend going backwards, it just goes backwards indefinitely. You can also notice that there is a little green highlight. Oops, I’m going to stop that. Every time that the instruction is executed in this application, there’s a little green outline around the block that is being executed at the time, so you can see how your program is executing.
+You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program
+
+.
 
 What I’d like to do next is I’d like to get my robot to move forwards and then two seconds later to start moving backwards, and then two seconds after that, to stop any movement completely. To do that I need to introduce another two-second delay, so I go to Control and use the wait component to insert a two-second delay. Then remember I want to stop the motors, so that is a movement type of instruction. I’ll go to move and there’s a stop moving block here, so I’ll drag that and put right under my last two second to wait.
 
