@@ -12,7 +12,7 @@ In this chapter you will learn about:
 
 ---
 
-In this lecture, I would like to show you the three applications that you can run on a tablet computer. In this case, using your IPad to control your mBot. These three applications are mBlock, mBlockly and Makeblock. Each one of those applications emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so you can get an idea of how you can use them.
+In this lecture, we are going to see three applications that you can run on a tablet computer, like an iPad, to control your mBot. These three applications are called mBlock, mBlockly and Makeblock. Each one emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so that you can get an idea of how you can use them.
 
 ### MakeBlock
 
@@ -79,21 +79,25 @@ The "Buzz" button produces a note when pressed. Edit the code so that it produce
 
 Back to "Design" we can see that there are yet more usefull controls that we can add to our mBot. There is, for example, in the "Move" tab a cross-shaped control that we could use, instead of the joystick-like one, to move our mBot.
 
-In tab "Display" we find the "Lightness" button which is interesting to test. Drag and drop it on some empty spot, on the right and go to "Play" to check it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
+In tab "Display" we find the "Lightness" button which is interesting to test. Drag and drop it on some empty spot, on the right, and go to "Play" to check it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
 
-~~**{up to here by Dimitris - haven't checked out the spelling yet. I need to add images, too}**~~
+Back to design mode we find a little piano. If you place it on the canvas and try it out, you will notice that it is not not very responsive. It has quite a bit of a lag between the time that we press on the button and the time that the sound actually comes out of the buzzer.
 
-When you turn it on, you can see that the intensity of your LEDs increases and then move it all the way to the left and then the LEDs go off. Let's go back to design mode. You can also play music \[laughs\]. It's got a little piano here. I am not going to drop it because there's not enough space on my canvas to drop the little piano or note selector. So I will have to make a bit of room.
+We can go to the sense menu, now. There you can find items that connect to the sensors that are on board. We've got the ultrasonic in two versions, the numerical and then the gauge with the line graph version and same thing with the brightness, we've got the numerical version and then the line graph version as well.
 
-Let's tap on the lightness box and delete it, it is fine and the same thing with sprint, delete the sprint button. Now to make some room for my music box. Back to play \[beep sound\]. It's not very responsive. That's one of the issues that I want to discuss in a minute. \[beep sound\] It has quite a bit of a lag between the time that I press on the button and the time that the sound actually comes out of the buzzer.
+In the custom menu, you will find all kinds of programmable components.
 
-That is going to sense. In the sense menu, I've got a bunch of items that connect to the sensors that are on board. We've got the ultrasonic in two versions, the numerical and then the gauge with the line graph version and same thing with the brightness, we've got the numerical version and then the line graph version as well.
+#### Draw and Run
 
-For custom, you have all of these components but that these are now programmable. Another interesting addition in one of the newer versions of this application is the draw and run options. Let's go into that and have a look. This gives you a canvas in which you can do a little drawing and basically design the path that you would like your mBot to go on. Actually I will make it a bit zig-zag like that. When you press play now, your mBot will try at least to follow the path that you have drawn, let us try it out.
+Another interesting addition in one of the newer versions of this application is the "Draw and Run" option. You can find it back in the begin screen. Clicking on it gives you a canvas in which you can do a little drawing and basically design the path that you would like your mBot to go on. Try, for example, and make a zig-zag route with your finger. When you press "Play", the mBot will try at least to follow the path that you have drawn. Again, take care there's enough space for it. You can experiment with different routes but keep in mind that the path that the mBot actually follows is just an approximation of the path that you have drawn on the path control widget.
 
-Not enough space on my desk. But you can put this on the floor. You can see that the mBot will approximate the path that you have drawn on the path control canvas \[laughs\] and the mBot turned on my power supply. Not as accurate as this may seem, you can do the experimentation yourself but the path that the mBot actually follows is an approximation of the path that you have drawn on the path control widget.
 
-Okay, so you can go on and create your own user interfaces using make block like I've done here for a few more examples here. For example, the DC motor allows me to independently control each one of the two motors. This one is DC motor number two \[machine buzzing noise\] and this one is DC motor number one. Those two widgets can have independent control. We've got the brightness sensor connected and of course my joystick. It is just a user interface that I put together really quickly myself.
 
-Most of the components that you can drag and drop on the canvas are pre-programmed. You don't need to do any more programming, you can just combine them into whichever way that you like to build some useful means of controlling your mBots without doing any programming at all. Now, what if you actually do want to do a bit of programming? Well, for that, you can use mBlock.
+Back to the begin screen you can click on mBot, the one with the two DC motors. Try them out. You will find that you can actually control each one of them independently.
+
+
+
+Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself. 
+
+If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
 
