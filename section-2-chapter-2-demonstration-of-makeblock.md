@@ -20,7 +20,9 @@ It is a good idea to start with the Makeblock app as it is one that allows you t
 
 After starting the app you see all kinds of mBot types, the simplest one called _mBot_. The ones marked with M+ need some add-on pack \(like, for example, the six-legged robot extension\), in addition to the mBot.
 
-We are going to start with the basic mBot app. After clicking on it we get to see a set of controls:
+![](/assets/Img.2.2.1.jpg)
+
+We are going to start with the basic mBot app, on the top left. After clicking on it we get to see a set of controls:
 
 1. control of the movement
 2. numerical reading of the distance between the sensor and an object in front of it
@@ -28,6 +30,8 @@ We are going to start with the basic mBot app. After clicking on it we get to se
 4. on/off switch that will get the robot to execute a random movement
 5. buzz button that will activate the buzzer and make some noise
 6. sprint button that will get the robot to take off at maximum speed
+
+![](/assets/Img.2.2.2.jpg)
 
 Tapping on the "Design" tab reveals additional components that can be dragged and dropped onto the canvas.
 
