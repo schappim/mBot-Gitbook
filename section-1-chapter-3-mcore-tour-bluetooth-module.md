@@ -35,7 +35,7 @@ You might like to inspect all the parts that make up this module. Here they are:
 
 ![](/assets/Img.2.3.1.mCore.jpg)
 
-\[Img 2.3.1: the mCore lay-out\]
+\[Img 1.3.1: the mCore lay-out\]
 
 **Attention:** One little design issue that I found is that you can actually plug it in the other way around! It will connect but of course it is not going to work because it's plugged in the wrong way. I've seen this happening in large groups of people where mistakenly somebody will just plug the module, then put the cover back on, continue with the assembly of the mBot, and then half an hour later, the thing isn't working and that's because the module was plugged in the wrong way. So be very careful here.
 
