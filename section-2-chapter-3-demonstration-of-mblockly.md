@@ -28,9 +28,24 @@ Let's try to make an addition to the code: after the mBot runs backwards for two
 
 Hit the "Go" button to see the mBot going forward for two seconds, then backwards for another two seconds and then  stop moving.
 
+If you got it right, you can actually start combining all the different types of blocks that are available in this app. Check, for example, the "Move" options:
+
+![](/assets/Img.2.3.2.jpg)
+
+\[Image 2.3.2: The "Move" options\]
+
+From top to bottom, you see instructions that will get the mBot:
+
+* to run forward at some speed and for a specific amount of seconds
+* to rotate to some direction at some speed and for a specific amount of seconds
+* to run forward ad some speed without specifying the time to keep doing this
+* to turn to some directions at a specific speed
+* to stop moving
+* to set a servo motor, located at some port and slot, to a specific degree
 
 
- All right. Then you can start combining all the different types of blocks that are available to you in this app. For example, I can get my robot to move clockwise or to start turning clockwise or anticlockwise. I can get interesting displays and send perhaps notifications to the user, using the RGB COLOR LEDs or the buzzer so it can set the LEDs to a particular colour or play a tone through the buzzer.
+
+ I can get my robot to move clockwise or to start turning clockwise or anticlockwise. I can get interesting displays and send perhaps notifications to the user, using the RGB COLOR LEDs or the buzzer so it can set the LEDs to a particular colour or play a tone through the buzzer.
 
 Or I can detect events, so I can get the robot, for example, to move depending on whether my tablet is tilting forwards or backwards. It can use a table itself as a control device and I can detect, I can take input from my sensors. If there’s an obstacle detected, for example, I can get my mBot to stop moving or perhaps, if there’s a turn, it can read, it can get a numerical reading out of the ultrasonic sensor so that it’ll know how close the mBot is to an object in front of it.
 
