@@ -29,7 +29,7 @@ We are going to start with the basic mBot app. After clicking on it we get to se
 5. buzz button that will activate the buzzer and make some noise
 6. sprint button that will get the robot to take off at maximum speed
 
-Tapping on the "Design" tab reveals additional components that can be draged and droped onto the canvas.
+Tapping on the "Design" tab reveals additional components that can be dragged and dropped onto the canvas.
 
 Before anything, of course, we need to connect the mBot to the iPad and here's how to do this:
 
@@ -41,13 +41,13 @@ In your device, tap onto the Bluetooth icon that is blinking on the top right co
 
 #### Trying out the different controls
 
-Now we should be able to make a first attempt to change the color of the LEDs on the mBot. Touch the color wheel and try some color. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly. And that is what this simple color wheel does.
+Now we should be able to make a first attempt to change the colour of the LEDs on the mBot. Touch the colour wheel and try some colour. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly. And that is what this simple color wheel does.
 
 Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
 
 Next, let's try the brightness. Try and cover the top of the mBot, where the sensor is located, and you can should be able to see that the corresponding reading in the app increases. Remember to turn off the LEDs on the mBot first, for better results. If you don't, the light they produce will feed into the sensor, probably causing the brightness line in the cart to fluctuate. You can always turn the LEDs on and off by going to Design Mode \(just click on "Design" on the top of your screen\).
 
-Obscuring the light sensor will drop the reading down. The numbers you see on the left are not particular light measuring units but rather an analog input number of the mBot: when the mBot is connected to an analog device, like the light sensor, it produces a number that represents the state of that sensor meaning, when the sensor picks up little light, their number reduces, and when the sensor picks up more light, then the number increases.
+Obscuring the light sensor will drop the reading down. The numbers you see on the left are not particular light measuring units but rather an analogue input number of the mBot: when the mBot is connected to an analogue device, like the light sensor, it produces a number that represents the state of that sensor meaning, when the sensor picks up little light, their number reduces, and when the sensor picks up more light, then the number increases.
 
 Following up we can test the buzz button. Press it and you should hear a noise.
 
@@ -63,11 +63,11 @@ It is interesting to see how are all these actions attached to the controls. To 
 
 \[CODE IMG HERE\]
 
-The code is actually self explainatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
+The code is actually self explanatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
 
 Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there.
 
-Let's say, for example, that we'd like to hear a note when the button is released. Click on "~~**Controls**~~" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just bellow "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as exptected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
+Let's say, for example, that we'd like to hear a note when the button is released. Click on "~~**Controls**~~" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just bellow "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as expected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
 
 Let's make one last improvement. Go back to the Code \(Design &gt; Sprint Button &gt; Code\) and add a "stop moving" code block right bellow the "wait 1 s".
 
@@ -77,7 +77,7 @@ The "Buzz" button produces a note when pressed. Edit the code so that it produce
 
 #### More controls
 
-Back to "Design" we can see that there are yet more usefull controls that we can add to our mBot. There is, for example, in the "Move" tab a cross-shaped control that we could use, instead of the joystick-like one, to move our mBot.
+Back to "Design" we can see that there are yet more useful controls that we can add to our mBot. There is, for example, in the "Move" tab a cross-shaped control that we could use, instead of the joystick-like one, to move our mBot.
 
 In tab "Display" we find the "Lightness" button which is interesting to test. Drag and drop it on some empty spot, on the right, and go to "Play" to check it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
 
