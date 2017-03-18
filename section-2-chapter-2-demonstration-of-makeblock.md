@@ -22,6 +22,8 @@ After starting the app you see all kinds of mBot types, the simplest one called 
 
 ![](/assets/Img.2.2.1.jpg)
 
+\[Image 2.2.1: The begin screen\]
+
 We are going to start with the basic mBot app, on the top left. After clicking on it we get to see a set of controls:
 
 1. control of the movement
@@ -33,7 +35,13 @@ We are going to start with the basic mBot app, on the top left. After clicking o
 
 ![](/assets/Img.2.2.2.jpg)
 
+\[Image 2.2.2: The controls\]
+
 Tapping on the "Design" tab reveals additional components that can be dragged and dropped onto the canvas.
+
+![](/assets/Img.2.2.3.jpg)
+
+\[Image 2.2.3: Additional controls on the Design tab\]
 
 Before anything, of course, we need to connect the mBot to the iPad and here's how to do this:
 
@@ -41,15 +49,27 @@ Before anything, of course, we need to connect the mBot to the iPad and here's h
 
 First thing to do is to turn the mBot on by toggling the power switch. After that we should be able to see a blue LED blinking, on the mBot. This is the Bluetooth module waiting to be connected to a Bluetooth device. That can be your smartphone, your tablet or your desktop computer, if it has got a Bluetooth module integrated.
 
+![](/assets/Img.2.2.4.jpg)
+
+\[Image 2.2.4: The Bluetooth icon\]
+
 In your device, tap onto the Bluetooth icon that is blinking on the top right corner of the screen. That will get the app to start searching for an mBot, in the vicinity, ready to connect. In case you see the message "Device found, please get closer", just get the mBot a little closer to the device. And that is actually all it takes to complete the connection between the app and the mBot.
 
 #### Trying out the different controls
 
-Now we should be able to make a first attempt to change the colour of the LEDs on the mBot. Touch the colour wheel and try some colour. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly. And that is what this simple color wheel does.
+Now we should be able to make a first attempt to change the colour of the LEDs on the mBot. Touch the colour wheel and try some colour. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly.
+
+![](/assets/Img.2.2.5.jpg)
+
+\[Image 2.2.5: The colour wheel\]
 
 Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
 
 Next, let's try the brightness. Try and cover the top of the mBot, where the sensor is located, and you can should be able to see that the corresponding reading in the app increases. Remember to turn off the LEDs on the mBot first, for better results. If you don't, the light they produce will feed into the sensor, probably causing the brightness line in the cart to fluctuate. You can always turn the LEDs on and off by going to Design Mode \(just click on "Design" on the top of your screen\).
+
+![](/assets/Img.2.2.6.jpg)
+
+\[Image 2.2.6: Covering the light sensor with the hand\]
 
 Obscuring the light sensor will drop the reading down. The numbers you see on the left are not particular light measuring units but rather an analogue input number of the mBot: when the mBot is connected to an analogue device, like the light sensor, it produces a number that represents the state of that sensor meaning, when the sensor picks up little light, their number reduces, and when the sensor picks up more light, then the number increases.
 
@@ -65,11 +85,13 @@ Switching "Random" on will produce some random effect on the mBot like turning t
 
 It is interesting to see how are all these actions attached to the controls. To have a look at the mechanics behind the controls we should go back to "Design" tab. Let's have a look, for example, at the "Sprint" button. Tap on it and in the menu that opens choose "Code" and the actual code that is triggered when you press on the sprint button will appear.
 
-\[CODE IMG HERE\]
-
 The code is actually self explanatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
 
 Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there.
+
+![](blob:https://www.gitbook.com/d937f897-416c-4527-a8ae-1084c822fb16)
+
+\[Image 2.2.7: Code for the sprint button\]
 
 Let's say, for example, that we'd like to hear a note when the button is released. Click on "~~**Controls**~~" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just bellow "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as expected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
 
@@ -87,7 +109,11 @@ In tab "Display" we find the "Lightness" button which is interesting to test. Dr
 
 Back to design mode we find a little piano. If you place it on the canvas and try it out, you will notice that it is not not very responsive. It has quite a bit of a lag between the time that we press on the button and the time that the sound actually comes out of the buzzer.
 
-We can go to the sense menu, now. There you can find items that connect to the sensors that are on board. We've got the ultrasonic in two versions, the numerical and then the gauge with the line graph version and same thing with the brightness, we've got the numerical version and then the line graph version as well.
+We can go to the sense menu, too. There you can find items that connect to the sensors that are on board. We've got the ultrasonic in two versions, the numerical and then the gauge with the line graph version and same thing with the brightness, we've got the numerical version and then the line graph version as well.
+
+![](/assets/Img.2.2.8.jpg)
+
+\[Image 2.2.8: The sense menu\]
 
 In the custom menu, you will find all kinds of programmable components.
 
@@ -95,9 +121,9 @@ In the custom menu, you will find all kinds of programmable components.
 
 Another interesting addition in one of the newer versions of this application is the "Draw and Run" option. You can find it back in the begin screen. Clicking on it gives you a canvas in which you can do a little drawing and basically design the path that you would like your mBot to go on. Try, for example, and make a zig-zag route with your finger. When you press "Play", the mBot will try at least to follow the path that you have drawn. Again, take care there's enough space for it. You can experiment with different routes but keep in mind that the path that the mBot actually follows is just an approximation of the path that you have drawn on the path control widget.
 
-Back to the begin screen you can click on mBot, the one with the two DC motors. Try them out. You will find that you can actually control each one of them independently.
+![](/assets/Img.2.2.9.jpg)
 
-Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself.
+\[Image 2.2.9: The Draw and Run canvas\]
 
-If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
+Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself. If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
 
