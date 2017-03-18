@@ -43,9 +43,9 @@ From top to bottom, you see instructions that will get the mBot:
 * to stop moving
 * to set a servo motor, located at some port and slot, to a specific degree
 
+~~**{up to here by Dimitri}**~~
 
-
- I can get my robot to move clockwise or to start turning clockwise or anticlockwise. I can get interesting displays and send perhaps notifications to the user, using the RGB COLOR LEDs or the buzzer so it can set the LEDs to a particular colour or play a tone through the buzzer.
+I can get my robot to move clockwise or to start turning clockwise or anticlockwise. I can get interesting displays and send perhaps notifications to the user, using the RGB COLOR LEDs or the buzzer so it can set the LEDs to a particular colour or play a tone through the buzzer.
 
 Or I can detect events, so I can get the robot, for example, to move depending on whether my tablet is tilting forwards or backwards. It can use a table itself as a control device and I can detect, I can take input from my sensors. If there’s an obstacle detected, for example, I can get my mBot to stop moving or perhaps, if there’s a turn, it can read, it can get a numerical reading out of the ultrasonic sensor so that it’ll know how close the mBot is to an object in front of it.
 
