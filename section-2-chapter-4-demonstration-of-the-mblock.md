@@ -44,17 +44,5 @@ Once the two blocks fit like jigsaw pieces, tap on "Play" to see them get execut
 
 When done, click on "Forward" \(the orange button next to "Play"\) to get to the next task. This time we are asked to combine blocks to make the mBot first to go forwards and then to go backwards. All the blocks are already on the canvas, so you just need to drag the one that is out of place and lock it under the other two. When done, click on "Play" to see the mBot do as programmed. Just remember to make some space for it to move.
 
-~~**{up to here by Dimitris}**~~
-
-Let’s go next. You get the idea, this is an easy way for a person to easily learn how each of these blocks work in the format of a game. I’m going to leave for this for you to explore further and finish with this lecture. I just want to recap a couple of things.
-
-These three applications; Makeblock, mBlockly and mBlock are great applications to get started with. They’re not very efficient because the programs that you write are using these applications to not execute directly on to the mBot. The programs execute on you iPad and then the iPad remotely controls the mBot, and the penalty here is efficiency.
-
-If your mBot needs to make quick decisions that involve perhaps taking readings from the sensors and then changing the speed of rotation of the motors to change direction, and if this needs to happen very quickly in order, for example, to not leave the line that the robot is following, then this is not going to be possible with one of those applications. It’s just they’re just too slow to be able to do something like that. But for many other things, these three applications are an excellent way to get started.
-
-Having said all that, in the next section and in the remainder of this course, I will be showing you how to use the mBlock application which allows to control your mBot on your Windows or Macintosh computer. This works a lot like the Arduino, so the process there is that you write your program using the Scratch language and then that program is translated to native Arduino C code without you actually having to do anything, and then it gets uploaded on to your mBot.
-
-What eventually you get on the mBot is Arduino code that runs at maximum speed so that you can control your mBot very efficiently, can get it to do things like that, follow a live that losing its way.
-
-Let’s move on to the next lecture and check that out.
+You get the idea, by now: this is an easy way for a person to easily learn how each of these blocks work in the format of a game. We are going to leave it here but you should explore it further.
 

@@ -12,4 +12,5 @@
 * [Section 2 \| Chapter 2: Demonstration of MakeBlock](section-2-chapter-2-demonstration-of-makeblock.md)
 * [Section 2 \| Chapter 3: Demonstration of mBlockly](section-2-chapter-3-demonstration-of-mblockly.md)
 * [Section 2 \| Chapter 4: Demonstration of the mBlock](section-2-chapter-4-demonstration-of-the-mblock.md)
+* [Section 2 \| Chapter 5: Recapping](section-2-chapter-5-recapping.md)
 
