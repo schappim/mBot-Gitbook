@@ -22,7 +22,7 @@ You will found out that this application is given in the form of a game organize
 
 ![](/assets/Img.2.4.1.jpg)
 
-
+\[Image 2.4.1: The game stages\]
 
 Let’s go back to the very beginning and to the first one. In here we’ve got the control stage. You’ve got six problems to unlock. Let’s go to the first one and you follow the instruction. It says, “Hello, I’m Mr. Panda. Welcome to mBlock.” Tap anywhere in the screen to continue. So as you can use programs to control mBot. It’s great, give it a try.
 
