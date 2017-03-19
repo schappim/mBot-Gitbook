@@ -94,19 +94,19 @@ Let’s go back now and try out some of the other projects. To do this, click on
 
 #### Colour Show
 
-Let's start with the Colour Show.
+Let's tap on "Colour Show" and have a look at it.
 
 ![](/assets/Img.2.3.8.jpg)
 
 \[Image 2.3.8: The "Colour Show" code\]
 
- and I’d like to give you one more example. Let’s have a look at this Colour Show. Tap on Colour Show to bring it up and you can see that I’ve got a loop, repeats forever and you can probably guess what this does. What I’ve got in this example here is a loop, first of all, that never ends, so it repeats forever. The first thing that happens in the loop is to first turn both onboard RGB LEDs to red and then to wait for a particular amount of time.
+In the example we have got a loop that repeats forever and you can probably guess what this does.The first thing that happens in this loop is to turn both onboard RGB LEDs to red and then to wait for a particular amount of time. Now, the wait block requires a numerical value \(or variable and we I’ll talk about variables in oncoming chapter\). The problem here is that the keypad provided there to input a number only allows whole numbers, known as integers. If I want to introduce a wait for say 0.25 seconds, I can’t do it since there’s no decimal point on the keypad which is pretty bad but there is a workaround on that.
 
-I just want to show you something. The wait block requires a numerical or a variable, and I’ll talk about variables in oncoming lecture. But the problem here is that the keypad that I used or that is provided to input a number only gives me the ability to type in whole numbers, whole integers. If I want to introduce a wait for say 0.25 seconds, then I can’t do that here because there’s no decimal point. That’s pretty bad but there is a workaround on that.
+We can click on the "Math" tab and take from there some mathematical function, like the one in the code, and place it inside the wait block. One divided by five will give 0.25 and this is the way to wait for periods that include a decimal.
 
-What I can do is to insert a mathematical function like this one, to replace the integer and then in that mathematical function, I won’t try it again. \[laughs\] Then take that function, take that arithmetic calculation and put it inside my wait block. I need one more number block, so I put that in there. Now I can just do a division between this case one divided by five, and that will give me a result that is less than one. In that way, I can have a wait period, same set it into my program that are less than one second or at least that include a decimal.
+**If you need to delete a block, just drag and drop it in the dustbin that will appear on the left. &lt;---- THIS ONE IN SOME OTHER SPOT**
 
-If you want to delete a block, just tap it and move it on to the left, and it will disappear. After I wait for 0.25 seconds, while both LEDs on board are red, then switch to green, wait for the same amount of time, then switch to blue, wait for the same amount of time and then go back and start with the red again. Let’s upload that program and you can see how the LEDs -- I can’t get a better view like that. The LEDs rotate between red, green and blue.
+it and move it on to the left, and it will disappear. After I wait for 0.25 seconds, while both LEDs on board are red, then switch to green, wait for the same amount of time, then switch to blue, wait for the same amount of time and then go back and start with the red again. Let’s upload that program and you can see how the LEDs -- I can’t get a better view like that. The LEDs rotate between red, green and blue.
 
 Okay. Now, the other thing to remember is with all these applications, the program is actually running on my iPad. On the mBot itself, inside the microcontroller on the mBot, I’m executing a remote control program. That program basically is waiting for instructions from the iPad transmitted to it via Bluetooth and just turning on its LED. Taking a reading of the sensor or moving its motors or activating its motors. But none of the processing is happening on the mBot itself. The mBot is just connected and remotely controlled by my iPad.
 
