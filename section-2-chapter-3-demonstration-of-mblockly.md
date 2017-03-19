@@ -92,7 +92,7 @@ Later on in the book we are going to explain the Scratch language and handle how
 
 Let’s go back now and try out some of the other projects. To do this, click on "My Projects" on the top right of your screen.
 
-#### Colour Show
+#### The Colour Show example
 
 Let's tap on "Colour Show" and have a look at it.
 
@@ -110,13 +110,11 @@ And this is what the code does: it sets the LEDs to red, then waits for 0.25'', 
 
 To test it just click on "Go" and you will able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second, every time.
 
-
+### Where the program executes
 
 With all these applications, the program is actually running on the tablet. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
 
 That has a detrimental effect on the speed by which the instructions get executed: the speed is actually very, very low. There’s a whole bunch of applications that you will not be able to implement on your mBot by remote control like the line follower ones. The problem here is that the speed by which the mBot needs to take readings of its line following sensors and from the ultrasonic sensor and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
 
-Just remember that the applications that I'm showing you here on the tablet are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly if you want to do something more sophisticated, and then we'll have to move unto the computer to do a program that is more efficient. I'm going to show you that later as well. Actually, I've got the bulk of this course dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
-
-Before that, I’m going to stop the execution of the program and show you the last example.
+Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move unto the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
 
