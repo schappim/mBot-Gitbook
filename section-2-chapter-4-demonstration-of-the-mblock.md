@@ -24,9 +24,23 @@ You will found out that this application is given in the form of a game organize
 
 \[Image 2.4.1: The game stages\]
 
-Let’s go back to the very beginning and to the first one. In here we’ve got the control stage. You’ve got six problems to unlock. Let’s go to the first one and you follow the instruction. It says, “Hello, I’m Mr. Panda. Welcome to mBlock.” Tap anywhere in the screen to continue. So as you can use programs to control mBot. It’s great, give it a try.
+Tapping on the first one will get you in and there you should see Mr. Panda. Just tap anywhere on the screen to get Mr. Panda to go on with his instructions.
 
-All right. Click the triangle to view mBot movements. All right. This is the first task. My task is to press the triangle button and then that is producing a bunch of actions. It’s a bit of noise to the buzzer and the motors are moving. Great. I’ve got a win here. Let’s go to the next stage. It’s highlighting the orange button to go to the next problem.
+![](/assets/Img.2.4.2.jpg)
+
+\[Image 2.4.2: Mr. Panda\]
+
+After Mr. Panda's welcoming you should see the first task: Click "Play" to view mBot movements.
+
+Tapping on "Play", on bottom right of the screen, will get the mBot to produce some actions, like buzzing and getting the motors to move a little.
+
+Next we are going to be instructed to actually move an instruction block and place it under the other. The instructions are supplied by some explanatory animation and even a child can understand what is expected.
+
+![](/assets/Img.2.4.3.jpg)
+
+\[Image 2.4.3: Moving one block under another\]
+
+. Great. I’ve got a win here. Let’s go to the next stage. It’s highlighting the orange button to go to the next problem.
 
 You can combine blocks to complete the program. Great. After you complete the program click that triangle button to make it run. Okey-dokey. You can see that the game is telling me exactly what to do so the child will see that and says, “Okay, this program wants me to move these block and plug it here, right after the when the triangle is clicked.”
 
