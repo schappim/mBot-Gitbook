@@ -40,13 +40,11 @@ Next we are going to be instructed to actually move an instruction block and pla
 
 \[Image 2.4.3: Moving one block under another\]
 
-. Great. I’ve got a win here. Let’s go to the next stage. It’s highlighting the orange button to go to the next problem.
+Once the two blocks fit like jigsaw pieces, tap on "Play" to see them get executed. They should get the mBot to move forward for one second at a particular speed.
 
-You can combine blocks to complete the program. Great. After you complete the program click that triangle button to make it run. Okey-dokey. You can see that the game is telling me exactly what to do so the child will see that and says, “Okay, this program wants me to move these block and plug it here, right after the when the triangle is clicked.”
+When done, click on "Forward" \(the orange button next to "Play"\) to get to the next task. This time we are asked to combine blocks to make the mBot first to go forwards and then to go backwards. All the blocks are already on the canvas, so you just need to drag the one that is out of place and lock it under the other two. When done, click on "Play" to see the mBot do as programmed. Just remember to make some space for it to move.
 
-What these actions does, what this block does, is to move the robot forwards for one second at a particular speed, 150. Now, I’ve got to press on the triangle button to execute my little program. Here we go. Okay, for one second, win. I’ve got a few more points.
-
-Let’s go to the next one. Now I’m asked to combine blocks to make mBot first to go forwards, then to go backwards. Okay. Now all the blocks are already on the canvas, so I just need to drag it and position this going backwards, block right after the going forwards block. Now my problem is ready, so let’s give my mBot a bit of space. Press on the triangle button to forwards and backwards. Awesome, another win. \[laughs\] Okay. Good.
+~~**{up to here by Dimitris}**~~
 
 Let’s go next. You get the idea, this is an easy way for a person to easily learn how each of these blocks work in the format of a game. I’m going to leave for this for you to explore further and finish with this lecture. I just want to recap a couple of things.
 
