@@ -9,12 +9,25 @@
 In this chapter you will learn about:
 
 * How to control the mBot using mBlockly on a tablet
+* The various Scratch graphical blocks that are available and what they do
+* Assembling a simple Scratch program
+* Uploading a Scratch program to the mBot
 
 ---
 
-In this chapter we are going to see what mBlockly is like.
+In this chapter you will learn about mBlockly. Using mBlockly, you can create programs using the Scratch language and upload them to your mBot wirelessly. You mBot will then function according to your program.
 
-Immediately after starting the app on your tablet, mBlockly will detect a nearby mBot and you can tap on it, on the screen, to connect.
+Immediately after starting the mBlockly on your tablet, it will detect a nearby mBot and you can tap on it, on the screen, to connect.
+
+![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-07-25-736.png)
+
+\[Image 2.3.1: Your tablet running mBlockly will detect your mBot very quickly\]
+
+If it doesn't, check the your mBot is turned on, and that the Bluetooth module is in discovery mode. You can confirm that by looking for the blue, blinking LED of the Bluetooth module. If the blue LED is solid, \(not blinking\), then you know that it is connected to another Bluetooth device. If this device is not your tablet, try turning the mBot off and then on again in order to switch the Bluetooth module back to discovery mode \(blinking blue LED\).
+
+![](/assets/IMG_9727.JPG)
+
+\[Image 2.3.2: Look at the blue LED of the Bluetooth module to determine the connection status\]
 
 The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs, too, to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). Click on "Go" to execute the instructions.
 
@@ -56,7 +69,7 @@ You can use these to:
 * set the colour of the LEDs to a specific colour
 * to buzz a specific tone
 * to stop a tone already sounding
-* ~~**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#???**~~
+* change the color of an RGB led module
 
 A very useful feature are the "Events" which can be used to mainly detect movements of the tablet:
 
@@ -121,7 +134,7 @@ Just remember that the applications shown here are good for a few simple types o
 ### Questions
 
 1. What is the way to add decimal numbers in a wait block?
-2. Is the Scratch program executed on the mBot microcontroller? If not, where then?
+2. Is the Scratch program executed on the mCore microcontroller? If not, where then?
 
 
 
