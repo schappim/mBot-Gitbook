@@ -89,7 +89,7 @@ The code is actually self explanatory as it is very close to the natural languag
 
 Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there.
 
-![](blob:https://www.gitbook.com/d937f897-416c-4527-a8ae-1084c822fb16)
+![](/assets/Img.2.2.7.jpg)
 
 \[Image 2.2.7: Code for the sprint button\]
 
