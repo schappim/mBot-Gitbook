@@ -12,7 +12,7 @@ The three applications handled:
 * mBlockly
 * mBlock
 
-are great to get started with. They’re not very efficient because the programs that you write are using these applications to not execute directly on to the mBot. The programs execute on you iPad and then the iPad remotely controls the mBot, and the penalty here is efficiency.
+are great to get started with. They’re not very efficient because the programs that you write don't execute directly on to the mBot but rather through the applications running on the tablet. The programs execute on you iPad and then the iPad remotely controls the mBot, and the penalty here is efficiency.
 
 If your mBot needs to make quick decisions that involve perhaps taking readings from the sensors and then changing the speed of rotation of the motors to change direction, and if this needs to happen very quickly in order, for example, to not leave the line that the robot is following, then this is not going to be possible with one of those applications. It’s just they’re just too slow to be able to do something like that. But for many other things, these three applications are an excellent way to get started.
 
