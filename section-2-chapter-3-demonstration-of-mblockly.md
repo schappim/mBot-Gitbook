@@ -108,11 +108,11 @@ We can click on the "Math" tab and take from there some mathematical function, l
 
 And this is what the code does: it sets the LEDs to red, then waits for 0.25'', then sets the LEDs to green, again waits for 0.25'', then sets the LEDs to blue, again waits for 0.25'', and this procedure repeats itself over and over again.
 
+To test it just click on "Go" and you will able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second, every time.
 
 
-Getting on with the t and move it on to the left, and it will disappear. After I wait for 0.25 seconds, while both LEDs on board are red, then switch to green, wait for the same amount of time, then switch to blue, wait for the same amount of time and then go back and start with the red again. Let’s upload that program and you can see how the LEDs -- I can’t get a better view like that. The LEDs rotate between red, green and blue.
 
-Okay. Now, the other thing to remember is with all these applications, the program is actually running on my iPad. On the mBot itself, inside the microcontroller on the mBot, I’m executing a remote control program. That program basically is waiting for instructions from the iPad transmitted to it via Bluetooth and just turning on its LED. Taking a reading of the sensor or moving its motors or activating its motors. But none of the processing is happening on the mBot itself. The mBot is just connected and remotely controlled by my iPad.
+**Remember**: With all these applications, the program is actually running on the tablet. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
 
 Then has a detrimental effect on the speed by which it can execute those instructions. The speed is actually very, very low. There’s a whole bunch of applications that you will not be able to implement on your mBot by remote control. One of those applications sees the line follower applications, because the speed by which the mBot needs to take readings of its line followings sensors down here and from the ultrasonic sensor and then translate that information into a movement for the motors. That has to happen very, very quickly. It’s just not enough time for the iPad to do the processing and send the instructions to the mBot for it to execute them on time.
 
