@@ -20,6 +20,10 @@ Start the application and it should be able to quickly detect a nearby mBot.
 
 You will found out that this application is given in the form of a game organized in stages that you can go through, and as you follow the instructions correctly finish each stage successfully, you earn points and rewards.
 
+![](/assets/Img.2.4.1.jpg)
+
+
+
 Let’s go back to the very beginning and to the first one. In here we’ve got the control stage. You’ve got six problems to unlock. Let’s go to the first one and you follow the instruction. It says, “Hello, I’m Mr. Panda. Welcome to mBlock.” Tap anywhere in the screen to continue. So as you can use programs to control mBot. It’s great, give it a try.
 
 All right. Click the triangle to view mBot movements. All right. This is the first task. My task is to press the triangle button and then that is producing a bunch of actions. It’s a bit of noise to the buzzer and the motors are moving. Great. I’ve got a win here. Let’s go to the next stage. It’s highlighting the orange button to go to the next problem.
@@ -41,6 +45,4 @@ Having said all that, in the next section and in the remainder of this course, I
 What eventually you get on the mBot is Arduino code that runs at maximum speed so that you can control your mBot very efficiently, can get it to do things like that, follow a live that losing its way.
 
 Let’s move on to the next lecture and check that out.
-
-
 
