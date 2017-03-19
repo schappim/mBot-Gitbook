@@ -28,6 +28,8 @@ Let's try to make an addition to the code: after the mBot runs backwards for two
 
 Hit the "Go" button to see the mBot going forward for two seconds, then backwards for another two seconds and then  stop moving.
 
+### The instruction groups
+
 If you got it right, you can actually start combining all the different types of blocks that are available in this app. Check, for example, the "Move" instructions:
 
 ![](/assets/Img.2.3.2.jpg)
@@ -80,15 +82,25 @@ And then we can implement the basic programmatic control structures like making 
 
 ![](/assets/Img.2.3.7.jpg)
 
-\[Image 2.3.6: The "Control" structures\]
+\[Image 2.3.7: The "Control" structures\]
 
 We can use these, for example, to repeat a set of instructions either forever or at a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
 
 Later on in the book we are going to explain the Scratch language and handle how it implements to mBot. We will see more examples and explain how these blocks work as we are building the line follower application. For now, you don’t need to worry much about the blocks although you will find that most of them are fairly self-explanatory.
 
-~~**{up to here by Dimitris}**~~
+### Experementing with ready projects
 
-Let’s go back to some of my other projects and I’d like to give you one more example. Let’s have a look at this Colour Show. Tap on Colour Show to bring it up and you can see that I’ve got a loop, repeats forever and you can probably guess what this does. What I’ve got in this example here is a loop, first of all, that never ends, so it repeats forever. The first thing that happens in the loop is to first turn both onboard RGB LEDs to red and then to wait for a particular amount of time.
+Let’s go back now and try out some of the other projects. To do this, click on "My Projects" on the top right of your screen.
+
+#### Colour Show
+
+Let's start with the Colour Show.
+
+![](/assets/Img.2.3.8.jpg)
+
+\[Image 2.3.8: The "Colour Show" code\]
+
+ and I’d like to give you one more example. Let’s have a look at this Colour Show. Tap on Colour Show to bring it up and you can see that I’ve got a loop, repeats forever and you can probably guess what this does. What I’ve got in this example here is a loop, first of all, that never ends, so it repeats forever. The first thing that happens in the loop is to first turn both onboard RGB LEDs to red and then to wait for a particular amount of time.
 
 I just want to show you something. The wait block requires a numerical or a variable, and I’ll talk about variables in oncoming lecture. But the problem here is that the keypad that I used or that is provided to input a number only gives me the ability to type in whole numbers, whole integers. If I want to introduce a wait for say 0.25 seconds, then I can’t do that here because there’s no decimal point. That’s pretty bad but there is a workaround on that.
 
