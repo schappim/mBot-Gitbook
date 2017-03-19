@@ -104,7 +104,7 @@ In the example we have got a loop that repeats forever and you can probably gues
 
 We can click on the "Math" tab and take from there some mathematical function, like the one in the code, and place it inside the wait block. One divided by five will give 0.25 and this is the way to wait for periods that include a decimal.
 
-**If you need to delete a block, just drag and drop it in the dustbin that will appear on the left. &lt;---- THIS ONE IN SOME OTHER SPOT**
+**Remember**: If you need to delete a block, just drag and drop it in the dustbin that will appear on the left.
 
 And this is what the code does: it sets the LEDs to red, then waits for 0.25'', then sets the LEDs to green, again waits for 0.25'', then sets the LEDs to blue, again waits for 0.25'', and this procedure repeats itself over and over again.
 
@@ -112,9 +112,9 @@ To test it just click on "Go" and you will able to see the program run, one inst
 
 
 
-**Remember**: With all these applications, the program is actually running on the tablet. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
+With all these applications, the program is actually running on the tablet. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
 
-Then has a detrimental effect on the speed by which it can execute those instructions. The speed is actually very, very low. There’s a whole bunch of applications that you will not be able to implement on your mBot by remote control. One of those applications sees the line follower applications, because the speed by which the mBot needs to take readings of its line followings sensors down here and from the ultrasonic sensor and then translate that information into a movement for the motors. That has to happen very, very quickly. It’s just not enough time for the iPad to do the processing and send the instructions to the mBot for it to execute them on time.
+That has a detrimental effect on the speed by which the instructions get executed: the speed is actually very, very low. There’s a whole bunch of applications that you will not be able to implement on your mBot by remote control like the line follower ones. The problem here is that the speed by which the mBot needs to take readings of its line following sensors and from the ultrasonic sensor and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
 
 Just remember that the applications that I'm showing you here on the tablet are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly if you want to do something more sophisticated, and then we'll have to move unto the computer to do a program that is more efficient. I'm going to show you that later as well. Actually, I've got the bulk of this course dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
 
