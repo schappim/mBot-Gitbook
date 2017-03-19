@@ -16,7 +16,7 @@ In this chapter we are going to see what mBlockly is like.
 
 Immediately after starting the app on your tablet, mBlockly will detect a nearby mBot and you can tap on it, on the screen, to connect.
 
-The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs too to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). Click on "Go" to execute the instructions.
+The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs, too, to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). Click on "Go" to execute the instructions.
 
 You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program.
 
