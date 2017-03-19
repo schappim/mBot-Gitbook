@@ -100,13 +100,17 @@ Let's tap on "Colour Show" and have a look at it.
 
 \[Image 2.3.8: The "Colour Show" code\]
 
-In the example we have got a loop that repeats forever and you can probably guess what this does.The first thing that happens in this loop is to turn both onboard RGB LEDs to red and then to wait for a particular amount of time. Now, the wait block requires a numerical value \(or variable and we I’ll talk about variables in oncoming chapter\). The problem here is that the keypad provided there to input a number only allows whole numbers, known as integers. If I want to introduce a wait for say 0.25 seconds, I can’t do it since there’s no decimal point on the keypad which is pretty bad but there is a workaround on that.
+In the example we have got a loop that repeats forever and you can probably guess what this does.The first thing that happens in this loop is to turn both onboard RGB LEDs to red and then to wait for a particular amount of time. Now, the wait block requires a numerical value \(or variable and we I’ll talk about variables in oncoming chapter\). The problem here is that the keypad provided there to input a number only allows whole numbers, known as integers. If you need to introduce a wait for say 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad, which is pretty bad but there is a workaround.
 
 We can click on the "Math" tab and take from there some mathematical function, like the one in the code, and place it inside the wait block. One divided by five will give 0.25 and this is the way to wait for periods that include a decimal.
 
 **If you need to delete a block, just drag and drop it in the dustbin that will appear on the left. &lt;---- THIS ONE IN SOME OTHER SPOT**
 
-it and move it on to the left, and it will disappear. After I wait for 0.25 seconds, while both LEDs on board are red, then switch to green, wait for the same amount of time, then switch to blue, wait for the same amount of time and then go back and start with the red again. Let’s upload that program and you can see how the LEDs -- I can’t get a better view like that. The LEDs rotate between red, green and blue.
+And this is what the code does: it sets the LEDs to red, then waits for 0.25'', then sets the LEDs to green, again waits for 0.25'', then sets the LEDs to blue, again waits for 0.25'', and this procedure repeats itself over and over again.
+
+
+
+Getting on with the t and move it on to the left, and it will disappear. After I wait for 0.25 seconds, while both LEDs on board are red, then switch to green, wait for the same amount of time, then switch to blue, wait for the same amount of time and then go back and start with the red again. Let’s upload that program and you can see how the LEDs -- I can’t get a better view like that. The LEDs rotate between red, green and blue.
 
 Okay. Now, the other thing to remember is with all these applications, the program is actually running on my iPad. On the mBot itself, inside the microcontroller on the mBot, I’m executing a remote control program. That program basically is waiting for instructions from the iPad transmitted to it via Bluetooth and just turning on its LED. Taking a reading of the sensor or moving its motors or activating its motors. But none of the processing is happening on the mBot itself. The mBot is just connected and remotely controlled by my iPad.
 
