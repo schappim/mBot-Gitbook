@@ -54,15 +54,29 @@ You can use these to:
 * set the colour of the LEDs to a specific colour
 * to buzz a specific tone
 * to stop a tone already sounding
-* \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+* ~~**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#???**~~
 
-~~**{up to here by Dimitri}**~~
+A very useful feature are the "Events" which can be used to mainly detect movements of the tablet:
 
-I can get my robot to move clockwise or to start turning clockwise or anticlockwise. I can get interesting displays and send perhaps notifications to the user, using the RGB COLOR LEDs or the buzzer so it can set the LEDs to a particular colour or play a tone through the buzzer.
+![](/assets/Img.2.3.4.jpg)
 
-Or I can detect events, so I can get the robot, for example, to move depending on whether my tablet is tilting forwards or backwards. It can use a table itself as a control device and I can detect, I can take input from my sensors. If there’s an obstacle detected, for example, I can get my mBot to stop moving or perhaps, if there’s a turn, it can read, it can get a numerical reading out of the ultrasonic sensor so that it’ll know how close the mBot is to an object in front of it.
+\[Image 2.3.4: The "Events"\]
 
-I can do mathematics, so there’s -- I just dropped that on the canvas, you can see, so I can do the basic mathematical functions. Then I can, of course, implement various programmatic control structures. I’ve got my IF or ELSE, I’ve got loops like repeat forever or repeat at particular number of times, or repeat that until the sensor for example, senses something, like an obstacle in front of it. You’ve got a lot of options.
+With these event blocks we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards using this way the table itself as a control device.
+
+![](/assets/Img.2.3.5.jpg)
+
+\[Image 2.3.5: The "Detect" instructions\]
+
+These can be used to take input from the sensors. Thereafter we can take descisions based on these readings and if there’s an obstacle detected, for example, we can get the mBot to stop moving.
+
+There are instruction blocks that can perform the basic mathematical and logical operations:
+
+![](/assets/Img.2.3.6.jpg)
+
+\[Image 2.3.6: The "Math" instructions\]
+
+And then I can, of course, implement various programmatic control structures. I’ve got my IF or ELSE, I’ve got loops like repeat forever or repeat at particular number of times, or repeat that until the sensor for example, senses something, like an obstacle in front of it. You’ve got a lot of options.
 
 At this stage, I don’t want to spend too much time talking about this Scratch language and how that implements to mBot, because I’m spending a lot more time on this topic, later on when we start building our line following application. In that lectures I’m going to explain what is option sign. Give you examples about how they work. I’m also going to teach you how these blocks work as we are building the line for lower application. For now, I don’t want you to worry about what each one of those blocks specifically does although, a lot of them is fairly intuitive.
 
