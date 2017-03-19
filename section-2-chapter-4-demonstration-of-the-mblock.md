@@ -44,5 +44,5 @@ Once the two blocks fit like jigsaw pieces, tap on "Play" to see them get execut
 
 When done, click on "Forward" \(the orange button next to "Play"\) to get to the next task. This time we are asked to combine blocks to make the mBot first to go forwards and then to go backwards. All the blocks are already on the canvas, so you just need to drag the one that is out of place and lock it under the other two. When done, click on "Play" to see the mBot do as programmed. Just remember to make some space for it to move.
 
-You get the idea, by now: this is an easy way for a person to easily learn how each of these blocks work in the format of a game. We are going to leave it here but you should explore it further.
+You get the idea, by now: this is an easy way for a person to easily learn how each of these blocks work in the format of a game. We are going to leave, as far as this chapter is concerned, but you should explore it further.
 
