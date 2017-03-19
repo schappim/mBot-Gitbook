@@ -127,3 +127,10 @@ Another interesting addition in one of the newer versions of this application is
 
 Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself. If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
 
+### Questions
+
+1. What does the ultrasonic reading mean?
+2. Which instruction can stop the moving of the wheels?
+
+
+
