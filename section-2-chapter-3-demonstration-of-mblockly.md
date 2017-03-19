@@ -88,7 +88,7 @@ We can use these, for example, to repeat a set of instructions either forever or
 
 Later on in the book we are going to explain the Scratch language and handle how it implements to mBot. We will see more examples and explain how these blocks work as we are building the line follower application. For now, you don’t need to worry much about the blocks although you will find that most of them are fairly self-explanatory.
 
-### Experementing with ready projects
+### Experimenting with ready projects
 
 Let’s go back now and try out some of the other projects. To do this, click on "My Projects" on the top right of your screen.
 
@@ -117,4 +117,13 @@ With all these applications, the program is actually running on the tablet. On t
 That has a detrimental effect on the speed by which the instructions get executed: the speed is actually very, very low. There’s a whole bunch of applications that you will not be able to implement on your mBot by remote control like the line follower ones. The problem here is that the speed by which the mBot needs to take readings of its line following sensors and from the ultrasonic sensor and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
 
 Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move unto the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
+
+
+
+### Questions
+
+1. What is the way to add decimal numbers in a wait block?
+2. Is the Scratch program executed on the mBot microcontroller? If not, where then?
+
+
 
