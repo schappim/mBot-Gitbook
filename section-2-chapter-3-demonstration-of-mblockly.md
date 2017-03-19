@@ -84,7 +84,9 @@ And then we can implement the basic programmatic control structures like making 
 
 We can use these, for example, to repeat a set of instructions either forever or at a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
 
-At this stage, I don’t want to spend too much time talking about this Scratch language and how that implements to mBot, because I’m spending a lot more time on this topic, later on when we start building our line following application. In that lectures I’m going to explain what is option sign. Give you examples about how they work. I’m also going to teach you how these blocks work as we are building the line for lower application. For now, I don’t want you to worry about what each one of those blocks specifically does although, a lot of them is fairly intuitive.
+Later on in the book we are going to explain the Scratch language and handle how it implements to mBot. We will see more examples and explain how these blocks work as we are building the line follower application. For now, you don’t need to worry much about the blocks although you will find that most of them are fairly self-explanatory.
+
+~~**{up to here by Dimitris}**~~
 
 Let’s go back to some of my other projects and I’d like to give you one more example. Let’s have a look at this Colour Show. Tap on Colour Show to bring it up and you can see that I’ve got a loop, repeats forever and you can probably guess what this does. What I’ve got in this example here is a loop, first of all, that never ends, so it repeats forever. The first thing that happens in the loop is to first turn both onboard RGB LEDs to red and then to wait for a particular amount of time.
 
