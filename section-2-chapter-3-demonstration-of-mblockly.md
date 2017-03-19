@@ -28,20 +28,33 @@ Let's try to make an addition to the code: after the mBot runs backwards for two
 
 Hit the "Go" button to see the mBot going forward for two seconds, then backwards for another two seconds and then  stop moving.
 
-If you got it right, you can actually start combining all the different types of blocks that are available in this app. Check, for example, the "Move" options:
+If you got it right, you can actually start combining all the different types of blocks that are available in this app. Check, for example, the "Move" instructions:
 
 ![](/assets/Img.2.3.2.jpg)
 
-\[Image 2.3.2: The "Move" options\]
+\[Image 2.3.2: The "Move" instructions\]
 
-From top to bottom, you see instructions that will get the mBot:
+From top to bottom, you see instructions that will get the mBot to:
 
-* to run forward at some speed and for a specific amount of seconds
-* to rotate to some direction at some speed and for a specific amount of seconds
-* to run forward ad some speed without specifying the time to keep doing this
-* to turn to some directions at a specific speed
-* to stop moving
-* to set a servo motor, located at some port and slot, to a specific degree
+* run forward at some speed and for a specific amount of seconds
+* rotate to some direction at some speed and for a specific amount of seconds
+* run forward ad some speed without specifying the time to keep doing this
+* turn to some directions at a specific speed
+* stop moving
+* set a servo motor, located at some port and slot, to a specific degree
+
+Now proceed to the Display instructions:
+
+![](/assets/Img.2.3.3.jpg)
+
+\[Image 2.3.3: The "Display" instructions\]
+
+You can use these to:
+
+* set the colour of the LEDs to a specific colour
+* to buzz a specific tone
+* to stop a tone already sounding
+* \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
 
 ~~**{up to here by Dimitri}**~~
 
