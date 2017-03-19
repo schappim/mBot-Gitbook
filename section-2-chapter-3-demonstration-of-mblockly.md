@@ -118,8 +118,6 @@ That has a detrimental effect on the speed by which the instructions get execute
 
 Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move unto the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
 
-
-
 ### Questions
 
 1. What is the way to add decimal numbers in a wait block?
