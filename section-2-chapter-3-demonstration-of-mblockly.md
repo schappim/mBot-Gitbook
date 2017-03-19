@@ -70,7 +70,7 @@ With these event blocks we can get the robot, for example, to move depending on 
 
 These can be used to take input from the sensors. Thereafter we can take descisions based on these readings and if there’s an obstacle detected, for example, we can get the mBot to stop moving.
 
-There are instruction blocks that can perform the basic mathematical and logical operations:
+There are instruction blocks that can perform the basic mathematical and logical operations like adding, subtracting etc.:
 
 ![](/assets/Img.2.3.6.jpg)
 
@@ -82,9 +82,7 @@ And then we can implement the basic programmatic control structures like making 
 
 \[Image 2.3.6: The "Control" structures\]
 
-We can use these, for example, to repeat a set of instructions either forever or at particular number of times. Or even repeat until the sensor, for example, senses something, like an obstacle in front of it.
-
-
+We can use these, for example, to repeat a set of instructions either forever or at a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
 
 At this stage, I don’t want to spend too much time talking about this Scratch language and how that implements to mBot, because I’m spending a lot more time on this topic, later on when we start building our line following application. In that lectures I’m going to explain what is option sign. Give you examples about how they work. I’m also going to teach you how these blocks work as we are building the line for lower application. For now, I don’t want you to worry about what each one of those blocks specifically does although, a lot of them is fairly intuitive.
 
