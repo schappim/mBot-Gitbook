@@ -151,11 +151,11 @@ To test it just tap on "Go" and you will able to see the program run, one instru
 
 ### Where the program executes
 
-With all these applications, the program is actually running on the tablet. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
+When you write a program using mBlockly, you should remember that the program is actually running on the tablet, not on the mBot. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
 
-That has a detrimental effect on the speed by which the instructions get executed: the speed is actually very, very low. There’s a whole bunch of applications that you will not be able to implement on your mBot by remote control like the line follower ones. The problem here is that the speed by which the mBot needs to take readings of its line following sensors and from the ultrasonic sensor and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
+That has a detrimental effect on the speed by which the instructions get executed: the execution speed is actually very low. There are many types of applications that you will not be able to implement on your mBot by remote control like the line follower ones. The problem here is that the speed by which the mBot needs to take readings of its line following sensors and from the ultrasonic sensor and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
 
-Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move unto the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
+Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move to the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
 
 ### Questions
 
@@ -167,17 +167,9 @@ A. Use the decimal point in the keypad to type in the number
 
 C. It is not possible to insert decimal numbers in a wait block. A wait block will only accept integer numbers.
 
-
-
-2. Where is the Scratch program that you write in mBlockly executed?
+1. Where is the Scratch program that you write in mBlockly executed?
 
 A. On the mCore microcontroller
 
 **B. On the tablet. The mBot is controlled remotely by the program running on the tablet**
-
-
-
-
-
-
 
