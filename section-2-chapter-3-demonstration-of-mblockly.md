@@ -29,15 +29,41 @@ If it doesn't, check the your mBot is turned on, and that the Bluetooth module i
 
 \[Image 2.3.2: Look at the blue LED of the Bluetooth module to determine the connection status\]
 
-The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs, too, to get started. Let's start with a simple one. Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:  run forward at speed 150; wait \(actually continue doing that\) for 2 seconds and then run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). Click on "Go" to execute the instructions.
+The programming happens using Scratch, which is a block-based programming language. There are a few few built-in programs, too, to get started. Let's start with a simple one.
 
-You can notice a little green highlight, moving from one instruction being executed to the next. This helps follow step by step the execution of the program.
+![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-08-01-967.png)
 
-Let's try to make an addition to the code: after the mBot runs backwards for two seconds, it should stop any movement completely. To do that we need to introduce another two-second delay and here is how: Go to "Control" and use the wait component to insert a two-second delay. Then remember I want to stop the motors, which is a movement type of instruction. So go to "Move", pick the "stop moving" block, drag it and place it right under the last two second wait.
+\[Image 2.3.3: To load a program, tap on its thumbnail\]
+
+Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:
+
+* run forward at speed 150; 
+* wait for 2 seconds
+* run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). 
+
+![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-08-17-385.png)
+
+\[Image 2.3.4: To upload a program to the paired mBot, tap on "Go"\]
+
+Click on "Go" to execute the instructions.
+
+You can notice a little green glow around a block, as each of the instructions is executed by the mBlock. This helps follow step by step the execution of the program.
+
+The problem with this program is that once your mBot starts to run backwards, it never stops. We should fix that!
+
+Let's make an addition to the code: after the mBot runs backwards for two seconds, it should stop moving. To do that we need to introduce another two-second delay and then insert the "stop moving" block.
+
+Here is how: Go to the "Control" submenu that you can find on the left side of the screen,  and use the "wait" block to insert a new two-second delay.
+
+![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-09-35-387.png)
+
+\[Image 2.3.5: To insert a block, select it from a submenu and drag it to your program. It will snap in place when you place it near a compatible block\]
+
+Then, since you want to stop the motors, which is a movement type of instruction, go to the "Move" submenu, pick the "stop moving" block, drag it and place it right under the last two second wait.
 
 ![](/assets/Img.2.3.1.jpg)
 
-\[Image 2.3.1: Code\]
+\[Image 2.3.6: The program, with your modifications\]
 
 Hit the "Go" button to see the mBot going forward for two seconds, then backwards for another two seconds and then  stop moving.
 
@@ -45,83 +71,83 @@ Hit the "Go" button to see the mBot going forward for two seconds, then backward
 
 If you got it right, you can actually start combining all the different types of blocks that are available in this app. Check, for example, the "Move" instructions:
 
-![](/assets/Img.2.3.2.jpg)
+![](/assets/e596d7cc-5626-4aa5-a357-15ed5188276a.jpeg)
 
-\[Image 2.3.2: The "Move" instructions\]
+\[Image 2.3.7: The "Move" instructions\]
 
 From top to bottom, you see instructions that will get the mBot to:
 
-* run forward at some speed and for a specific amount of seconds
-* rotate to some direction at some speed and for a specific amount of seconds
-* run forward ad some speed without specifying the time to keep doing this
-* turn to some directions at a specific speed
-* stop moving
-* set a servo motor, located at some port and slot, to a specific degree
+1. run forward at some speed and for a specific amount of seconds
+2. rotate to some direction at some speed and for a specific amount of seconds
+3. run forward ad some speed without specifying the time to keep doing this
+4. turn to some directions at a specific speed
+5. stop moving
+6. set a servo motor, located at some port and slot, to a specific degree
 
-Now proceed to the Display instructions:
+Next we have the Display instructions:
 
-![](/assets/Img.2.3.3.jpg)
+![](/assets/91ce23c0-a970-4522-a251-07ee27a8b4ba.jpeg)
 
-\[Image 2.3.3: The "Display" instructions\]
+\[Image 2.3.7: The "Display" instructions\]
 
 You can use these to:
 
-* set the colour of the LEDs to a specific colour
-* to buzz a specific tone
-* to stop a tone already sounding
-* change the color of an RGB led module
+1. set the colour of the LEDs to a specific colour
+2. to buzz a specific tone
+3. to stop a tone already sounding
+4. change the color of an RGB led module
 
 A very useful feature are the "Events" which can be used to mainly detect movements of the tablet:
 
-![](/assets/Img.2.3.4.jpg)
+![](/assets/b1918a53-8366-4f28-b32d-e379a49f72c5.jpeg)
 
-\[Image 2.3.4: The "Events"\]
+\[Image 2.3.8: The "Events" blocks\]
 
-With these event blocks we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards using this way the table itself as a control device.
+In the Detect submenu are blocks that work with sensors. With these event blocks we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards \(blocks 5 and 4\) using this way the table itself as a control device.
 
-![](/assets/Img.2.3.5.jpg)
+![](/assets/f787dcb0-1ab4-48c3-9761-1ed62863c304.jpeg)
 
-\[Image 2.3.5: The "Detect" instructions\]
+\[Image 2.3.9: The "Detect" blocks\]
 
-These can be used to take input from the sensors. Thereafter we can take descisions based on these readings and if there’s an obstacle detected, for example, we can get the mBot to stop moving.
+These can be used to take input from the sensors. Based on these readings, the mBot can decide how to move in the event of detecting an obstacle. For example, it can stop, turn left or right, or go around the obstacle.
 
-There are instruction blocks that can perform the basic mathematical and logical operations like adding, subtracting etc.:
+In the Math submenu are blocks that can perform the basic mathematical and logical operations like adding, subtracting etc.:
 
-![](/assets/Img.2.3.6.jpg)
+![](/assets/a9bdda61-f991-41d1-a003-e3f1243ad05b.jpeg)
 
-\[Image 2.3.6: The "Math" instructions\]
+\[Image 2.3.10: The "Math" blocks\]
 
-And then we can implement the basic programmatic control structures like making choices and executing loops:
+In the Control submenu are blocks that allow us to implement control structures.These structures allow your program to contain loops in which a segment of your program is executed repeatedly, or to execute part of your program depending on a condition.![](/assets/bf43ec4e-3e40-468e-8d2a-4cb2266ec148.jpeg)
 
-![](/assets/Img.2.3.7.jpg)
+\[Image 2.3.11: The "Control" structures\]
 
-\[Image 2.3.7: The "Control" structures\]
-
-We can use these, for example, to repeat a set of instructions either forever or at a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
+You can use these, for example, to repeat a set of instructions either forever or at a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
 
 Later on in the book we are going to explain the Scratch language and handle how it implements to mBot. We will see more examples and explain how these blocks work as we are building the line follower application. For now, you don’t need to worry much about the blocks although you will find that most of them are fairly self-explanatory.
 
 ### Experimenting with ready projects
 
-Let’s go back now and try out some of the other projects. To do this, click on "My Projects" on the top right of your screen.
+Let’s try out some of the other projects. To do this, click on "My Projects" on the top right of your screen.
 
 #### The Colour Show example
 
-Let's tap on "Colour Show" and have a look at it.
+Tap on "Colour Show" and have a look at it. If this example is not available in the list of programs, that's ok. You can assemble it yourself by finding the right blocks inside the various submenus and connecting them together, as you can see in image 2.3.12.
 
-![](/assets/Img.2.3.8.jpg)
+![](/assets/88ea9406-0534-4aac-9872-765dcc62fce3.jpeg)
 
-\[Image 2.3.8: The "Colour Show" code\]
+\[Image 2.3.12: The "Colour Show" program\]
 
-In the example we have got a loop that repeats forever and you can probably guess what this does.The first thing that happens in this loop is to turn both onboard RGB LEDs to red and then to wait for a particular amount of time. Now, the wait block requires a numerical value \(or variable and we I’ll talk about variables in oncoming chapter\). The problem here is that the keypad provided there to input a number only allows whole numbers, known as integers. If you need to introduce a wait for say 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad, which is pretty bad but there is a workaround.
+In this example there is a loop block, called "repeat forever" \(block 1\). Anything you put inside this block will do exactly that, repeat for ever. In the repeat forever block, the first thing that happens is to turn both onboard RGB LEDs to red \(block 2\) and then to wait for a particular amount of time \(block 3\). The "wait" block requires a numerical value \(or variable and we I’ll talk about variables in an upcoming chapter\). To provide a number, simply tap on the existing number of the "wait" block. This will bring up a key pad. 
 
-We can click on the "Math" tab and take from there some mathematical function, like the one in the code, and place it inside the wait block. One divided by five will give 0.25 and this is the way to wait for periods that include a decimal.
+The problem here is that the keypad provided input a number only allows whole numbers, known as integers to be entered. If you need to introduce a smaller wait, say for 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad. This is inconvenient, but there is a workaround.
 
-**Remember**: If you need to delete a block, just drag and drop it in the dustbin that will appear on the left.
+We can click on the "Math" tab and take from there some mathematical function, like the division block in the code, and place it inside the wait block. Type "1" in the first numerical parameter of the arithmetic function block, select division for the function type, and type "5" for the second numerical parameter. This gives "0.25" for the wait time, which is what we want here.
 
-And this is what the code does: it sets the LEDs to red, then waits for 0.25'', then sets the LEDs to green, again waits for 0.25'', then sets the LEDs to blue, again waits for 0.25'', and this procedure repeats itself over and over again.
+**Remember**: If you need to delete a block, just drag and drop it in the dustbin that will appear on the left edge of the screen.
 
-To test it just click on "Go" and you will able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second, every time.
+And this is what the code does: it sets the LEDs to red, then waits for 0.25 seconds, then sets the LEDs to green, again waits for 0.25 seconds, then sets the LEDs to blue, again waits for 0.25 seconds, and this process repeats itself over and over again.
+
+To test it just tap on "Go" and you will able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second, every time.
 
 ### Where the program executes
 
