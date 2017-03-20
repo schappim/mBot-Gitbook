@@ -137,7 +137,7 @@ Tap on "Colour Show" and have a look at it. If this example is not available in 
 
 \[Image 2.3.12: The "Colour Show" program\]
 
-In this example there is a loop block, called "repeat forever" \(block 1\). Anything you put inside this block will do exactly that, repeat for ever. In the repeat forever block, the first thing that happens is to turn both onboard RGB LEDs to red \(block 2\) and then to wait for a particular amount of time \(block 3\). The "wait" block requires a numerical value \(or variable and we I’ll talk about variables in an upcoming chapter\). To provide a number, simply tap on the existing number of the "wait" block. This will bring up a key pad. 
+In this example there is a loop block, called "repeat forever" \(block 1\). Anything you put inside this block will do exactly that, repeat for ever. In the repeat forever block, the first thing that happens is to turn both onboard RGB LEDs to red \(block 2\) and then to wait for a particular amount of time \(block 3\). The "wait" block requires a numerical value \(or variable and we I’ll talk about variables in an upcoming chapter\). To provide a number, simply tap on the existing number of the "wait" block. This will bring up a key pad.
 
 The problem here is that the keypad provided input a number only allows whole numbers, known as integers to be entered. If you need to introduce a smaller wait, say for 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad. This is inconvenient, but there is a workaround.
 
@@ -159,8 +159,25 @@ Just remember that the applications shown here are good for a few simple types o
 
 ### Questions
 
-1. What is the way to add decimal numbers in a wait block?
-2. Is the Scratch program executed on the mCore microcontroller? If not, where then?
+1. What is the way to insert decimal numbers \(i.e. numbers like 0.5, 1.0 or 5.25\) in a wait block?
+
+A. Use the decimal point in the keypad to type in the number
+
+**B. Use an arithmetic function block to calculate the decimal number from two integers**
+
+C. It is not possible to insert decimal numbers in a wait block. A wait block will only accept integer numbers.
+
+
+
+2. Where is the Scratch program that you write in mBlockly executed?
+
+A. On the mCore microcontroller
+
+**B. On the tablet. The mBot is controlled remotely by the program running on the tablet**
+
+
+
+
 
 
 
