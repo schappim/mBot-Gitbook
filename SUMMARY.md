@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Section 1: Get to know your mBot](S1.md)
+* [Section 1 \| Chapter 0: Get to know your mBot](S1.md)
 * [Section 1 \| Chapter 1: the mBot parts](S1C1.md)
 * [Section 1 \| Chapter 2: Assembly Part 1, chassis, motors, wheels and sensors](section-1-chapter-2-assembly-part-1-chassis-motors-wheels-and-sensors.md)
 * [Section 1 \| Chapter 3: mCore tour, Bluetooth module](section-1-chapter-3-mcore-tour-bluetooth-module.md)
@@ -13,9 +13,9 @@
 * [Section 2 \| Chapter 9: Demonstration of the mBlock](section-2-chapter-4-demonstration-of-the-mblock.md)
 * [Section 2 \| Chapter 10: Section Recap and quiz](section-2-chapter-5-recapping.md)
 * [Section 3 \| Chapter 11: Programming the mBot on the PC using mBlock - Introduction](section-3-chapter-12-programming-the-mbot-on-the-pc-using-mblock-introduction.md)
-* Section 3 \| Chapter 12: Install mBlock on your computer
-* Section 3 \| Chapter 13: A quick look at Scratch on mBlock
-* Section 3 \| Chapter 14: Create and upload your first program
+* [Section 3 \| Chapter 12: Install mBlock on your computer](section-3-chapter-12-install-mblock-on-your-computer.md)
+* [Section 3 \| Chapter 13: A quick look at Scratch on mBlock](section-3-chapter-13-a-quick-look-at-scratch-on-mblock.md)
+* [Section 3 \| Chapter 14: Create and upload your first program](section-3-chapter-14-create-and-upload-your-first-program.md)
 * Section 3 \| Chapter 15: Motor control
 * Section 3 \| Chapter 16: Moving left, right, backwards
 * Section 3 \| Chapter 17: Section recap and quiz
