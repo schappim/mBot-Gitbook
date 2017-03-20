@@ -16,19 +16,19 @@
 * [Section 3 \| Chapter 12: Install mBlock on your computer](section-3-chapter-12-install-mblock-on-your-computer.md)
 * [Section 3 \| Chapter 13: A quick look at Scratch on mBlock](section-3-chapter-13-a-quick-look-at-scratch-on-mblock.md)
 * [Section 3 \| Chapter 14: Create and upload your first program](section-3-chapter-14-create-and-upload-your-first-program.md)
-* Section 3 \| Chapter 15: Motor control
+* [Section 3 \| Chapter 15: Motor control](section-3-chapter-15-motor-control.md)
 * Section 3 \| Chapter 16: Moving left, right, backwards
 * Section 3 \| Chapter 17: Section recap and quiz
 * Section 4 \| Chapter 18: Programming structures and sensors introduction
 * Section 4 \| Chapter 19: The Loop
-* Section 4 \| Chapter 20: The distance/proximity sensor
+* [Section 4 \| Chapter 20: The distance/proximity sensor](section-4-chapter-20-the-distanceproximity-sensor.md)
 * Section 4 \| Chapter 21: More experimentation with the distance sensor
 * Section 4 \| Chapter 22: The "if" and "if...else" control structure
 * Section 4 \| Chapter 23: The buzzer
 * Section 4 \| Chapter 24: Section recap and quiz
 * [Section 5 \| Chapter 25: The line follower program introduction](section-5-the-line-follower-program-introduction.md)
 * [Section 5 \| Chapter 26: The line sensor](section-5-chapter-27-the-line-sensor.md)
-* Section 5 \| Chapter 27: Adding motors to the line follower program
+* [Section 5 \| Chapter 27: Adding motors to the line follower program](section-5-chapter-27-adding-motors-to-the-line-follower-program.md)
 * Section 5 \| Chapter 28: stoping at the end of the line with the proximity sensor
 * Section 5 \| Chapter 29: Implement a U-turn at the end of the line
 * Section 5 \| Chapter 30: Using a button to start and stop

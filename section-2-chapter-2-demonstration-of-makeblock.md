@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 2: Demonstration of the MakeBlock
+## Chapter 8: Demonstration of the MakeBlock
 
 ---
 
