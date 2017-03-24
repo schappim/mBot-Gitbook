@@ -72,11 +72,15 @@ The next step is to go to the "Connect" menu and look for the serial port where 
 
 \[Image 2.15.4: Connecting to the Serial Port\]
 
-Next, I'm going to do a right click on the mBot program header and choose "Upload to Arduino". Remember how I told you that inside the mBot, you've got an Arduino?
+Next, we right-click on the mBot program and choose "Upload to Arduino".
 
-Some people get confused about this, they're saying, "What's the Arduino? I'm trying to program my mBot." It should be saying "Upload to mBot", right? We're saying "Upload to Arduino" because inside the mBot, you have an Arduino. Let's do that "Upload to Arduino". But doing that you've got the uploading component of the mBlock application. What you see here is the translation of the simple scratch-based program into Arduino sketch into Arduino code. The translation is one-to-one. You've got a lot of code here, but most of this code just the infrastructure for supporting the functionality that you've selected in your mBot program.
+**Note**: Some people get confused about this thinking "What's the Arduino? I'm just trying to program my mBot!" Well, inside the mBot there is an Arduino board and that's where the program is loaded.
 
-We want our mBot to just turn the two LEDs into red and this is the block that does that. Everything else that you see here is just in support of that one single thing. In fact, if you have a look inside this line, line 34, you'll see the programming code that actually turns these two LEDs into red. No need to get into the specifics now but this is what causes the LEDs to become red. Everything else is just there to support these two lines of code.
+By doing that we ge to see the uploading component of the mBlock application. What we see there is the translation of the simple scratch-based program into Arduino code or Arduino "sketch" as we call it. We notice that we've got a lot of code there. Most most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino code\]
+
+We want our mBot to just turn the two LEDs into red and the code shown above does just that: line 34, sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support these two lines of code.
+
+**{up to here by Dimitris}**
 
 First, you set the color and then you turn the LEDs on with that color. That's all there is. You'll see that as I'm dropping other things, other components, other blocks into my program like this one here, for example, notice that another little instruction was added at the end of my program. If I put it say, up here, notice that the move command now moved at the beginning just before the RGB commands.
 
