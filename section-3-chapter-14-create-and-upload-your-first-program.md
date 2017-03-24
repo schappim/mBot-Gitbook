@@ -30,7 +30,7 @@ There's one that allows us to set the onboard LEDs at a specific colour.
 
 One for taking descisions when the onboard button is pressed and and lots of other blocks for programming behaviour to the mBot.
 
-### Instructions for additional components
+### Instructions for basic and additional components
 
 Out of the box, the mBot comes with a number of capabilities based on sensors or motors or other attachments like, for example:
 
@@ -44,13 +44,17 @@ As far as outputs and actuators are concerned, there are:
 * two motors connected to two individual ports: one for each motor
 * RGB LEDs
 
-Apart from these basic capabilities, though, we can purchase and plug onto the mBot additional components and eventually make use of the mBlock extension to interact with them. So, for example, we can purchase a sound sensor separately and use the correspondive mBlock instuction block to interact with it. A sound sensor is practically a microphone and we can clap, for example, and get the mBot to react to that clapping. 
+Apart from these basic capabilities, though, we can purchase and plug onto the mBot additional components and eventually make use of the mBlock extension to interact with them. So, for example, we can purchase a sound sensor separately and use the correspondive mBlock instuction block to interact with it. A sound sensor is practically a microphone and we can clap, for example, and get the mBot to react to that clapping.
 
 We can have a 3-axis gyroscope, too, which is very good for detecting a change in direction like when the robot turns over, upside-down.
 
-~~**{up to here by Dimitris}**~~
+For this crash course on the mBot of course, we will be focusing on the capabilities that the mBot comes with out of the box without any additional components.
 
-For this crash course on the mBot of course, we will be focusing on the capabilities that the mBot comes with out of the box without any additional components. We will not be looking at most of these blocks. Now to proceed, I'm first going to create a new mBlock program by going into File and I don't need to save the current progress, I'm just going to throw it out and work inside the robots section of the scripts tab. Every mBot program must start with this header. This block represents a mBot program, and that is how the mBlock application knows that it's a special kind of program. It's not there to control its pride, but it's there to control the mBot.
+### Creating a new program
+
+In order to create a new mBlock program we go to menu "File" and click on "New".
+
+ and I don't need to save the current progress, I'm just going to throw it out and work inside the robots section of the scripts tab. Every mBot program must start with this header. This block represents a mBot program, and that is how the mBlock application knows that it's a special kind of program. It's not there to control its pride, but it's there to control the mBot.
 
 We always start with the mBot program header block. Below it, we can attach other compatible blocks. For example, let's say that I would like to change the color of the two onboard RGB LEDs these are color LEDs, LEDs that allow you to produce any color you like. There's a little block here called set LED onboard to a particular color. I can drag this and connect it to my mBot header. I can fine tune or I can configure this block by choosing which ones of the two LEDs I would like to manipulate. I can manipulate both, or just the left or just the right. Let's go for both for now. Then I need to give it a color. If I change the red component all the way to 255, going to do that now, then my two LEDs will be bright red. Then I can mix other colors as well. I can mix green and blue with the red. Through the combination of the three basic colors, I can create other composite colors but let's go for just red now.
 
