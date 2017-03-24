@@ -52,11 +52,11 @@ For this crash course on the mBot of course, we will be focusing on the capabili
 
 ### Creating a new program
 
-In order to create a new mBlock program we go to menu "File" and click on "New".
+In order to create a new mBlock program we go to menu "File" and click on "New". In the "Scripts" tab, in "Robots", we pick "mBot Program" and drag and drop it into the scripts area. Every mBot program must start with this header.
 
- and I don't need to save the current progress, I'm just going to throw it out and work inside the robots section of the scripts tab. Every mBot program must start with this header. This block represents a mBot program, and that is how the mBlock application knows that it's a special kind of program. It's not there to control its pride, but it's there to control the mBot.
+Below it, we can attach other compatible blocks. For example, let's say that we would like to change the color of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colors, we can create all kinds of composite colors.
 
-We always start with the mBot program header block. Below it, we can attach other compatible blocks. For example, let's say that I would like to change the color of the two onboard RGB LEDs these are color LEDs, LEDs that allow you to produce any color you like. There's a little block here called set LED onboard to a particular color. I can drag this and connect it to my mBot header. I can fine tune or I can configure this block by choosing which ones of the two LEDs I would like to manipulate. I can manipulate both, or just the left or just the right. Let's go for both for now. Then I need to give it a color. If I change the red component all the way to 255, going to do that now, then my two LEDs will be bright red. Then I can mix other colors as well. I can mix green and blue with the red. Through the combination of the three basic colors, I can create other composite colors but let's go for just red now.
+
 
 Now the next step of course, let's say that this is the program that I would like to upload to my mBot, the next step in order to get the upload to work, is to connect the USB cable to the USB port of the mBot like that. I know that the connection has taken place because there's a red LED here indicates that we've got power from the USB. But that's not enough power to power the robot. Once you plug in the cable, then you need to turn on the robot by flipping the switch to on. Now, the robot is ready to be programmed.
 
