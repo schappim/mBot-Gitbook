@@ -14,9 +14,13 @@ In this chapter you will learn about:
 
 ---
 
-We can move on to doing some actual playing around with the mBot using mBlock, now. 
+We can move on to doing some actual playing around with the mBot using mBlock, now.
 
 On the right bottom corner of the scripts menu you will find the "Robots" section. Once you select it, there's an mBot section which contains all of the different programming blocks that we can use with the mBot.
+
+![](/assets/Img.3.15.1.jpg)
+
+\[Image 2.15.1: The mBot commands\]
 
 Let's have a quick look at some of those blocks. See for example the first one says run forwards. We can also change that to backwards right or left at a particular speed. Now, there's another one that allows you to control motors several motors LEDs like this one, the onboard LEDs. Let's see further down, we've got things such as a seven-segment display and a light sensor camera shadow, there's a onboard button as well that we can read, an ultrasonic sensor and lots of other blocks.
 
