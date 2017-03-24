@@ -16,13 +16,21 @@ In this chapter you will learn about:
 
 We can move on to doing some actual playing around with the mBot using mBlock, now.
 
-On the right bottom corner of the scripts menu you will find the "Robots" section. Once you select it, there's an mBot section which contains all of the different programming blocks that we can use with the mBot.
+On the right bottom corner of the Scripts menu \(1\) you will find the "Robots" section \(2\). Once you select it, there's an mBot section \(3\) which contains all of the different programming blocks that we can use with the mBot.
 
 ![](/assets/Img.3.15.1.jpg)
 
-\[Image 2.15.1: The mBot commands\]
+\[Image 2.15.1: The mBot instuctions\]
 
-Let's have a quick look at some of those blocks. See for example the first one says run forwards. We can also change that to backwards right or left at a particular speed. Now, there's another one that allows you to control motors several motors LEDs like this one, the onboard LEDs. Let's see further down, we've got things such as a seven-segment display and a light sensor camera shadow, there's a onboard button as well that we can read, an ultrasonic sensor and lots of other blocks.
+Let's have a quick look at some of these instruction blocks.
+
+
+
+The first one, for example, reads "run forward at speed 0". Clicking on it, we can change that to backward, right or left, at a particular speed.
+
+There's one that allows us to set the onboard LEDs at a specific colour.
+
+One for taking descisions when the onboard button is pressed and and lots of other blocks for programming behaviour to the mBot.
 
 Out of the box, the mBot only comes with a number of capabilities based on sensors or motors or other attachments. For example, you can see here, there is the ultrasonic sensor, down here is the line follow on, inside the box, there is a light intensity sensor as well. As far as outputs are concerned or actuators, you've got things like the two motors which are connected to the two individual ports, one port for each motor. You also have the RGB LEDs, we consider those to be outputs that do something to the environment, that change the environment. We also have an infrared sensor here as well which I forgot to mention earlier.
 
