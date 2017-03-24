@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 7: Introduction
+## Chapter 7: Programming the mBot with a tablet
 
 ---
 
