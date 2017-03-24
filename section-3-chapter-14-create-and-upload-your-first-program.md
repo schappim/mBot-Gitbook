@@ -20,7 +20,7 @@ On the right bottom corner of the Scripts menu \(1\) you will find the "Robots" 
 
 ![](/assets/Img.3.15.1.jpg)
 
-\[Image 2.15.1: The mBot instuctions\]
+\[Image 2.15.1: The mBot instuction blocks on the Scripts tab\]
 
 Let's have a quick look at some of these instruction blocks.
 
@@ -54,9 +54,11 @@ For this crash course on the mBot of course, we will be focusing on the capabili
 
 In order to create a new mBlock program we go to menu "File" and click on "New". In the "Scripts" tab, in "Robots", we pick "mBot Program" and drag and drop it into the scripts area. Every mBot program must start with this header.
 
-Below it, we can attach other compatible blocks. For example, let's say that we would like to change the color of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colors, we can create all kinds of composite colors.
+Below it, we can attach other compatible blocks. For example, let's say that we would like to change the color of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colors, we can create all kinds of composite colors. For our example let's just pick 255 for red and 0 \(zero\) for the other two. That should give a plain red colour to the LEDs.
 
+![](/assets/Img.3.15.2.jpg)
 
+\[Image 2.15.2: Our small program\]
 
 Now the next step of course, let's say that this is the program that I would like to upload to my mBot, the next step in order to get the upload to work, is to connect the USB cable to the USB port of the mBot like that. I know that the connection has taken place because there's a red LED here indicates that we've got power from the USB. But that's not enough power to power the robot. Once you plug in the cable, then you need to turn on the robot by flipping the switch to on. Now, the robot is ready to be programmed.
 
