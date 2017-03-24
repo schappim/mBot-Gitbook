@@ -22,7 +22,7 @@ After starting the app you see all kinds of mBot types, the simplest one called 
 
 ![](/assets/Img.2.2.1.jpg)
 
-\[Image 2.2.1: The begin screen\]
+\[Image 2.9.1: The begin screen\]
 
 We are going to start with the basic mBot app, on the top left. After clicking on it we get to see a set of controls:
 
@@ -35,13 +35,13 @@ We are going to start with the basic mBot app, on the top left. After clicking o
 
 ![](/assets/Img.2.2.2.jpg)
 
-\[Image 2.2.2: The controls\]
+\[Image 2.9.2: The controls\]
 
 Tapping on the "Design" tab reveals additional components that can be dragged and dropped onto the canvas.
 
 ![](/assets/Img.2.2.3.jpg)
 
-\[Image 2.2.3: Additional controls on the Design tab\]
+\[Image 2.9.3: Additional controls on the Design tab\]
 
 Before anything, of course, we need to connect the mBot to the iPad and here's how to do this:
 
@@ -51,7 +51,7 @@ First thing to do is to turn the mBot on by toggling the power switch. After tha
 
 ![](/assets/Img.2.2.4.jpg)
 
-\[Image 2.2.4: The Bluetooth icon\]
+\[Image 2.9.4: The Bluetooth icon\]
 
 In your device, tap onto the Bluetooth icon that is blinking on the top right corner of the screen. That will get the app to start searching for an mBot, in the vicinity, ready to connect. In case you see the message "Device found, please get closer", just get the mBot a little closer to the device. And that is actually all it takes to complete the connection between the app and the mBot.
 
@@ -61,7 +61,7 @@ Now we should be able to make a first attempt to change the colour of the LEDs o
 
 ![](/assets/Img.2.2.5.jpg)
 
-\[Image 2.2.5: The colour wheel\]
+\[Image 2.9.5: The colour wheel\]
 
 Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
 
@@ -69,7 +69,7 @@ Next, let's try the brightness. Try and cover the top of the mBot, where the sen
 
 ![](/assets/Img.2.2.6.jpg)
 
-\[Image 2.2.6: Covering the light sensor with the hand\]
+\[Image 2.9.6: Covering the light sensor with the hand\]
 
 Obscuring the light sensor will drop the reading down. The numbers you see on the left are not particular light measuring units but rather an analogue input number of the mBot: when the mBot is connected to an analogue device, like the light sensor, it produces a number that represents the state of that sensor meaning, when the sensor picks up little light, their number reduces, and when the sensor picks up more light, then the number increases.
 
@@ -91,7 +91,7 @@ Notice there's an event block there about what should happen when the button is 
 
 ![](/assets/Img.2.2.7.jpg)
 
-\[Image 2.2.7: Code for the sprint button\]
+\[Image 2.9.7: Code for the sprint button\]
 
 Let's say, for example, that we'd like to hear a note when the button is released. Click on "~~**Controls**~~" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just bellow "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as expected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
 
@@ -113,7 +113,7 @@ We can go to the sense menu, too. There you can find items that connect to the s
 
 ![](/assets/Img.2.2.8.jpg)
 
-\[Image 2.2.8: The sense menu\]
+\[Image 2.9.8: The sense menu\]
 
 In the custom menu, you will find all kinds of programmable components.
 
@@ -123,14 +123,27 @@ Another interesting addition in one of the newer versions of this application is
 
 ![](/assets/Img.2.2.9.jpg)
 
-\[Image 2.2.9: The Draw and Run canvas\]
+\[Image 2.9.9: The Draw and Run canvas\]
 
 Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself. If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
 
 ### Questions
 
 1. What does the ultrasonic reading mean?
-2. Which instruction can stop the moving of the wheels?
+
+**A. It represents the distance between the ultrasonic sensor and some obstacle.**
+
+B. It represents the amount of light received by the ultrasonic sensor.
+
+C. It represents the amount of light emited by the ultrasonic sensor.
+
+1. Which instruction can stop the moving of the wheels?
+
+A. wait 0 s
+
+B. wait for ever
+
+**C. stop moving**
 
 
 
