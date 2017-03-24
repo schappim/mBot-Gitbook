@@ -54,15 +54,25 @@ For this crash course on the mBot of course, we will be focusing on the capabili
 
 In order to create a new mBlock program we go to menu "File" and click on "New". In the "Scripts" tab, in "Robots", we pick "mBot Program" and drag and drop it into the scripts area. Every mBot program must start with this header.
 
-Below it, we can attach other compatible blocks. For example, let's say that we would like to change the color of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colors, we can create all kinds of composite colors. For our example let's just pick 255 for red and 0 \(zero\) for the other two. That should give a plain red colour to the LEDs.
+Below it, we can attach other compatible blocks. For example, let's say that we would like to change the color of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colors, we can create all kinds of other composite colors. For our example let's just choose to turn on "all" LEDs and let's pick 255 for red and 0 \(zero\) for the other two basic colours. That should give a plain red colour to both the on-board LEDs.
 
 ![](/assets/Img.3.15.2.jpg)
 
-\[Image 2.15.2: Our small program\]
+\[Image 2.15.2: A small program that will turn all LEDs to red\]
 
-Now the next step of course, let's say that this is the program that I would like to upload to my mBot, the next step in order to get the upload to work, is to connect the USB cable to the USB port of the mBot like that. I know that the connection has taken place because there's a red LED here indicates that we've got power from the USB. But that's not enough power to power the robot. Once you plug in the cable, then you need to turn on the robot by flipping the switch to on. Now, the robot is ready to be programmed.
+Once finished with our program we must connect the USB cable to the USB port \(1\) on the mBot. We know that the connection has taken place because there's a red LED \(2\) which indicates that we've got power from the USB. But that's not enough power to power the robot. Once we plug in the cable, we need to turn on the robot by flipping the switch \(3\) to on. Now, the robot is ready to be programmed.
 
-The next step is to go to Connect menu and look for the serial port that your mBot is connected to the computer by. It's always going to be a port that has a number larger than one. Because COM1 is typically used by the operating system itself. In my case, COM4 is the port to which the mBot is connected. I'm going to choose COM4 here. Next, I'm going to do a right click on the mBot program header and choose "Upload to Arduino". Remember how I told you that inside the mBot, you've got an Arduino?
+![](/assets/Img.3.15.3.jpg)
+
+\[Image 2.15.3: Connecting the USB on the mBot\]
+
+The next step is to go to the "Connect" menu and look for the serial port where the mBot is connected to the computer by. It's always going to be a port that has a number larger than one. That's because COM1 is typically used by the operating system itself. In our example the port to which the mBot is connected happens to be COM4.
+
+![](/assets/Img.3.15.4.jpg)
+
+\[Image 2.15.4: Connecting to the Serial Port\]
+
+Next, I'm going to do a right click on the mBot program header and choose "Upload to Arduino". Remember how I told you that inside the mBot, you've got an Arduino?
 
 Some people get confused about this, they're saying, "What's the Arduino? I'm trying to program my mBot." It should be saying "Upload to mBot", right? We're saying "Upload to Arduino" because inside the mBot, you have an Arduino. Let's do that "Upload to Arduino". But doing that you've got the uploading component of the mBlock application. What you see here is the translation of the simple scratch-based program into Arduino sketch into Arduino code. The translation is one-to-one. You've got a lot of code here, but most of this code just the infrastructure for supporting the functionality that you've selected in your mBot program.
 
