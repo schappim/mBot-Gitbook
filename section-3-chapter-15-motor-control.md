@@ -18,11 +18,13 @@ They are connected each one to one of two ports like shown in the image below.
 
 ![](/assets/Img.3.16.1.jpg)
 
+\[Image 2.16.1: The two motor connectors\]
 
+Let's create a new program in order to see how to use the motors.
 
+~~**{up to here by Dimitris}**~~
 
-
- There's port M one and port M two. To show you how to use the motors, I'm going to create a new programs or file and then select new. I'm going to go to the robots section of the scripts tab. Just like in the previous example, we'll start by dragging and dropping the mBot program block onto the canvas. Let's put it here.
+, I'm going to create a new programs or file and then select new. I'm going to go to the robots section of the scripts tab. Just like in the previous example, we'll start by dragging and dropping the mBot program block onto the canvas. Let's put it here.
 
 There are couple of blocks that allow you to control the motors. There's this one here and then there's this one here. The first one is the one that we'll be using today. In this crash course, it allows you to get your MBot to move forwards backwards or to turn right or left. The second one allows you to control independently one or the other motor, so either the motor that is connected to connector M1 or to connector M2. This is a little bit more involved.
 
