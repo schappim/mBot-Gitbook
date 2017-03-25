@@ -14,7 +14,7 @@ In this chapter you will learn:
 
 * What is an "Arduino board"
 
-* What is the "Arduino Code" and how it corresponds to "Scratch Code"
+* What is the "Arduino Program" and how it corresponds to the "Scratch Program"
 
 * How to upload a program to the mBot
 
@@ -84,29 +84,29 @@ Next, we right-click on the mBot program and choose "Upload to Arduino".
 
 **Note**: Some people get confused about this thinking "What's the Arduino? I'm just trying to program my mBot!" Well, inside the mBot there is an Arduino board and that's where the program is loaded.
 
-By doing that we ge to see the uploading component of the mBlock application. What we see there is the translation of the simple scratch-based program into Arduino code or Arduino "sketch" as we call it. We notice that we've got a lot of code there. Most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino code\]
+By doing that we ge to see the uploading component of the mBlock application. What we see there is the translation of the simple scratch-based program in an Arduino program or "sketch" as we call it. We notice that we've got a lot of instructions there. Most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino instructions\]
 
-We want our mBot to just turn the two LEDs into red and the code shown above does just that: line 34, sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support these two lines of code.
+We want our mBot to just turn the two LEDs into red and the program shown above does just that: line 34, sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support these two lines of instructions.
 
-If we experiment further and drop some other block into the program, we will notice that another instruction is going to appear somewhere in the Arduino code. If we change the order of the instruction blocks, we are going to see that the Arduino instructions are going to change, accordingly.
+If we experiment further and drop some other block into the program, we will notice that another instruction is going to appear somewhere in the Arduino program. If we change the order of the instruction blocks, we are going to see that the Arduino instructions are going to change, accordingly.
 
-And that is how mBlock makes programming easy: it provides a graphical interface for the programmer where blocks of code are just picked, dragged and dropped instead of typing traditional text-based instructions.
+And that is how mBlock makes programming easy: it provides a graphical interface for the programmer where instruction blocks are just picked, dragged and dropped instead of typing traditional text-based instructions.
 
-So, we can actually ignore all the Arduino code and just click on the "Upload to Arduino" button that will transfer the program to the mBot.
+So, we can actually ignore the Arduino program and just click on the "Upload to Arduino" button that will transfer the program to the mBot.
 
 **Note**: If the message "Please connect the serial port." appears, we just need to go to: menu Connect &gt; Serial Port and click on the right COM port. The message does not reffer to a physical cable connection.
 
-If all goes well and the uploading starts, we should see a lot of text flowing through. What happens is that mBlock "compiles" the Arduino code, using an embedded compiler. That means that the code text is being translated into binary \(a long string of zeros and ones\) which is the only code format the Arduino can actually understand.
+If all goes well and the uploading starts, we should see a lot of text flowing through. What happens is that mBlock "compiles" the Arduino program, using an embedded compiler. That means that the text program is being translated into binary \(a long string of zeros and ones\) which is the only programming format the Arduino can actually understand.
 
 After the program uploads, we should be able to see the two LEDs shine red.
 
 Let's try a variation of the program now and have the right LED shine green and the left LED shine blue.
 
-**Note**: Click on "Back" if you'd like to close the view of the Arduino code.
+**Note**: Click on "Back" if you'd like to close the view of the Arduino program.
 
-![](/assets/Img.3.15.6.jpg)\[Image 2.15.6: Code for setting two different colours. On the left Scratch code, on the right Arduino Code.\]
+![](/assets/Img.3.15.6.jpg)\[Image 2.15.6: A program for setting two different colours. On the left in Scratch blocks, on the right in Arduino text.\]
 
-Drag and drop blocks and change parameters until you have the code shown in the image above. Right click on the code and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the code: left one green, right one blue.
+Drag and drop blocks and change parameters until you have the program shown in the image above. Right click on the program and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the instructions: left one green, right one blue.
 
 From here on, we can play some more and experiment with different colour values combinations. Remember that we are not confined to using the values from the drop-down. We can actually go and change that to any value between 0 and 255.
 
@@ -128,15 +128,15 @@ B. Nothing really
 
 **C. It is inside the mBot and it is actually where the program is loaded**
 
-D. It is the part of the screen where text code appears
+D. It is the part of the screen where text program appears
 
-3.In what format is the code actually uploaded to the mBot?
+3.In what format is the program actually uploaded to the mBot?
 
 **A. In binary \(zeros and ones\)**
 
-B. In Arduino code
+B. In Arduino text
 
-C. In Scratch code
+C. In Scratch blocks
 
 D. It doesn’t get uploaded but rather executed on the computer
 
