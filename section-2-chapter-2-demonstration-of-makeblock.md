@@ -81,25 +81,25 @@ Before testing the sprint button make enough space for the mBot to run. You can 
 
 Switching "Random" on will produce some random effect on the mBot like turning the LEDs on etc.
 
-#### The code behind the controls
+#### The program behind the controls
 
-It is interesting to see how are all these actions attached to the controls. To have a look at the mechanics behind the controls we should go back to "Design" tab. Let's have a look, for example, at the "Sprint" button. Tap on it and in the menu that opens choose "Code" and the actual code that is triggered when you press on the sprint button will appear.
+It is interesting to see how are all these actions attached to the controls. To have a look at the mechanics behind the controls we should go back to "Design" tab. Let's have a look, for example, at the "Sprint" button. Tap on it and in the menu that opens choose "Code" and the actual program that is triggered when you press on the sprint button will appear.
 
-The code is actually self explanatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
+The instruction blocks are actually self explanatory as it is very close to the natural language: When the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
 
 Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders, there.
 
 ![](/assets/Img.2.2.7.jpg)
 
-\[Image 2.9.7: Code for the sprint button\]
+\[Image 2.9.7: Instructions for the sprint button\]
 
 Let's say, for example, that we'd like to hear a note when the button is released. Click on "~~**Controls**~~" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just bellow "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as expected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
 
-Let's make one last improvement. Go back to the Code \(Design &gt; Sprint Button &gt; Code\) and add a "stop moving" code block right bellow the "wait 1 s".
+Let's make one last improvement. Go back to the Code \(Design &gt; Sprint Button &gt; Code\) and add a "stop moving" instruction block right bellow the "wait 1 s".
 
 Go to "Play" and test the Sprint button, once more. Press "Sprint" and hold your finger there for two seconds and then release it to see if the wheels will stop moving one second after hearing the tone.
 
-The "Buzz" button produces a note when pressed. Edit the code so that it produces a C6 note when released, too.
+The "Buzz" button produces a note when pressed. Edit the instruction so that it produces a C6 note when released, too.
 
 #### More controls
 
@@ -144,6 +144,4 @@ A. wait 0 s
 B. wait for ever
 
 **C. stop moving**
-
-
 
