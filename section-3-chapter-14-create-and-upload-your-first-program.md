@@ -80,11 +80,15 @@ By doing that we ge to see the uploading component of the mBlock application. Wh
 
 We want our mBot to just turn the two LEDs into red and the code shown above does just that: line 34, sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support these two lines of code.
 
-**{up to here by Dimitris}**
+If we experiment further and drop some other block into the program, we will notice that another instruction is going to appear somewhere in the Arduino code. If we change the order of the instruction blocks, we are going to see that the Arduino instructions are going to change, accordingly.
 
-First, you set the color and then you turn the LEDs on with that color. That's all there is. You'll see that as I'm dropping other things, other components, other blocks into my program like this one here, for example, notice that another little instruction was added at the end of my program. If I put it say, up here, notice that the move command now moved at the beginning just before the RGB commands.
+And that is how mBlock makes programming easy: it provides a graphical interface for the programmer where blocks of code are just picked, draged and droped instead of typing traditional text-based instructions.
 
-The mBlock makes programming easy by providing an interface for us programmers to use a graphical language instead of the traditional text-based language that people are used to using for programming a computer. In any case, as we're just starting now we can completely ignore all these, it makes absolutely no difference to us, you can ignore all that down here as well this part of the user interface. What we need to do is to just click on this button, "Upload to Arduino" just to finish up this whole job. Upload to Arduino, please connect to serial port, I forgot about that.
+So, we can actually ignore all the Arduino code and just click on the "Upload to Arduino" button that will transfer the program to the mBot. 
+
+**Note**: If the message "Please connect the serial port." appears, we just need to go to: menu Connect &gt; Serial Port and click on the right COM port. The message does not reffer to a physical cable connection.
+
+
 
 Again I've got to go back to serial port and choose COM4. Somehow this got disconnected, I'm going to click on "Upload to Arduino" now again. You can see that the uploading has started, there's a lot of texts flowing through. The mBlock application is now compiling the Arduino code using the embedded compiler, compiler is responsible for translating the text into a binary format that the Arduino can understand. I've got upload finish, you can see a nice bright red set of LEDs on the mBot. Let's do this one more time, how about now to make this programming component of mBlock disappear, I just click on "back".
 
