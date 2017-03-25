@@ -14,7 +14,7 @@ In this chapter you will learn:
 
 ---
 
-In the last chapter we learned how to get the two LEDs to display two different colors. In this part of the crash course, we are going to learn how to use the two motors. Each mBot comes with two motors, left and right, depending on how you look at it.
+In the last chapter we learned how to get the two LEDs to display two different colours. In this part of the crash course, we are going to learn how to use the two motors. Each mBot comes with two motors, left and right, depending on how you look at it.
 
 They are connected each one to one of two ports like shown in the image below.
 
@@ -46,7 +46,7 @@ We right click, now, on the program and upload it. We should first make sure, of
 
 After uploading the program we should see the wheels spinning for 5 seconds and then stop.
 
-In order to test the robot on the floor we should turn the switch off, uplug the USB cable and put it the robot on some clear space.
+In order to test the robot on the floor we should turn the switch off, unplug the USB cable and put it the robot on some clear space.
 
 The mBot is powered by the batteries and the program is always stored inside the Arduino board. Turning the mBot back on will execute it automatically, but then only once.
 
@@ -55,7 +55,7 @@ There are two ways to re-execute the program:
 1. by powering cycle the mBot: turning it off and then back on.
 2. by pressing the reset button on the mBot
 
-The reset button does exaclty that: it executes the program stored on the chip, on the Arduino board.
+The reset button does exactly that: it executes the program stored on the chip, on the Arduino board.
 
 In the next chapter we are going to see how to get the mBot to turn left, right and then move backward, as well.
 
