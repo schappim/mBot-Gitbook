@@ -8,7 +8,9 @@
 
 In this chapter you will learn:
 
-* How to move
+* How to program the mBot to move forward
+* What is the meaning of the speed values
+* How to re-execute a program
 
 ---
 
@@ -55,5 +57,25 @@ There are two ways to re-execute the program:
 
 The reset button does exaclty that: it executes the program stored on the chip, on the Arduino board.
 
-In the next chapter we are going to see how to get the mBot to turn left, right and then move backwards, as well.
+In the next chapter we are going to see how to get the mBot to turn left, right and then move backward, as well.
+
+### Questions
+
+1.What will be the effect of this command: "run backward at speed -100"
+
+**A. It will have the mBot move forward**
+
+B. It will have the mBot move backward
+
+C. It will have the mBot to stop
+
+2.
+
+A. It is an additional component
+
+B. Nothing really
+
+**C. It is inside the mBot and it is actually where the program is loaded**
+
+D. It is the part of the screen where text code appears
 
