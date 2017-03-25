@@ -69,13 +69,15 @@ B. It will have the mBot move backward
 
 C. It will have the mBot to stop
 
-2.
+D. It will return an error
 
-A. It is an additional component
+2.How can we re-execute the program?
 
-B. Nothing really
+A. By creating a new program
 
-**C. It is inside the mBot and it is actually where the program is loaded**
+B. By clicking on the reset button, on the mBot
 
-D. It is the part of the screen where text code appears
+C. By turning off the mBot, and then back on
+
+**D. Both B and C**
 
