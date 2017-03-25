@@ -28,7 +28,7 @@ On the right bottom corner of the Scripts menu \(1\) you will find the "Robots" 
 
 ![](/assets/Img.3.15.1.jpg)
 
-\[Image 2.15.1: The mBot instuction blocks on the Scripts tab\]
+\[Image 2.15.1: The mBot instruction blocks on the Scripts tab\]
 
 Let's have a quick look at some of these instruction blocks.
 
@@ -36,7 +36,7 @@ The first one, for example, reads "run forward at speed 0". Clicking on it, we c
 
 There's one that allows us to set the onboard LEDs at a specific colour.
 
-One for taking descisions when the onboard button is pressed and and lots of other blocks for programming behaviour to the mBot.
+One for taking decisions when the onboard button is pressed and and lots of other blocks for programming behaviour to the mBot.
 
 ### Instructions for basic and additional components
 
@@ -52,7 +52,7 @@ As far as outputs and actuators are concerned, there are:
 * two motors connected to two individual ports: one for each motor
 * RGB LEDs
 
-Apart from these basic capabilities, though, we can purchase and plug onto the mBot additional components and eventually make use of the mBlock extension to interact with them. So, for example, we can purchase a sound sensor separately and use the correspondive mBlock instuction block to interact with it. A sound sensor is practically a microphone and we can clap, for example, and get the mBot to react to that clapping.
+Apart from these basic capabilities, though, we can purchase and plug onto the mBot additional components and eventually make use of the mBlock extension to interact with them. So, for example, we can purchase a sound sensor separately and use the corresponding mBlock instruction block to interact with it. A sound sensor is practically a microphone and we can clap, for example, and get the mBot to react to that clapping.
 
 We can have a 3-axis gyroscope, too, which is very good for detecting a change in direction like when the robot turns over, upside-down.
 
@@ -62,7 +62,7 @@ For this crash course on the mBot of course, we will be focusing on the capabili
 
 In order to create a new mBlock program we go to menu "File" and click on "New". In the "Scripts" tab, in "Robots", we pick "mBot Program" and drag and drop it into the scripts area. Every mBot program must start with this header.
 
-Below it, we can attach other compatible blocks. For example, let's say that we would like to change the color of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colors, we can create all kinds of other composite colors. For our example let's just choose to turn on "all" LEDs and let's pick 255 for red and 0 \(zero\) for the other two basic colours. That should give a plain red colour to both the on-board LEDs.
+Below it, we can attach other compatible blocks. For example, let's say that we would like to change the colour of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colours, we can create all kinds of other composite colours. For our example let's just choose to turn on "all" LEDs and let's pick 255 for red and 0 \(zero\) for the other two basic colours. That should give a plain red colour to both the on-board LEDs.
 
 ![](/assets/Img.3.15.2.jpg)
 
@@ -84,13 +84,13 @@ Next, we right-click on the mBot program and choose "Upload to Arduino".
 
 **Note**: Some people get confused about this thinking "What's the Arduino? I'm just trying to program my mBot!" Well, inside the mBot there is an Arduino board and that's where the program is loaded.
 
-By doing that we ge to see the uploading component of the mBlock application. What we see there is the translation of the simple scratch-based program into Arduino code or Arduino "sketch" as we call it. We notice that we've got a lot of code there. Most most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino code\]
+By doing that we ge to see the uploading component of the mBlock application. What we see there is the translation of the simple scratch-based program into Arduino code or Arduino "sketch" as we call it. We notice that we've got a lot of code there. Most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino code\]
 
 We want our mBot to just turn the two LEDs into red and the code shown above does just that: line 34, sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support these two lines of code.
 
 If we experiment further and drop some other block into the program, we will notice that another instruction is going to appear somewhere in the Arduino code. If we change the order of the instruction blocks, we are going to see that the Arduino instructions are going to change, accordingly.
 
-And that is how mBlock makes programming easy: it provides a graphical interface for the programmer where blocks of code are just picked, draged and droped instead of typing traditional text-based instructions.
+And that is how mBlock makes programming easy: it provides a graphical interface for the programmer where blocks of code are just picked, dragged and dropped instead of typing traditional text-based instructions.
 
 So, we can actually ignore all the Arduino code and just click on the "Upload to Arduino" button that will transfer the program to the mBot.
 
@@ -106,7 +106,7 @@ Let's try a variation of the program now and have the right LED shine green and 
 
 ![](/assets/Img.3.15.6.jpg)\[Image 2.15.6: Code for setting two different colours. On the left Scratch code, on the right Arduino Code.\]
 
-Drag and drop blocks and change parametres untill you have the code shown in the image above. Right click on the code and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the code: left one green, right one blue.
+Drag and drop blocks and change parameters until you have the code shown in the image above. Right click on the code and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the code: left one green, right one blue.
 
 From here on, we can play some more and experiment with different colour values combinations. Remember that we are not confined to using the values from the drop-down. We can actually go and change that to any value between 0 and 255.
 
@@ -120,8 +120,6 @@ A. Basic pack
 
 **B. Additional component**
 
-
-
 2.What does an Arduino board have to do with the mBot?
 
 A. It is an additional component
@@ -131,8 +129,6 @@ B. Nothing really
 **C. It is inside the mBot and it is actually where the program is loaded**
 
 D. It is the part of the screen where text code appears
-
-
 
 3.In what format is the code actually uploaded to the mBot?
 
@@ -144,11 +140,7 @@ C. In Scratch code
 
 D. It doesn’t get uploaded but rather executed on the computer
 
-
-
 4.Fill in the RBG values of the colour known as “cornflower blue”? \(Hint: search on the internet for it\)
 
 R = \_\_\(100\)\_\_ G = \_\_\(149\)\_\_ B = \_\_\(237\)\_\_
-
-
 
