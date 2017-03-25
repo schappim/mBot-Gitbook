@@ -32,7 +32,7 @@ On the right bottom corner of the Scripts menu \(1\) you will find the "Robots" 
 
 Let's have a quick look at some of these instruction blocks.
 
-The first one, for example, reads "run forward at speed 0". Clicking on it, we can change that to backward, right or left, at a particular speed.
+The first one, for example, reads "run forward at speed 0". Clicking on it, we can change that to backwards, right or left, at a particular speed.
 
 There's one that allows us to set the onboard LEDs at a specific colour.
 
