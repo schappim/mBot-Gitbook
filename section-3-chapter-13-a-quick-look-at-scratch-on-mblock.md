@@ -87,7 +87,7 @@ Now let's do something else. Detach the "Say" block from the "When" block and th
 
 \[Image 3.14.8: Deleting a block\]
 
-
+![](/assets/2017-03-25_10-19-45.png)
 
 \[Image 3.14.9: Deleting a block\]
 
@@ -95,47 +95,45 @@ Let's make the Panda move.
 
 Select the Motion group. All the block in that group can produce some kind of movement.
 
-
+![](/assets/2017-03-25_10-24-13.png)
 
 \[Image 3.14.10: The blocks inside the Motion group\]
 
 Drag the Move block \(at the very top of the group\) and connect it to the Green flag trigger in the Script area. Click inside the text box of the Move block and change the value from "10" to "50". This value controls how far the Panda will move. Each step is tiny, so using the value "50" will cause the Panda to move further away from its starting point, and will make it easier to see the movement. Then, connect the "Say" block to the end of the program. The objective is to make the Panda to move by 50 steps, and when it finishes, to say "Hello World!" for two seconds.
 
+![](/assets/2017-03-25_10-24-54.png)
 
-
-\[Image 3.14.10: This program makes the Panda move and speak\]
+\[Image 3.14.11: This program makes the Panda move and speak\]
 
 Before you click on the Green flag, click on the Panda and drag it a bit to the left edge of the Sprite area. This will leave more available space to its right to move. Ok, now click on the Green flag. See what happened?
 
+![](/assets/2017-03-25_10-31-59.png)
 
-
-\[Image 3.14.11: The Panda moves 50 steps and then speaks!\]
+\[Image 3.14.12: The Panda moves 50 steps and then speaks!\]
 
 You can make Panda do something more elaborate. For example, get it to move by 50 steps, then to turn by 45 degrees, then to move by another 50 steps, and then for you to say, "Hello World!".
 
+![](/assets/2017-03-25_10-35-14.png)
 
+\[Image 3.14.13: This program makes the Panda move straight, turn, and speak\]
 
-\[Image 3.14.12: This program makes the Panda move straight, turn, and speak\]
+Panda will move so fast that practically as soon as you click on the Green flag, the whole movement will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 3.14.13.
 
-Panda will move so fast that practically as soon as you click on the Green flag, the whole movement will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 3.14.12.
+![](/assets/2017-03-25_10-38-16.png)
 
-
-
-\[Image 3.14.13: Using the "wait" block\]
+\[Image 3.14.14: Using the "wait" block\]
 
 Change the wait time to 2 seconds \(instead of 1 second\), and click on the Green flag. You will see the Panda moving 50 steps, then waiting for 2 seconds, then turning by 45 degrees, then waiting for 2 seconds, then moving for another 50 steps and finally speaking to us.
 
 The parameter of the "wait" block can be a whole number or a decimal, like 0.5 seconds.
 
-You can edit the parameters of a sprite by clicking on the "i" button at the top left corner of the sprite's icon \(see Image 3.14.13\).
+You can edit the parameters of a sprite by clicking on the "i" button at the top left corner of the sprite's icon \(see Image 3.14.15\).
 
+![](/assets/2017-03-25_11-10-20.png)
 
-
-\[Image 3.14.14: Editing the parameters of a sprite\]
+\[Image 3.14.15: Editing the parameters of a sprite\]
 
 When you are in sprite edit mode, you can change the name of the sprite, you can call it mBot, for example, or mBot Panda to be more specific. You can also change its direction by manipulating the direction knob. Go ahead, use these controls to change the name of your sprite to "M-Bot-Panda", and it's direction to 90 degrees.
-
-
 
 \[Image 3.14.15: Editing the parameters of a sprite\]
 
@@ -143,13 +141,9 @@ Next, let's try out one of the available control structures. In particular, I wo
 
 Select the Control group from the Scripts tab, and drag the "Repeat" block into the Scripts area. Arrange the program as is shown in Image 3.14.16.
 
-
-
 \[Image 3.14.16: Insert the "Repeat" block\]
 
 Notice that the "Repeat" block is shaped so that it encloses other blocks. It takes a single parameter, which is the number of times that we would like to repeat the code that it contains. In the case of the example, it is 10 times, but you can change that to whichever value you like. I'd like the sprite to say "Hello World!" when the 10 repeats are complete, so drag the "Say" block at the end of the "Repeat" block and change the default text. Image 3.14.17 shows the program at this point \(the parameter for the "Wait" block is now 1 second to make the sprite move a bit faster\).
-
-
 
 \[Image 3.14.17: The current version of the program\]
 
