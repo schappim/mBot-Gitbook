@@ -30,25 +30,21 @@ a. the direction of the move
 
 b. the speed
 
-The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any number between A negative value here will have the robot run backward, if configured to run forward, and vice versa.
+The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any valid value. A negative value here will have the robot run backwards, if configured to run forward, and vice versa. Let's choose "forward" and a speed of 125.
 
 **Note**: The speed number is rather arbitrary and how fast the robot goes really depends on how depleted are the batteries or whether there is some heavy load on the robot.
 
+Let's add now a wait block and set it to 5 seconds and another "run forward ..." and set it at a speed zero, which should stop the spinning of the wheels.
 
+![](/assets/Img.3.16.2.jpg)
 
- -255 and 255.
+\[Image 2.16.2: The described Scratch code and the corresponding Arduino code\]
 
+We right click, now, on the program and upload it. We should first make sure, thought, that we are connected to the appropriate COM port, like we saw in the previous chapter.
 
+We might want to hold the mBot up because it is going to start running the sketch immediately and the wheels are going to start spinning.
 
- You can go for anything else in between those values. So we can go for, say, 125. Let's see what the effect of this is. I've got my upload to the Arduino programming side of the M block application already displaying. You can see that as I dropped the movement block onto the canvas here, then the setup method of the Arduino sketch updated itself with the value that I prescribed, with the value that I typed in, 125 and 125 here on the block.
-
-Let's upload that. First, I'll make sure that I'm connected to the appropriate com port. You can see that before the break, I had com four, now it's com six. It's because I turned off and then back on the mBot and that assigned it automatically to a new port. It doesn't really matter. I just reconnect to com six, done, and upload to the Arduino which means upload to the mBot. I'm going to hold it up a little bit because this is going to start running the sketch immediately. The wheels are going to start spinning. If I leave it on the table, it's just going to run off the table and fall on the floor. Writing, reading, there you go.
-
-When I work with the mBot on my table, I often just turn it upside down so that I don't have to chase the mBot around my table. Now, this is going to continue spinning indefinitely because I haven't configured my program to do something like stop the wheels from spinning after a particular number of seconds. It's just going to go on indefinitely.
-
-How about we get the robot to move forwards at this particular speed for five seconds and then I'd like it to stop. How do we do that? You may remember from the experimentation we did earlier with the sprite, that there is a function called wait. Go back to the control section of the scripts tab and there's a wait block here. I'm going to drag that and put it after my run block. I configured this to operate for five seconds. I'm going to include a wait block here that waits at this location of the program for five seconds .
-
-Now, go back to robots, pick the run forwarded speed block again. But this time I'm going to leave it at zero because zero means that the motors have stopped spinning. Let's upload again to the Arduino. You can see that the sketch has been updated with the new command. Here's my delay five. Here's the move and the speed here is zero. Upload it. Uploading, writing, reading there you go, and stopped.
+ zero because zero means that the motors have stopped spinning. Let's upload again to the Arduino. You can see that the sketch has been updated with the new command. Here's my delay five. Here's the move and the speed here is zero. Upload it. Uploading, writing, reading there you go, and stopped.
 
 There was -- I think you can get about five seconds and the wheels then stopped after five seconds because it reached the last around forward statement which was asking -- which was instructing the robot to stop from moving. Now, what I'll do is I would like to test my robot on the floor so I can actually see it moving. To do that, I simply remove the USB cable. Since I've got the battery connected the **\[unintelligible 00:07:54\]** is still powered and I'm going to turn it off. Now, when it turn it back on, the program is always stored inside the Arduino that runs the mBot and execute automatically. It will execute one time and then it will stop. If I want to re-execute the program, I've got to power cycle the mBot. I've got to turn it off and then back on.
 
