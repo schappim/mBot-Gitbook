@@ -2,15 +2,13 @@
 
 ---
 
-## Chapter 17: Motor control
+## Chapter 17: Moving left, right, backwards
 
 ---
 
 In this chapter you will learn:
 
-* How to program the mBot to move forward
-* What is the meaning of the speed values
-* How to re-execute a program
+* 1
 
 ---
 
