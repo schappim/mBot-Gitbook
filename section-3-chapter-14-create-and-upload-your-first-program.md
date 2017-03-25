@@ -6,11 +6,19 @@
 
 ---
 
-In this chapter you will learn about:
+In this chapter you will learn:
 
-* 1
+* How to create e new Scratch program
 
-* 2
+* How to program the mBot using Scratch instructions
+
+* What is an "Arduino board"
+
+* What is the "Arduino Code" and how it corresponds to "Scratch Code"
+
+* How to upload a program to the mBot
+
+* How to set the LEDs on the mBot to any colour
 
 ---
 
@@ -88,7 +96,7 @@ So, we can actually ignore all the Arduino code and just click on the "Upload to
 
 **Note**: If the message "Please connect the serial port." appears, we just need to go to: menu Connect &gt; Serial Port and click on the right COM port. The message does not reffer to a physical cable connection.
 
-If all goes well and the uploading starts, we should see a lot of text flowing through. What happens is that mBlock "compiles" the Arduino code, using an embedded compiler. That means that the code text is being translated into binary \(a long string of zeros and ones\) which is the only code format the Arduino can actually understand. 
+If all goes well and the uploading starts, we should see a lot of text flowing through. What happens is that mBlock "compiles" the Arduino code, using an embedded compiler. That means that the code text is being translated into binary \(a long string of zeros and ones\) which is the only code format the Arduino can actually understand.
 
 After the program uploads, we should be able to see the two LEDs shine red.
 
@@ -104,7 +112,43 @@ From here on, we can play some more and experiment with different colour values 
 
 **Note**: To find a utility that helps you find the value for the Red, Green and Blue components of any colour, Google for "colour chooser" or "colour wheel"
 
+### Questions
 
+1.Does a light sensor belong to the basic pack or is it an additional component?
+
+A. Basic pack
+
+**B. Additional component**
+
+
+
+2.What does an Arduino board have to do with the mBot?
+
+A. It is an additional component
+
+B. Nothing really
+
+**C. It is inside the mBot and it is actually where the program is loaded**
+
+D. It is the part of the screen where text code appears
+
+
+
+3.In what format is the code actually uploaded to the mBot?
+
+**A. In binary \(zeros and ones\)**
+
+B. In Arduino code
+
+C. In Scratch code
+
+D. It doesn’t get uploaded but rather executed on the computer
+
+
+
+4.Fill in the RBG values of the colour known as “cornflower blue”? \(Hint: search on the internet for it\)
+
+R = \_\_\(100\)\_\_ G = \_\_\(149\)\_\_ B = \_\_\(237\)\_\_
 
 
 
