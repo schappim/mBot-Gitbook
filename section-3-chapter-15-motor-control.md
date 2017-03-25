@@ -40,7 +40,7 @@ Let's add now a wait block and set it to 5 seconds and another "run forward ..."
 
 ![](/assets/Img.3.16.2.jpg)
 
-\[Image 2.16.2: The described Scratch code and the corresponding Arduino code\]
+\[Image 2.16.2: The described Scratch blocks and the corresponding Arduino text\]
 
 We right click, now, on the program and upload it. We should first make sure, of course, that we are connected to the appropriate COM port, like we saw in the previous chapter. We might also want to hold the mBot up because it is going to start running the sketch immediately and the wheels are going to start spinning.
 
