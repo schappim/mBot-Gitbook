@@ -35,7 +35,7 @@ The programming happens using Scratch, which is a block-based programming langua
 
 \[Image 2.8.3: To load a program, tap on its thumbnail\]
 
-Tap on the one called: "run forward and backward" and have a look at the code blocks which should be self explanatory as they are phrased in natural language:
+Tap on the one called: "run forward and backward" and have a look at the instruction blocks which should be self explanatory as they are phrased in natural language:
 
 * run forward at speed 150; 
 * wait for 2 seconds
@@ -51,7 +51,7 @@ You can notice a little green glow around a block, as each of the instructions i
 
 The problem with this program is that once your mBot starts to run backwards, it never stops. We should fix that!
 
-Let's make an addition to the code: after the mBot runs backwards for two seconds, it should stop moving. To do that we need to introduce another two-second delay and then insert the "stop moving" block.
+Let's make an addition to the program: after the mBot runs backwards for two seconds, it should stop moving. To do that we need to introduce another two-second delay and then insert the "stop moving" block.
 
 Here is how: Go to the "Control" submenu that you can find on the left side of the screen,  and use the "wait" block to insert a new two-second delay.
 
@@ -141,11 +141,11 @@ In this example there is a loop block, called "repeat forever" \(block 1\). Anyt
 
 The problem here is that the keypad provided input a number only allows whole numbers, known as integers to be entered. If you need to introduce a smaller wait, say for 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad. This is inconvenient, but there is a workaround.
 
-We can click on the "Math" tab and take from there some mathematical function, like the division block in the code, and place it inside the wait block. Type "1" in the first numerical parameter of the arithmetic function block, select division for the function type, and type "5" for the second numerical parameter. This gives "0.25" for the wait time, which is what we want here.
+We can click on the "Math" tab and take from there some mathematical function, like the division block in the program, and place it inside the wait block. Type "1" in the first numerical parameter of the arithmetic function block, select division for the function type, and type "5" for the second numerical parameter. This gives "0.25" for the wait time, which is what we want here.
 
 **Remember**: If you need to delete a block, just drag and drop it in the dustbin that will appear on the left edge of the screen.
 
-And this is what the code does: it sets the LEDs to red, then waits for 0.25 seconds, then sets the LEDs to green, again waits for 0.25 seconds, then sets the LEDs to blue, again waits for 0.25 seconds, and this process repeats itself over and over again.
+And this is what the program does: it sets the LEDs to red, then waits for 0.25 seconds, then sets the LEDs to green, again waits for 0.25 seconds, then sets the LEDs to blue, again waits for 0.25 seconds, and this process repeats itself over and over again.
 
 To test it just tap on "Go" and you will able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second, every time.
 
