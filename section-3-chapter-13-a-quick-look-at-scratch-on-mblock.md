@@ -135,17 +135,23 @@ You can edit the parameters of a sprite by clicking on the "i" button at the top
 
 When you are in sprite edit mode, you can change the name of the sprite, you can call it mBot, for example, or mBot Panda to be more specific. You can also change its direction by manipulating the direction knob. Go ahead, use these controls to change the name of your sprite to "M-Bot-Panda", and it's direction to 90 degrees.
 
-\[Image 3.14.15: Editing the parameters of a sprite\]
+![](/assets/2017-03-25_11-13-44.png)
+
+\[Image 3.14.16: Editing the parameters of a sprite\]
 
 Next, let's try out one of the available control structures. In particular, I would like to use a control structure that allows us to execute a block of code many times. Please follow along with this example.
 
-Select the Control group from the Scripts tab, and drag the "Repeat" block into the Scripts area. Arrange the program as is shown in Image 3.14.16.
+Select the Control group from the Scripts tab, and drag the "Repeat" block into the Scripts area. Arrange the program as is shown in Image 3.14.17.
 
-\[Image 3.14.16: Insert the "Repeat" block\]
+![](/assets/2017-03-25_11-19-12.png)
+
+\[Image 3.14.17: Insert the "Repeat" block\]
 
 Notice that the "Repeat" block is shaped so that it encloses other blocks. It takes a single parameter, which is the number of times that we would like to repeat the code that it contains. In the case of the example, it is 10 times, but you can change that to whichever value you like. I'd like the sprite to say "Hello World!" when the 10 repeats are complete, so drag the "Say" block at the end of the "Repeat" block and change the default text. Image 3.14.17 shows the program at this point \(the parameter for the "Wait" block is now 1 second to make the sprite move a bit faster\).
 
-\[Image 3.14.17: The current version of the program\]
+![](/assets/2017-03-25_11-24-58.png)
+
+\[Image 3.14.18: The current version of the program\]
 
 There are a lot more blocks which you can play around with, so I invite you to experiment with those programming blocks and get your sprite to do different things like move and a box path, or around a circle or move. You can also get it to say things depending on its location, for example. Or you can program it to produce sounds. Experiment with the sound blocks for this kind of outcome.
 
