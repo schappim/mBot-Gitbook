@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 14: Motor control
+## Chapter 16: Motor control
 
 ---
 
