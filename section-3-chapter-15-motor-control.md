@@ -20,21 +20,27 @@ They are connected each one to one of two ports like shown in the image below.
 
 \[Image 2.16.1: The two motor connectors\]
 
-Let's create a new program in order to see how to use the motors.
+Let's create a new program in order to see how to use the motors. Again, to do this, we go to the "File" menu and then click on "New".
 
-~~**{up to here by Dimitris}**~~
+Now, just like in the previous example, we'll start by dragging and dropping instruction blocks onto the canvas, the first one being the "mBot program" block.
 
-, I'm going to create a new programs or file and then select new. I'm going to go to the robots section of the scripts tab. Just like in the previous example, we'll start by dragging and dropping the mBot program block onto the canvas. Let's put it here.
+There are couple of blocks that allow us to control the motors. Let's start with block "run forward at speed 0" which allows us to get the mBot to move forwards or backwards and turn left or right. We pick it and attach it to the "mBot program" header block and then we can configure its two attributes:
 
-There are couple of blocks that allow you to control the motors. There's this one here and then there's this one here. The first one is the one that we'll be using today. In this crash course, it allows you to get your MBot to move forwards backwards or to turn right or left. The second one allows you to control independently one or the other motor, so either the motor that is connected to connector M1 or to connector M2. This is a little bit more involved.
+a. the direction of the move
 
-For now, I'd rather just leave it alone while we familiarize ourselves with the more typically used blocks. I'm going to attach the run forward block to the mBot program header block. This block requires you to configure two attributes. First is the direction of the move, we've already selected forwards, and then the speed. The speed can take any number between minus 255 and 255 positive.
+b. the speed
 
-Obviously, minus means that when the block is configured to run forwards and you have a negative speed, then obviously your robot is going to move backwards instead of forwards and vice versa. If you have the block configured to run backwards and you use a negative speed, then it's going to move forwards. Keep that in mind. I'd like to get my robot to move forwards at a particular speed. Let's make it 100.
+The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any number between A negative value here will have the robot run backward, if configured to run forward, and vice versa.
 
-Now, this number does not mean anything in particular. Does not mean something like centimeters per second or kilometers per hour or anything like that. It's just a number and then how fast it goes really depends on how depleted your batteries are or whether there's some heavy load on the robot things, like that. It's just an arbitrary number to allow us to get the motors to spin at a particular speed.
+**Note**: The speed number is rather arbitrary and how fast the robot goes really depends on how depleted are the batteries or whether there is some heavy load on the robot.
 
-You can find **\[unintelligible 00:03:24\]** of course, you don't have to select one of the values from the drop-down. You can go for anything else in between those values. So we can go for, say, 125. Let's see what the effect of this is. I've got my upload to the Arduino programming side of the M block application already displaying. You can see that as I dropped the movement block onto the canvas here, then the setup method of the Arduino sketch updated itself with the value that I prescribed, with the value that I typed in, 125 and 125 here on the block.
+
+
+ -255 and 255.
+
+
+
+ You can go for anything else in between those values. So we can go for, say, 125. Let's see what the effect of this is. I've got my upload to the Arduino programming side of the M block application already displaying. You can see that as I dropped the movement block onto the canvas here, then the setup method of the Arduino sketch updated itself with the value that I prescribed, with the value that I typed in, 125 and 125 here on the block.
 
 Let's upload that. First, I'll make sure that I'm connected to the appropriate com port. You can see that before the break, I had com four, now it's com six. It's because I turned off and then back on the mBot and that assigned it automatically to a new port. It doesn't really matter. I just reconnect to com six, done, and upload to the Arduino which means upload to the mBot. I'm going to hold it up a little bit because this is going to start running the sketch immediately. The wheels are going to start spinning. If I leave it on the table, it's just going to run off the table and fall on the floor. Writing, reading, there you go.
 
