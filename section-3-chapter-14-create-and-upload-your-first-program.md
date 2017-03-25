@@ -84,19 +84,27 @@ If we experiment further and drop some other block into the program, we will not
 
 And that is how mBlock makes programming easy: it provides a graphical interface for the programmer where blocks of code are just picked, draged and droped instead of typing traditional text-based instructions.
 
-So, we can actually ignore all the Arduino code and just click on the "Upload to Arduino" button that will transfer the program to the mBot. 
+So, we can actually ignore all the Arduino code and just click on the "Upload to Arduino" button that will transfer the program to the mBot.
 
 **Note**: If the message "Please connect the serial port." appears, we just need to go to: menu Connect &gt; Serial Port and click on the right COM port. The message does not reffer to a physical cable connection.
 
+If all goes well and the uploading starts, we should see a lot of text flowing through. What happens is that mBlock "compiles" the Arduino code, using an embedded compiler. That means that the code text is being translated into binary \(a long string of zeros and ones\) which is the only code format the Arduino can actually understand. 
+
+After the program uploads, we should be able to see the two LEDs shine red.
+
+Let's try a variation of the program now and have the right LED shine green and the left LED shine blue.
+
+**Note**: Click on "Back" if you'd like to close the view of the Arduino code.
+
+![](/assets/Img.3.15.6.jpg)\[Image 2.15.6: Code for setting two different colours. On the left Scratch code, on the right Arduino Code.\]
+
+Drag and drop blocks and change parametres untill you have the code shown in the image above. Right click on the code and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the code: left one green, right one blue.
+
+From here on, we can play some more and experiment with different colour values combinations. Remember that we are not confined to using the values from the drop-down. We can actually go and change that to any value between 0 and 255.
+
+**Note**: To find a utility that helps you find the value for the Red, Green and Blue components of any colour, Google for "colour chooser" or "colour wheel"
 
 
-Again I've got to go back to serial port and choose COM4. Somehow this got disconnected, I'm going to click on "Upload to Arduino" now again. You can see that the uploading has started, there's a lot of texts flowing through. The mBlock application is now compiling the Arduino code using the embedded compiler, compiler is responsible for translating the text into a binary format that the Arduino can understand. I've got upload finish, you can see a nice bright red set of LEDs on the mBot. Let's do this one more time, how about now to make this programming component of mBlock disappear, I just click on "back".
 
-Let's change the LEDs to green. I'm going to make the red component zero and I'm going to make the green component 255. Just like before, I'm going to do a right-click to upload the Arduino, and then again click on the "Upload to Arduino" button. Uploading, verifying and there you go, you've got your two LEDs green. How about I do another Arduino thing, what I'd like to do is to have let's say that right LED to be green and the left one to be blue. I'm going to leave the green here, the green component that's 255 and I'm going to change the LED onboard to be right. I'm going to right-click on the LED block and duplicate it, get another one of those. I will attach it down the bottom of the previous LED onboard block, then I'll change the right LED to left and make the green component zero and the blue component 255.
 
-All the changes that I've just made were automatically inserted in text, the Arduino sketch on the right side. Since I'm already looking at the programming component of the mBlock application, I don't have to go back and redo that, you can see the option to go and upload to the Arduino does not exist here. I can just click on "Upload to the Arduino" button and the upload process will begin.
-
-Here you go, I've got a blue on the right side and a green LED on the left side. How about you try a little variation on this, how about you experiment by creating different colors for each one of the LED. I would like to experiment by combining different values of red, green and blue. Just remember that you're not confined to using those values from the drop-down, you can actually go and change that to an arbitrary value for example 36. To select a color that you like, what you can do is you can use an online color wheel, here's one, for example, you can google for these things this is not the only one.
-
-You can pick a color from the color chooser, let's say you'd like a shade of green, for example, and you can see the values for the red, green and blue component. I would like it to experiment a little bit with this and just create a couple of colors by using this color chooser and getting the mBot IGB LEDs to recreate that color. This will also give you a little bit of practice of uploading a program to the mBot. After that take a break and then we come back from the break, I'm going to show you how to play around with the mortars.
 
