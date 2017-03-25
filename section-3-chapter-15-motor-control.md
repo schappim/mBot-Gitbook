@@ -8,7 +8,7 @@
 
 In this chapter you will learn:
 
-* How to program the mBot to move forward
+* How to program the mBot to move forwards
 * What is the meaning of the speed values
 * How to re-execute a program
 
@@ -32,7 +32,7 @@ a. the direction of the move
 
 b. the speed
 
-The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any valid value. A negative value here will have the robot run backwards, if configured to run forward, and vice versa. Let's choose "forward" and a speed of 125.
+The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any valid value. A negative value here will have the robot run backwards, if configured to run forwards, and vice versa. Let's choose "forward" and a speed of 125.
 
 **Note**: The speed number is rather arbitrary and how fast the robot goes really depends on how depleted are the batteries or whether there is some heavy load on the robot.
 
@@ -57,15 +57,15 @@ There are two ways to re-execute the program:
 
 The reset button does exactly that: it executes the program stored on the chip, on the Arduino board.
 
-In the next chapter we are going to see how to get the mBot to turn left, right and then move backward, as well.
+In the next chapter we are going to see how to get the mBot to turn left, right and then move backwards, as well.
 
 ### Questions
 
 1.What will be the effect of this command: "run backward at speed -100"
 
-**A. It will have the mBot move forward**
+**A. It will have the mBot move forwards**
 
-B. It will have the mBot move backward
+B. It will have the mBot move backwards
 
 C. It will have the mBot to stop
 
