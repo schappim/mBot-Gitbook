@@ -12,6 +12,8 @@ In this chapter you will learn:
 
 ---
 
+~~**{unedited}**~~
+
 Now, we've got an mBot that moves forwards for five seconds at speed 125 and then it stops. How about give it the ability to turn as well either left or right and also move backwards. How do we do that? I'm going to continue building on the same program that we started earlier. Let's say that we'd like to get the robot to move forwards maybe for one second and then turn.
 
 To do that, I'm going to use the same block but this time, I'm going to use the turn right instruction and I'll give it again an arbitrary speed. Let's make it a 100 as well. I would like it to move forward again at speed 100. Then, I would like it to turn left also at speed 100. After it turns left, I would like to let it move forward for a little bit longer. Actually, let's make the backwards we've done the forwards step quite a few times. Let's get it to go back at speed 100.
