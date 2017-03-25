@@ -39,35 +39,119 @@ By default, this block simply prints "Hello" over the Panda, but you can change 
 
 \[Image 3.14.3: The "Say" block has two attributes that you can change, the Text and the Duration attributes\]
 
-**PETER DONE UP TO HERE**
+Now you have a block that is meant to show the text "Hello World!" for two seconds next to the Panda sprite. This is a program, with only one block of code in it. By how to you actually trigger \(start\) the program, so that it actually does what you designed it to do?
 
-Now the weight by which I can trigger a program is by using an event. Have a look at this tab here. I've got three tabs, I’ve got scripts, costumes and sounds. The one that I'm interested in right now is the script tab. It's got various sections in here, so motion, looks, sound and et cetera. On the other side, there's the events script section. Inside the event script check section, you can see that I’ve got blocks that allow me the trigger a program. The one that we most commonly used to trigger a program to start is the green flag block.
+You need to use another block, the purpose of which is to start the execution of a program. There are a few such blocks, under the Event group of blocks, inside the Scripts tab of the Blocks palette \(see Image 3.14.4\).
 
-When the green flag is clicked then they will provide the trigger that we need to start my programs. Let's use it. I'm going to drag the flag and attach it to the say, "Hello world," for two seconds block. You can see how there's a little indentation here that matches between the two blocks. That's how I know that the two blocks are compatible with each other and they can work. Now, when I click the green flag on the user interface of the mBlock application, whatever is below it and connected to it will actually execute. Here's a green flag. I'm going to click on it and Panda says, "Hello world," for exactly two seconds.
+![](/assets/2017-03-25_09-33-18.png)
 
-I can use other triggers of course. Let's say this one when space key is pressed. I can attach when space key or can choose any other key from the drop down menu, that’s little space. When space key is pressed then, "Hello world," for two seconds. I'm pressing the space key and we can see that panda says, "Hello world," for two seconds. You probably noticed that when I put my mouse over a block like this one, they say, "Block," and I just click on it then Panda again says, "Hello world". That is just a quick way for you to determine what a particular block does before you actually use it. It's like a preview of what the block does.
+\[Image 3.14.4: Get the trigger block from the Events group in the Scripts tab\]
 
-Now let's do something else. I'm going to actually remove the say block from the when block and I will delete the when block. There's two ways to delete something or to remove something from your program. The first one is to do a right click and choose delete, and they will make this blog disappear. The other way is to just drag it onto the side where it came from where you've got all your blocks for a particular section assembled. I'm going to leave that here unconnected for now and I would like to use some motion.
+Find the block with the green flag in it, drag it \(by clicking on it and holding the mouse button down\), over the existing "Say" block in the Script area. As you move the Green flag block over the "Say" block, you will notice that a white outline appears. This indicates that the two blocks can work together. Not all blocks are compatible with each other. The white outline is a confirmation that they are compatible. You can let go of the button, and then two blocks will snap together, and connect.
 
-Going to go into the motion section, and take the move block and connect it to the trigger, the event with a green flag. We’re going to change that maybe to 50 steps because each step is very small and I'd like you to be able to see it without struggling. I'm going to get the Panda to move by 50 steps and then to say, "Hello world." Let's try that out. I'm going to move the Panda just by dragging it onto the side because it's going to move this way, towards the right of its area. Green flag, there we go, we moved by 50 steps and then it said, "Hello," for two seconds at the end.
+![](/assets/2017-03-25_09-40-24.png)
 
-I can do something more elaborate like let's say for example, that I would like it to move by 50 steps and then to turn by 45 degrees, and then to move by another 50 steps. Change that to 50 and then for you to say, "Hello." I can move Panda back to the beginning and press on the green flag. It happens very quickly but it moved by 50 steps as per the first block, then it turned by 45 degrees and then it moved by another 50 steps.
+\[Image 3.14.5: Click on the Green flag icon to start your program\]
 
-If this is happening too fast then you can go for a bit of control and see how there's a one second control here. I'd like to take that and put it in between the move and the turn blocks, and change that perhaps to a two. Inside the little text area, you can specify the amount of time that you’d like Panda to wait for. It could be a whole number. It could be five seconds or it could be a decimal, so it could be 0.5 seconds. You can insert the exact amount of delay that you'd like. I'm going to do that as well down here. Let's say you wait for another two seconds before you move for another 50 steps, I like that.
+Now, click on the Green flag icon at the top right side of the Sprite area. This will start the program that is connected to the Green flag block.
 
-Let's take panda back up here. You can see now that it's pointing -- it's looking downwards at 45 degrees. Let's go back to this to the motion section and introduce a left turn sketching. I'm going to make it 90 degrees to begin with because what's going to happen is when I execute this program, Panda is going to move 50 steps forward, wait for two seconds then turn by another 45 degrees, in addition to the 45 degrees from the previous execution. Wait for two seconds, move 50 steps and I’d like it then to look horizontally again. For that reason, I'm going to turn it left by 90 degrees. Just to counteract the accumulated total 45 plus 45 degrees turn from its previous two turns.
+In Image 3.14.6 you can see how the text that you typed in the "Say" block appears inside a bubble over the Panda sprite for two seconds, and then disappears.
 
-Let's try that out, green flag, there you go. \[laughs\] Okay. Another way by which you can manipulate Panda is by clicking on this little I button and the sprites at the bottom of the window. By clicking of that, it can change the name of the sprite, you can call it mBot, for example, or mBot Panda to be more specific. You can change its direction, the way that is looking. Let's make it back to 90 degrees and things like that. They can make it disappear and so on. I'm going to put my program back to 45 degrees.
+![](/assets/2017-03-25_10-04-29.png)
 
-Let's do this one more time. Seconds, turning two seconds and then another 10, 50 steps and then say, "Hello," for two seconds. I’d like to show you one more thing. I'm going to remove this part of the program and delete it. I’ll actually just throw the whole thing out like that. What I'd like to do is to get the Panda to move from one end of the real estate to the other end. But I don't want to do it by just adding more steps to the move block.
+\[Image 3.14.6: The text message appears in a bubble, next to the Panda\]
 
-What I'd like to do is to use a control structure. A very simple control structure, all of them are available under the control section, is repeat structure. The repeat structure does exactly what it says. It would repeat whatever you've got inside as many times as you wanted. What I've just done is to get the Panda to move 50 steps, 10 times. In total we're going to have 500 steps and we’ll let me do this, which is three blocks here, instead of having to worry about too much with increasing the number of steps inside the move block. It's just a lot more readable.
+Congratulations! You just executed your first Scratch program!
 
-Every time that it moves its 50 steps, it's going to take two seconds, actually reduce that to one second since two seconds will be too much. When it finishes, I'd like it to say hello, of course, for another two seconds. I'm going to go back to the looks section and drag the block and get it to say, “Hello world,” after it finishes the 10 repeats of the 50 steps for each repeat. Let's start it. First, second, third, fourth, fifth, six, seven, eight, \[laughs\] nine, 10. \[laughs\] You probably saw me that I dragged as it was about to go past the box. I dragged it back so that it doesn't go over my scripts section.
+In the Events group of blocks, there are several other triggers that you can use in your programs. For example, you may want to get the Sprite to move or to "Say" something when you press a key on your keyboard, instead of clicking on the Green icon. To do this, you can use the "When key pressed" block. In Image 3.14.7, you can see a variation of the program you wrote earlier.
 
-Let’s do that again. Green button, two, three, four, five, six, seven, eight, nine, 10. Because it disappears, \[laughs\] what it goes beyond its area of movement for this pride. There's a lot more blocks which could play around with, so I invite you to experiment with those programming blocks and get your Panda to do different things like perhaps move in circle or move in a box like this, or move diagonally. You can also get it to say things depending on its location, for example. Or I can get it to change, it makes sounds, for example, experiment with the sound blocks and things of that sort.
+![](/assets/2017-03-25_10-08-42.png)
 
-\[music\]
+\[Image 3.14.7: Use a different trigger to get the Panda to speak\]
 
-Let's move on to the next topic now which involves actually having a look at how we can use the mBlock application to program the mBot robot.
+Let's modify the existing program so that the Panda speaks when you press the space bar on your keyboard. First, detach the "Say" block from the Green flag block, and move it somewhere else in the Script area. Then, drag the "When space key pressed" block over the "Say" block, and lock it in place. Notice that if you click on the text box that currently contains the word "space", you will be able to select one of several other keys, instead of space. Select one of them, or just leave the currently selected "space" as your desired key. Now, press the space bar on your keyboard. Notice that "Hello world" appeared again in a bubble over the Panda, just like in the first program.
+
+So, what you have learned so far is that in order to start a program you need a trigger. You can have more than one programs in your Scripts area, and as long as each one of them has a trigger at the top, you will be able to start them.
+
+---
+
+**EXERCISE**:
+
+Try this: Create three programs with appropriate triggers. Design your programs so that when you press the key "A" on your keyboard, the Panda will say "you pressed A". Similarly, your Panda will say "you pressed B", and "you pressed C" when you press "B" and "C" respectively.
+
+---
+
+Now let's do something else. Detach the "Say" block from the "When" block and then delete the "When" block. There are two ways to delete a block. First, you can right-click on it and select "Delete" from the submenu that appears \(Image 3.14.8\). You can also drag the block inside the Blocks palette.
+
+![](/assets/2017-03-25_10-19-20.png)
+
+\[Image 3.14.8: Deleting a block\]
+
+![](/assets/2017-03-25_10-19-45.png)
+
+\[Image 3.14.9: Deleting a block\]
+
+Let's make the Panda move.
+
+Select the Motion group. All the block in that group can produce some kind of movement.
+
+![](/assets/2017-03-25_10-24-13.png)
+
+\[Image 3.14.10: The blocks inside the Motion group\]
+
+Drag the Move block \(at the very top of the group\) and connect it to the Green flag trigger in the Script area. Click inside the text box of the Move block and change the value from "10" to "50". This value controls how far the Panda will move. Each step is tiny, so using the value "50" will cause the Panda to move further away from its starting point, and will make it easier to see the movement. Then, connect the "Say" block to the end of the program. The objective is to make the Panda to move by 50 steps, and when it finishes, to say "Hello World!" for two seconds.
+
+![](/assets/2017-03-25_10-24-54.png)
+
+\[Image 3.14.10: This program makes the Panda move and speak\]
+
+Before you click on the Green flag, click on the Panda and drag it a bit to the left edge of the Sprite area. This will leave more available space to its right to move. Ok, now click on the Green flag. See what happened?
+
+![](/assets/2017-03-25_10-31-59.png)
+
+\[Image 3.14.11: The Panda moves 50 steps and then speaks!\]
+
+You can make Panda do something more elaborate. For example, get it to move by 50 steps, then to turn by 45 degrees, then to move by another 50 steps, and then for you to say, "Hello World!".
+
+![](/assets/2017-03-25_10-35-14.png)
+
+\[Image 3.14.12: This program makes the Panda move straight, turn, and speak\]
+
+Panda will move so fast that practically as soon as you click on the Green flag, the whole movement will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 3.14.12.
+
+![](/assets/2017-03-25_10-38-16.png)
+
+\[Image 3.14.13: Using the "wait" block\]
+
+Change the wait time to 2 seconds \(instead of 1 second\), and click on the Green flag. You will see the Panda moving 50 steps, then waiting for 2 seconds, then turning by 45 degrees, then waiting for 2 seconds, then moving for another 50 steps and finally speaking to us.
+
+The parameter of the "wait" block can be a whole number or a decimal, like 0.5 seconds.
+
+You can edit the parameters of a sprite by clicking on the "i" button at the top left corner of the sprite's icon \(see Image 3.14.13\).
+
+![](/assets/2017-03-25_11-10-20.png)
+
+\[Image 3.14.14: Editing the parameters of a sprite\]
+
+When you are in sprite edit mode, you can change the name of the sprite, you can call it mBot, for example, or mBot Panda to be more specific. You can also change its direction by manipulating the direction knob. Go ahead, use these controls to change the name of your sprite to "M-Bot-Panda", and it's direction to 90 degrees.
+
+![](/assets/2017-03-25_11-13-44.png)
+
+\[Image 3.14.15: Editing the parameters of a sprite\]
+
+Next, let's try out one of the available control structures. In particular, I would like to use a control structure that allows us to execute a block of code many times. Please follow along with this example.
+
+Select the Control group from the Scripts tab, and drag the "Repeat" block into the Scripts area. Arrange the program as is shown in Image 3.14.16.
+
+![](/assets/2017-03-25_11-19-12.png)
+
+\[Image 3.14.16: Insert the "Repeat" block\]
+
+Notice that the "Repeat" block is shaped so that it encloses other blocks. It takes a single parameter, which is the number of times that we would like to repeat the code that it contains. In the case of the example, it is 10 times, but you can change that to whichever value you like. I'd like the sprite to say "Hello World!" when the 10 repeats are complete, so drag the "Say" block at the end of the "Repeat" block and change the default text. Image 3.14.17 shows the program at this point \(the parameter for the "Wait" block is now 1 second to make the sprite move a bit faster\).
+
+![](/assets/2017-03-25_11-24-58.png)
+
+\[Image 3.14.17: The current version of the program\]
+
+There are a lot more blocks which you can play around with, so I invite you to experiment with those programming blocks and get your sprite to do different things like move and a box path, or around a circle or move. You can also get it to say things depending on its location, for example. Or you can program it to produce sounds. Experiment with the sound blocks for this kind of outcome.
 
