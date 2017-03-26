@@ -10,12 +10,12 @@ In this chapter you will learn:
 
 * How to make the mBot turn left and right
 * How to make the mBot go backwards
-* What is a varialbe and how to use it
+* What is a variable and how to use it
 * How to use an arithmetic operand
 
 ---
 
-In the last chapter we programed the mBot to move forwards for five seconds at speed 125 and then stop.
+In the last chapter we programmed the mBot to move forwards for five seconds at speed 125 and then stop.
 
 In this chapter we will continue building on the same program and we will add to the mBot the ability to turn as well, either left or right, and also move backwards.
 
@@ -25,7 +25,7 @@ In order to make the mBot turn, we are going to change the direction attribute o
 
 ![](/assets/Img.3.17.1.jpg)
 
-\[Image 2.17.1: Alterning the direction attribute\]
+\[Image 2.17.1: Altering the direction attribute\]
 
 We shouldn't forget to set some speed, of course, other than zero. Let's click on the speed attribute and pick 100 from the drop-down menu. And then let's go on and build the following program, dragging and dropping blocks and changing their attributes:
 
@@ -55,7 +55,7 @@ The first step is to create a variable. To do that we go to Scripts &gt; Data&Bl
 
 \[Image 2.17.3: Where to create a variable\]
 
-In the window that opens we can choose a name for the variable. Variable names need to be descriptive of the values the are going to hold. We need the variable to store a value for the speed of the wheels so an obvious choise would be "wheel\_speed". We use the underscore to connect multiple words because spaces are not allowed in variable names.
+In the window that opens we can choose a name for the variable. Variable names need to be descriptive of the values the are going to hold. We need the variable to store a value for the speed of the wheels so an obvious choice would be "wheel\_speed". We use the underscore to connect multiple words because spaces are not allowed in variable names.
 
 ![](/assets/Img.3.17.4.jpg)
 
@@ -63,7 +63,7 @@ In the window that opens we can choose a name for the variable. Variable names n
 
 Scratch often uses "sprites" but we use the mBot instead so we shouldn't worry much about the two sprite connected options, found here, and just leave the default option "For all sprites" set, and click on "OK".
 
-After that, we have a brand new variable availabe, that is some storage space with the reference name "wheel\_speed". We will notice that after creating the variable, new instruction blocks appear in the "Data&Blocks" segment.
+After that, we have a brand new variable available, that is some storage space with the reference name "wheel\_speed". We will notice that after creating the variable, new instruction blocks appear in the "Data&Blocks" segment.
 
 Now, we need first to store some number in our new variable and then use it within the instruction blocks. To store a value in the variable we need the "set..." block.
 
