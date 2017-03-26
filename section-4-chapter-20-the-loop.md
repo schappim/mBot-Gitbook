@@ -18,7 +18,7 @@ We must know, by now, how to create a new program: File &gt; New and then, since
 
 Loops are found in the yellow, "Control" group of instructions. We go there, pick the "forever" block and make it the first instruction just below the header block.
 
-![](/assets/Img.3.18.1.jpg)
+![](/assets/Img.4.20.1.jpg)
 
 \[Image 4.20.1: The forever loop control instruction block\]
 
@@ -30,7 +30,11 @@ We have seen how to control the LEDs. Let's pick the correct blocks and change t
 
 \[Image 4.20.2: The program for turning the LEDs on and off in turns\]
 
-Reading the code: the left LED shines red for half a second, then turns off at the same time that the right LED starts shine blue for another half a second and then turns off. And that over and over again because it is contained in a "forever" loop.
+Reading the code: the left LED shines red for half a second, then turns off at the same time that the right LED starts shine blue for another half a second, and then turns off. And that over and over again because it is contained in a "forever" loop.
+
+If we connect the mBot and run the program we are going to see the two LEDs blink red and blue, in turns, very much like on a police patrol car.
+
+
 
 ~~~~~~~~~
 
