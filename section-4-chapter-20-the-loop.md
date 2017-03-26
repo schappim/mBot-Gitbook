@@ -16,6 +16,8 @@ Often we find ourselves in need for repetetive actions. A loop allows us to grou
 
 We must know, by now, how to create a new program: File &gt; New and then, since we mean to program the mBot: Robots and place the "mBot Program" onto the canvas.
 
+### Looping "forever"
+
 Loops are found in the yellow, "Control" group of instructions. We go there, pick the "forever" block and make it the first instruction just below the header block.
 
 ![](/assets/Img.4.20.1.jpg)
@@ -34,11 +36,13 @@ Reading the code: the left LED shines red for half a second, then turns off at t
 
 If we connect the mBot and run the program we are going to see the two LEDs blink red and blue, in turns, very much like on a police patrol car.
 
-Let's try a different apporach now. For starters lets incorporate a variable in the program. That half a second that a LEDs is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Virable" window.
+Let's try a different apporach now. For starters lets incorporate a variable in the program. That half a second that a LEDs is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Virable" window. And then let's move the blocks around until we have the following program:
 
+![](/assets/Img.4.20.3.jpg)
 
+\[Image 4.20.3: The altered program\]
 
-~~~~~~~~~
+Let's try to read it. First of all we notice that there is a different organization of the instructions. At the same time that the left LED is turned on, the right one is turned off and vice versa, which makes sense. Then we make use of a variable "led\_on\_time" that holds 
 
 Pick up the same set LED on board block make sure that the left LED, sorry, the right LED is turned off, which means that all of the parameters should be zero. Then this is going to take me back to the left LED so back to the beginning. Once we reach the last instruction, because of the forever loop we're going to go back to the top and turn the left LED back on to red.
 
