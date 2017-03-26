@@ -34,6 +34,8 @@ Reading the code: the left LED shines red for half a second, then turns off at t
 
 If we connect the mBot and run the program we are going to see the two LEDs blink red and blue, in turns, very much like on a police patrol car.
 
+Let's try a different apporach now. For starters lets incorporate a variable in the program. That half a second that a LEDs is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Virable" window.
+
 
 
 ~~~~~~~~~
