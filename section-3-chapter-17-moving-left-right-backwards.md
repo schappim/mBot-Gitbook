@@ -90,7 +90,25 @@ We make sure the USB cable is connected and we are connected to a COM port and t
 
 At this point we are starting to get a good understanding of how movement can be achieved with the mBot. In the next part of this crash course we are going to handle a very important programming concept: the loop.
 
+### Questions
 
+1.How can we make the mBot turn left?
 
+A. We use a combination of move blocks
 
+**B. We use a move block and check the first attribute to "turn left"**
+
+C. We use a move block and check the second attribute to "turn left"
+
+D. We use a "turn right" block with a negative speed value
+
+2.How can we describe a variable?
+
+A. 
+
+B. 
+
+C. 
+
+D. 
 
