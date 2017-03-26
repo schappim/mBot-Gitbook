@@ -42,7 +42,13 @@ Let's try a different apporach now. For starters lets incorporate a variable in 
 
 \[Image 4.20.3: The altered program\]
 
-Let's try to read it. First of all we notice that there is a different organization of the instructions. At the same time that the left LED is turned on, the right one is turned off and vice versa, which makes sense. Then we make use of a variable "led\_on\_time" that holds 
+Let's try to read it. First of all we notice that there is a different organization of the instructions. At the same time that the left LED is turned on red, the right one is turned off and vice versa: when the right LED is turned on blue, the right one is turned off, which makes sense. Then we make use of a variable "led\_on\_time" that holds that half a second to wait, and we place this variable as attribute, instead of the numberical, in the wait blocks.
+
+Even though we have a different block order, here, and an additional variable, we expect the program to execute the same way like before.
+
+~~**{by Dimitri up to here}**~~
+
+
 
 Pick up the same set LED on board block make sure that the left LED, sorry, the right LED is turned off, which means that all of the parameters should be zero. Then this is going to take me back to the left LED so back to the beginning. Once we reach the last instruction, because of the forever loop we're going to go back to the top and turn the left LED back on to red.
 
