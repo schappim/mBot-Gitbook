@@ -11,5 +11,5 @@ In this section we we see how to use two essential programming control structure
 * the loop
 * the if else
 
-. I would also show you how to use a proximity sensor for detecting obstacles and the buzzer for making noises.
+In addition, we are going to see to use a proximity sensor for detecting obstacles and the buzzer for making noises.
 
