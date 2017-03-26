@@ -34,21 +34,43 @@ The wait blocks take care that the mBot changes smoothly from one move to the ot
 
 **Note**: Even though not as fast as the subprocessor of general purpose computer, the processor inside the mBot is fairly fast. It operates at 16 megahertz, which means that there's clock that ticks 16 million times per second and that's how many instructions it can execute. Its quite a lot!
 
-After we done, we right-click, "Upload to Arduino" and see the mBot move following the instruction blocks.
+After we are done, we connect the USB cable on the mBot, we connect to the COM port, we right-click, "Upload to Arduino" and see the mBot move following the instruction blocks.
 
 ### Variables
 
-The mBot is going to run through these instructions so quickly that we are basically not going to see any results until the end because we don't have a statement at the end of the program to stop the mBot, it's going to continue going backwards at speed 100 until we turned it off. What is missing from these are these time statements, the weight locks. Let's go get a few weight blocks from the control menu and just put them in here. Going to configure them in a minute but for now, I want to insert them that you can see what the final structure will almost be because I want in the end to get my robot to stop. I'm going to go back to the robots section and get one of these to run forward at speed zero to get my robot to stop.
+Let's look at a new programming concept, now: the variable.
 
-I can change the directions. I'm just going to make them all one second so that when I put, eventually, the robot on the floor it doesn't move off too far and hits a wall, eventually. What my current program will do is to run forwards at speed 125 and do that for one second. It's going to turn right at speed 100. Do that for another second and forwards for another second, left for another second and then backwards for another second. Eventually, it will stop after that one second, the last one second elapses.
+Looking at the program we notice that we've got a speed of 100 in four of the move blocks. If we would like, for some reason, to change the speed to 150, we would have to individually change that in all the move blocks. Imagine a program with dozens of such instructions than need to be adjusted.
 
-Let's upload it and try it out. Connect it to USB. You notice that I've turn my mBot off because the last program that we uploaded just starts automatically when I turn it on and then moves the wheels for five seconds. I turned it also that it doesn't run off the table when I now turned it on. I'm going to turn it on. There's a program kicking in. Going to turn it upside down so that it doesn't move off the table. There's a previous program five seconds going forwards and then it stops. I've got my new program here and you can see that the Arduino version of the program has been updated with the new instructions. I will connect to COM6 and connect it and upload to the Arduino. Uploading.
+To avoid such a tedious job, we can use a variable. A variable is like a storage area that can contain a value: some text or some number.
 
-The first step is compilation, that's takes a bit of time. Once a compilation is finished, which means we've got the binary file, it will uploaded and start executing the program. You saw how the wheels started spinning. I'm going to remove another USB cable so I can see the program running independently of the computer. I'm going to turn off and then back on. Just have to look at the rotation of the two wheels. This is forwards and right turn, forwards, left turn and backwards and eventually, it stops. Let's take this over to the floor and try it out. To get it started, I'm going to turn off the robot and then turn it back on again. There you go. Right, forwards, left, backwards and stopped. Awesome. So far so good.
+Back to our program, we need to store a number.
 
-Now, let's have a look at some additional programming concepts now. I would like to introduce the concept of the variable. Notice one thing, notice that I've got speeds at 100 for these four blocks. These four blocks indicate that I'd like the speed here to be 100. What if I would like that speed to become 150. I would have to individually type that 150 in all these text boxes. It's tedious. Imagine if you had a lot more of these boxes that you had to alter. What I suggest at this point is that we introduce a variable. A variable is like a storage area that can contain a value. It could be a text value or it could be a number. In this case, I would like to store a number.
+The first step is to create a variable. To do that we go to Scripts &gt; Data&Blocks &gt; Make a Variable
 
-The first step is to create a variable and then I can use it. To create a variable in the scratch programming language we go into the data and blocks section of the script tab. You can see that I've got a couple of options here. The first one is to make a variable, the second one is to make a block. I'm going to talk about blocks later but for now, let's create a variable. Click on create a variable and it's asking for a name. I would like to use a obvious name such as, "wheel speed." It's always a good idea to name your variables, we're using an obvious name. What I mean by that is a name like this a one for example means nothing to the programmer and it will confuse people but a name such as, "wheel speed" is obvious as to what it really is about.
+![](/assets/Img.3.17.3.jpg)
+
+\[Image 2.17.3: Where to create a variable\]
+
+In the window that opens we can choose a name for the variable. Variable names need to be descriptive of the values the are going to hold. We need the variable to store a value for the speed of the wheels so an obvious choise would be "wheel\_speed". We use the underscore to connect multiple words because spaces are not allowed in variable names.
+
+![](/assets/Img.3.17.4.jpg)
+
+\[Image 2.17.4: Giving a name to the variable\]
+
+Scratch often uses "sprites" but we use the mBot instead so we shouldn't worry much about the two sprite connected options, found here, and just leave the default option "For all sprites" set, and click on "OK".
+
+After that, we have a brand new variable availabe, that is some storage space with the reference name "wheel\_speed". We will notice that after creating the variable, new instruction blocks appear in the "Data&Blocks" segment.
+
+Now, we need first to store some number in our new variable and then use it within the instruction blocks. To store a value in the variable we need the "set..." block. 
+
+![](/assets/Img.3.17.5.jpg)
+
+\[Image 2.17.5: The variable blocks\]
+
+We drag and drop it onto the canvas, immediately after the header block \(1\), and then we set the value attribute to some speed, say 150. From now on, we can use the variable name instead of the numeral 150. We can do that by picking the "wheel\_speed" variable block and drag and drop it into the speed attribute of each move block \(2\). ![](/assets/Img.3.17.6.jpg)
+
+~~~~~~~~~~~~~
 
 The two options down here for all sprite or for this sprite only basically say that this variable will be available to all your programs but don't worry about it because we're not using sprites anyway, we're using the mBot. Just accept the default for all sprites and hit okay. Now, we've got the wheel speed variable. In order to interact with these variable, we have access to a number of new blocks.
 
