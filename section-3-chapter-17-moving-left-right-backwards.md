@@ -88,5 +88,9 @@ Once we've done that we can run the new program:
 
 We make sure the USB cable is connected and we are connected to a COM port and then "Upload to Arduino".
 
-At this point weare starting to get a good understanding of how movement can be achieved with the mBot. The next part of this crash course, I would like to talk about a very important programming concept that is the loop. We'll use the loops to do some interesting visual effects with the RGB LEDs.
+At this point we are starting to get a good understanding of how movement can be achieved with the mBot. In the next part of this crash course we are going to handle a very important programming concept: the loop.
+
+
+
+
 
