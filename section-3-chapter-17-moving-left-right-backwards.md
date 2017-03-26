@@ -104,11 +104,13 @@ D. We use a "turn right" block with a negative speed value
 
 2.How can we describe a variable?
 
-A. 
+A.
 
-B. 
+B.
 
-C. 
+C.
 
-D. 
+D.
+
+
 
