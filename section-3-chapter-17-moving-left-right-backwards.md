@@ -12,13 +12,27 @@ In this chapter you will learn:
 
 ---
 
-~~**{unedited}**~~
+In the last chapter we programed the mBot to move forwards for five seconds at speed 125 and then stop.
 
-Now, we've got an mBot that moves forwards for five seconds at speed 125 and then it stops. How about give it the ability to turn as well either left or right and also move backwards. How do we do that? I'm going to continue building on the same program that we started earlier. Let's say that we'd like to get the robot to move forwards maybe for one second and then turn.
+In this chapter we will continue building on the same program and we will add to the mBot the ability to turn as well, either left or right, and also move backwards.
 
-To do that, I'm going to use the same block but this time, I'm going to use the turn right instruction and I'll give it again an arbitrary speed. Let's make it a 100 as well. I would like it to move forward again at speed 100. Then, I would like it to turn left also at speed 100. After it turns left, I would like to let it move forward for a little bit longer. Actually, let's make the backwards we've done the forwards step quite a few times. Let's get it to go back at speed 100.
+In order to make the mBot turn, we are going to change the direction attribute of the last instruction block. Just click on "run forward" and pick "turn right" from the drop-down menu.
 
-Now, you may notice that there is a problem. I'll give you a few seconds to see if you can spot a problem with the current program the way it is. The problem is that, I've got the movement blocks without any weight blocks which means that the mBot basically is going to move from one to the other very quickly. Now, because the processor inside the mBot is fairly fast, it's not as fast as subprocessor inside a general purpose computer but for a microcontroller, 16 megahertz, it means that there's clock that ticks 16 million times per second and that's how many instructions it can execute. Its quite a lot.
+![](/assets/Img.3.17.1.jpg)
+
+\[Image 2.17.1: Alterning the direction attribute\]
+
+We shouldn't forget to set some speed, of course, other than zero. Let's click on the speed attribute and pick 100 from the drop-down menu. And then let's go on and build the following program, dragging and dropping blocks and changing their attributes:
+
+![](/assets/Img.3.17.2.jpg)
+
+\[Image 2.17.2: A program with all kinds of wheel motion\]
+
+The wait blocks take care that the mBot will change smoothly from one move to the other.
+
+**Note**: Even though not as fast as the subprocessor of general purpose computer, the processor inside the mBot is fairly fast. It operates at 16 megahertz, which means that there's clock that ticks 16 million times per second and that's how many instructions it can execute. Its quite a lot!
+
+
 
 The mBot is going to run through these instructions so quickly that we are basically not going to see any results until the end because we don't have a statement at the end of the program to stop the mBot, it's going to continue going backwards at speed 100 until we turned it off. What is missing from these are these time statements, the weight locks. Let's go get a few weight blocks from the control menu and just put them in here. Going to configure them in a minute but for now, I want to insert them that you can see what the final structure will almost be because I want in the end to get my robot to stop. I'm going to go back to the robots section and get one of these to run forward at speed zero to get my robot to stop.
 
