@@ -11,6 +11,7 @@ In this chapter you will learn:
 * How to make the mBot turn left and right
 * How to make the mBot go backwards
 * What is a varialbe and how to use it
+* How to use an arithmetic operand
 
 ---
 
@@ -94,7 +95,7 @@ At this point we are starting to get a good understanding of how movement can be
 
 1.How can we make the mBot turn left?
 
-A. We use a combination of move blocks
+A. We use a combination of three different move blocks
 
 **B. We use a move block and check the first attribute to "turn left"**
 
@@ -104,13 +105,11 @@ D. We use a "turn right" block with a negative speed value
 
 2.How can we describe a variable?
 
-A.
+A. As an arithmetic expression
 
-B.
+B. As a value
 
-C.
+**C. As storage space**
 
-D.
-
-
+D. As an operation between two operands
 
