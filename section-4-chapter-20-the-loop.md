@@ -18,15 +18,21 @@ We must know, by now, how to create a new program: File &gt; New and then, since
 
 Loops are found in the yellow, "Control" group of instructions. We go there, pick the "forever" block and make it the first instruction just below the header block.
 
+![](/assets/Img.3.18.1.jpg)
 
+\[Image 4.20.1: The forever loop control instruction block\]
 
-The next thing is to go to the control section and notice how here got a variety of control structures, some of them I'll talk about later, but the one we want to look at now is this forever loop. All right, so take the forever loop and connect it to the mBot program header block. Now, anything that we put inside the forever loop will repeat forever, or at least until we either turn of the mBot or replace the program that is running in it with another program.
+Whatever is placed within the forever block opening \(1\) is going to get repeated over and over again, forever, or at least until we either turn off the mBot or replace the program that is running with another program.
 
-We've got the infrastructure ready. Now we want to control the LEDs. So as you already know we'll go back to the robots section and pick the set LED on board block. I would like to control each LED individually. I’ll start with the left one. So say take the left LED and make it red so as bright as possible. 255 is the maximum. Then I would like that LED to stay on for one second.
+We have seen how to control the LEDs. Let's pick the correct blocks and change their attributes to create the following program:
 
-Actually make it a bit more dramatic, make it half a second, so 0.5. The LED on the left side will be on for 0.5 seconds and I want to turn it off. Let's go back to robots and again the same block set LED on board. I want to turn off the left LED, so I have to choose left here and then make sure that all of the values or all the parameters for red, green and blue are all zero and that indicates that the RGB LED is turned off.
+![](/assets/Img.4.20.2.jpg)
 
-As soon as I do that I want to turn the other LED, the right LED on, so I’m going to use another block for that. But now I’m going to address the right LED and I would like to make that blue and I'd like blue to stay on for another half a second. Back to the control section take another wait block turn that -- make that 0.5 and back to robots, I would like then to turn off the green right LED.
+\[Image 4.20.2: The program for turning the LEDs on and off in turns\]
+
+Reading the code: the left LED shines red for half a second, then turns off at the same time that the right LED starts shine blue for another half a second and then turns off. And that over and over again because it is contained in a "forever" loop.
+
+~~~~~~~~~
 
 Pick up the same set LED on board block make sure that the left LED, sorry, the right LED is turned off, which means that all of the parameters should be zero. Then this is going to take me back to the left LED so back to the beginning. Once we reach the last instruction, because of the forever loop we're going to go back to the top and turn the left LED back on to red.
 
@@ -45,6 +51,4 @@ So just like in the previous example going to move the LED on time variable into
 How about if we take this now one step further? What I'd like to do is to use the proximity sensor on the mBot to change the amount of time that each LED is turned on, depending on the distance between the sensor and an object in front of it.
 
 For example as the object goes closer to the sensor I can get the timing to be faster. The LED will start blinking faster and there's my hand, the target or the obstacle goes further away from the sensor then pace will slow down. Let's do that next.
-
-
 
