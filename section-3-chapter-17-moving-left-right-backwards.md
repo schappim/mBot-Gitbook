@@ -62,15 +62,23 @@ Scratch often uses "sprites" but we use the mBot instead so we shouldn't worry m
 
 After that, we have a brand new variable availabe, that is some storage space with the reference name "wheel\_speed". We will notice that after creating the variable, new instruction blocks appear in the "Data&Blocks" segment.
 
-Now, we need first to store some number in our new variable and then use it within the instruction blocks. To store a value in the variable we need the "set..." block. 
+Now, we need first to store some number in our new variable and then use it within the instruction blocks. To store a value in the variable we need the "set..." block.
 
 ![](/assets/Img.3.17.5.jpg)
 
 \[Image 2.17.5: The variable blocks\]
 
-We drag and drop it onto the canvas, immediately after the header block \(1\), and then we set the value attribute to some speed, say 150. From now on, we can use the variable name instead of the numeral 150. We can do that by picking the "wheel\_speed" variable block and drag and drop it into the speed attribute of each move block \(2\). ![](/assets/Img.3.17.6.jpg)
+We drag and drop it onto the canvas, immediately after the header block \(1\), and then we set the value attribute to some speed, say 150. From now on, we can use the variable name instead of the numeral 150. We can do that by picking the "wheel\_speed" variable block and drag and drop it into the speed attribute of each move block \(2\). ![](/assets/Img.3.17.6.jpg)\[Image 2.17.6: Using the variable in the program\]
 
-~~~~~~~~~~~~~
+Let's add a little twist. Let's say that in the first "run forward block", instead of 150 we want a speed of 125 and here's a way to handle it. We go to "Operators" \(the green family of blocks\) and drag and drop the second operator block, that with the minus, onto the canvas. The minus operator takes two operands, one on each side. We drag and drop the variable block "wheel\_speed" and make it the first operand and then type 25 as the second one. When we are done we can drag and drop it into the "run forward" block, so that whole expression "wheel\_speed - 25" becomes the new speed attribute like in the image below.
+
+![](/assets/Img.3.17.7.jpg)
+
+\[Image 2.17.7: Subtracting 25 from the wheel\_speed variable\]
+
+**{up to here edited by Dimitris}**
+
+~~~~~~~~~
 
 The two options down here for all sprite or for this sprite only basically say that this variable will be available to all your programs but don't worry about it because we're not using sprites anyway, we're using the mBot. Just accept the default for all sprites and hit okay. Now, we've got the wheel speed variable. In order to interact with these variable, we have access to a number of new blocks.
 
