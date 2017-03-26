@@ -89,8 +89,6 @@ Once we've done that we can run the new program:
 
 We make sure the USB cable is connected and we are connected to a COM port and then "Upload to Arduino".
 
-At this point we are starting to get a good understanding of how movement can be achieved with the mBot. In the next part of this crash course we are going to handle a very important programming concept: the loop.
-
 ### Questions
 
 1.How can we make the mBot turn left?
