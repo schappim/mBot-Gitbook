@@ -8,7 +8,9 @@
 
 In this chapter you will learn:
 
-* 1
+* How to make the mBot turn left and right
+* How to make the mBot go backwards
+* What is a varialbe and how to use it
 
 ---
 
@@ -33,6 +35,8 @@ The wait blocks take care that the mBot changes smoothly from one move to the ot
 **Note**: Even though not as fast as the subprocessor of general purpose computer, the processor inside the mBot is fairly fast. It operates at 16 megahertz, which means that there's clock that ticks 16 million times per second and that's how many instructions it can execute. Its quite a lot!
 
 After we done, we right-click, "Upload to Arduino" and see the mBot move following the instruction blocks.
+
+### Variables
 
 The mBot is going to run through these instructions so quickly that we are basically not going to see any results until the end because we don't have a statement at the end of the program to stop the mBot, it's going to continue going backwards at speed 100 until we turned it off. What is missing from these are these time statements, the weight locks. Let's go get a few weight blocks from the control menu and just put them in here. Going to configure them in a minute but for now, I want to insert them that you can see what the final structure will almost be because I want in the end to get my robot to stop. I'm going to go back to the robots section and get one of these to run forward at speed zero to get my robot to stop.
 
