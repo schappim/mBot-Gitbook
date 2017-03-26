@@ -20,7 +20,7 @@
 * [Section 3 \| Chapter 16: Motor control](section-3-chapter-15-motor-control.md)
 * [Section 3 \| Chapter 17: Moving left, right, backwards](section-3-chapter-17-moving-left-right-backwards.md)
 * [Section 3 \| Chapter 18: Section recap and quiz](section-3-chapter-18-section-recap-and-quiz.md)
-* Section 4 \| Chapter 19: Programming structures and sensors introduction
+* [Section 4 \| Chapter 19: Programming structures and sensors introduction](section-4-chapter-19-programming-structures-and-sensors-introduction.md)
 * Section 4 \| Chapter 20: The Loop
 * [Section 4 \| Chapter 21: The distance/proximity sensor](section-4-chapter-20-the-distanceproximity-sensor.md)
 * Section 4 \| Chapter 22: More experimentation with the distance sensor

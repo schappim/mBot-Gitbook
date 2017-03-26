@@ -10,5 +10,5 @@ In this chapter, we saw how to create a Scratch program, with mBlock, how to con
 
 We made acquaintance with the concept of variables and saw how to set up a simple arithmetic operation.
 
-At this point we are starting to get a good understanding of how movement can be achieved with the mBot. This is something but we need more. In the next part of this crash course we are going to handle more important programming concepts like the loop and the if.
+At this point we are starting to get a good understanding of how movement can be achieved with the mBot. This is something but we need more. In the next part of this crash course we are going to handle more important programming concepts like the loop and the "if else" structure.
 
