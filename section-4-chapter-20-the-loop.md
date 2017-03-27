@@ -9,6 +9,7 @@
 In this chapter you will learn:
 
 * How to use the forever loop
+* How to save a program on the disk
 
 ---
 
@@ -48,7 +49,19 @@ Let's try to read it. First of all we notice that there is a different organizat
 
 Even though we have a different block order, here, and an additional variable, we expect the program to execute the same way like before.
 
-We could take this one step further and use the proximity sensor on the mBot to change the amount of time that each LED is turned on, depending on the distance between the sensor and an object in front of it. For example, as the object goes closer to mBot, the timing will be faster, as the object goes further away, the pace will slow down. We are going to see that in the next chapter.
+### Saving a program
+
+We could take this one step further and use the proximity sensor on the mBot to change the amount of time that each LED is turned on, depending on the distance between the sensor and an object in front of it. For example, as the object goes closer to mBot, the timing will be faster, as the object goes further away, the pace will slow down. We are going to see that in the next chapter and for that purpose we will be reusing the program that we created here. We need, therefore, to save it on the disk so that we can reload it later and extend it.
+
+Saving a program on the disk allows you to reload it later on, eventually modify it, and re-execute it.
+
+The way to save a program is by going to the file menu and either choosing "Save Project" or "Save Project As". If this is the first time that you save a project then both options produce the same result: You will get the chance to pick a name for the program, and a location to save it.
+
+As a general rule, chose "Save Project as..." when you need to create a new copy of a saved program, either with a different name or in a different location. Use "Save Project" to just update the saved copy you are working on.
+
+Let's save this one with the name "forever loop alternating the LEDs with variable".
+
+Now imagine that you would like to share this code with a friend or a student, or to post it on the school website, then you can take this file and attach it, just like any other attachment, to an email or upload it to a web server.
 
 ### Questions
 

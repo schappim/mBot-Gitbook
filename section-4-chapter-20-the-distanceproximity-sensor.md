@@ -25,17 +25,7 @@ Internally the sensor will calculate the amount of time that it takes for the si
 
 ### Programming the sensor
 
-We will be reusing the program that we created in the previous chapter, 
-
-
-
-
-
- earlier but because I want to keep things very simple, unless I introduced the ultrasonic distance sensor, I'm going to save it on the disk so that I can reload it later and extend it. Saving a program on the disk allows you to load it and re-execute it later or load it so that you can modify it, or you can then share it with other people. The way to save a program is by going to the file menu and either choosing Save Project or Save Project As. If this is the first time that you save a project then both options produce the same result.
-
-If you've saved the project in the past then you can just say Save Project and then it will update the existing file on the file system. If you have already saved the project and you'd like to rename it, for example, or save it in a different location, then you can choose Save Project As. I’ll do that now because I've already saved this project onto my disk and you can see that it allows me to drill into a directory on my file system and then just give it a name. I've already given it a name. Six forever loop alternate the LEDs with variable. I'm just going to click on Save. It asks me to confirm that I want to replace this file, so I just say yes. Saving works exactly the same way as in any other program.
-
-Now imagine that you would like to share this code with a friend or a student, for example, or to post it on the school website, then what you can do is you can take this file and attach it just like any other attachment to an email or to a file server on your web server so that you can elaborate or download it, or you can just manipulate it like any other file. Now that you've saved it, I'm going, to go and create a new project. To demonstrate how the ultrasonic distance sensor works, I’m going to create a very simple program. I’ll start us always with the mBot program header and then I'll pick the ultrasonic distance sensor.
+ Now that you've saved it, I'm going, to go and create a new project. To demonstrate how the ultrasonic distance sensor works, I’m going to create a very simple program. I’ll start us always with the mBot program header and then I'll pick the ultrasonic distance sensor.
 
 Now, notice that this block does not have that indentation that allows us to connect it to the mBot program header block. Blocks with rounded corners, an indication that this block is meant to return a value. In order to use this value we need to use something like a variable to store it in. This is a hint to us that we can't do much with this block unless we store the value that the sensor returns in a variable. Let’s go and pick a variable then, make a variable and I'll give it an obvious name such as Distance and hit Okay.
 
@@ -53,11 +43,7 @@ We'll use a control structure and ideally, we'll use the forever control structu
 
 I'll increase the distance between the sensor and myself. Okay, upload is complete. Let's try it out. I just need a nice clean surface to use as target. Here's the bag, will do. You can see there's nothing in front of the sensor right now, so the two LEDs are at the brightest setting. I'm putting the bag right in front of it and you can see that we've got a fluctuation now. The intensity is becoming smaller, so the LED intensity is fainter. Eventually at some point it's going to turn off completely. Because now, if you go too close though. See what happens, if you go too close, I’m now blocking the transmitter and the receiver, you can see that the intensity is at maximum. Can you figure out why that happens?
 
-
-
 Well, the reason for this is that we now have no way for a signal that is transmitted by the transmitter to reach the receiver. If you block either one of these two, then you basically have no way of getting of getting an accurate measurement. The absolute closest you can have your target against a sensor is about maybe one centimeter in distance. Beyond that you can take a fairly accurate measurement depending on the kind of target that you use.
 
 I'd like you to think about one more thing before we move on to the next part of this crash course on the mBot. Do you think that you can modify this sketch so that the intensity of the LEDs actually increases as your target is getting closer to the sensor instead of decreasing? Have a think about this, how can you change a program so that intensity as the distance becomes smaller intensity of the LEDs increases? Think about this problem.
-
-
 
