@@ -61,7 +61,7 @@ As a general rule, chose "Save Project as..." when you need to create a new copy
 
 Let's save this one with the name "forever loop alternating the LEDs with variable".
 
-Now imagine that you would like to share this code with a friend or a student, or to post it on the school website, then you can take this file and attach it, just like any other attachment, to an email or upload it to a web server.
+Now imagine that you would like to share this code with a friend or a student, or to post it on the school website, then you can locate this file on the disk and attach it to an email or upload it to a web server.
 
 ### Questions
 

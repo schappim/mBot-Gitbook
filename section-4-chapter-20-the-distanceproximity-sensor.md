@@ -25,7 +25,9 @@ Internally the sensor will calculate the amount of time that it takes for the si
 
 ### Programming the sensor
 
- Now that you've saved it, I'm going, to go and create a new project. To demonstrate how the ultrasonic distance sensor works, I’m going to create a very simple program. I’ll start us always with the mBot program header and then I'll pick the ultrasonic distance sensor.
+Let's create a new project.
+
+To demonstrate how the ultrasonic distance sensor works, I’m going to create a very simple program. I’ll start us always with the mBot program header and then I'll pick the ultrasonic distance sensor.
 
 Now, notice that this block does not have that indentation that allows us to connect it to the mBot program header block. Blocks with rounded corners, an indication that this block is meant to return a value. In order to use this value we need to use something like a variable to store it in. This is a hint to us that we can't do much with this block unless we store the value that the sensor returns in a variable. Let’s go and pick a variable then, make a variable and I'll give it an obvious name such as Distance and hit Okay.
 
