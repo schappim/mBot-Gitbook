@@ -25,19 +25,35 @@ Internally the sensor will calculate the amount of time that it takes for the si
 
 ### Programming the sensor
 
-Let's create a new project.
+Let's create a new project in order to see how the ultrasonic distance sensor works: File &gt; New
 
-To demonstrate how the ultrasonic distance sensor works, I’m going to create a very simple program. I’ll start us always with the mBot program header and then I'll pick the ultrasonic distance sensor.
+As always, we start by placing the mBot program header on the canvas. Next, we drag and drop a "ultrasonic sensor ... distance" on the canvas. We will notice that this block does not have the indentation that allows it to connect to the mBot program header block.
 
-Now, notice that this block does not have that indentation that allows us to connect it to the mBot program header block. Blocks with rounded corners, an indication that this block is meant to return a value. In order to use this value we need to use something like a variable to store it in. This is a hint to us that we can't do much with this block unless we store the value that the sensor returns in a variable. Let’s go and pick a variable then, make a variable and I'll give it an obvious name such as Distance and hit Okay.
+Blocks with rounded corners, like this one, are meant to return a value. One way to use such a block is to place it within a "set variable" block, assigning the returned value to some variable.
 
-Now I pick the set distance block and place it against the mBot program header. You can see that it fits. What I'll do next is that I'm going to take the ultrasonic sensor block and use it to populate the text box inside this set block. Now, I'm going to get the ultrasonic sensor to take a reading against whatever object it has in front of it and then store that value inside a distance variable. Now, the next thing that I'd like to do just to show what the result of this measurement is, I'd like to visualize it somehow. To do that, again, I'm going to work with the familiar RGB LEDs.
+Let's create, therefore, a new variable: Data&Blocks &gt; Make Variable
 
-I'm going to take the RGB LED block, the said LED on board block and connect it to the set block. What I'd like to do is to configure the intensity of each one of the RGB LED components, the red, green and blue to the value that we've stored inside the distance variable. Let's go back to data mBlocks and pick the distance variable. You can experiment with this as you please but I'll keep it simple here, and I’ll just use the same value for all three components of the RGB LED. It's going to look – oops, do that again. It's going to look like that. Need more space, there you go.
+and give it the name "distance".
 
-The idea here is that as the distance increases the brightness of the LED will increase as well. As the distance from the target decreases then the brightness will also decrease. There's only one problem here, I’m going to give you a few seconds to think about it. Is there a problem that you can see in the way that I have constructed this program?
+Next step, we drag "set distance to ..." and attach it below the header bock. And now we can move the "ultrasonic sensor ... distance" block and make it the second attribute of "set distance to ..." like shown in the image below:
 
-\[pause 00:07:45\]
+![](/assets/Img.4.21.1.jpg)
+
+\[Image 4.21.1: Assigning the ultrasonic sensor reading to variable "distance"\]
+
+Next, we add a "set led on board ..." block, attach it to the program and place variable "distance" in all the three attribute places.
+
+Last, we add a forever loop, and arrange the blocks, by moving them around, to achieve the order shown here below:
+
+![](/assets/Img.4.21.2.jpg)
+
+\[Image 4.21.1: The final program\]
+
+**Note**: The colour of the blocks can direct you as to the category where you can find each block.
+
+The idea here is that as the distance from the object increases, the brightness of the LEDs will increase as well. As the distance from the object decreases, the brightness will decrease acordingly. 
+
+~~**{up to here by Dimitris}**~~
 
 Okay, not sure if you picked it up but the problem here is that these two instructions, these two blocks will only execute once and then the execution will stop. We are only going to take one single measurement with this sensor. It's not ideal, with a sensor typically, you want to take multiple measurements because you want your robot to continue sensing its environment to sense change. If you only take one measurement, then there's not much change that you get sense with it. How would you recommend that we fix this problem? How do you recommend that we get this sensor to continuously take measurements of the distance between itself and an object in front of it?
 
