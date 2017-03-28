@@ -161,5 +161,15 @@ _Answer: This is an open-ended question. There is no assumption or expectation o
 
 ---
 
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[    \] The Bluetooth module is properly attached to the mCore, with its antenna pointing towards the back
+
+\[    \] The top cover of the mCore board is properly attached to the bottom cover
+
+---
+
 
 
