@@ -41,27 +41,31 @@ Next step, we drag "set distance to ..." and attach it below the header bock. An
 
 \[Image 4.21.1: Assigning the ultrasonic sensor reading to variable "distance"\]
 
-Next, we add a "set led on board ..." block, attach it to the program and place variable "distance" in all the three attribute places.
-
-Last, we add a forever loop, and arrange the blocks, by moving them around, to achieve the order shown here below:
+Next, we add a "set led on board ..." block, attach it to the program and place variable "distance" in all the three attribute places:
 
 ![](/assets/Img.4.21.2.jpg)
 
-\[Image 4.21.1: The final program\]
+\[Image 4.21.2: Setting the LEDs to emit a quantity of light corresponding to the distance from the object\]
+
+Τhe problem, here, is that these two instruction blocks will only execute once and then the program will stop, meaning we are going to take just one single measurement with the sensor, which is not ideal. With a sensor, typically, you want to take multiple measurements because you want your robot to continue sensing change in the environment. In order do have these two instructions execute repeatively we need to place them within a loop. So, let's add a forever loop, and arrange the blocks, by moving them around, to achieve the order shown here below:
+
+![](/assets/Img.4.21.3.jpg)
+
+\[Image 4.21.3: The final program\]
 
 **Note**: The colour of the blocks can direct you as to the category where you can find each block.
 
-The idea here is that as the distance from the object increases, the brightness of the LEDs will increase as well. As the distance from the object decreases, the brightness will decrease acordingly. 
+The idea here is that as the distance from the object increases, the brightness of the LEDs will increase as well. As the distance from the object decreases, the brightness will decrease acordingly.
 
-~~**{up to here by Dimitris}**~~
+Now our program is complete and we can test it out ands see what it does.
 
-Okay, not sure if you picked it up but the problem here is that these two instructions, these two blocks will only execute once and then the execution will stop. We are only going to take one single measurement with this sensor. It's not ideal, with a sensor typically, you want to take multiple measurements because you want your robot to continue sensing its environment to sense change. If you only take one measurement, then there's not much change that you get sense with it. How would you recommend that we fix this problem? How do you recommend that we get this sensor to continuously take measurements of the distance between itself and an object in front of it?
+We make sure that we've got a COM port connected and then "Upload to Arduino".
 
-We'll use a control structure and ideally, we'll use the forever control structure. Since this is the one that we know at this point. Let's go and put that in the middle, we’re going to move that down. Connect forever to the mBot program header and then take the block of the two bits of code and insert them inside the forever loop. Now our program is complete. Let's test it out. Let's see what it does. Upload to Arduino. Make sure that we've got a serial port connected Comp six and upload to Arduino.
+We place some object in front of the sensor, like a book, and then slowly move it closer to the sensor and back again. We notice that the intensity of the LEDs grows stronger or fainter, depending on the distance between the object and the sensor. When there is no object before the mBot, the LEDs will be at the brightest setting.
 
-I'll increase the distance between the sensor and myself. Okay, upload is complete. Let's try it out. I just need a nice clean surface to use as target. Here's the bag, will do. You can see there's nothing in front of the sensor right now, so the two LEDs are at the brightest setting. I'm putting the bag right in front of it and you can see that we've got a fluctuation now. The intensity is becoming smaller, so the LED intensity is fainter. Eventually at some point it's going to turn off completely. Because now, if you go too close though. See what happens, if you go too close, I’m now blocking the transmitter and the receiver, you can see that the intensity is at maximum. Can you figure out why that happens?
+If we stick the object against the sensor, the LEDs will once more shine the brightest. The reason for this is that when we are too close, we are blocking the transmition. There is just not enought space for the signal to travel from the transmiter to the object and back to the receiver.
 
-Well, the reason for this is that we now have no way for a signal that is transmitted by the transmitter to reach the receiver. If you block either one of these two, then you basically have no way of getting of getting an accurate measurement. The absolute closest you can have your target against a sensor is about maybe one centimeter in distance. Beyond that you can take a fairly accurate measurement depending on the kind of target that you use.
+**Note**: The absolute closest you can have your target against a sensor is about one centimeter. Beyond that you can take a fairly accurate measurement, depending on the kind of object, of course.
 
 I'd like you to think about one more thing before we move on to the next part of this crash course on the mBot. Do you think that you can modify this sketch so that the intensity of the LEDs actually increases as your target is getting closer to the sensor instead of decreasing? Have a think about this, how can you change a program so that intensity as the distance becomes smaller intensity of the LEDs increases? Think about this problem.
 
