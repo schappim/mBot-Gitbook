@@ -8,7 +8,8 @@
 
 In this chapter you will learn:
 
-* How to 
+* How the distance/proximity sensor operates
+* How to program the distance/proximity sensor
 
 ---
 
