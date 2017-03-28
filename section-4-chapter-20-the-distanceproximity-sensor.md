@@ -55,17 +55,39 @@ Next, we add a "set led on board ..." block, attach it to the program and place 
 
 **Note**: The colour of the blocks can direct you as to the category where you can find each block.
 
-The idea here is that as the distance from the object increases, the brightness of the LEDs will increase as well. As the distance from the object decreases, the brightness will decrease acordingly.
-
-Now our program is complete and we can test it out ands see what it does.
+The idea here is that as the distance from the object increases, the brightness of the LEDs will decrease. As the distance from the object decreases, the brightness will increase acordingly. Now that our program is complete and we can test it out and all that in practice.
 
 We make sure that we've got a COM port connected and then "Upload to Arduino".
 
-We place some object in front of the sensor, like a book, and then slowly move it closer to the sensor and back again. We notice that the intensity of the LEDs grows stronger or fainter, depending on the distance between the object and the sensor. When there is no object before the mBot, the LEDs will be at the brightest setting.
+We place some object in front of the sensor, like a book, and then slowly move it closer to the sensor and back again. We notice that the intensity of the LEDs grows stronger or fainter, depending on the distance between the object and the sensor.
 
-If we stick the object against the sensor, the LEDs will once more shine the brightest. The reason for this is that when we are too close, we are blocking the transmition. There is just not enought space for the signal to travel from the transmiter to the object and back to the receiver.
+When there is no object before the mBot, or when the object is too close to the sensor, we will notice that the LEDs will be at the brightest setting. The reason for this is that in both cases there can be no reading. The signal either doesn't return or, when we are too close, there is just not enought space for the signal to travel from the transmiter to the object and back to the receiver.
 
-**Note**: The absolute closest you can have your target against a sensor is about one centimeter. Beyond that you can take a fairly accurate measurement, depending on the kind of object, of course.
+**Note**: The absolute closest you can have your target against a sensor is about one centimeter.
 
-I'd like you to think about one more thing before we move on to the next part of this crash course on the mBot. Do you think that you can modify this sketch so that the intensity of the LEDs actually increases as your target is getting closer to the sensor instead of decreasing? Have a think about this, how can you change a program so that intensity as the distance becomes smaller intensity of the LEDs increases? Think about this problem.
+### Exercises
+
+1.Modify the program so that the LEDs have the oposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.
+
+### Questions
+
+1.What is the way of operation of the distance/proximity sensor?
+
+A. The transmiter emits a specific tone and the receiver picks up the distortion of the tone.
+
+**B. The transmiter emits a ultrasonic sound signal and then picks up the echo.**
+
+C. The transmiter emits a ultrasonic sound signal and the receiver picks up the echo.
+
+D. Both A and C.
+
+2.What happens when we run the program shown in image 4.21.3, but then with the target object leaned against the distance/proximity sensor?
+
+A. The sensor returns an error.
+
+B. The sensor returns and error and stops functioning. 
+
+C. The sensor can return no valid reading.
+
+D. The sensor returns detailed readings \(for example, milimetres instead of centimetres\).
 
