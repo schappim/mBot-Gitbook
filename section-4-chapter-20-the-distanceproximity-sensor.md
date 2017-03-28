@@ -66,6 +66,8 @@ When there is no object before the mBot, or when the object is too close to the 
 
 **Note**: The absolute closest you can have your target against a sensor is about one centimetre.
 
+Let's not forget to save the program: File &gt; Save Project as and then type the name: "introduction to the distance sensor".
+
 ### Exercises
 
 1.Modify the program so that the LEDs have the opposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.

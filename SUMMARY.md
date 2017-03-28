@@ -23,7 +23,7 @@
 * [Section 4 \| Chapter 19: Programming structures and sensors introduction](section-4-chapter-19-programming-structures-and-sensors-introduction.md)
 * [Section 4 \| Chapter 20: The Loop](section-4-chapter-20-the-loop.md)
 * [Section 4 \| Chapter 21: The distance/proximity sensor](section-4-chapter-20-the-distanceproximity-sensor.md)
-* Section 4 \| Chapter 22: More experimentation with the distance sensor
+* [Section 4 \| Chapter 22: More experimentation with the distance sensor](section-4-chapter-22-more-experimentation-with-the-distance-sensor.md)
 * Section 4 \| Chapter 23: The "if" and "if...else" control structure
 * Section 4 \| Chapter 24: The buzzer
 * Section 4 \| Chapter 25: Section recap and quiz
