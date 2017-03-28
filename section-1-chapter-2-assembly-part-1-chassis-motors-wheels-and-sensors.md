@@ -108,8 +108,6 @@ Turn the mBot over, and plug the second cable to the range finder. The assembly 
 
 \[Image 1.2.12: Connect the last cable to the range finder module\]
 
-
-
 ---
 
 **Checklist**
@@ -122,7 +120,7 @@ Double-check that at this point, the following are completed:
 
 \[    \] The front wheel and line follower assembly are properly attached to the front of the mBot chassis. The sensors of the line follower module should be looking downwards, and the wheel should be clear of the sensors. The screws are firm but not too hard inserted into the chassis.
 
-\[    \] The range finder / distance sensor module is attached to the front of the chassis, right about the smiley face cutout. 
+\[    \] The range finder / distance sensor module is attached to the front of the chassis, right about the smiley face cutout.
 
 \[    \] The cables for the line follower and range finder modules are connected to the modules
 
