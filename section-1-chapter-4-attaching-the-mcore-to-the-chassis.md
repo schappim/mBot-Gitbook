@@ -20,13 +20,37 @@ You will need the screwdriver that comes with the mBot, and the various parts su
 
 ---
 
-In this chapter we will continue with the assembly of the mBot. First, let's work with the battery pack.
+In this chapter you will continue with the assembly of the mBot. First, let's work with the battery pack.
 
 The mBot can be powered in two ways.
 
-The first way, which is also the way I recommend for you, is to use the supplied battery pack. This battery pack can hold four AA batteries, and with the help of an adhesive velcro strip, which comes with the kit, can be secured on the top side of the mBot. A cable that comes out of the pack ends in a barrel connector which you can plug into one of the power sockets on the mCore.
+The first way, which is also the way I recommend for you, is to use the supplied battery pack. This battery pack can hold four AA batteries, and with the help of an adhesive velcro strip, which comes with the kit, you can secure on the top side of the mBot. A cable that comes out of the battery pack ends in a barrel connector which you can plug into one of the power sockets on the mCore.
 
-The second way is with the use of a Lithium Ion/Polymer \(LiPo\) battery. The kit comes with a small plastic container for this battery. LiPo batteries are smaller and lighter than alkaline batteries. For the same volume and weight, they hold a lot more power, so they are used extensively in mobile phones, computers, and remote controlled drones. But, they need special handling and appropriate charges to be safe to use. For this reason, I don't recommend using LiPo batteries, unless you are familiar with them.
+The second way is with the use of a Lithium Ion/Polymer \(LiPo\) battery. The kit comes with a small plastic container for this battery. LiPo batteries are smaller and lighter than alkaline batteries. For the same volume and weight, they hold a lot more energy, so they are used extensively in mobile phones, computers, and remote controlled drones. But, they need special handling and appropriate chargers to be safe to use. For this reason, I don't recommend using LiPo batteries, unless you are familiar with them.
+
+---
+
+Question 4.1: What are the 2 main differences between Alkaline and Lithium Ion/Polymer batteries?
+
+1 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+2 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+_Answer: \(1\) LiPo batteries contain much more energy than Alkaline batteries, for the same volume. _
+
+_\(2\) LiPo batteries require specialised chargers and careful handling._
+
+_\(3\) LiPo batteries are more expensive than Alkaline batteries._
+
+_\(4\) Alkaline batteries are safer to use_
+
+_\(5\) Alkaline batteries are easier to find in retail shops, and can be purchased in bulk_
+
+---
 
 Take one of the two pairs of the adhesive velcro strip and attach it on the bottom of the battery pack \(only peel of the piece of paper that protects the adhesive tape from one of the velcro strips, and leave the other on for now\).
 
@@ -38,7 +62,11 @@ Then, remove second piece of paper that protect the adhesive tape of the second 
 
 At this point, also insert the four AA batteries, because soon we will be placing the mCore controller over the battery pack.
 
-**Professional tip:** Place the battery pack in a way to the its cable comes out at the front of the mBot. This way, the cable has got a longer distance to travel to the back of the mBot where the battery socket will be. This will make it less likely that the cable will interfere with the wheels.
+---
+
+**Professional tip:** Place the battery pack in a way so the its cable comes out at the front of the mBot. This way, the cable has got a longer distance to travel to the back of the mBot where the battery socket will be. This will make it less likely that the cable will interfere with the wheels.
+
+---
 
 Your battery pack will sit on the chassis like this.
 
@@ -54,7 +82,11 @@ Route the cables so that the battery cable comes out of the back of the mBot, th
 
 Now you are ready to attach the mCore module. The battery pack will be sandwiched in between the chassis and the microcontroller unit
 
-**Professional tip: **Even though you can modules to almost any available socket on the mCore and then programmatically configure them,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to make those changes in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 1.4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the rangefinder module to socket 4.
+---
+
+**Professional tip: **Even though you can connect mBot modules to almost any available socket on the mCore,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to change the module connection ports in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 1.4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the rangefinder module to socket 4.
+
+---
 
 Now, that you have the wires routed correctly, go ahead and attach the mCore. Start with the four bronze spacers. To attach the spacers you don't need any tools, just use your fingers to screw them into the holes that match their thread.
 
