@@ -102,8 +102,6 @@ Then place the mCore on the spacers, and secure it in place with four short scre
 
 Let's do the connections now. The cable that is coming from the line follower will go to connector number two. The rangefinder goes to number three. The left motor goes to motor connector M1 and the right motor to motor connector M2.
 
-
-
 ![](/assets/2017-03-15_14-42-26.png)
 
 \[Image 1.4.6: A summary of the connections\]
@@ -114,7 +112,7 @@ Let's do the connections now. The cable that is coming from the line follower wi
 
 Double-check that at this point, the following are completed:
 
-\[    \] The 4xAA battery holder is attached to the top of the mBot with a velcro strip  
+\[    \] The 4xAA battery holder is attached to the top of the mBot with a velcro strip
 
 \[    \]  All wires are routed through to the top of the mBot and to the correct side of the mBot
 
@@ -123,12 +121,6 @@ Double-check that at this point, the following are completed:
 \[    \]  The mCore is attached to the mBot chassis, over the batteries, at the correct orientation
 
 \[    \] The cables from the sensors, motors, and the battery are properly connected to the connectors on the mCore
-
----
-
-
-
-
 
 ---
 
