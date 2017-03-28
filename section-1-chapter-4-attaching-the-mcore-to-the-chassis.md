@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter, you will learn about:
+**In this chapter, you will learn about:**
 
 * How to attach the battery pack to the chassis
 * How to attach the mCore to the chassis
@@ -14,7 +14,7 @@ In this chapter, you will learn about:
 
 ---
 
-This is a hand-on activity.
+**This is a hand-on activity.**
 
 You will need the screwdriver that comes with the mBot, and the various parts supplied in the kit.
 
