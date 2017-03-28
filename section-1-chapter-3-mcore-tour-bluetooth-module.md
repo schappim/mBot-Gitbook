@@ -33,9 +33,9 @@ Take a few minutes to become familiar with the parts that make up this module. H
 
 The small square integrated circuit in the middle is the ATmega328/P microcontroller. This is the the brain of the mBot. It’s the same microcontroller that you find on the Arduino UNO.
 
-### 2  
+### 2
 
-a. The infrared receiver 
+a. The infrared receiver
 
 b. The infrared transmitter.
 
@@ -45,7 +45,7 @@ With the infrared receiver, we are able to use the remote controller \(the one t
 
 There is a buzzer, so that the mBot can make noises.
 
-### 4 
+### 4
 
 There are two RGB-color LEDs, each capable of producing thousands of colours.
 
@@ -75,11 +75,11 @@ The on-off switch.
 
 ### 11
 
-The LiPo battery connector.
+The LiPo battery connector. Next to the LiPo connected you will find a black barrel connector. You will use this connector to connect the AA battery holder. This is the main power source for your mBot.
 
 ### 12
 
-The is a USB connector. You will use this connector to connect the mBot to your computer and upload a program. It is exactly the same connector that you find on an Arduino UNO. 
+The is a USB connector. You will use this connector to connect the mBot to your computer and upload a program. It is exactly the same connector that you find on an Arduino UNO.
 
 ### 13
 
@@ -97,5 +97,45 @@ In order to finish, put the cover back on, applying a little bit of pressure, so
 
 ---
 
-Question 3.1: 
+**Question 3.1: Can you think of three things that you can get your mBot to do with the buzzer? Write them down!**
+
+1 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+2 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+3 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+_Answer: Things like \(1\) a beep to tell you that a program has finished its operation, \(2\) a beep to tell you that it has detected an obstacle, \(3\) play music, \(4\) an audible greeting when a program starts, \(5\) a beep when you press the button._
+
+---
+
+**Question 3.2: How many colours can you create with the onboard RGB LEDs?**
+
+A. One
+
+B. 256
+
+C. 1000
+
+D. Many thousands
+
+_Answer: D_
+
+---
+
+**Question 3.3: How many motors can you connect directly to the mCore?**
+
+A. One
+
+B. Two
+
+C. Three
+
+D. Four
+
+_Answer: B_
+
+---
+
+
 
