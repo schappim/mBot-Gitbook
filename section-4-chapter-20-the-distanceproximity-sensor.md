@@ -87,7 +87,7 @@ A. The sensor returns an error.
 
 B. The sensor returns and error and stops functioning.
 
-C. The sensor can return no valid reading.
+**C. The sensor can return no valid reading.**
 
 D. The sensor returns detailed readings \(for example, millimetres instead of centimetres\).
 
