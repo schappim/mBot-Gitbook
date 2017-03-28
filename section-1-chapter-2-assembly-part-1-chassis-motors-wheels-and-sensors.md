@@ -6,11 +6,17 @@
 
 ---
 
-In this chapter, you will learn about:
+**In this chapter, you will learn about:**
 
 * How to attach the two Direct Current \(DC\) motors to the mBot chassis
 * How to attach the line follower module and the mini wheel module to the mBot chassis
 * How to attach the range finder module to the mBot chassis
+
+---
+
+##### This is a hand-on activity.
+
+You will need the screwdriver that comes with the mBot, and the various parts supplied in the kit
 
 ---
 
