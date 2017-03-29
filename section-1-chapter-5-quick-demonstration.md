@@ -14,7 +14,7 @@ In this chapter you will learn about:
 
 **This is a hand-on activity.**
 
-You will not need any tools. 
+You will not need any tools.
 
 You will need the infrared remote controller the came with the kit, and the assembled mBot with a full set of batteries.
 
@@ -28,9 +28,13 @@ Let's start with the first demonstration mode: remote control car!
 
 \[Image 1.5.1: The remote controller allows you to activate the build-in demonstration programs on the mBot\]
 
+### Remote control car mode
+
 Turn on your mBot and place it on the floor. Make sure the the coin-cell \(CR2025\) battery is properly inserted in the remote controller. Then, point the remote controller towards the mBot, and press the "A" key. This will enable the remote control car mode.
 
 Now press any of the directional keys, and see how your mBot responds by moving accordingly. Have a bit of fun with this mode before moving to the next one.
+
+### Obstacle avoidance mode
 
 Put a few objects on the floor around your mBot, and press the "B" key on the remote controller. This will start the obstacle avoidance program. Your mBot will start moving at a straight line, but as soon as it gets close to an obstacle it will stop and turn to a different direction, then move forwards again. It will keep doing that until you turn it off, or change the program that is running on it.
 
@@ -39,6 +43,18 @@ The obstacle avoidance program uses the rangefinder module to detect obstacles i
 ![](/assets/mbot escape.JPG)
 
 \[Image 1.5.2: The mBot program B helps the mBot avoid obstacles\]
+
+---
+
+**Question 1.5.1: Pick up the mBot, while it is operating in obstacle avoidance mode. Hold it in a way that its wheels are free to turn. Use the palm of your hand as a target, and hold it steadily infront of the distance sensor. Notice how the motion of the wheels change depending on the distance between your hand and the sensor? Use a tape measure or ruler and measure the distance between your palm and the sensor that causes the wheels to change the way that they rotate.**
+
+The distance you measured is \_\_\_\_\_\_\_\_\_\_\_ cm.
+
+_Answer: Students should measure a distance of around 20-30 cm._
+
+---
+
+
 
 Next, try out the line follower program. Place the supplied sheet of paper with the large "8" figure printed on it on the floor, and place your mBot somewhere on the line. The line module should be over the line. Turn the mBot on and press the "C" key on the remote controller.
 
