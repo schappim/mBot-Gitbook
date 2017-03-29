@@ -88,7 +88,7 @@ Here's an example of one of my experiments:
 
 \[Image 1.5.5: Record of an experiment for determining the mBot's maximum turning capacity\]
 
-Diameter: \_\_\_\_\_\_\_\_\_\_ cm           
+Diameter: \_\_\_\_\_\_\_\_\_\_ cm
 
 Angle:      \_\_\_\_\_\_\_\_\_\_\_ degrees
 
@@ -96,5 +96,15 @@ _Answer: A turn of 10cm \(radius\) and 90 degrees is well within the mBot's abil
 
 ---
 
+**Checklist**
 
+Double-check that at this point, the following are completed:
+
+\[   \] Tested the mBot: it turns on, it's wheels are turning as expected and sensors are working properly
+
+\[   \] Tested the infrared remote control. You can use it to control your mBot
+
+\[   \] Tested the 3 built-in programs that ship with the mBot, and are working well.
+
+---
 
