@@ -16,3 +16,13 @@ We are going to demonstrate the differences and similarities of each. Remember t
 
 To build a line following application, we'll use the PC version of the mBot software. This is going to be handled later in this course. But these three are great apps for getting started and playing, and that's what we are going to do next.
 
+
+
+
+
+> # Peter: I think this chapter is not needed. Consider removing it and just continuing with the next one \(Demo of mBlockly\).
+>
+> # Will need to adjust the chapter numbers and references.
+
+
+
