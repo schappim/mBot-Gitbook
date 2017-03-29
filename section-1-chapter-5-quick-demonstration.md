@@ -54,9 +54,9 @@ _Answer: Students should measure a distance of around 20-30 cm._
 
 ---
 
+### Line follower
 
-
-Next, try out the line follower program. Place the supplied sheet of paper with the large "8" figure printed on it on the floor, and place your mBot somewhere on the line. The line module should be over the line. Turn the mBot on and press the "C" key on the remote controller.
+Next, try out the line follower program. Place the provided \(part of the kit\) sheet of paper with the large "8" figure printed on it on the floor, and place your mBot somewhere on the line. The line module should be over the line. Turn the mBot on and press the "C" key on the remote controller.
 
 The mBot will start zooming over the line, without going off it. It will keep going until you press "A" to enable the remote control program again.
 
@@ -72,9 +72,29 @@ How about you create your own line on the floor?
 
 \[Image 1.5.4: A line made from the basic line parts that ship with this book\]
 
-In the later part of this book you will learn how to implement this kind of behaviour on your mBot. Yes, you will learn how to program your mBot to follow a line!
+In the second part of this book you will learn how to implement this kind of behaviour on your mBot. Yes, you will learn how to program your mBot to follow a line!
 
 Fun, isn't it? To stop the mBot, press the "A" button on the remote controller to go back into manual control mode.I encourage you to play around with your mBot and the programs that come with it at available budgets using the A, B and C buttons on your remote control and the directional buttons so as to control its direction.
 
 In the next chapter, I'm going to show you how you can do some simple programming on the mBot using the Scratch graphical programming language on an iPad.
+
+---
+
+**Question 1.5.2: Try to find out how narrow a turn can be before the mBot is unable to follow it. Use a black marker and draw a sharp bent on a A4 piece of printer paper. Alternatively, you can use a program on your computer, like Microsoft Powerpoint or Apple Keynote to draw this bend. Draw a few variations \(wide bend, medium bend, and sharp bend\). Then test your mbot. Was it able to follow the line around the bend? How sharp can the turn get before the mBot looses the line? When you find the sharpest bend the the mbot can negotiate, measure it radius and angle.**
+
+Here's an example of one of my experiments:
+
+![](/assets/IMG_9791.JPG)
+
+\[Image 1.5.5: Record of an experiment for determining the mBot's maximum turning capacity\]
+
+Diameter: \_\_\_\_\_\_\_\_\_\_ cm           
+
+Angle:      \_\_\_\_\_\_\_\_\_\_\_ degrees
+
+_Answer: A turn of 10cm \(radius\) and 90 degrees is well within the mBot's ability to do._
+
+---
+
+
 
