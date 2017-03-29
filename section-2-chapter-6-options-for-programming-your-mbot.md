@@ -44,23 +44,23 @@ mBlock is the program we will be using in this book to write the line follower p
 
 ### Makeblock
 
-Makeblock is designed for very young children or people that have never programmed in the past. With Makeblock, you can start programming your mBot without doing any programming at all. You don't even have to use the Scratch graphical programming language; you can have a lot of fun and implement interesting behaviours by adding various components on the design canvas, using your iPad or Android tablet. 
+Makeblock is designed for very young children or people that have never programmed in the past. With Makeblock, you can start programming your mBot without doing any programming at all. You don't even have to use the Scratch graphical programming language; you can have a lot of fun and implement interesting behaviours by adding various components on the design canvas, using your iPad or Android tablet.
 
 Makeblock is a great way to start playing with the mBot.![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.MP4.mp4-00-02-57-013.png)\[Image 2.6.2: Makeblock, running on an iPad. It is a great way to access and use the mBot modules and motors\]
 
-With Makeblock, as you will learn in Chapter 9, you can do a lot:  play music with the buzzer, visualise data from the distance sensor and the light sensor in a line graph, navigate the mBot with a joystick, or make a colourful display of colour using the two RGB LEDs. 
+With Makeblock, as you will learn in Chapter 9, you can do a lot:  play music with the buzzer, visualise data from the distance sensor and the light sensor in a line graph, navigate the mBot with a joystick, or make a colourful display of colour using the two RGB LEDs.
 
 ### mBlock
 
-The last application in this quick tour is mBlock. mBlock is an application that works on Android and iOS tablets. Confusinlgy, it has the name name as the application we will be using on Windows and Mac. 
+The last application in this quick tour is mBlock. mBlock is an application that works on Android and iOS tablets. Confusinlgy, it has the name name as the application we will be using on Windows and Mac.
 
-mBlock for Android and iOS is designed as a game. The game takes you through a series of stages, and in each stage you win by learning something new about mBot programming, and applying your new knowledge to win points. ![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.MP4.mp4-00-09-17-025.png)\[Image 2.6.3: mBlock for tablets is a game. You win by learning how to program your mBot\] 
+mBlock for Android and iOS is designed as a game. The game takes you through a series of stages, and in each stage you win by learning something new about mBot programming, and applying your new knowledge to win points. ![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.MP4.mp4-00-09-17-025.png)\[Image 2.6.3: mBlock for tablets is a game. You win by learning how to program your mBot\]
 
 ### mBlockly
 
 Finally, there is mBlockly. mBlockly for tablets is very similar to mBlock for Windows and Mac. They both provide you with a programming interface that allows you to use graphical components to put together a program. Both allow you to use Scratch, the graphical programming language, to compose a program. Think of mBlockly as the tablet version of mBlock.![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.CONSTANT-00-02-36-638.png)\[Image 2.6.4: mBlockly is the tablet version of mBlock for Windows and Mac. Use it to compose Scratch programs for the mBot\]
 
-You will learn how to use these applications in the next three chapters. First, in the next chapter, you will learn about Makeblock, followed by mBlock and mBlockly. You will also learn about some of their limitations. 
+You will learn how to use these applications in the next three chapters. First, in the next chapter, you will learn about Makeblock, followed by mBlock and mBlockly. You will also learn about some of their limitations.
 
 ---
 
@@ -106,7 +106,13 @@ Answer: D
 
 ---
 
-Checklist
+**Checklist**
 
+Double-check that at this point, the following are completed:
 
+\[   \] You are familiar with the available options for programming your mBot
+
+\[   \] You know which programming language you will be using to program the mBot
+
+\[   \] You are eager to get started!
 
