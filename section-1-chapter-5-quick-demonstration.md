@@ -12,6 +12,14 @@ In this chapter you will learn about:
 
 ---
 
+**This is a hand-on activity.**
+
+You will not need any tools. 
+
+You will need the infrared remote controller the came with the kit, and the assembled mBot with a full set of batteries.
+
+---
+
 Now that your mBot is assembled, how about your take it for a ride? You don't have to do any programming at all, because the mBot comes with demonstration programs already installed, out of the box. To play with them, you will need your mBot infrared remote control and the fold-out sheet of paper with the black line printed on it that is included in the kit.
 
 Let's start with the first demonstration mode: remote control car!
@@ -20,7 +28,7 @@ Let's start with the first demonstration mode: remote control car!
 
 \[Image 1.5.1: The remote controller allows you to activate the build-in demonstration programs on the mBot\]
 
-Turn on your mBot and place it on the floor. Make sure the the coin-cell \(CR2025\) battery is properly inserted in the remote controller. Then, point the remote controller towards the mBot, and press the "A" key. This will enables the remote control car mode.
+Turn on your mBot and place it on the floor. Make sure the the coin-cell \(CR2025\) battery is properly inserted in the remote controller. Then, point the remote controller towards the mBot, and press the "A" key. This will enable the remote control car mode.
 
 Now press any of the directional keys, and see how your mBot responds by moving accordingly. Have a bit of fun with this mode before moving to the next one.
 
