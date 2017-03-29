@@ -19,37 +19,94 @@ Please read this chapter carefully. It will provide information that you will ne
 
 ---
 
-\(Un-edited\)
-
 When it comes to programming the mBot, you have three tools that you can choose from:
 
-* mBlock
-* Makeblock
-* mBlock
+* mBlock for Windows and PC
+* Makeblock for tablets
+* mBlock for tablets
+* mBlockly for tablets
 
-The first one, mBlock, is a full-fledged programming environment for the mBot, and the one that allows you to take advantage of all of the mBot's capabilities. 
+The first one, mBlock, is a full-fledged programming environment for the mBot, and the one that allows you to take advantage of all of the mBot's capabilities.
 
 The other two, Makeblock and mBlock, are designed for Android and iOS tablets and meant to provide a gentle entry into the world of robotics.
 
-Let's have a closer look at each one. 
+Let's have a closer look at each one.
 
 ### mBlock
 
-The first one, mBlock is an application that runs on a Windows or Macintosh computer. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writing a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
+The first one, mBlock is an application that runs on a Windows or Macintosh computers. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writing a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
 
 ![](/assets/2017-03-17_16-33-42.png)
 
 \[Image 2.6.1: This is a view of mBlock, a tool that you can use for programming the mBot using Scratch\]
 
-A lot more about these later. Now, you can also program your mbot on a mobile device, so Ios or Android tablets or smartphones can also be used to program the mbot.
+mBlock is the program we will be using in this book to write the line follower program. By the time you finish this project, you will be fluent at using it.
 
-Here you've got three different choices, each one app provides or gives emphasis in a particular aspect of programming. So the first one is Make-block. With Make-block, you can create custom dashboards for your mbot, so you can create a dashboard that includes for example a joystick and a reading of the data coming out of the distance sensor and that is displayed of course on the screen of your tablet. I will be spending a bit of time showing you how to use Make-block in a separate lecture coming up. That is Make-block.
+### Makeblock
 
-The next one is and M-block. M-block is designed for really young kids that perhaps have never had any programming experience before. Having said that, just remember that almost everything that Make-block makes and the products that they produce as educational products are really for children and people who have never used a programming language before, they have never programmed anything and that is why there is a lot of emphasis in a graphical programming language instead of classic tech-based programming language.
+Makeblock is designed for very young children or people that have never programmed in the past. With Makeblock, you can start programming your mBot without doing any programming at all. You don't even have to use the Scratch graphical programming language; you can have a lot of fun and implement interesting behaviours by adding various components on the design canvas, using your iPad or Android tablet. 
 
-But the M-block app for smart-phones and tablets has got this additional gamification aspect which makes programming look more like a game than programming itself. So it will guide you through certain steps of putting those blocks together and then give you rewards and points for doing so and I will demonstrate exactly how that works in the coming up lecture in this section.
+Makeblock is a great way to start playing with the mBot.![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.MP4.mp4-00-02-57-013.png)\[Image 2.6.2: Makeblock, running on an iPad. It is a great way to access and use the mBot modules and motors\]
 
-Then finally we have M-blockly. Now M-blockly looks very very similar to M-block. M-block and M-blockly are basically the same thing, in that they provide you with a programming interface that allows you to use graphical components to put together a program, that is, whatever program you want to put in there. So think of M-blockly as the tablet version of M-block.
+With Makeblock, as you will learn in Chapter 9, you can do a lot:  play music with the buzzer, visualise data from the distance sensor and the light sensor in a line graph, navigate the mBot with a joystick, or make a colourful display of colour using the two RGB LEDs. 
 
-I am going to show you what all of these apps look like in the next lecture. So I am going to show you Make-block, I am going to show you M-block and M-blockly in the next lecture and give you some examples and demonstration on how to use them and also highlight some of the restrictions. And once we are done having a look and a tour of these three apps, then I will dedicate the rest of our time in this course playing around with M-block and building up our application using M-block.
+### mBlock
+
+The last application in this quick tour is mBlock. mBlock is an application that works on Android and iOS tablets. Confusinlgy, it has the name name as the application we will be using on Windows and Mac. 
+
+mBlock for Android and iOS is designed as a game. The game takes you through a series of stages, and in each stage you win by learning something new about mBot programming, and applying your new knowledge to win points. ![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.MP4.mp4-00-09-17-025.png)\[Image 2.6.3: mBlock for tablets is a game. You win by learning how to program your mBot\] 
+
+### mBlockly
+
+Finally, there is mBlockly. mBlockly for tablets is very similar to mBlock for Windows and Mac. They both provide you with a programming interface that allows you to use graphical components to put together a program. Both allow you to use Scratch, the graphical programming language, to compose a program. Think of mBlockly as the tablet version of mBlock.![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.CONSTANT-00-02-36-638.png)\[Image 2.6.4: mBlockly is the tablet version of mBlock for Windows and Mac. Use it to compose Scratch programs for the mBot\]
+
+You will learn how to use these applications in the next three chapters. First, in the next chapter, you will learn about Makeblock, followed by mBlock and mBlockly. You will also learn about some of their limitations. 
+
+---
+
+Question 2.6.1: Which of the following applications will you use to program your mBot on your computer \(Windows or Mac\)?
+
+A. mBlock for Windows and PC
+
+B. Makeblock for tablets
+
+C. mBlock for tablets
+
+D. mBlockly for tablets
+
+Answer: A
+
+---
+
+Question 2.6.1: Which of the following applications is a game?
+
+A. mBlock for Windows and PC
+
+B. Makeblock for tablets
+
+C. mBlock for tablets
+
+D. mBlockly for tablets
+
+Answer: C
+
+---
+
+Question 2.6.1: Which programming language is used to compose programs for the mBot by the applications you learned about this in chapter?
+
+A. Java
+
+B. Python
+
+C. Ruby
+
+D. Scratch
+
+Answer: D
+
+---
+
+Checklist
+
+
 
