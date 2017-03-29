@@ -15,7 +15,7 @@ In this chapter you will learn about:
 
 **This is a reading activity.**
 
-Please read this chapter carefully. It will provide information that you will need later in this book. 
+Please read this chapter carefully. It will provide information that you will need later in this book.
 
 ---
 
@@ -26,6 +26,12 @@ When it comes to programming the mBot, you have three tools that you can choose 
 * mBlock
 * Makeblock
 * mBlock
+
+The first one, mBlock, is a full-fledged programming environment for the mBot, and the one that allows you to take advantage of all of the mBot's capabilities. 
+
+The other two, Makeblock and mBlock, are designed for Android and iOS tablets and meant to provide a gentle entry into the world of robotics.
+
+Let's have a closer look at each one. 
 
 ### mBlock
 
