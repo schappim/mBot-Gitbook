@@ -13,6 +13,12 @@ In this chapter you will learn about:
 
 ---
 
+**This is a reading activity.**
+
+Please read this chapter carefully. It will provide information that you will need later in this book. 
+
+---
+
 \(Un-edited\)
 
 When it comes to programming the mBot, you have three tools that you can choose from:
@@ -20,6 +26,8 @@ When it comes to programming the mBot, you have three tools that you can choose 
 * mBlock
 * Makeblock
 * mBlock
+
+### mBlock
 
 The first one, mBlock is an application that runs on a Windows or Macintosh computer. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writing a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
 
