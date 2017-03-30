@@ -70,7 +70,7 @@ When there is no object before the mBot, or when the object is too close to the 
 
 Let's not forget to save the program: File &gt; Save Project as and then type the name: "introduction to the distance sensor".
 
-### More programming
+### A different exercise
 
 Next, let's load the program we saved in the previous chapter, named "forever loop alternating the LEDs with variable", and make some changes to it. To load a previously saved program we go to: File &gt; Load program and pick it in the "choose file to open" window. We might get a "Replace contents of current program?" question. If we are sure we have saved the program that is now on the canvas, or if we just don't need what's on the canvas, we can just proceed by clicking "OK".
 
