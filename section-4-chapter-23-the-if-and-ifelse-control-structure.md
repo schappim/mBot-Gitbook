@@ -6,10 +6,9 @@
 
 ---
 
-In this chapter you will learn:
+In this chapter you will learn about:
 
-* 
----
+* ---
 
 Wi
 

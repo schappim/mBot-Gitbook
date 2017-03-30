@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn:
+In this chapter you will learn about:
 
 * How the distance/proximity sensor operates
 * How to program the distance/proximity sensor

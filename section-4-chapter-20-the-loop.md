@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn:
+In this chapter you will learn about:
 
 * How to use the forever loop
 * How to save a program on the disk
