@@ -17,7 +17,7 @@ With the two LEDs blissfully blinking away forever, the next thing that we are g
 
 ### Operation of a distance/proximity sensor
 
-The proximity sensor allows us to measure the distance between the mBot and an object in front of it. The sensor works well in a reasonable distance up to 30 or 40 centimeters. The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to recognize it and to the measure the distance from it. A larger object with a flat surface, like a book, makes a better candidate for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine: there are two components:
+The proximity sensor allows us to measure the distance between the mBot and an object in front of it. The sensor works well in a reasonable distance up to 30 or 40 centimetres. The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to recognize it and to the measure the distance from it. A larger object with a flat surface, like a book, makes a better candidate for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine: there are two components:
 
 * the **transmitter **which them emits out a bleep: an ultrasonic sound which is going to reach the object, bounce off it and then come back
 * the **receiver **which listens out for those bounced signals.
@@ -74,7 +74,7 @@ Let's not forget to save the program: File &gt; Save Project as and then type th
 
 Next, let's load the program we saved in the previous chapter, named "forever loop alternating the LEDs with variable", and make some changes to it. To load a previously saved program we go to: File &gt; Load program and pick it in the "choose file to open" window. We might get a "Replace contents of current program?" question. If we are sure we have saved the program that is now on the canvas, or if we just don't need what's on the canvas, we can just proceed by clicking "OK".
 
-Now, let's alter the program, by discarting blocks and inserting new ones, until we have it the way it is shown in the image, below. In order to discart a block, we just drag and drop it outside the programming canvas.
+Now, let's alter the program, by discarding blocks and inserting new ones, until we have it the way it is shown in the image, below. In order to discard a block, we just drag and drop it outside the programming canvas.
 
 ![](/assets/Img.4.21.4.jpg)
 
@@ -84,7 +84,9 @@ The idea is that the LEDs blink with a frequency that corresponds to the distanc
 
 Here's what happens: left LED is turned on while right LED is turned off and we leave things that way for distance \* 0.01 seconds. Then left LED is turned off while right LED is turned on and again we wait for distance \* 0.01 seconds. And that over and over again, since it is placed in a forever loop. And that is what we call blinking.
 
-But why multiply with 0.1? Imagine the distance of the object being, say, 30 cm. Obviously, it wouldn't be much of a blinking to have the LED stay turned on for 30 seconds, would it?
+But why multiply with 0.1? Imagine the distance of the object being, say, 30 cm. Obviously, it wouldn't be much of a blinking to have the LED stay turned on for 30 seconds, would it? Therefore, we need to multiply it with some decimal value.
+
+**Note**: Distance readings of the sensor are in centimetres.
 
 Now we can "Upload to Arduino" and test our program. Let's pick a suitable obstacle, like a book, place it before the sensor and try different distances. The closer we bring it to the mBot, the faster the LEDs blink, the further away we take it from the mBot, the blinking rate decreases.
 
