@@ -42,6 +42,8 @@ Next step, we drag "set distance to ..." and attach it below the header bock. An
 
 \[Image 4.21.1: Assigning the ultrasonic sensor reading to variable "distance"\]
 
+If your ultrasonic sensor is connected to some other port than Port3, you should change this attribute accordingly.
+
 Next, we add a "set led on board ..." block, attach it to the program and place variable "distance" in all the three attribute places:
 
 ![](/assets/Img.4.21.2.jpg)
@@ -68,9 +70,29 @@ When there is no object before the mBot, or when the object is too close to the 
 
 Let's not forget to save the program: File &gt; Save Project as and then type the name: "introduction to the distance sensor".
 
+### More programming
+
+Next, let's load the program we saved in the previous chapter, named "forever loop alternating the LEDs with variable", and make some changes to it. To load a previously saved program we go to: File &gt; Load program and pick it in the "choose file to open" window. We might get a "Replace contents of current program?" question. If we are sure we have saved the program that is now on the canvas, or if we just don't need what's on the canvas, we can just proceed by clicking "OK".
+
+Now, let's alter the program, by discarting blocks and inserting new ones, until we have it the way it is shown in the image, below. In order to discart a block, we just drag and drop it outside the programming canvas.
+
+![](/assets/Img.4.21.4.jpg)
+
+\[Image 4.21.4: The new version of the program\]
+
+The idea is that the LEDs blink with a frequency that corresponds to the distance of some object caught by the ultrasonic sensor.
+
+Here's what happens: left LED is turned on while right LED is turned off and we leave things that way for distance \* 0.01 seconds. Then left LED is turned off while right LED is turned on and again we wait for distance \* 0.01 seconds. And that over and over again, since it is placed in a forever loop. And that is what we call blinking.
+
+But why multiply with 0.1? Imagine the distance of the object being, say, 30 cm. Obviously, it wouldn't be much of a blinking to have the LED stay turned on for 30 seconds, would it?
+
+Now we can "Upload to Arduino" and test our program. Let's pick a suitable obstacle, like a book, place it before the sensor and try different distances. The closer we bring it to the mBot, the faster the LEDs blink, the further away we take it from the mBot, the blinking rate decreases.
+
+This was just another example of how we can get input from sensors and then manipulate that input arithmetically in order to produce a desired behaviour. We are going to work more with the ultrasonic sensor later on in this crash course. For the time being, let's move on and talk about the if and if-else control structure.
+
 ### Exercises
 
-1.Modify the program so that the LEDs have the opposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.
+1.Modify the program shown in image 4.21.3 so that the LEDs have the opposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.
 
 ### Questions
 
