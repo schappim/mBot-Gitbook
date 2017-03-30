@@ -17,7 +17,7 @@ With the two LEDs blissfully blinking away forever, the next thing that we are g
 
 ### Operation of a distance/proximity sensor
 
-The proximity sensor allows us to measure the distance between the mBot and an object in front of it. The sensor works well in a reasonable distance up to 30 or 40 centimetres. The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to recognize it and to the measure the distance from it. A larger object with a flat surface, like a book, makes a better candidate for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine: there are two components:
+The proximity sensor allows us to measure the distance between the mBot and an object in front of it. The sensor works well in a reasonable distance up to 30 or 40 centimetres. The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to recognize it and to the measure the distance from it. A larger object with a flat surface, like a book, makes a better target for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine. The sensor contains two main components:
 
 * the **transmitter **which them emits out a bleep: an ultrasonic sound which is going to reach the object, bounce off it and then come back
 * the **receiver **which listens out for those bounced signals.
