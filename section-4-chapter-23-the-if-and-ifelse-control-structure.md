@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 21: The "if" and "if...else" control structures
+## Chapter 22: The "if" and "if...else" control structures
 
 ---
 
