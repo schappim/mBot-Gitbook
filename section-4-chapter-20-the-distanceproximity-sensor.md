@@ -92,9 +92,9 @@ Now we can "Upload to Arduino" and test our program. Let's pick a suitable obsta
 
 This was just another example of how we can get input from sensors and then manipulate that input arithmetically in order to produce a desired behaviour. We are going to work more with the ultrasonic sensor later on in this crash course. For the time being, let's move on and talk about the if and if-else control structure.
 
-### Exercises
+### Exercise 4.21.1
 
-1.Modify the program shown in image 4.21.3 so that the LEDs have the opposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.
+Modify the program shown in image 4.21.3 so that the LEDs have the opposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.
 
 ### Questions
 
