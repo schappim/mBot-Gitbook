@@ -96,25 +96,31 @@ This was just another example of how we can get input from sensors and then mani
 
 Modify the program shown in image 4.21.3 so that the LEDs have the opposite behaviour: their intensity increases, instead of decreasing, as the target object is getting closer, and vice versa.
 
-### Questions
+### Question 4.21.1
 
-1.What is the way of operation of the distance/proximity sensor?
+What is the way of operation of the distance/proximity sensor?
 
 A. The transmitter emits a specific tone and the receiver picks up the distortion of the tone.
 
-**B. The transmitter emits a ultrasonic sound signal and then picks up the echo.**
+B. The transmitter emits a ultrasonic sound signal and then picks up the echo.
 
 C. The transmitter emits a ultrasonic sound signal and the receiver picks up the echo.
 
 D. Both A and C.
 
-2.What happens when we run the program shown in image 4.21.3, but then with the target object leaned against the distance/proximity sensor?
+_Answer: B._
+
+### Question 4.21.2
+
+What happens when we run the program shown in image 4.21.3, but then with the target object leaned against the distance/proximity sensor?
 
 A. The sensor returns an error.
 
 B. The sensor returns and error and stops functioning.
 
-**C. The sensor can return no valid reading.**
+C. The sensor can return no valid reading.
 
 D. The sensor returns detailed readings \(for example, millimetres instead of centimetres\).
+
+_Answer: C_
 
