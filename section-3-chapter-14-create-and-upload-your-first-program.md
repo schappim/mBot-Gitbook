@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn:
+In this chapter you will learn about:
 
 * How to create e new Scratch program
 

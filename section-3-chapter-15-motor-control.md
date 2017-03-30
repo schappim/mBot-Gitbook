@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn:
+In this chapter you will learn about:
 
 * How to program the mBot to move forwards
 * What is the meaning of the speed values
