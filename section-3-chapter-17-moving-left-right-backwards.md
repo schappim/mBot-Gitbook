@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn:
+In this chapter you will learn about:
 
 * How to make the mBot turn left and right
 * How to make the mBot go backwards
