@@ -8,7 +8,9 @@
 
 In this chapter you will learn about:
 
-* ---
+* How to have the mBot make desicions
+
+---
 
 In the last chapter we got ourselves an mBot that blinks its LEDs blue and red, depending on the distance between its ultrasonic sensor and a target object. That has given us understanding of how the ultrasonic sensor and the forever loop work.
 
