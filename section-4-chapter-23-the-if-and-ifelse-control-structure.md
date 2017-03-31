@@ -32,27 +32,37 @@ You will notice that such blocks have angular sides that make them fit in the co
 
 \[Image 4.22.3: Where to place the operator block\]
 
-Let's create a new program: File &gt; New
+### A program that makes desicions
 
-Now, let's create a variable distance and by adding blocks and fit them together let's compose the program shown in the image below:
+Let's create a new program: File &gt; New and use an if...else block to make a desicion
+
+First, let's create a variable distance and by adding blocks and fit them together let's compose the program shown in the image below:
 
 ![](/assets/Img.4.22.4.jpg)
 
 \[Image 4.22.4: The program\]
 
-We notice that the if...else block is nested within the forever loop. Port3 referes to the port where the ultrasonic is connected on the mBot. We should always check to in order to get such attributes right.
+We notice that the if...else block is nested within the forever loop. Port3 refers to the port where the ultrasonic is connected on the mBot. We should always check such things in order to get the coresponding attributes right.
 
-Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Then check this value, stored in "distance" and if it is greater than 30, then set all LEDs to green, else set them to blue. And all than, over and over again, since it's nested in a forever loop.
+Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Following, check this value, stored in "distance", and if it is greater than 30, then set all LEDs to green, else set them to blue. And all that, over and over again, since it's nested in a forever loop.
+
+Now we can "Upload to Arduino" and check whether the mBot functions as expected: we place some obstacle in front of the sensor, at a distance somewhat greater than 30 cm. and the LEDs should turn to green. We move the object closer than 30 cm. and the LEDs should change colour and become blue.
+
+### Expanding the program
+
+Remember, though, that the original goal we set was to have three different colours and three different distance categories. Therefore, we will have to expand our program a little and here's how. Add an extra if...else block and all other necessary instruction blocks in order to have the program like this:
+
+![](/assets/Img.4.22.5.jpg)
+
+\[Image 4.22.5: The expanded program\]
+
+In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have gotten this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red.
 
 
 
 ~~~~~~~~~
 
-Let's start the process with a brand new program. Here's a brand new program, we're close in so we get a bit more space to work with. As always, we will start with the mBoard program header block and because we want the program that we are about to run to continuously run without interruption forever or at least until we turn it off, we are going to use the forever loop. Now, let's think about what the objective is, we want to control the color of both LED's depending on the distance between the object and the sensor.
 
-The first thing that we need to do is to take a reading out of the sensor and to do that we need a variable. Let's go ahead and create a variable just like we did before the previous example, we call it distance. And take the distance or the set distance log and just place it at the beginning of the forever loop so that every time we go through a new cycle inside the forever loop, the first thing that we do is to get a distance measurement from the sensor and store it inside the distance variable.
-
-We got this set distance block and then we need to go into the robots section and find the ultrasonic sensor block and use it to replace that fixed value for the distance variable. Now, ultrasonic sensor is connected to the PORT 3 so that's good. Then, lets consider what is it that we would like to do. What we would like to do next is to make a decision, we'd like the LED's to light up in the particular color depending on the distance between the sensor and the object in front of it.
 
 If the distance is, let's say, greater than 30cm then I would like my LED's to be green, so I use the keyword IF that indicates that a decision now has to be made. Now, the keyword IF also happens to be a keyword in a programming language and if we are going to the control section we'll see that there is an IF statement here, looks like this. There's also another one that looks like this. That both start with the IF statement however the second version of the IF statement, the IF block gives us the option to take an alternate course of action if whatever the test that we are using up here in the beginning turns out to not be true.
 
