@@ -20,13 +20,33 @@ In order to make desicions we use the "if" and "if...else" blocks that we can se
 
 \[Image 4.22.1: The "if" and "if...else" blocks\]
 
-These two control blocks can check some condition and execute some nested instructions, depending on whether that condition is true or not. Blocks suitable to be used as conditions can be found in the \(green\) "Operators" family of blocks.
+These two control blocks can evaluate a given condition and execute some nested instructions, depending on whether this condition is true or not. Blocks suitable to be used as conditions can be found in the \(green\) "Operators" family of blocks:
 
+![](/assets/Img.4.22.2.jpg)
 
+\[Image 4.22.2: Operators like these can compare values and be used as conditions\]
+
+You will notice that such blocks have angular sides that make them fit in the condition spot, after the "if" word:
+
+![](/assets/Img.4.22.3.jpg)
+
+\[Image 4.22.3: Where to place the operator block\]
 
 Let's create a new program: File &gt; New
 
-~~~~~~~~~~~~~~~~~
+Now, let's create a variable distance and by adding blocks and fit them together let's compose the program shown in the image below:
+
+![](/assets/Img.4.22.4.jpg)
+
+\[Image 4.22.4: The program\]
+
+We notice that the if...else block is nested within the forever loop. Port3 referes to the port where the ultrasonic is connected on the mBot. We should always check to in order to get such attributes right.
+
+Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Then check this value, stored in "distance" and if it is greater than 30, then set all LEDs to green, else set them to blue. And all than, over and over again, since it's nested in a forever loop. 
+
+
+
+~~~~~~~~~
 
 Let's start the process with a brand new program. Here's a brand new program, we're close in so we get a bit more space to work with. As always, we will start with the mBoard program header block and because we want the program that we are about to run to continuously run without interruption forever or at least until we turn it off, we are going to use the forever loop. Now, let's think about what the objective is, we want to control the color of both LED's depending on the distance between the object and the sensor.
 
