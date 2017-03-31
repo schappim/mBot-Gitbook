@@ -42,7 +42,7 @@ Now, let's create a variable distance and by adding blocks and fit them together
 
 We notice that the if...else block is nested within the forever loop. Port3 referes to the port where the ultrasonic is connected on the mBot. We should always check to in order to get such attributes right.
 
-Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Then check this value, stored in "distance" and if it is greater than 30, then set all LEDs to green, else set them to blue. And all than, over and over again, since it's nested in a forever loop. 
+Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Then check this value, stored in "distance" and if it is greater than 30, then set all LEDs to green, else set them to blue. And all than, over and over again, since it's nested in a forever loop.
 
 
 
