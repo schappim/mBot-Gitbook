@@ -14,7 +14,19 @@ In the last chapter we got ourselves an mBot that blinks its LEDs blue and red, 
 
 In this chapter we will see how we can get the mBoard to make decisions, depending on sensor readings, like the ultrasonic sensor. Towards that goal, we're going to build a new program that, once more, uses the LEDs and the distance sensor only this time it turns the LEDs into a particular colour depending on the distance between a sensor and the target: green when it is far away, orange when it gets closer, red when it is too close.
 
-We're going to build the program so that when the distance between the sensor and the object in front of it is say about 30cm will get the LED's to be green. When it goes down to maybe 20cm its going to turn the LED's into orange then when it goes below 10cm we'll make it red. To do that, we'll have to use the IF-THEN statement which is a way to program a computer to make decisions based on the value of a variable.
+In order to make desicions we use the "if" and "if...else" blocks that we can see in the image below:
+
+![](/assets/Img.4.22.1.jpg)
+
+\[Image 4.22.1: The "if" and "if...else" blocks\]
+
+These two control blocks can check some condition and execute some nested instructions, depending on whether that condition is true or not. Blocks suitable to be used as conditions can be found in the \(green\) "Operators" family of blocks.
+
+
+
+Let's create a new program: File &gt; New
+
+~~~~~~~~~~~~~~~~~
 
 Let's start the process with a brand new program. Here's a brand new program, we're close in so we get a bit more space to work with. As always, we will start with the mBoard program header block and because we want the program that we are about to run to continuously run without interruption forever or at least until we turn it off, we are going to use the forever loop. Now, let's think about what the objective is, we want to control the color of both LED's depending on the distance between the object and the sensor.
 
@@ -53,6 +65,4 @@ Now, if the distance in the third and then go through the loop is say 10, which 
 Let's upload the program to the Arduino and test it in practice. Okay, after it's finished lets try it out now. A hand is the target. We're now beyond 30cm, I'll give you a better view. We are beyond the 30cm, we need it closer so now we are just above 20cm, closer so now we are below 20cm and the LED's are red. Isn't that great?
 
 Now, I've got a little exercise for you before we move on to the next thing that I'd like to show you. \[music\] I'd like to mimic traffic lights. Traffic lights we've got green, we've got red but we don't have blue we've got amber. How about you figure out how to change the codes of that instead of blue you could use amber.
-
-
 
