@@ -96,5 +96,17 @@ D. One that has a shape that fits perfectly in the condition spot.
 
 _Answer: D_
 
+### Question 4.22.3
 
+What is the way to have more alternative options in case an "if" condition turns up to be False?
+
+A. There is no way since when a condition is False, the program always exits immediately the "if" control block.
+
+B. We can combine more "if" and "if...else" blocks by nesting one into the other.
+
+C. We can nest the "if" and "if...else" blocks so that they sooner or later can be evaluated to True.
+
+D. We can use consecutive loops.
+
+_Answer: B_
 
