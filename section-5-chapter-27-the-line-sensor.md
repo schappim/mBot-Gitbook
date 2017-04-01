@@ -61,6 +61,14 @@ First of all, notice that we have created a variable named "line\_sensor\_status
 
 Here's what happens here:
 
+First we get the reading of the line follower and assign it to variable "line\_sensor\_status". Then we check the value of this variable, which is actually the sensor reading. Like we said earlier it can be either 0, 1, 2 or 3. We choose to turn on the mBot LEDs according to this value: If it is 0, we know that both sensors are on the black line, so we turn both LEDs off. Else, if it is 1, we know that the right sensor sees the white paper, so we turn the right LED on. Else, if it is 2, we know that the left sensor sees the white paper, so we turn the left LED on. Else, it must be 3, meaning that both sensors see the white paper, and we turn both LEDs on. And that, over and over again, getting each time a new reading, and having the LEDs shine accordingly.
+
+Let's "Upload to Arduino" now, and check the program. We place the line follower module of the mBot on the line and experiment with it: move it a little to the left, a little to the right, so that the sensors get on and off the black line, and we should notice that the LEDs are turned on and off accordingly, indicating what is it that the two sensors see: the black line or the white paper.
+
+And since we have done all this interesting work, let's don't forget to save the program: File &gt; 
+
+
+
 sensors in the line following sensor and to replicate the status on the on board LED. If the sensor is fully within the black line, and I would like the two LEDs to be turned off. If the sensor is fully outside the black line, then I would like both LEDs to be turned on. If the sensor is partially inside or partially outside the line, it sent depending on how you see these things.
 
 Then, I would like to have, say in this case, the left LED turned on, while the right one turn these, turned off and vice versa. If it's in this state, then I'd like this LED to be off and that to be on. Let's start writing that little sketch. As always, I'll start with the mBot program head on because I want the reading of a sensor to happen continuously. I will be using the forever loop. Now the line follower go back to the robots, and you can see that there is a block that allows us to read the line-following sensor. Here it is, the line following sensor. There is another line follower block, this one here, that allows us to read the individual light sensors on the line sensor.
