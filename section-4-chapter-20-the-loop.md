@@ -13,7 +13,7 @@ In this chapter you will learn about:
 
 ---
 
-Often we find ourselves in need for repetetive actions. A loop allows us to group together multiple instructions that we need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turns: the right LED will shine a particular colour, then it will go off, then the left LED will show a different colour, then it will go off and then this process will repeat again, indefinitely.
+Often we find ourselves in need of repetitive actions. A loop allows us to group together multiple instructions that we need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turns: the right LED will shine a particular colour, then it will go off, then the left LED will show a different colour, then it will go off and then this process will repeat again, indefinitely.
 
 We must know, by now, how to create a new program: File &gt; New and then, since we mean to program the mBot: Robots and place the "mBot Program" onto the canvas.
 
@@ -33,21 +33,21 @@ We have seen how to control the LEDs. Let's pick the correct blocks and change t
 
 \[Image 4.20.2: The program for turning the LEDs on and off in turns\]
 
-Reading the code: the left LED shines red for half a second, then turns off at the same time that the right LED starts shine blue for another half a second, and then turns off. And that over and over again because it is contained in a "forever" loop.
+Reading the code: the left LED shines red for half a second, then turns off at the same time that the right LED starts to shine blue for another half a second, and then turns off. And that over and over again because it is contained in a "forever" loop.
 
 If we connect the mBot and run the program we are going to see the two LEDs blink red and blue, in turns, very much like on a police patrol car.
 
 ### Changing the block order
 
-Let's try a different apporach now. For starters lets incorporate a variable in the program. That half a second that a LEDs is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Virable" window. And then let's move the blocks around until we have the following program:
+Let's try a different apporach now. For starters lets incorporate a variable in the program. That half a second that an LEDs is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Varable" window. And then let's move the blocks around until we have the following program:
 
 ![](/assets/Img.4.20.3.jpg)
 
 \[Image 4.20.3: The altered program\]
 
-Let's try to read it. First of all we notice that there is a different organization of the instructions. At the same time that the left LED is turned on red, the right one is turned off and vice versa: when the right LED is turned on blue, the right one is turned off, which makes sense. Then we make use of a variable "led\_on\_time" that holds that half a second to wait, and we place this variable as attribute, instead of the numberical, in the wait blocks.
+Let's try to read it. First of all we notice that there is a different organization of the instructions. At the same time that the left LED is turned on red, the right one is turned off and vice versa: when the right LED is turned on blue, the right one is turned off, which makes sense. Then we make use of a variable "led\_on\_time" that holds that half a second to wait, and we place this variable as attribute, instead of the numerical, in the wait blocks.
 
-Even though we have a different block order, here, and an additional variable, we expect the program to execute the same way like before.
+Even though we have a different block order, here, and an additional variable, we expect the program to execute the same way as before.
 
 ### Saving and Opening a program
 
