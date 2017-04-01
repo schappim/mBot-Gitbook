@@ -10,6 +10,7 @@ In this chapter you will learn about:
 
 * How to have the mBot make desicions
 * How to use the "if" and "if...else" control blocks
+* How to "nest" control blocks into other such blocks
 * What is a "condition" and how it affects the flow of the execution of a program
 
 ---
@@ -46,7 +47,7 @@ First, let's create a variable distance and by adding blocks and fit them togeth
 
 \[Image 4.22.4: The program\]
 
-We notice that the if...else block is nested within the forever loop. Port3 refers to the port where the ultrasonic is connected on the mBot. We should always check such things in order to get the coresponding attributes right.
+We notice that the if...else block is "nested" within the forever loop. Port3 refers to the port where the ultrasonic is connected on the mBot. We should always check such things in order to get the coresponding attributes right.
 
 Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Following, check this value, stored in "distance", and if it is greater than 30, then set all LEDs to green, else set them to blue. And all that, over and over again, since it's nested in a forever loop.
 
@@ -61,6 +62,8 @@ Remember, though, that the original goal we set was to have three different colo
 \[Image 4.22.5: The expanded program\]
 
 In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have gotten this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red. And all that, repeated again and again until we turn off the mBot.
+
+Notice that we have one "if...else" block nested in the forever block and yet another "if...else" block nested within the "else" of that block.
 
 Let's "Upload to Arduino" and check once more. Now, moving the object back and forth in front of the mBot, we should see the LEDs turn into three different colours, depending on the distance: green, blue and red.
 
