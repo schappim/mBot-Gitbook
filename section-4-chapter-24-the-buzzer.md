@@ -14,7 +14,7 @@ In this chapter you will learn about:
 
 One last thing before moving to the next section. Let's see how to use one more device that comes with the mBot: the buzzer and like the name suggests, we can use the buzzer to make some noise.
 
-The instruction block that allows us to control the buzzer is the "play tone on note ... beat ..." and it can be found in the \(dark blue\) "Robots" section. Let's drag and drop it in the program of the previous chapter, shown in image 4.22.5, right below the instruction block that sets the LEDs to red, and then add the note attribute to E4 and the beat attribute to Quarter, just to experiment, like this:
+The instruction block that allows us to control the buzzer is the "play tone on note ... beat ..." and it can be found in the \(dark blue\) "Robots" section. Let's drag and drop it in the program of the previous chapter, shown in image 4.22.5, right below the instruction block that sets the LEDs to red, and then set the note attribute to E4 and the beat attribute to Quarter, just to experiment, like this:
 
 ![](/assets/Img.4.23.1.jpg)
 
