@@ -13,9 +13,27 @@ In this chapter you will learn about:
 
 ---
 
-I hope you had a good break, and thank you for your patience so far. I know that we've covered a lot of details, but the phone is actually now starting. We are going to play around with the line-follower sensor. This is the last component that we need to start implementing the line-following capability and final program for the mBot. The line-following sensor is a module that we've attached at the bottom of the mBot, and it contains two, actually, sensors. Although it behaves as one single unit on it, we've got two sensors. These two sensors detect just light intensity, darkness or lightness of a color right in front of them.
+We had to covere a lot of details in the previous chapters, but the fun is actually starting now. We are going to play around with the line-follower sensor. This is a module that attached at the bottom of the mBot and even though it behaves as one single unit, it contains two sensors, like can be seen in the image below, which detect light intensity \(darkness or lightness\) of a color right in front of them.
 
-I've printed out a few sheets of A4 paper that contain the line that our robot will be following. The way that this sensor works, you can probably see it right here. Just notice, actually they go now with a bit of darkness, you would be able to see better. Notice that as I move the sensor so that one of the two light sensors is outside the black line. Actually, there's going to be a little gap for the light to bounce off the paper. Notice how the sensor unit, that is still over the black line, is dark whereas the other one that is right over the white part of the paper has got its indicator LED on. Then move onto the other side.
+![](/assets/Img.5.26.1.jpg)
+
+\[Image 5.26.1: The two light intensity sensors on the line-follower module\]
+
+First things first, we should make a line on the floor, using the line segments provided in this book.
+
+Now let's make a little experiment: let's place the mBot on that dark line and move it a little to the left or to the right so that one of the light intensity sensors is above the line, and the other is not. We will notice that there are two tiny indicator LEDs on the module, each one corresponding to one of the sensors. Each of these LEDs is automatically turned on, when the corresponding sensor senses brightness underneath, like the white paper, and turned off when there is darkness, like the black line.
+
+We can test this by moving the sensor to the left and to the right, relatively to the line.
+
+If both of the happen to be over the white part of the paper, outside the black line, they are both turned on. If they are both over the black line, they are both off.
+
+We can say, thus, that the sensor has four different states, indicated by the LEDs:
+
+~~**{up to here by Dimitris}**~~
+
+left LED on, right LED off
+
+right LED on, left LED o
 
 Notice how the two LEDs now have alternated the one on the right side that is over the white area of the paper, is lit while the one that this over the black half of the paper is dark. It's turned off if. If both of them are over the white part of the paper, outside a black line, and they're both turned on. This sensor has states. Either both individual light sensors are turned off or the left one is turned on, while the right one is turned off or the right one is turned on while the left one is turned off. There's one state actual issues, I said four. The fourth state is when both of the sensors are over the white area and away from the black area of the paper.
 
@@ -40,6 +58,4 @@ When that is through, what I'd like to do is to turn the left LED on. Can still 
 The LED for sensor number is eliminated indicating this and that corresponds to the green LED on the mBot board copying that state. I'm going to move the sensor fully within the line, and you can see now that all LEDs are off. Then move it half outside on the other side of the line. Green LED goes on the correct side and finally, fully outside the black line and both equal LEDs are on. That works. I'm going to save this little program when you're ready to move on to the next step.
 
 In the next step, what we'll do is engage the motors. We're going to get the motors to move the robot forwards, and if the sensor detects that it's about to get outside of the line, to get the robot to do a small correction towards the appropriate direction, and then move forwards again and test again. Then constantly corrects its course by adjusting the speed of the motors. We'll do that next.
-
-
 
