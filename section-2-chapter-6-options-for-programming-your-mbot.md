@@ -34,7 +34,7 @@ Let's have a closer look at each one.
 
 ### mBlock
 
-The first one, mBlock is an application that runs on a Windows or Macintosh computers. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writing a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate block, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
+The first one, mBlock is an application that runs on a Windows or Macintosh computers. Like all mBot programming options, mBlock allows you to write programs using the popular graphical programming language Scratch. In Scratch, instead of writing a program using text commands, you arrange blocks on a canvas. Each block represents a programming function. By combining together the appropriate blocks, you can build programs, and then upload them to your mBot. You will learn a lot about Scratch and its blocks later in this book.
 
 ![](/assets/2017-03-17_16-33-42.png)
 
@@ -44,7 +44,7 @@ mBlock is the program we will be using in this book to write the line follower p
 
 ### Makeblock
 
-Makeblock is designed for very young children or people that have never programmed in the past. With Makeblock, you can start programming your mBot without doing any programming at all. You don't even have to use the Scratch graphical programming language; you can have a lot of fun and implement interesting behaviours by adding various components on the design canvas, using your iPad or Android tablet.
+Makeblock is designed for very young children or adults that have never programmed in the past. With Makeblock, you can start programming your mBot without doing any programming at all. You don't even have to use the Scratch graphical programming language; you can have a lot of fun and implement interesting behaviours by adding various components on the design canvas, using your iPad or Android tablet.
 
 Makeblock is a great way to start playing with the mBot.![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.MP4.mp4-00-02-57-013.png)\[Image 2.6.2: Makeblock, running on an iPad. It is a great way to access and use the mBot modules and motors\]
 
