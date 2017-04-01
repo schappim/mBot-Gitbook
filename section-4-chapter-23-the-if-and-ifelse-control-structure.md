@@ -8,7 +8,7 @@
 
 In this chapter you will learn about:
 
-* How to have the mBot make desicions
+* How to have the mBot make decisions
 * How to use the "if" and "if...else" control blocks
 * How to "nest" control blocks into other such blocks
 * What is a "condition" and how it affects the flow of the execution of a program
@@ -17,9 +17,9 @@ In this chapter you will learn about:
 
 In the last chapter we got ourselves an mBot that blinks its LEDs blue and red, depending on the distance between its ultrasonic sensor and a target object. That has given us understanding of how the ultrasonic sensor and the forever loop work.
 
-In this chapter we will see how we can get the mBoard to make decisions, depending on sensor readings, like the ultrasonic sensor. Towards that goal, we're going to build a new program that, once more, uses the LEDs and the distance sensor only this time it turns the LEDs into a particular colour depending on the distance between a sensor and the target: green when it is far away, blue when it gets closer, red when it is too close.
+In this chapter we will see how we can get the mBot to make decisions, depending on sensor readings, like the ultrasonic sensor. Towards that goal, we're going to build a new program that, once more, uses the LEDs and the distance sensor only this time it turns the LEDs into a particular colour depending on the distance between a sensor and the target: green when it is far away, blue when it gets closer, red when it is too close.
 
-In order to make desicions we use the "if" and "if...else" blocks that we can see in the image below:
+In order to make decisions we use the "if" and "if...else" blocks that we can see in the image below:
 
 ![](/assets/Img.4.22.1.jpg)
 
@@ -37,9 +37,9 @@ You will notice that such blocks have angular sides that make them fit in the co
 
 \[Image 4.22.3: Where to place the operator block\]
 
-### A program that makes desicions
+### A program that makes decisions
 
-Let's create a new program: File &gt; New and use an if...else block to make a desicion
+Let's create a new program: File &gt; New and use an if...else block to make a decision
 
 First, let's create a variable distance and by adding blocks and fit them together let's compose the program shown in the image below:
 
@@ -47,7 +47,7 @@ First, let's create a variable distance and by adding blocks and fit them togeth
 
 \[Image 4.22.4: The program\]
 
-We notice that the if...else block is "nested" within the forever loop. Port3 refers to the port where the ultrasonic is connected on the mBot. We should always check such things in order to get the coresponding attributes right.
+We notice that the if...else block is "nested" within the forever loop. Port3 refers to the port where the ultrasonic is connected on the mBot. We should always check such things in order to get the corresponding attributes right.
 
 Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Following, check this value, stored in "distance", and if it is greater than 30, then set all LEDs to green, else set them to blue. And all that, over and over again, since it's nested in a forever loop.
 
@@ -67,7 +67,7 @@ Notice that we have one "if...else" block nested in the forever block and yet an
 
 Let's "Upload to Arduino" and check once more. Now, moving the object back and forth in front of the mBot, we should see the LEDs turn into three different colours, depending on the distance: green, blue and red.
 
-Save the program or just keep it open if you would like to proceed with the next chapter and incorporate the use of the buzzer into it.
+Let's save the program or just keep it open if we would like to proceed immediately with the next chapter and incorporate the use of the buzzer into it.
 
 ### Exercise 4.22.1
 

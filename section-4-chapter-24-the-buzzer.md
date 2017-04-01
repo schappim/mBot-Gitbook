@@ -8,14 +8,21 @@
 
 In this chapter you will learn about:
 
-* 
----
+* ---
 
 One last thing before moving to the next section. Let's see how to use one more device that comes with the mBot: the buzzer and like the name suggests, we can use the buzzer to make some noise.
 
-We can find
+The instruction block that allows us to control the buzzer is the "play tone on note ... beat ..." and it can be found in the \(dark blue\) "Robots" section. Let's drag and drop it in the program of the previous chapter, shown in image 4.22.5, right below the instruction block that sets the LEDs to red, and then add the note attribute to E4 and the beat attribute to Quarter, just to experiment, like this:
 
- If you have a look at the robots section there is a block here that allows you to control the buzzer. Let's see, here it is. This one here. This allows you to play a musical tone using the intergrate buzzer. What I would like to do is when the reading of the sensor indicates close proximity say below 20cm to also make a noise. You can pretend that this a warning or alarm noise.
+![](/assets/Img.4.23.1.jpg)
 
-I'm going to move the play tone note block right under the set anything on \[unintelligible 00:00:56\]and choose an appropriate musical tone. Lets say B4, I'd like it be there for a quarter duration. Let's see what it does. Upload it to Aduino. All finished and now let's listen. "Ring. Ring. Alarm." \[laughs\] This is like collition alert. All right. Awesome. Let's have a break here and then after the break I'm going to show you how to use the line sensor. The line sensor is this one under the bottom of the mBot and we use it to create the line following the work of producer, actually the objective of this class course the mBot. First we've got to learn how to use the proximity sensor. I'll see you after the break.
+\[Image 4.23.1: Where to add the buzzer instruction block\]
+
+This new addition will have the mBot produce a sound when the object gets too close and the LEDs are turned to red, very much like a collition alert: "Alarm! Object too close!"
+
+Let's "Upload to Arduino" and check it.
+
+Moving an object too close to the mBot and the ultrasonic sensor, now, should turn the LEDs to red, like before, but also produce an alarm sound, from the buzzer.
+
+
 
