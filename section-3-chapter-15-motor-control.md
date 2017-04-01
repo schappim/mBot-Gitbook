@@ -61,9 +61,9 @@ In the next chapter we are going to see how to get the mBot to turn left, right 
 
 ### Questions
 
-1.What will be the effect of this command: "run backward at speed -100"
+Question 3.16.1: What will be the effect of this command: "run backward at speed -100"
 
-**A. It will have the mBot move forwards**
+A. It will hav e the mBot move forwards
 
 B. It will have the mBot move backwards
 
@@ -71,7 +71,9 @@ C. It will have the mBot to stop
 
 D. It will return an error
 
-2.How can we re-execute the program?
+Answer: A
+
+Question 3.16.2: How can we re-execute the program?
 
 A. By creating a new program
 
@@ -79,5 +81,7 @@ B. By clicking on the reset button, on the mBot
 
 C. By turning off the mBot, and then back on
 
-**D. Both B and C**
+D. Both B and C
+
+Answer: D
 
