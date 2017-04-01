@@ -15,7 +15,7 @@ In this chapter you will learn about:
 
 ---
 
-In this chapter you will learn about mBlockly. Using mBlockly, you can create programs using the Scratch language and upload them to your mBot wirelessly. You mBot will then function according to your program.
+In this chapter you will learn about mBlockly. Using mBlockly, you can create programs using the Scratch language and upload them to your mBot wirelessly. Your mBot will then function according to your program.
 
 Immediately after starting the mBlockly on your tablet, it will detect a nearby mBot and you can tap on it, on the screen, to connect.
 
@@ -23,7 +23,7 @@ Immediately after starting the mBlockly on your tablet, it will detect a nearby 
 
 \[Image 2.8.1: Your tablet running mBlockly will detect your mBot very quickly\]
 
-If it doesn't, check the your mBot is turned on, and that the Bluetooth module is in discovery mode. You can confirm that by looking for the blue, blinking LED of the Bluetooth module. If the blue LED is solid, \(not blinking\), then you know that it is connected to another Bluetooth device. If this device is not your tablet, try turning the mBot off and then on again in order to switch the Bluetooth module back to discovery mode \(blinking blue LED\).
+If it doesn't, check that your mBot is turned on, and that the Bluetooth module is in discovery mode. You can confirm that by looking for the blue, blinking LED of the Bluetooth module. If the blue LED is solid \(not blinking\) then you know that it is connected to another Bluetooth device. If this device is not your tablet, try turning the mBot off and then on again in order to switch the Bluetooth module back to discovery mode \(blinking blue LED\).
 
 ![](/assets/IMG_9727.JPG)
 
@@ -35,10 +35,10 @@ The programming happens using Scratch, which is a block-based programming langua
 
 \[Image 2.8.3: To load a program, tap on its thumbnail\]
 
-Tap on the one called: "run forward and backward" and have a look at the instruction blocks which should be self explanatory as they are phrased in natural language:
+Tap on the one called: "run forward and backward" and have a look at the instruction blocks, which should be self-explanatory as they are phrased in natural language:
 
 * run forward at speed 150; 
-* wait for 2 seconds
+* wait for 2 seconds;
 * run backward at speed 200 \(indefinitely, since there follows no other instruction to change this\). 
 
 ![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-08-17-385.png)
@@ -79,7 +79,7 @@ From top to bottom, you see instructions that will get the mBot to:
 
 1. run forward at some speed and for a specific amount of seconds
 2. rotate to some direction at some speed and for a specific amount of seconds
-3. run forward ad some speed without specifying the time to keep doing this
+3. run forward at some speed without specifying the time to keep doing this
 4. turn to some directions at a specific speed
 5. stop moving
 6. set a servo motor, located at some port and slot, to a specific degree
@@ -93,17 +93,17 @@ Next we have the Display instructions:
 You can use these to:
 
 1. set the colour of the LEDs to a specific colour
-2. to buzz a specific tone
-3. to stop a tone already sounding
-4. change the color of an RGB led module
+2. buzz a specific tone
+3. stop a tone already sounding
+4. change the colour of an RGB led module
 
-A very useful feature are the "Events" which can be used to mainly detect movements of the tablet:
+A very useful feature are the "Events", which can be used to mainly detect movements of the tablet:
 
 ![](/assets/b1918a53-8366-4f28-b32d-e379a49f72c5.jpeg)
 
 \[Image 2.8.9: The "Events" blocks\]
 
-In the Detect submenu are blocks that work with sensors. With these event blocks we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards \(blocks 5 and 4\) using this way the table itself as a control device.
+In the Detect submenu are blocks that work with sensors. With these event blocks we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards \(blocks 5 and 4\) using the tablet itself as a control device.
 
 ![](/assets/f787dcb0-1ab4-48c3-9761-1ed62863c304.jpeg)
 
@@ -121,9 +121,9 @@ In the Control submenu are blocks that allow us to implement control structures.
 
 \[Image 2.8.12: The "Control" structures\]
 
-You can use these, for example, to repeat a set of instructions either forever or at a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
+You can use these, for example, to repeat a set of instructions either forever or a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
 
-Later on in the book we are going to explain the Scratch language and handle how it implements to mBot. We will see more examples and explain how these blocks work as we are building the line follower application. For now, you don’t need to worry much about the blocks although you will find that most of them are fairly self-explanatory.
+Later on in the book we are going to explain the Scratch language and  how it implements to mBot. We will see more examples and explain how these blocks work as we are building the line-follower application. For now, you don’t need to worry much about the blocks although you will find that most of them are fairly self-explanatory.
 
 ### Experimenting with ready projects
 
@@ -131,15 +131,15 @@ Let’s try out some of the other projects. To do this, click on "My Projects" o
 
 #### The Colour Show example
 
-Tap on "Colour Show" and have a look at it. If this example is not available in the list of programs, that's ok. You can assemble it yourself by finding the right blocks inside the various submenus and connecting them together, as you can see in image 2.3.12.
+Tap on "Colour Show" and have a look at it. If this example is not available in the list of programs, that's OK. You can assemble it yourself by finding the right blocks inside the various submenus and connecting them together, as you can see in image 2.8.13.
 
 ![](/assets/88ea9406-0534-4aac-9872-765dcc62fce3.jpeg)
 
 \[Image 2.8.13: The "Colour Show" program\]
 
-In this example there is a loop block, called "repeat forever" \(block 1\). Anything you put inside this block will do exactly that, repeat for ever. In the repeat forever block, the first thing that happens is to turn both onboard RGB LEDs to red \(block 2\) and then to wait for a particular amount of time \(block 3\). The "wait" block requires a numerical value \(or variable and we I’ll talk about variables in an upcoming chapter\). To provide a number, simply tap on the existing number of the "wait" block. This will bring up a key pad.
+In this example there is a loop block, called "repeat forever" \(block 1\). Anything you put inside this block will do exactly that, repeat for ever. In the repeat forever block, the first thing that happens is to turn both onboard RGB LEDs to red \(block 2\) and then to wait for a particular amount of time \(block 3\). The "wait" block requires a numerical value \(or variable and I’ll talk about variables in an upcoming chapter\). To provide a number, simply tap on the existing number of the "wait" block. This will bring up a keypad.
 
-The problem here is that the keypad provided input a number only allows whole numbers, known as integers to be entered. If you need to introduce a smaller wait, say for 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad. This is inconvenient, but there is a workaround.
+The problem here is that the keypad only allows whole numbers, known as integers, to be entered. If you need to introduce a smaller wait, say for 0.25 seconds, you can’t do it, since there’s no decimal point on the keypad. This is inconvenient, but there is a workaround.
 
 We can click on the "Math" tab and take from there some mathematical function, like the division block in the program, and place it inside the wait block. Type "1" in the first numerical parameter of the arithmetic function block, select division for the function type, and type "5" for the second numerical parameter. This gives "0.25" for the wait time, which is what we want here.
 
@@ -147,13 +147,13 @@ We can click on the "Math" tab and take from there some mathematical function, l
 
 And this is what the program does: it sets the LEDs to red, then waits for 0.25 seconds, then sets the LEDs to green, again waits for 0.25 seconds, then sets the LEDs to blue, again waits for 0.25 seconds, and this process repeats itself over and over again.
 
-To test it just tap on "Go" and you will able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second, every time.
+To test it just tap on "Go" and you will be able to see the program run, one instruction after the other, and both the LEDs switching from one colour to the other, waiting in between one quarter of a second every time.
 
 ### Where the program executes
 
 When you write a program using mBlockly, you should remember that the program is actually running on the tablet, not on the mBot. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
 
-That has a detrimental effect on the speed by which the instructions get executed: the execution speed is actually very low. There are many types of applications that you will not be able to implement on your mBot by remote control like the line follower ones. The problem here is that the speed by which the mBot needs to take readings of its line following sensors and from the ultrasonic sensor and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
+That has a detrimental effect on the speed by which the instructions get executed: the execution speed is actually very low. There are many types of applications that you will not be able to implement on your mBot by remote control, like the line-follower ones. The problem here is that the speed by which the mBot needs to take readings of its line-following sensors and from the ultrasonic sensor, and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
 
 Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move to the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
 
