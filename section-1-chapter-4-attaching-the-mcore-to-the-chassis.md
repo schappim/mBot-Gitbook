@@ -52,19 +52,19 @@ _\(5\) Alkaline batteries are easier to find in retail shops, and can be purchas
 
 ---
 
-Take one of the two pairs of the adhesive velcro strip and attach it on the bottom of the battery pack \(only peel of the piece of paper that protects the adhesive tape from one of the velcro strips, and leave the other on for now\).
+Take one of the two pairs of the adhesive velcro strip and attach it on the bottom of the battery pack \(only peel off the piece of paper that protects the adhesive tape from one of the velcro strips, and leave the other on for now\).
 
 ![](/assets/2017-03-15_14-13-01.png)
 
 \[Image 1.4.1: Attach one velcro pair strip to the battery pack\]
 
-Then, remove second piece of paper that protect the adhesive tape of the second the second velcro strip, and push it against the top of the mBot chassis to make it stick.
+Then, remove second piece of paper that protects the adhesive tape of the second velcro strip, and push it against the top of the mBot chassis to make it stick.
 
 At this point, also insert the four AA batteries, because soon we will be placing the mCore controller over the battery pack.
 
 ---
 
-**Professional tip:** Place the battery pack in a way so the its cable comes out at the front of the mBot. This way, the cable has got a longer distance to travel to the back of the mBot where the battery socket will be. This will make it less likely that the cable will interfere with the wheels.
+**Professional tip:** Place the battery pack so the cable comes out at the front of the mBot. This way, the cable has got a longer distance to travel to the back of the mBot where the battery socket will be. This will make it less likely that the cable will interfere with the wheels.
 
 ---
 
@@ -74,7 +74,7 @@ Your battery pack will sit on the chassis like this.
 
 \[Image 1.4.2: Attach the battery pack to the top of the mBot chassis\]
 
-Route the cables so that the battery cable comes out of the back of the mBot, the cables from the motors and line follower module to the right \(as you are observing the mBot from the front\), and the cable from the distance module to the left.
+Route the cables so that the battery cable comes out of the back of the mBot, the cables from the motors and line-follower module to the right \(as you are observing the mBot from the front\), and the cable from the distance module to the left.
 
 ![](/assets/2017-03-15_14-26-09.png)
 
@@ -84,11 +84,11 @@ Now you are ready to attach the mCore module. The battery pack will be sandwiche
 
 ---
 
-**Professional tip: **Even though you can connect mBot modules to almost any available socket on the mCore,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to change the module connection ports in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 1.4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the rangefinder module to socket 4.
+**Professional tip: **Even though you can connect mBot modules to almost any available socket on the mCore,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to change the module connection ports in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 1.4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the range finder module to socket 4.
 
 ---
 
-Now, that you have the wires routed correctly, go ahead and attach the mCore. Start with the four bronze spacers. To attach the spacers you don't need any tools, just use your fingers to screw them into the holes that match their thread.
+Now that you have the wires routed correctly, go ahead and attach the mCore. Start with the four bronze spacers. To attach the spacers you don't need any tools, just use your fingers to screw them into the holes that match their thread.
 
 ![](/assets/2017-03-15_14-36-52.png)
 
@@ -100,7 +100,7 @@ Then place the mCore on the spacers, and secure it in place with four short scre
 
 \[Image 1.4.5: Attach the mCore on the spacers, over the battery pack\]
 
-Let's do the connections now. The cable that is coming from the line follower will go to connector number two. The rangefinder goes to number three. The left motor goes to motor connector M1 and the right motor to motor connector M2.
+Let's do the connections now. The cable that is coming from the line follower will go to connector number two. The range finder goes to number three. The left motor goes to motor connector M1 and the right motor to motor connector M2.
 
 ![](/assets/2017-03-15_14-42-26.png)
 
