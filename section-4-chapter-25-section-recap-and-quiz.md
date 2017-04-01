@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 25: Recapping
+## Chapter 24: Recapping
 
 ---
 
