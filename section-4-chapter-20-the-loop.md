@@ -65,9 +65,9 @@ Now imagine that you would like to share this code with a friend or a student, o
 
 To load a previously saved program we go to: File &gt; Load program and pick it in the "choose file to open" window. We might get a "Replace contents of current program?" question. If we are sure we have saved the program that is now on the canvas, or if we just don't need what's on the canvas, we can just proceed by clicking "OK".
 
-### Question 4.20.1
+### Questions
 
-When does the forever loop stop?
+Question 4.20.1: When does the forever loop stop?
 
 A. When we turn off the mBot
 
