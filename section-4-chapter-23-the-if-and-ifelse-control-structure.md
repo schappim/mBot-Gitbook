@@ -9,6 +9,8 @@
 In this chapter you will learn about:
 
 * How to have the mBot make desicions
+* How to use the "if" and "if...else" control blocks
+* What is a "condition" and how it affects the flow of the execution of a program
 
 ---
 
