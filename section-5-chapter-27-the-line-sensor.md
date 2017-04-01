@@ -25,21 +25,29 @@ Now let's make a little experiment: let's place the mBot on that dark line and m
 
 We can test this by moving the sensor to the left and to the right, relatively to the line.
 
-If both of the happen to be over the white part of the paper, outside the black line, they are both turned on. If they are both over the black line, they are both off.
+If both of the sensors happen to be over the white part of the paper, outside the black line, both their LEDs will be turned on. If they are both over the black line, their LEDs will be turned off.
 
-We can say, thus, that the sensor has four different states, indicated by the LEDs:
+Programmatically, the line-follower module has the following four different states, indicated by the specific numbering shown here:
 
-~~**{up to here by Dimitris}**~~
+0\) both sensors sense darkness \(they see the black line\) and both indicator LEDs are off.
 
-left LED on, right LED off
+1\) left sensor senses darkness \(the line\), right sensor senses brightness \(the white paper\); left LED is off, right LED is on.
 
-right LED on, left LED o
+2\) left sensor senses brightness \(the white paper\), right sensor senses darkness \(the line\); left LED is on, right LED is off.
 
-Notice how the two LEDs now have alternated the one on the right side that is over the white area of the paper, is lit while the one that this over the black half of the paper is dark. It's turned off if. If both of them are over the white part of the paper, outside a black line, and they're both turned on. This sensor has states. Either both individual light sensors are turned off or the left one is turned on, while the right one is turned off or the right one is turned on while the left one is turned off. There's one state actual issues, I said four. The fourth state is when both of the sensors are over the white area and away from the black area of the paper.
+3\) both sensors sense brightness \(they see the white paper\) and both indicator LEDs are on.
 
-We'll be reading the values that the sensor sends back to the Arduino inside the mBot, to determine what is it that the sensor is looking at. Whether it is still completely inside the line, or completely outside the line, or if one of the two sensors is inside the line. Either this condition or that condition which indicates that the robot is about to get out of the line. To keep the robot following the line, what we want to achieve is to use the motors to navigate the robot so that its two sensors are always within a black line. You can create your own path on your floor. You can do that by downloading the file that contains these paths, these lines from the resources area of the course and then you can print them on your printer.
+We can read the values that the sensor sends back to the Arduino, inside the mBot, to determine what is it that the sensor is looking at. Whether it is still completely inside the line, completely outside the line, or if one of the two sensors is inside the line and the other one outside. Depending on this reading, we can determine whether the mBot needs to turn a little either to the left or the right, so that the both sensor are on the black line, again.
 
-All right. Let's get started with a little demonstration. I'm going to create our new project. Before I actually implement the line-following capability involving the motors, I want to just get status information from the sensor and use it to turn on and off an LED or both LEDs. What I'd like to achieve is to copy the state of each one of the two little sensors in the line following sensor and to replicate the status on the on board LED. If the sensor is fully within the black line, and I would like the two LEDs to be turned off. If the sensor is fully outside the black line, then I would like both LEDs to be turned on. If the sensor is partially inside or partially outside the line, it sent depending on how you see these things.
+Let's get started with a little demonstration, now. 
+
+Before actually implementing the line-following capability, involving the motors, let's just get the status information from the sensor and use it to turn on and off the LEDs accordingly. In other words, let's copy the state of each one of the two indicator LEDs, on the line-follower module, to the two bigger LEDs of the mBot.
+
+Let's create a new project therefore: File &gt; New
+
+
+
+sensors in the line following sensor and to replicate the status on the on board LED. If the sensor is fully within the black line, and I would like the two LEDs to be turned off. If the sensor is fully outside the black line, then I would like both LEDs to be turned on. If the sensor is partially inside or partially outside the line, it sent depending on how you see these things.
 
 Then, I would like to have, say in this case, the left LED turned on, while the right one turn these, turned off and vice versa. If it's in this state, then I'd like this LED to be off and that to be on. Let's start writing that little sketch. As always, I'll start with the mBot program head on because I want the reading of a sensor to happen continuously. I will be using the forever loop. Now the line follower go back to the robots, and you can see that there is a block that allows us to read the line-following sensor. Here it is, the line following sensor. There is another line follower block, this one here, that allows us to read the individual light sensors on the line sensor.
 
