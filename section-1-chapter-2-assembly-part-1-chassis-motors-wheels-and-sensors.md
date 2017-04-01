@@ -1,4 +1,4 @@
-#Section 1
+# Section 1
 
 ---
 
@@ -127,5 +127,6 @@ Double-check that at this point, the following are completed:
 \[ \] The motor and line follower cables are passed through to the top of the chassis through the opening behind the range finder
 
 ---
+
 
 

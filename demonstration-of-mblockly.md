@@ -159,17 +159,21 @@ Just remember that the applications shown here are good for a few simple types o
 
 ### Questions
 
-1. What is the way to insert decimal numbers \(i.e. numbers like 0.5, 1.0 or 5.25\) in a wait block?
+Question 2.8.1: What is the way to insert decimal numbers \(i.e. numbers like 0.5, 1.0 or 5.25\) in a wait block?
 
 A. Use the decimal point in the keypad to type in the number
 
-**B. Use an arithmetic function block to calculate the decimal number from two integers**
+B. Use an arithmetic function block to calculate the decimal number from two integers
 
 C. It is not possible to insert decimal numbers in a wait block. A wait block will only accept integer numbers.
 
-1. Where is the Scratch program that you write in mBlockly executed?
+Answer: B
+
+Question 2.8.2: Where is the Scratch program that you write in mBlockly executed?
 
 A. On the mCore microcontroller
 
-**B. On the tablet. The mBot is controlled remotely by the program running on the tablet**
+B. On the tablet. The mBot is controlled remotely by the program running on the tablet.
+
+Answer: B
 
