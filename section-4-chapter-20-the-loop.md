@@ -49,7 +49,7 @@ Let's try to read it. First of all we notice that there is a different organizat
 
 Even though we have a different block order, here, and an additional variable, we expect the program to execute the same way like before.
 
-### Saving a program
+### Saving and Opening a program
 
 We could take this one step further and use the proximity sensor on the mBot to change the amount of time that each LED is turned on, depending on the distance between the sensor and an object in front of it. For example, as the object goes closer to mBot, the timing will be faster, as the object goes further away, the pace will slow down. We are going to see that in the next chapter and for that purpose we will be reusing the program that we created here. We need, therefore, to save it on the disk so that we can reload it later and extend it.
 
@@ -63,9 +63,11 @@ Let's save this one with the name "forever loop alternating the LEDs with variab
 
 Now imagine that you would like to share this code with a friend or a student, or to post it on the school website, then you can locate this file on the disk and attach it to an email or upload it to a web server.
 
-### Questions
+To load a previously saved program we go to: File &gt; Load program and pick it in the "choose file to open" window. We might get a "Replace contents of current program?" question. If we are sure we have saved the program that is now on the canvas, or if we just don't need what's on the canvas, we can just proceed by clicking "OK".
 
-Question 4.20.1: When does the forever loop stop?
+### Question 4.20.1
+
+When does the forever loop stop?
 
 A. When we turn off the mBot
 
@@ -75,7 +77,5 @@ C. When a wait block is executed
 
 D. Both A and B
 
-Answer: D
-
-
+_Answer: D_
 
