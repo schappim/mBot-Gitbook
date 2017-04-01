@@ -91,23 +91,27 @@ We make sure the USB cable is connected and we are connected to a COM port and t
 
 ### Questions
 
-1.How can we make the mBot turn left?
+Question 3.15.1: How can we make the mBot turn left?
 
-A. We use a combination of three different move blocks
+A. We use a combination of three different move blocks.
 
-**B. We use a move block and check the first attribute to "turn left"**
+B. We use a move block and check the first attribute to "turn left".
 
-C. We use a move block and check the second attribute to "turn left"
+C. We use a move block and check the second attribute to "turn left".
 
-D. We use a "turn right" block with a negative speed value
+D. We use a "turn right" block with a negative speed value.
 
-2.How can we describe a variable?
+Answer: B
 
-A. As an arithmetic expression
+Question 3.17.2: How can we describe a variable?
 
-B. As a value
+A. As an arithmetic expression.
 
-**C. As storage space**
+B. As a value.
 
-D. As an operation between two operands
+C. As storage space.
+
+D. As an operation between two operands.
+
+Answer: C
 
