@@ -67,6 +67,8 @@ Notice that we have one "if...else" block nested in the forever block and yet an
 
 Let's "Upload to Arduino" and check once more. Now, moving the object back and forth in front of the mBot, we should see the LEDs turn into three different colours, depending on the distance: green, blue and red.
 
+Save the program or just keep it open if you would like to proceed with the next chapter and incorporate the use of the buzzer into it.
+
 ### Exercise 4.22.1
 
 Modify the program shown in image 4.22.5 so that instead of blue the LEDs shine amber.
