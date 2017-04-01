@@ -6,8 +6,9 @@
 
 ---
 
-* In this chapter you will learn about:
-* How to create e new Scratch program
+In this chapter you will learn about:
+
+* How to create a new Scratch program
 * How to program the mBot using Scratch instructions
 * What is an "Arduino board"
 * What is the "Arduino Program" and how it corresponds to the "Scratch Program"
@@ -30,7 +31,7 @@ The first one, for example, reads "run forward at speed 0". Clicking on it, we c
 
 There's one that allows us to set the onboard LEDs at a specific colour.
 
-One for taking decisions when the onboard button is pressed and and lots of other blocks for programming behaviour to the mBot.
+One for taking decisions when the onboard button is pressed and lots of other blocks for programming behaviour to the mBot.
 
 ### Instructions for basic and additional components
 
@@ -56,7 +57,7 @@ For this crash course on the mBot of course, we will be focusing on the capabili
 
 In order to create a new mBlock program we go to menu "File" and click on "New". In the "Scripts" tab, in "Robots", we pick "mBot Program" and drag and drop it into the scripts area. Every mBot program must start with this header.
 
-Below it, we can attach other compatible blocks. For example, let's say that we would like to change the colour of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which ones of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colours, we can create all kinds of other composite colours. For our example let's just choose to turn on "all" LEDs and let's pick 255 for red and 0 \(zero\) for the other two basic colours. That should give a plain red colour to both the on-board LEDs.
+Below it, we can attach other compatible blocks. For example, let's say that we would like to change the colour of the two onboard RGB LEDs. To do that, we pick the "set led on board..." instruction block and drag and drop it just below the mBot header. Thereafter, we can configure it further by choosing which one of the two LEDs we would like to manipulate \(left/right/both\) and what colour to set by choosing values from 0 to 255 for all three red/green/blue settings. Through the combination of these three basic colours, we can create all kinds of other composite colours. For our example let's just choose to turn on "all" LEDs and let's pick 255 for red and 0 \(zero\) for the other two basic colours. That should give a plain red colour to both the on-board LEDs.
 
 ![](/assets/Img.3.15.2.jpg)
 
@@ -68,7 +69,7 @@ Once finished with our program we must connect the USB cable to the USB port \(1
 
 \[Image 2.15.3: Connecting the USB on the mBot\]
 
-The next step is to go to the "Connect" menu and look for the serial port where the mBot is connected to the computer by. It's always going to be a port that has a number larger than one. That's because COM1 is typically used by the operating system itself. In our example the port to which the mBot is connected happens to be COM4.
+The next step is to go to the "Connect" menu and look for the serial port where the mBot is connected to the computer. It's always going to be a port that has a number larger than one. That's because COM1 is typically used by the operating system itself. In our example the port to which the mBot is connected happens to be COM4.
 
 ![](/assets/Img.3.15.4.jpg)
 
@@ -78,9 +79,9 @@ Next, we right-click on the mBot program and choose "Upload to Arduino".
 
 **Note**: Some people get confused about this thinking "What's the Arduino? I'm just trying to program my mBot!" Well, inside the mBot there is an Arduino board and that's where the program is loaded.
 
-By doing that we ge to see the uploading component of the mBlock application. What we see there is the translation of the simple scratch-based program in an Arduino program or "sketch" as we call it. We notice that we've got a lot of instructions there. Most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino instructions\]
+By doing that we get to see the uploading component of the mBlock application. What we see there is the translation of the simple Scratch-based program in an Arduino program or "sketch" as we call it. We notice that we've got a lot of instructions there. Most of it is just the infrastructure for supporting the functionality that we've selected in the mBot program.![](/assets/Img.3.15.5.jpg)\[Image 2.15.5: The instruction block corresponding to Arduino instructions\]
 
-We want our mBot to just turn the two LEDs into red and the program shown above does just that: line 34, sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support these two lines of instructions.
+We want our mBot to just turn the two LEDs into red and the program shown above does just that: line 34 sets the colour to red and line 35 turns the LEDs on. Everything else that we see around is just in support of these two lines of instructions.
 
 If we experiment further and drop some other block into the program, we will notice that another instruction is going to appear somewhere in the Arduino program. If we change the order of the instruction blocks, we are going to see that the Arduino instructions are going to change, accordingly.
 
@@ -88,7 +89,7 @@ And that is how mBlock makes programming easy: it provides a graphical interface
 
 So, we can actually ignore the Arduino program and just click on the "Upload to Arduino" button that will transfer the program to the mBot.
 
-**Note**: If the message "Please connect the serial port." appears, we just need to go to: menu Connect &gt; Serial Port and click on the right COM port. The message does not reffer to a physical cable connection.
+**Note**: If the message "Please connect the serial port." appears, we just need to go to: menu Connect &gt; Serial Port and click on the right COM port. The message does not refer to a physical cable connection.
 
 If all goes well and the uploading starts, we should see a lot of text flowing through. What happens is that mBlock "compiles" the Arduino program, using an embedded compiler. That means that the text program is being translated into binary \(a long string of zeros and ones\) which is the only programming format the Arduino can actually understand.
 
@@ -102,7 +103,7 @@ Let's try a variation of the program now and have the right LED shine green and 
 
 Drag and drop blocks and change parameters until you have the program shown in the image above. Right click on the program and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the instructions: left one green, right one blue.
 
-From here on, we can play some more and experiment with different colour values combinations. Remember that we are not confined to using the values from the drop-down. We can actually go and change that to any value between 0 and 255.
+From here on, we can play some more and experiment with different colour value combinations. Remember that we are not confined to using the values from the drop-down. We can actually go and change that to any value between 0 and 255.
 
 **Note**: To find a utility that helps you find the value for the Red, Green and Blue components of any colour, Google for "colour chooser" or "colour wheel"
 
