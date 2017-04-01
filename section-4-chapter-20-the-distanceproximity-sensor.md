@@ -108,7 +108,7 @@ C. The transmitter emits a ultrasonic sound signal and the receiver picks up the
 
 D. Both A and C.
 
-_Answer: B._
+_Answer: B_
 
 ### Question 4.21.2
 
