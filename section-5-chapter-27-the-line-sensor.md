@@ -41,9 +41,9 @@ Programmatically, there is a "line follower ..." block available that returns th
 
 \[Image 5.26.2: The "line follower ..." block\]
 
-Notice that our line-follower module is connected on Port 2, of the mBot. If we need to connect it to a different port we should change the attribute of the line follower accordingly.
+Notice that the attribute, here, indicates that the line-follower module is connected on Port 2 of the mBot. If we need to connect it to a different port we should change this attribute accordingly.
 
-We can use this block in order to read the values that the sensor sends back to the Arduino, inside the mBot, and determine what is it that the sensor is looking at. Whether it is still completely inside the line, completely outside the line, or if one of the two sensors is inside the line and the other one outside it. Depending on this reading, we can decide whether the mBot needs to turn a little either to the left or the right, so that both sensors get to see the line, again.
+We can use this block to read the values that the sensor sends back to the Arduino, inside the mBot, and determine what is it that the sensor is looking at. Whether it is still completely inside the line, completely outside the line, or if one of the two sensors is inside the line and the other one outside it. Depending on this reading, we can decide whether the mBot needs to turn a little either to the left or the right, so that both sensors get to see the line, again.
 
 Let's get started with a little demonstration, now.
 
@@ -53,17 +53,13 @@ Let's create a new project therefore: File &gt; New
 
 Following, let's create the program shown in the below:
 
-![](/assets/Img.5.26.2.jpg)
+![](/assets/Img.5.26.3.jpg)
 
 \[Image 5.26.3: The program that copies the status of the sensors to the LEDs of the mBot\]
 
 First of all, notice that we have created a variable named "line\_sensor\_status".
 
 Here's what happens here:
-
-
-
-
 
 sensors in the line following sensor and to replicate the status on the on board LED. If the sensor is fully within the black line, and I would like the two LEDs to be turned off. If the sensor is fully outside the black line, then I would like both LEDs to be turned on. If the sensor is partially inside or partially outside the line, it sent depending on how you see these things.
 
