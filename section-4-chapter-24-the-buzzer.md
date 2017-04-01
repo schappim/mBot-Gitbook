@@ -8,7 +8,9 @@
 
 In this chapter you will learn about:
 
-* ---
+* How to program the buzzer to make a sound
+
+---
 
 One last thing before moving to the next section. Let's see how to use one more device that comes with the mBot: the buzzer and like the name suggests, we can use the buzzer to make some noise.
 
