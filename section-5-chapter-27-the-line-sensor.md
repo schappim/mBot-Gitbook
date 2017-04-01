@@ -92,7 +92,7 @@ B. It returns the status of the line follower module.
 
 C. It returns the number of the port where the line follower is connected.
 
-D. It
+D. It sends directions to the line follower.
 
 _Answer: B_
 
