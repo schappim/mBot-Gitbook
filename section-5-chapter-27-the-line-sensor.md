@@ -8,8 +8,9 @@
 
 In this chapter you will learn about:
 
-* Ho
-* How
+* How the line follower sensor works
+* How to use the line follower block
+* How to program the LEDs to shine according to the line follwer status
 
 ---
 
@@ -65,27 +66,33 @@ First we get the reading of the line follower and assign it to variable "line\_s
 
 Let's "Upload to Arduino" now, and check the program. We place the line follower module of the mBot on the line and experiment with it: move it a little to the left, a little to the right, so that the sensors get on and off the black line, and we should notice that the LEDs are turned on and off accordingly, indicating what is it that the two sensors see: the black line or the white paper.
 
-And since we have done all this interesting work, let's don't forget to save the program: File &gt; 
+And since we have done all this interesting work, let's don't forget to save the program: File &gt; Save Project as and give it the name "Line sensor with LEDs".
 
+In the next chapter, we will get the motors to move the robot forwards and if the sensor detects that it is about to get outside of the line, get the robot to do a small correction towards the appropriate direction, and then move forwards, test again and constantly correct its course by adjusting the speed of the motors.
 
+### Questions
 
-sensors in the line following sensor and to replicate the status on the on board LED. If the sensor is fully within the black line, and I would like the two LEDs to be turned off. If the sensor is fully outside the black line, then I would like both LEDs to be turned on. If the sensor is partially inside or partially outside the line, it sent depending on how you see these things.
+Question 4.26.1: How many different statuses does the line follower have?
 
-Then, I would like to have, say in this case, the left LED turned on, while the right one turn these, turned off and vice versa. If it's in this state, then I'd like this LED to be off and that to be on. Let's start writing that little sketch. As always, I'll start with the mBot program head on because I want the reading of a sensor to happen continuously. I will be using the forever loop. Now the line follower go back to the robots, and you can see that there is a block that allows us to read the line-following sensor. Here it is, the line following sensor. There is another line follower block, this one here, that allows us to read the individual light sensors on the line sensor.
+A. None
 
-You can read either the left or the right side of the line sensor, but we're not going to use that in this example. You can experiment with this, of course. Now the line follower, can be connected to any one of the ports. Right now, I have it connected to port number two. I've got the port number two set for this line follower block. Now you can see that this is a block with rounded ends. If you remember, that means that this block returns a number and that we need to capture this number inside a variable. Let's go to data and blocks and create this variable. Let's call it Line Sensor Status or you can choose your own name. Let's set this variable with whatever the line follower block returns.
+B. Three
 
-This is what we want to do at the beginning of every forever loop, is to take a reading from the sensor, and use that reading and store it inside the line sensor status variable. Then depending on what the line follower returns the value that we store in the line sensor status, we want to turn on the appropriate LED. The line follower block returns a number and that number depends on the condition of each one of the two sensors. We've got one sensor here, and one sensor here. This is sensor number one, and this is sensor number two. If the robot is positioned like this, with sensor number one being outside the black line, then line follower returns returns a value two.
+C. Four
 
-If the robot is positioned like this, where sensor number two is outside the black line, then the sensor and the line follower block returns a value of one. If both sensors are inside the black line, then the block returns a value of zero. Zero means that both sensors one and two are inside the black line. Let's take advantage of this. We're going to use, again, the if-else block, going to put it straight inside the forever loop, and then I'll use one of the operators. The first operator to try out is this. I'm going to use the equal operator because what I want to say is that if line sensor is zero, it means that both sensor number one and sensor number two are inside a black line.
+D. It depends on the Port, where the sensor is connected.
 
-Let's go grab the LED onboard block, and I wouldn't turn both of them off. If that is not true, then three other things may be happening. The sensor is either at this position, halfway in the black line or this position, also halfway in the black line or it's completely outside the line. Let's implement the first two conditions. Again, we're going to look at an if-else-then control structure and the first condition that I'd like to implement is that of, let's say you're going to get an operator.
+_Answer: C_
 
-I'm going to use the equal separator because I want to test that the line sensor status is one. If the line sensor status is one, then you can take another on board LED and one means that a robot is at this position here. The first sensor is on the black line, the second sensor is outside the black line. When that happens, I would like to turn the right LED on. I'll just use a green component. Now if the status is not zero and is not one, then there could be two values that the sensor could be. I have to go back to into control and grab another if else if I've got another two values to test and the first value be again equal. Now, I'm going to test for the line sensor status being two which represents this position of the robot over the line.
+Question 4.26.2: What does the "line follower" block actually do?
 
-When that is through, what I'd like to do is to turn the left LED on. Can still be green. There's one condition left to do. If none of the above is true, then we're going to end up in this last area of the last, if else block. When that happens, what I'd like to do is to turn both LEDs on, make them both green. Let's see if this actually works by uploading a program to the Arduino. Upload. Program uploaded. Let's see that actually works as expected. We've got the sensor number one, that is outside the black line sensor. Number two is on the black line.
+A. It evaluates to either True or False, depending on the line follower reading.
 
-The LED for sensor number is eliminated indicating this and that corresponds to the green LED on the mBot board copying that state. I'm going to move the sensor fully within the line, and you can see now that all LEDs are off. Then move it half outside on the other side of the line. Green LED goes on the correct side and finally, fully outside the black line and both equal LEDs are on. That works. I'm going to save this little program when you're ready to move on to the next step.
+B. It returns the status of the line follower module.
 
-In the next step, what we'll do is engage the motors. We're going to get the motors to move the robot forwards, and if the sensor detects that it's about to get outside of the line, to get the robot to do a small correction towards the appropriate direction, and then move forwards again and test again. Then constantly corrects its course by adjusting the speed of the motors. We'll do that next.
+C. It returns the number of the port where the line follower is connected.
+
+D. It
+
+_Answer: B_
 
