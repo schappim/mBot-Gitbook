@@ -65,7 +65,7 @@ Now imagine that you would like to share this code with a friend or a student, o
 
 ### Questions
 
-1.When does the forever loop stop?
+Question 4.20.1: When does the forever loop stop?
 
 A. When we turn off the mBot
 
@@ -73,5 +73,9 @@ B. When we load a new program
 
 C. When a wait block is executed
 
-**D. Both A and B**
+D. Both A and B
+
+Answer: D
+
+
 
