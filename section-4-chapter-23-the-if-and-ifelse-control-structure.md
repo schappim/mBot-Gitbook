@@ -60,13 +60,15 @@ Remember, though, that the original goal we set was to have three different colo
 
 In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have gotten this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red. And all that, repeated again and again until we turn off the mBot.
 
-Let's "Upload to Arduino" and check once more. Now, moving the object heen and forth in front of the mBot, we should see the LEDs turn into three different colours depending on the distance: green, blue and red.
+Let's "Upload to Arduino" and check once more. Now, moving the object back and forth in front of the mBot, we should see the LEDs turn into three different colours, depending on the distance: green, blue and red.
 
-~~**{Up to here by Dimitris}**~~
+### Exercise 4.22.1
 
-~~~~~~~~~
+Modify the program shown in image 4.22.5 so that instead of blue the LEDs shine amber.
 
-Let's upload the program to the Arduino and test it in practice. Okay, after it's finished lets try it out now. A hand is the target. We're now beyond 30cm, I'll give you a better view. We are beyond the 30cm, we need it closer so now we are just above 20cm, closer so now we are below 20cm and the LED's are red. Isn't that great?
+Hint: remember how we learn, in previous chapters, to find the RGB codes of a specific colour.
 
-Now, I've got a little exercise for you before we move on to the next thing that I'd like to show you. \[music\] I'd like to mimic traffic lights. Traffic lights we've got green, we've got red but we don't have blue we've got amber. How about you figure out how to change the codes of that instead of blue you could use amber.
+
+
+
 
