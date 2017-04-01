@@ -20,7 +20,7 @@ You will need the infrared remote controller the came with the kit, and the asse
 
 ---
 
-Now that your mBot is assembled, how about your take it for a ride? You don't have to do any programming at all, because the mBot comes with demonstration programs already installed, out of the box. To play with them, you will need your mBot infrared remote control and the fold-out sheet of paper with the black line printed on it that is included in the kit.
+Now that your mBot is assembled, how about you take it for a ride? You don't have to do any programming at all, because the mBot comes with demonstration programs already installed, out of the box. To play with them, you will need your mBot infrared remote control and the fold-out sheet of paper with the black line printed on it that is included in the kit.
 
 Let's start with the first demonstration mode: remote control car!
 
@@ -36,9 +36,9 @@ Now press any of the directional keys, and see how your mBot responds by moving 
 
 ### Obstacle avoidance mode
 
-Put a few objects on the floor around your mBot, and press the "B" key on the remote controller. This will start the obstacle avoidance program. Your mBot will start moving at a straight line, but as soon as it gets close to an obstacle it will stop and turn to a different direction, then move forwards again. It will keep doing that until you turn it off, or change the program that is running on it.
+Put a few objects on the floor around your mBot, and press the "B" key on the remote controller. This will start the obstacle avoidance program. Your mBot will start moving in a straight line, but as soon as it gets close to an obstacle it will stop and turn a different direction, then move forwards again. It will keep doing that until you turn it off, or change the program that is running on it.
 
-The obstacle avoidance program uses the rangefinder module to detect obstacles in front of it, and changes course when it gets to close to one of them. Later in this book you will learn how to program this kind of behaviour.
+The obstacle avoidance program uses the range finder module to detect obstacles in front of it, and changes course when it gets to close to one of them. Later in this book you will learn how to program this kind of behaviour.
 
 ![](/assets/mbot escape.JPG)
 
@@ -74,7 +74,7 @@ How about you create your own line on the floor?
 
 In the second part of this book you will learn how to implement this kind of behaviour on your mBot. Yes, you will learn how to program your mBot to follow a line!
 
-Fun, isn't it? To stop the mBot, press the "A" button on the remote controller to go back into manual control mode.I encourage you to play around with your mBot and the programs that come with it at available budgets using the A, B and C buttons on your remote control and the directional buttons so as to control its direction.
+Fun, isn't it? To stop the mBot, press the "A" button on the remote controller to go back into manual control mode.I encourage you to play around with your mBot and the programs that come with it at available budgets using the A, B and C buttons on your remote control and the directional buttons to control its direction.
 
 In the next chapter, I'm going to show you how you can do some simple programming on the mBot using the Scratch graphical programming language on an iPad.
 
