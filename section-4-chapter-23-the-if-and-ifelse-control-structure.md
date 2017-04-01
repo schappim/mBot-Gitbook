@@ -68,7 +68,17 @@ Modify the program shown in image 4.22.5 so that instead of blue the LEDs shine 
 
 Hint: remember how we learn, in previous chapters, to find the RGB codes of a specific colour.
 
+### Question 4.22.1
 
+What is the difference between an "if" and an "if...else" control block?
 
+A. They have practically the same effect and can be used interchangeably.
 
+B. The "if...else" block is more suitable to be used within loops.
+
+C. The "if...else" block specifies what must happen when the condition is false, when the "if" block, doesn't.
+
+D. Both B and C.
+
+_Answer: C_
 
