@@ -20,11 +20,9 @@ The instruction block that allows us to control the buzzer is the "play tone on 
 
 \[Image 4.23.1: Where to add the buzzer instruction block\]
 
-This new addition will have the mBot produce a sound when the object gets too close and the LEDs are turned to red, very much like a collition alert: "Alarm! Object too close!"
+This new addition will have the mBot produce a sound when the object gets too close and the LEDs are turned to red, very much like a collision alert: "Alarm! Object too close!"
 
 Let's "Upload to Arduino" and check it.
 
 Moving an object too close to the mBot and the ultrasonic sensor, now, should turn the LEDs to red, like before, but also produce an alarm sound, from the buzzer.
-
-
 
