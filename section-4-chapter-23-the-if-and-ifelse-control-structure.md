@@ -82,3 +82,19 @@ D. Both B and C.
 
 _Answer: C_
 
+### Question 4.22.2
+
+What kind of block can be used as a condition in an "if" block?
+
+A. Anyone that is of the same block colour \(yellow\) as the "if".
+
+B. A wait block.
+
+C. A bare variable block.
+
+D. One that has a shape that fits perfectly in the condition spot.
+
+_Answer: D_
+
+
+
