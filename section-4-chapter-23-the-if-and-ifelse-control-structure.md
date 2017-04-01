@@ -69,15 +69,15 @@ Let's "Upload to Arduino" and check once more. Now, moving the object back and f
 
 Let's save the program or just keep it open if we would like to proceed immediately with the next chapter and incorporate the use of the buzzer into it.
 
-### Exercise 4.22.1
+### Exercises
 
-Modify the program shown in image 4.22.5 so that instead of blue the LEDs shine amber.
+Exercise 4.22.1: Modify the program shown in image 4.22.5 so that instead of blue the LEDs shine amber.
 
 Hint: remember how we learn, in previous chapters, to find the RGB codes of a specific colour.
 
-### Question 4.22.1
+### Questions
 
-What is the difference between an "if" and an "if...else" control block?
+Question 4.22.1: What is the difference between an "if" and an "if...else" control block?
 
 A. They have practically the same effect and can be used interchangeably.
 
@@ -89,9 +89,7 @@ D. Both B and C.
 
 _Answer: C_
 
-### Question 4.22.2
-
-What kind of block can be used as a condition in an "if" block?
+Question 4.22.2: What kind of block can be used as a condition in an "if" block?
 
 A. Anyone that is of the same block colour \(yellow\) as the "if".
 
@@ -103,9 +101,7 @@ D. One that has a shape that fits perfectly in the condition spot.
 
 _Answer: D_
 
-### Question 4.22.3
-
-What is the way to have more alternative options in case an "if" condition turns up to be False?
+Question 4.22.3: What is the way to have more alternative options in case an "if" condition turns up to be False?
 
 A. There is no way since when a condition is False, the program always exits immediately the "if" control block.
 
