@@ -129,19 +129,23 @@ Most of the components that you can drag and drop on the canvas are pre-programm
 
 ### Questions
 
-1. What does the ultrasonic reading mean?
+Question 2.9.1: What does the ultrasonic reading mean?
 
-**A. It represents the distance between the ultrasonic sensor and some obstacle.**
+A. It represents the distance between the ultrasonic sensor and some obstacle.
 
 B. It represents the amount of light received by the ultrasonic sensor.
 
 C. It represents the amount of light emited by the ultrasonic sensor.
 
-1. Which instruction can stop the moving of the wheels?
+Answer: A
+
+Question 2.9.2: Which instruction can stop the moving of the wheels?
 
 A. wait 0 s
 
 B. wait for ever
 
-**C. stop moving**
+C. stop moving
+
+Answer: C
 
