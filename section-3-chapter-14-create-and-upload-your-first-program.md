@@ -6,18 +6,12 @@
 
 ---
 
-In this chapter you will learn about:
-
+* In this chapter you will learn about:
 * How to create e new Scratch program
-
 * How to program the mBot using Scratch instructions
-
 * What is an "Arduino board"
-
 * What is the "Arduino Program" and how it corresponds to the "Scratch Program"
-
 * How to upload a program to the mBot
-
 * How to set the LEDs on the mBot to any colour
 
 ---
@@ -114,25 +108,29 @@ From here on, we can play some more and experiment with different colour values 
 
 ### Questions
 
-1.Does a light sensor belong to the basic pack or is it an additional component?
+Question 3.15.1: Does a light sensor belong to the basic pack or is it an additional component?
 
 A. Basic pack
 
-**B. Additional component**
+B. Additional component
 
-2.What does an Arduino board have to do with the mBot?
+Answer: B
+
+Question 3.15.2: What does an Arduino board have to do with the mBot?
 
 A. It is an additional component
 
 B. Nothing really
 
-**C. It is inside the mBot and it is actually where the program is loaded**
+C. It is inside the mBot and it is actually where the program is loaded
 
 D. It is the part of the screen where text program appears
 
-3.In what format is the program actually uploaded to the mBot?
+Answer: C
 
-**A. In binary \(zeros and ones\)**
+Question 3.15.3: In what format is the program actually uploaded to the mBot?
+
+A. In binary \(zeros and ones\)
 
 B. In Arduino text
 
@@ -140,7 +138,11 @@ C. In Scratch blocks
 
 D. It doesn’t get uploaded but rather executed on the computer
 
-4.Fill in the RBG values of the colour known as “cornflower blue”? \(Hint: search on the internet for it\)
+Answer: A
 
-R = \_\_\(100\)\_\_ G = \_\_\(149\)\_\_ B = \_\_\(237\)\_\_
+Question 3.15.4: Fill in the RBG values of the colour known as “cornflower blue”? \(Hint: search on the internet for it\)
+
+R = \_\_\_\_\_\_\_\_ G = \_\_\_\_\_\_\_\_ B = \_\_\_\_\_\_\_\_
+
+Answer: R = 100 G = 149 B = 237
 
