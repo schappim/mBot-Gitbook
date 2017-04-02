@@ -56,9 +56,13 @@ The modifications are pointed at, to make it easier to spot them:
 
 What happens here is that every time we get a reading from the line follower module, we decide as to how the mBot must move. If things look good, it just moves forwards. If either one sensor seems to have gotten outside the line, we turn the mBot, to get it back on track. If both sensors have gotten outside the line, we move the mBot backwards in the hope to meet the line again, since the best chance is that the line is behind it.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Let's get ready to test the program now:
 
+* First we make sure we have composed a line runway on some spacy surface, most probably on the floor.
+* Then we connect the mBot to the computer and "Upload to Arduino" and then we can switch it off, so that we can place it at the begin of the line.
+* And then, we can switch in on and see if it behaves as expected.
 
+~~~~~~~~~~~~
 
 If we use a turning correction for the condition of the rubber being completely outside the line, then we need to remember which way the line was when we lost contact with it. That is possible but it's slightly harder to implement. Let's ignore that possibility for now or that possible solution. An easier thing to do is to move backwards because what really only moves forward at some point is going to lose the lines.
 
