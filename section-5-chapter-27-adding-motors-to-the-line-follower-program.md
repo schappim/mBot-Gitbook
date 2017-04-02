@@ -64,9 +64,11 @@ Let's get ready to test the program now:
 
 As can be seen in the image above, we can place obstacles to mark the start and finish of the runway. These will prove useful in the improvements we are going to apply to the program, in the next chapter.
 
-If we turn the mBot on, we will see it get going, following the line by constantly adjusting its route, until finally it reaches the end of the line. There, we will notice that the mBot doesn't stop, since we didn't include such behaviour in the program. Instead it will make erratic moves that might even get it to make a U-turn, eventually, due to difference in traction, between the wheels.
+If we turn the mBot on, we will see it get going, following the line by constantly adjusting its route, until finally it reaches the end of the line. There, we will notice that the mBot doesn't stop, since we didn't include such behaviour in the program. Instead it will make erratic movements that might even get it to make a U-turn, eventually, due to difference in traction, between the wheels.
 
 We can actually improve the program even further by using the proximity sensor so that the robot can detect by itself the end of the line, by sensing the obstacle we have placed at the end of the line. And then even make a U-turn to get back to where it started. We will handle all this in the next chapter.
+
+Do remember to save the project, before anything else.
 
 ### Questions
 
