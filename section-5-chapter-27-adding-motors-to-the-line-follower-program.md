@@ -70,3 +70,17 @@ If we turn the mBot on, we will see it get going, following the line by constant
 
 We can actually improve the program even further by using the proximity sensor so that the robot can detect by itself the end of the line, by sensing the obstacle we have placed at the end of the line. And then even make a U-turn to get back to where it started. We will handle all this in the next chapter.
 
+### Questions
+
+Question 4.27.1: What is a possible de\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+A. None
+
+B. Three
+
+C. Four
+
+D. It depends on the Port, where the sensor is connected.
+
+_Answer: C_
+
