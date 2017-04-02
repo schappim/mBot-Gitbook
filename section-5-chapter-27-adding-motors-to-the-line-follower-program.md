@@ -8,9 +8,7 @@
 
 In this chapter you will learn about:
 
-* How 
-* How
-* How 
+* How to program the mBot to follow a line
 
 ---
 
@@ -72,15 +70,15 @@ We can actually improve the program even further by using the proximity sensor s
 
 ### Questions
 
-Question 4.27.1: What is a possible de\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Question 4.27.1: What does the "line follower \[Port\]" block do?
 
-A. None
+A. It writes values to the line follower module.
 
-B. Three
+B. It reads values from the line follower module.
 
-C. Four
+C. It resets the line follower module.
 
-D. It depends on the Port, where the sensor is connected.
+D. It assigns a random port to the line follower module.
 
-_Answer: C_
+_Answer: B_
 
