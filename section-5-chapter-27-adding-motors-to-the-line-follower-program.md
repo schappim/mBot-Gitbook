@@ -14,33 +14,51 @@ In this chapter you will learn about:
 
 ---
 
-It's about time to get those motors moving.
+It's about time to get those motors moving. We are going to work on the program that we created in the previous chapter and just modify it slightly.
 
-We are going to work on the program that we created in the previous chapter and just modify it slightly.
+If we think about what LEDs and motors have in common, we might say that they're both output devices, actuators: they both modify the world in some way. The motor by producing motion and the LED by producing light.
 
-If we think about what is the similarity between an LED and a motor, we might say that they're both output devices, actuators: they both modify the world in some way. The motor by producing motion and the LED by producing light. 
-
-In that manner, the structure of the program, as we have it by now, is ready to go. All we have to do is place the motor movement instructions next to the LED ones.
+In that effect, the structure of the program, as we have it by now, is ready to go. All we have to do is place the motor movement instructions next to the LED ones.
 
 Let's think about how to approach it, now.
 
-When the line sensor reports a zero, we know it must  it looks like the inboard is within the track, fully within the track and all it's going to do really is just to move forwards.
+### **Reacting to the readings**
 
-Actually, the modifications are smaller than you might think.
+When the line follower module reports a zero, we know that the mBot must be fully within the track and all it has to do really is just to move forwards. No need to adjust its course.
 
-It doesn't need to adjust its course. That means that all it's got to do is to just get it to run forwards, like that. Run forwards and let's give it a speed. Let's make it say, I'll make it 150 actually. 150. Now, let's see what happens when the sensor is reporting a one. The sensor reports a one when it is at this position. Sensor number two is outside the black line. Sensor number one is inside the black line.
+When the line follower module reports a one, that means that the right sensor got outside the line and we should turn the mBot a little to the left, to get both sensors inside the line and the robot back on track.
 
-Now, what is it that we need to do if the sensor reports a one at this position? What we need to get the robot to turn towards the left to do a slight left turn, like that. What we need to do then is to get the motor at this position here to turn left at a particular speed. Let's make it also a 150, like that. What's left to do? Let's say that the sensor is reporting a two.
+When the line follower module reports a two, that means that the left sensor got outside the line and we should turn the mBot a little to the right.
 
-A two means that sensor number two is inside the black line. Sensor number one is outside the black line. What does the robot need to do in order to get back in track? It needs to move slightly towards the right. It needs to make a small right turn. Let's do that.
+Finally, when the line follower module reports a three, then the mBot got way outside the line and maybe the best idea is to get it to move backwards in hope to meet the line again.
 
-Let's grab this block and move it down here where we've got the condition for lines as the status equals two and make that a right turn. I give a speed of also, make it 150. At this point, I don't know if the speeds that I'm assigning here to the motors are reasonable or not because the speed depends on things such as the shape of the line. We can imagine it's just like a car.
+### **Expanding the program**
 
-A car can run faster if it's got a long stretch of straight road ahead of it. Then it's got to slow down if it has to go through a bend. It's the same thing with the robot. Robot can have higher speed if it simply has to travel at a straight line. When it encounters a curve, it needs to slow down or needs to go to a slower speed.
+All the above seems straight forward and here is how we can implement it.
 
-I will have to test it later on the actual track. It will be on the floor to see the speeds that I'm assigning here are correct. The last one is a little bit tricky. This L's covers the condition where the rubber is fully outside the black line. What do you think that the robot should do now to try and find the black line and get back in it? What would it do? Think about it.
+First of all we need a variable in order to set a fixed speed, for the motors, that we can use within the program. So, let’s create a variable and call it "speed", and set it to some speed, say 150.
 
-There are few things it can do. It can turn either one way or another trying to find the line again. The problem with turning is that it needs to know which way to turn. If it turns towards the left and you can see that things are getting even worse because it's going further away from the line. If it turns towards the right, then eventually it will hit the line and will be able to continue then.
+For the rest we will need the "\[run forward\] at speed \[0\]" instruction block, that can be found in the "Robots" instructions family.
+
+![](/assets/Img.5.27.1.jpg)
+
+\[Image 5.27.1: The "\[run forward\] at speed \[0\]" instruction block\]
+
+The first attribute of this block can be altered to make the mBot move either forwards or backwards and turn either left or right. As for the second attribute, we will set it to variable "speed".
+
+Here is how we must modify the program:![](/assets/Img.5.27.2.jpg)\[Image 5.27.2: The program\]
+
+The modifications are pointed at, to make it easier to spot them:
+
+\(1\) is where variable "speed" is set to 150.
+
+\(2\) is where the motor moving block is added
+
+What happens here is that every time we get a reading from the line follower module, we decide as to how the mBot must move. If things look good, it just moves forwards. If either one sensor seems to have gotten outside the line, we turn the mBot, to get it back on track. If both sensors have gotten outside the line, we move the mBot backwards in the hope to meet the line again, since the best chance is that the line is behind it.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 If we use a turning correction for the condition of the rubber being completely outside the line, then we need to remember which way the line was when we lost contact with it. That is possible but it's slightly harder to implement. Let's ignore that possibility for now or that possible solution. An easier thing to do is to move backwards because what really only moves forward at some point is going to lose the lines.
 
@@ -61,6 +79,4 @@ I also would like to know what happens once it reaches the end. Turn it on and o
 You can see that according to this program I guess it's only supposed to reverse back. You can see there's a slight right turn every time that it reverses. That really is because its wheels are slipping. That's one wheel on the paper and the other one on the floor and because of the difference in traction, eventually the robot will turn and find its way around and re-establish contact with the line.
 
 The next iteration can improve on that. What I'd like to do in the next iteration of the program, is to use the sensor, is to use the proximity sensor so that the robot can detect by itself the end of the line. Thanks to the little obstacles that I've got here. Then use this information to do a U-turn and come back where it started. Without spending so much effort there and energy trying to do the turn. Okay, let's go back to the computer and work on that improvement next.
-
-
 
