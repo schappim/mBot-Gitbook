@@ -12,9 +12,17 @@ In this chapter you will learn about:
 
 ---
 
-In the previous chapter we programmed the mBot to follow a line. It gets a bit confused when it reaches the end of the line, it doesn't quite know what it does. Its programming is telling it to just reverse. And, hopefully, because of the difference in traction between the two wheels. At some point, it might turn around far enough to be able to go back where it started. Obviously, that's not an optimal solution to this problem, there's too much chance.
+In the previous chapter we programmed the mBot to follow a line. We noticed how it gets confused when it reaches the end of the line, though. There, through erratic movements and difference in traction between the two wheels it might even turn around and start following the line back to the beginning. In case we do want it to get back, we can understand that this is not an optimal solution.
 
-I'd like to make a small recommendation, a small improvement. I would like to set a marker for the robot to be able to detect so that once it reaches that marker, it knows it needs to be a little bit more radical with its behavior. And instead of simply reversing, to perhaps turn by a certain amount of degrees or at a particular speed and then try to re-establish contact within line like that.
+In this chapter we will improve our program further by making it sense a marker, at the end of the runway, and then turn back by a certain amount of degrees and at a particular speed, and try to re-establish contact with the line and follow it all the way back to the start.
+
+We will use therefore the proximity sensor like we have seen earlier.
+
+Editing the program of the previous chapter we will need to create first a variable named "distance" and then modify the program until we have it like this:
+
+~~**{up to here by Dimitris}**~~
+
+~~~~~~~~~\`\`\`\`
 
 What I'd like to do in order to get started with that idea and try it out, is to get the robot to simply detect an obstacle in front of it and if that obstacle is close enough to simply stop, instead of trying to just reverse and then randomly return, just stop and then we'll figure out as a later iteration of how exactly to do the turn.
 
@@ -31,6 +39,4 @@ Let's upload to the Arduino and it will connect it and turn it on. I'm going to 
 Let's going to try this out on the actual line. Disconnect it, I'll turn it off. Here, we are at the track, and I've got the mBot set at the beginning of the track. At either end of the truck, I've got small cardboard boxes to play the role of the obstacle. I'm going to turn it on and see what happens. If it goes just like before, nothing has changed in that respect, as long as there's no obstacle within 10 cm, the robot will just keep going. Whoop, there you go, it stopped, detected the obstacle and it stopped. Awesome.
 
 There's one more thing to do now, and that is to get the robot to turn around and go back where it started as soon as it detects an obstacle. Let's try that next
-
-
 
