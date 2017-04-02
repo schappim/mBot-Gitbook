@@ -62,7 +62,11 @@ Let's get ready to test the program now:
 * Then we connect the mBot to the computer and "Upload to Arduino" and then we can switch it off, so that we can place it at the begin of the line.
 * And then, we can switch in on and see if it behaves as expected.
 
-~~~~~~~~~~~~
+![](/assets/Img.5.27.3.jpg)\[Image 5.27.3: The mBot at start position\]
+
+As can be seen in the image above, we can place obstacles to mark the start and finish of the runway. These will prove useful in the improvements we are going to apply to the program, in the next chapter.
+
+~~~~~~~~
 
 If we use a turning correction for the condition of the rubber being completely outside the line, then we need to remember which way the line was when we lost contact with it. That is possible but it's slightly harder to implement. Let's ignore that possibility for now or that possible solution. An easier thing to do is to move backwards because what really only moves forward at some point is going to lose the lines.
 
