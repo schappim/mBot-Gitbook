@@ -66,25 +66,7 @@ Let's get ready to test the program now:
 
 As can be seen in the image above, we can place obstacles to mark the start and finish of the runway. These will prove useful in the improvements we are going to apply to the program, in the next chapter.
 
-~~~~~~~~
+If we turn the mBot on, we will see it get going, following the line by constantly ajdusting its route, until finally it reaches the end of the line. There, we will notice that the mBot doesn't stop, since we didn't include such a behaviour in the program. Instead it will make erratic moves that might even get it to make a U-turn, eventually, due to difference in traction, between the wheels.
 
-If we use a turning correction for the condition of the rubber being completely outside the line, then we need to remember which way the line was when we lost contact with it. That is possible but it's slightly harder to implement. Let's ignore that possibility for now or that possible solution. An easier thing to do is to move backwards because what really only moves forward at some point is going to lose the lines.
-
-There's a good chance that the line is behind it. What we do then is just reverse the robot until it re-establishes contact with the line. Let's do that. Let's grab the moving block. Just put it here in place in the last L's. Instead of forwards, let's make that backwards. Again, we can use 150 as a value to get started with. That looks good enough as a version that we can actually take and test in the field in real life.
-
-I'd like to do one small modification with improvement before I upload it. That is to do with this repetition of 150 for all of the speeds. That's 150, 150, 150 and 150. I can improve that by replacing these occurrences of the value 150 with a single variable. Let's go to data and blocks and create a new variable and call it speed. I want to set the speed to 150 right at the beginning.
-
-Then replace all the fixed occurrences of the value 150 with a variable speed. This will make it easy for me to adjust the speed without having to expend too much effort. It turns out that the robot is having a hard time staying on the track. I can decrease the speed to give it a bit more time to sense its position on the track. What now we can do is to increase the speed to see how fast the import can go before it starts having trouble staying on the track.
-
-All right, time to try this out. I'm going to connect to com six and upload to the Adreno. It's uploading. As soon as it finishes the upload, it will start running the program. There you go.
-
-\[background noise\]
-
-\[laughs\] It reached the end and then, of course, then it lost it because it reached the edge of this piece of track that I've got on my table. I'm going to turn it off and go over to the track that I've got on the floor and test it on the track. Here we are, on the floor of assembled a track from the pieces of track that are printed on A4 sheets of paper. Let's see if the robot can actually follow the curves.
-
-I also would like to know what happens once it reaches the end. Turn it on and off it goes. Takes a curve nicely. Goes around the bend and reaches the end. What happens at the end? Looks like there is a little bit or turning happening. That might help the robot come back all the way around. There are 180-degree turn and see if it will make it around. Yes, it did and come back where it started. Reaches the other end. You can see that according to this program I guess it's only supposed to reverse back.
-
-You can see that according to this program I guess it's only supposed to reverse back. You can see there's a slight right turn every time that it reverses. That really is because its wheels are slipping. That's one wheel on the paper and the other one on the floor and because of the difference in traction, eventually the robot will turn and find its way around and re-establish contact with the line.
-
-The next iteration can improve on that. What I'd like to do in the next iteration of the program, is to use the sensor, is to use the proximity sensor so that the robot can detect by itself the end of the line. Thanks to the little obstacles that I've got here. Then use this information to do a U-turn and come back where it started. Without spending so much effort there and energy trying to do the turn. Okay, let's go back to the computer and work on that improvement next.
+We can actually improve the program even further by using the proximity sensor so that the robot can detect by itself the end of the line, by sensing the obstacle we have placed at the end of the line. And then even make a U-turn to get back to where it started. We will handle all this in the next chapter.
 
