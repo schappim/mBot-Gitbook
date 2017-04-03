@@ -18,7 +18,19 @@ In this chapter we will improve our program further by making it sense a marker,
 
 We will use therefore the proximity sensor as we have seen earlier.
 
-Editing the program of the previous chapter we will need to create first a variable named "distance" and then modify the program until we have it like this:
+Let's start editing the program of the previous chapter by creating a new variable named "distance\_to\_obstacle" first, and then modify the program until we have it like shown in this image:![](/assets/Img.5.28.1.jpg)\[Image 5.28.1: The additions to the program\]
+
+The additions:
+
+\(1\) We assign to the new variable "distance\_to\_obstacle" the reading from the proximity sensor.
+
+\(2\) We add a new "if...else" block in the forever loop, and nest in the else most of the "line\_sensor\_status" conditions \(3\).
+
+
+
+
+
+
 
 ~~**{up to here by Dimitris}**~~
 
