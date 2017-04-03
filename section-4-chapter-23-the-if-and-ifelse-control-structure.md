@@ -11,13 +11,13 @@ In this chapter you will learn about:
 * How to have the mBot make decisions
 * How to use the "if" and "if...else" control blocks
 * How to "nest" control blocks into other such blocks
-* What is a "condition" and how it affects the flow of the execution of a program
+* What a "condition" is and how it affects the flow of the execution of a program
 
 ---
 
-In the last chapter we got ourselves an mBot that blinks its LEDs blue and red, depending on the distance between its ultrasonic sensor and a target object. That has given us understanding of how the ultrasonic sensor and the forever loop work.
+In the last chapter we built ourselves an mBot that blinks its LEDs blue and red, depending on the distance between its ultrasonic sensor and a target object. That has given us an understanding of how the ultrasonic sensor and the forever loop work.
 
-In this chapter we will see how we can get the mBot to make decisions, depending on sensor readings, like the ultrasonic sensor. Towards that goal, we're going to build a new program that, once more, uses the LEDs and the distance sensor only this time it turns the LEDs into a particular colour depending on the distance between a sensor and the target: green when it is far away, blue when it gets closer, red when it is too close.
+In this chapter we will see how we can get the mBot to make decisions, depending on sensor readings, like the ultrasonic sensor. Towards that goal, we're going to build a new program that, once more, uses the LEDs and the distance sensor, only this time it turns the LEDs into a particular colour depending on the distance between a sensor and the target: green when it is far away, blue when it gets closer, red when it is too close.
 
 In order to make decisions we use the "if" and "if...else" blocks that we can see in the image below:
 
@@ -41,7 +41,7 @@ You will notice that such blocks have angular sides that make them fit in the co
 
 Let's create a new program: File &gt; New and use an if...else block to make a decision
 
-First, let's create a variable distance and by adding blocks and fit them together let's compose the program shown in the image below:
+First, let's create a variable distance and by adding blocks and fitting them together let's compose the program shown in the image below:
 
 ![](/assets/Img.4.22.4.jpg)
 
@@ -61,7 +61,7 @@ Remember, though, that the original goal we set was to have three different colo
 
 \[Image 4.22.5: The expanded program\]
 
-In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have gotten this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red. And all that, repeated again and again until we turn off the mBot.
+In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have got this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red. And all that, repeated again and again until we turn off the mBot.
 
 Notice that we have one "if...else" block nested in the forever block and yet another "if...else" block nested within the "else" of that first "if...else" block. It is not unusual to have layers of control blocks nested within other control blocks.
 
@@ -73,7 +73,7 @@ Let's save the program or just keep it open if we would like to proceed immediat
 
 Exercise 4.22.1: Modify the program shown in image 4.22.5 so that instead of blue the LEDs shine amber.
 
-Hint: remember how we learn, in previous chapters, to find the RGB codes of a specific colour.
+Hint: remember how we learned, in previous chapters, to find the RGB codes of a specific colour.
 
 ### Questions
 
@@ -83,7 +83,7 @@ A. They have practically the same effect and can be used interchangeably.
 
 B. The "if...else" block is more suitable to be used within loops.
 
-C. The "if...else" block specifies what must happen when the condition is false, when the "if" block, doesn't.
+C. The "if...else" block specifies what must happen when the condition is false, when the "if" block doesn't.
 
 D. Both B and C.
 
@@ -91,7 +91,7 @@ _Answer: C_
 
 Question 4.22.2: What kind of block can be used as a condition in an "if" block?
 
-A. Anyone that is of the same block colour \(yellow\) as the "if".
+A. Any that is of the same block colour \(yellow\) as the "if".
 
 B. A wait block.
 
@@ -103,11 +103,11 @@ _Answer: D_
 
 Question 4.22.3: What is the way to have more alternative options in case an "if" condition turns up to be False?
 
-A. There is no way since when a condition is False, the program always exits immediately the "if" control block.
+A. There is no way since when a condition is false, the program always exits immediately the "if" control block.
 
 B. We can combine more "if" and "if...else" blocks by nesting one into the other.
 
-C. We can nest the "if" and "if...else" blocks so that they sooner or later can be evaluated to True.
+C. We can nest the "if" and "if...else" blocks so that  sooner or later they can be evaluated to true.
 
 D. We can use consecutive loops.
 
