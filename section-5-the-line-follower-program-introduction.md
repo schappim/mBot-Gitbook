@@ -6,11 +6,11 @@
 
 ---
 
-In this section we are going to see how to use the line sensor. We'll start putting together everything we learned up to now in order to construct, step-by-step, a line following program.
+In this section we are going to see how to use the line sensor. We'll start putting together everything we learned up to now in order to construct, step-by-step, a line-following program.
 
 In addition, we will introduce the use of a button and will learn how to create custom Scratch blocks, which is the equivalent of a programming function or subroutine. Using custom blocks is a good practice for when our programs become large.
 
 By the end of this section, we will have an mBot that can follow a line, detect the end of that line, and even do a U-turn.
 
-This book contains line segments that can be torn out and then put together in order to construct, a line on the floor, for the mBot to follow.
+This book contains line segments that can be torn out and then put together in order to construct a line on the floor for the mBot to follow.
 
