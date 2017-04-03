@@ -17,18 +17,18 @@ With the two LEDs blissfully blinking away forever, the next thing that we are g
 
 ### Operation of a distance/proximity sensor
 
-The proximity sensor allows us to measure the distance between the mBot and an object in front of it. The sensor works well in a reasonable distance up to 30 or 40 centimetres. The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to recognize it and to the measure the distance from it. A larger object with a flat surface, like a book, makes a better target for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine. The sensor contains two main components:
+The proximity sensor allows us to measure the distance between the mBot and an object in front of it. The sensor works well in a reasonable distance up to 30 or 40 centimetres. The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to recognize it and to measure the distance from it. A larger object with a flat surface, like a book, makes a better target for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine. The sensor contains two main components:
 
-* the **transmitter **which them emits out a bleep: an ultrasonic sound which is going to reach the object, bounce off it and then come back
-* the **receiver **which listens out for those bounced signals.
+* the **transmitter**, which them emits out a bleep: an ultrasonic sound which is going to reach the object, bounce off it and then come back
+* the **receiver**, which listens out for those bounced signals.
 
-Internally the sensor will calculate the amount of time that it takes for the signal to travel to the obstacle and then to come back. From that information, it will produce out the distance in centimeters or inches, or a measuring unit which you can control.
+Internally the sensor will calculate the amount of time that it takes for the signal to travel to the obstacle and then to come back. From that information, it will work out the distance in centimetres or inches, or a measuring unit which you can control.
 
 ### Programming the sensor
 
 Let's create a new project in order to see how the ultrasonic distance sensor works: File &gt; New
 
-As always, we start by placing the mBot program header on the canvas. Next, we drag and drop a "ultrasonic sensor ... distance" on the canvas. We will notice that this block does not have the indentation that allows it to connect to the mBot program header block.
+As always, we start by placing the mBot program header on the canvas. Next, we drag and drop an "ultrasonic sensor ... distance" on the canvas. We will notice that this block does not have the indentation that allows it to connect to the mBot program header block.
 
 Blocks with rounded corners, like this one, are meant to return a value. One way to use such a block is to place it within a "set variable" block, assigning the returned value to some variable.
 
@@ -50,15 +50,15 @@ Next, we add a "set led on board ..." block, attach it to the program and place 
 
 \[Image 4.21.2: Setting the LEDs to emit a quantity of light corresponding to the distance from the object\]
 
-Τhe problem, here, is that these two instruction blocks will only execute once and then the program will stop, meaning we are going to take just one single measurement with the sensor, which is not ideal. With a sensor, typically, you want to take multiple measurements because you want your robot to continue sensing change in the environment. In order do have these two instructions execute repeatively we need to place them within a loop. So, let's add a forever loop, and arrange the blocks, by moving them around, to achieve the order shown here below:
+Τhe problem, here, is that these two instruction blocks will only execute once and then the program will stop, meaning we are going to take just one single measurement with the sensor, which is not ideal. With a sensor, typically, you want to take multiple measurements because you want your robot to continue sensing change in the environment. In order to have these two instructions execute repeatedly we need to place them within a loop. So, let's add a forever loop, and arrange the blocks, by moving them around, to achieve the order shown here below:
 
 ![](/assets/Img.4.21.3.jpg)
 
 \[Image 4.21.3: The final program\]
 
-**Note**: The colour of the blocks can direct you as to the category where you can find each block.
+**Note**: The colour of the blocks can direct you to the category where you can find each block.
 
-The idea here is that as the distance from the object increases, the brightness of the LEDs will decrease. As the distance from the object decreases, the brightness will increase accordingly. Now that our program is complete and we can test it out and all that in practice.
+The idea here is that as the distance from the object increases, the brightness of the LEDs will decrease. As the distance from the object decreases, the brightness will increase accordingly. Now that our program is complete we can test it in practice.
 
 We make sure that we've got a COM port connected and then "Upload to Arduino".
 
@@ -68,11 +68,11 @@ When there is no object before the mBot, or when the object is too close to the 
 
 **Note**: The absolute closest you can have your target against a sensor is about one centimetre.
 
-Let's not forget to save the program: File &gt; Save Project as and then type the name: "introduction to the distance sensor".
+Let's not forget to save the program: File &gt; Save Project and then type the name: "introduction to the distance sensor".
 
 ### A different exercise
 
-Next, let's load the program we saved in the previous chapter, named "forever loop alternating the LEDs with variable", and make some changes to it. Like described in the previous chapter, to load we go to: File &gt; Load program and pick our saved program in the "choose file to open" window.
+Next, let's load the program we saved in the previous chapter, named "forever loop alternating the LEDs with variable", and make some changes to it. As described in the previous chapter, to load we go to: File &gt; Load program and pick our saved program in the "choose file to open" window.
 
 Now, let's alter the program, by discarding blocks and inserting new ones, until we have it the way it is shown in the image, below. In order to discard a block, we just drag and drop it outside the programming canvas.
 
@@ -88,7 +88,7 @@ But why multiply with 0.1? Imagine the distance of the object being, say, 30 cm.
 
 **Note**: Distance readings of the sensor are in centimetres.
 
-Now we can "Upload to Arduino" and test our program. Let's pick a suitable obstacle, like a book, place it before the sensor and try different distances. The closer we bring it to the mBot, the faster the LEDs blink, the further away we take it from the mBot, the blinking rate decreases.
+Now we can "Upload to Arduino" and test our program. Let's pick a suitable obstacle, like a book, place it before the sensor and try different distances. The closer we bring it to the mBot, the faster the LEDs blink, and the further away we take it from the mBot, the blinking rate decreases.
 
 This was just another example of how we can get input from sensors and then manipulate that input arithmetically in order to produce a desired behaviour. We are going to work more with the ultrasonic sensor later on in this crash course. For the time being, let's move on and talk about the if and if-else control structure.
 
@@ -102,9 +102,9 @@ Question 4.21.1: What is the way of operation of the distance/proximity sensor?
 
 A. The transmitter emits a specific tone and the receiver picks up the distortion of the tone.
 
-B. The transmitter emits a ultrasonic sound signal and then picks up the echo.
+B. The transmitter emits an ultrasonic sound signal and then picks up the echo.
 
-C. The transmitter emits a ultrasonic sound signal and the receiver picks up the echo.
+C. The transmitter emits an ultrasonic sound signal and the receiver picks up the echo.
 
 D. Both A and C.
 
@@ -114,7 +114,7 @@ Question 4.21.2: What happens when we run the program shown in image 4.21.3, but
 
 A. The sensor returns an error.
 
-B. The sensor returns and error and stops functioning.
+B. The sensor returns an error and stops functioning.
 
 C. The sensor can return no valid reading.
 
