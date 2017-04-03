@@ -29,7 +29,9 @@ Replace the previous "run forward at speed 0" with these two blocks \(1\) :
 
 The speed and wait values here have worked with a previous experiment but we can always try different values and put the mBot to test it, until we know for sure what works best.
 
-Let's "Upload to Arduino" and see the 
+Let's "Upload to Arduino" and see the
+
+~~**{up to here by Dimitris}**~~
 
 The only modification that we need to make here is at the part of the program where we have detected that we've hit an obstacle and we want to deal with that situation there. I propose that we take a run block. We get the robot for example turn right. I want to try out number. Let's make it 255. Again I'm not sure if that number is correct. It's just a number that I've picked as a first attempt to solve this problem. I'm going to try it out on my track on the floor to see if it actually solves the problem here. That's all the risk to it. I think we can now try this and see if it works on the track.
 
