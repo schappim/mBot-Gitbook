@@ -8,11 +8,14 @@
 
 In this chapter you will learn about:
 
-* How to make the mBot stop at the end of the line
+* How to get the mBot to stop at the end of the line
+* How to get the mBot to make a U-turn
 
 ---
 
 In the previous chapter we programmed the mBot to follow a line. We noticed how it gets confused when it reaches the end of the line, though. There, through erratic movements and difference in traction between the two wheels it might even turn around and start following the line back to the beginning. In case we do want it to get back, we can understand that this is not an optimal solution.
+
+### Stopping at the end of the line
 
 In this chapter we will improve our program further by making it sense a marker, at the end of the runway, and then turn back by a certain amount of degrees and at a particular speed, and try to re-establish contact with the line and follow it all the way back to the start.
 
