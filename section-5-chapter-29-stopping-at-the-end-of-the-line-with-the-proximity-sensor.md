@@ -8,7 +8,7 @@
 
 In this chapter you will learn about:
 
-* How to have the mBot stop at the end of the line
+* How to make the mBot stop at the end of the line
 
 ---
 
@@ -16,7 +16,7 @@ In the previous chapter we programmed the mBot to follow a line. We noticed how 
 
 In this chapter we will improve our program further by making it sense a marker, at the end of the runway, and then turn back by a certain amount of degrees and at a particular speed, and try to re-establish contact with the line and follow it all the way back to the start.
 
-We will use therefore the proximity sensor like we have seen earlier.
+We will use therefore the proximity sensor as we have seen earlier.
 
 Editing the program of the previous chapter we will need to create first a variable named "distance" and then modify the program until we have it like this:
 
