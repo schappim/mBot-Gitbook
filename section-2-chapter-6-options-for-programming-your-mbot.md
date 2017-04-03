@@ -64,7 +64,7 @@ You will learn how to use these applications in the next three chapters. First, 
 
 ---
 
-Question 2.6.1: Which of the following applications will you use to program your mBot on your computer \(Windows or Mac\)?
+**Question 2.6.1: Which of the following applications will you use to program your mBot on your computer \(Windows or Mac\)?**
 
 A. mBlock for Windows and PC
 
@@ -78,7 +78,7 @@ Answer: A
 
 ---
 
-Question 2.6.1: Which of the following applications is a game?
+**Question 2.6.1: Which of the following applications is a game?**
 
 A. mBlock for Windows and PC
 
@@ -92,7 +92,7 @@ Answer: C
 
 ---
 
-Question 2.6.1: Which programming language is used to compose programs for the mBot by the applications you learned about this in chapter?
+**Question 2.6.1: Which programming language is used to compose programs for the mBot by the applications you learned about this in chapter?**
 
 A. Java
 
