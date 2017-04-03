@@ -29,7 +29,9 @@ Replace the previous "run forward at speed 0" with these two blocks \(1\) :
 
 The speed and wait values here have worked with a previous experiment but we can always try different values and put the mBot to test it, until we know for sure what works best.
 
-Let's "Upload to Arduino" and see the
+Let's "Upload to Arduino", put the mBot at the begin of the line and see how it behaves differently when it reaches the end of the runway. Instead of stopping when it approaches the end marker object, it should now turn around and start following the line back to the start. If we have another object there, it will loop the runway endlessly.
+
+There is always space for improving the way the mBot executes the U-turn and we can try different values for speed and time until we have a satisfactory manoeuvre.
 
 ~~**{up to here by Dimitris}**~~
 

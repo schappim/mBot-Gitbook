@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 28: Stopping at the end of the line
+## Chapter 28: Turning around at the end of the line
 
 ---
 
@@ -38,11 +38,46 @@ Let's "Upload to Arduino" and see all that in practice.
 
 There's one more thing to do now: get the robot to turn around, as soon as it detects an obstacle, and go back where it started.
 
-We should always remember to save a program when done with applying modifications we mean to keep.
+### Making a U-turn
+
+We are now getting closer to having the mBot deal with the end of line problem.
+
+We would like to get it to turn around enough to re-establish contact with the line and then continue moving in the opposite direction.
+
+There are multiple ways to achieve the same result, programmatically, and here is one possibility:
+
+![](/assets/Img.5.28.3.jpg)
+
+\[Image 5.28.3: The modification to the program\]
+
+We replace the previous "run forward at speed 0" with these two blocks \(1\) :
+
+* turn right at speed 255
+* wait 0.5 secs
+
+The speed and wait values here have worked in a previous experiment but we can always try different values and test them until we like the way that the mBot executes the U-turn.
+
+So, let's "Upload to Arduino", put the mBot at the begin of the line and what it does now: instead of stopping, when it approaches the end marker object, it should now turn around and start following the line back to the start. If we have another object there, it should loop the runway endlessly.
+
+Let's keep in mind that there is always space for improving the way the mBot executes the U-turn and we can try different values for speed and time until we have a satisfactory manoeuvre.
+
+And again, we should always remember to save a program when we are done with applying modifications we mean to keep.
 
 ### Questions
 
 Question 5.28.1: How can we have the mBot stop at the end of the line?
+
+A. By keeping count of the distance already run, using the line follower sensor.
+
+B. By sensing the distance left, using the line follower sensor.
+
+C. By keeping count of the distance already run, using the proximity sensor.
+
+D. By sensing a marker object placed at the end of the line, using the proximity sensor.
+
+_Answer: C_
+
+Question 5.28.2: How can we have the mBot stop at the end of the line?
 
 A. By keeping count of the distance already run, using the line follower sensor.
 
