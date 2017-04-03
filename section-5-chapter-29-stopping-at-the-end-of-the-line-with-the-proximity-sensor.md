@@ -38,6 +38,8 @@ Let's "Upload to Arduino" and see all that in practice.
 
 There's one more thing to do now: get the robot to turn around, as soon as it detects an obstacle, and go back where it started.
 
+We should always remember to save a program when done with applying modifications we mean to keep.
+
 ### Questions
 
 Question 5.28.1: How can we have the mBot stop at the end of the line?

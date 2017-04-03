@@ -16,11 +16,15 @@ We are now getting closer to having the mBot deal with the end of line problem.
 
 We would like to get it to turn around enough so that it can re-establish contact with the line and then continue moving in the opposite direction.
 
-There are multiple ways to achieve the same result, programmatically. One way is 
+There are multiple ways to achieve the same result, programmatically.
 
-~~**{up to here by Dimitris}**~~
+![](/assets/Img.5.29.1.jpg)
 
-but I think that one simple way that we can try out first is you just get the robot to do a turn either left or right; so it can turn perhaps like this a certain number of degrees or the other way like that. It doesn't really matter how we try this out as long as we get the robot to turn one way or another.
+\[Image 5.29.1: The modification to the program\]
+
+
+
+
 
 The only modification that we need to make here is at the part of the program where we have detected that we've hit an obstacle and we want to deal with that situation there. I propose that we take a run block. We get the robot for example turn right. I want to try out number. Let's make it 255. Again I'm not sure if that number is correct. It's just a number that I've picked as a first attempt to solve this problem. I'm going to try it out on my track on the floor to see if it actually solves the problem here. That's all the risk to it. I think we can now try this and see if it works on the track.
 
