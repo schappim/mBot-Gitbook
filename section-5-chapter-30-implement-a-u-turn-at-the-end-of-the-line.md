@@ -14,17 +14,22 @@ In this chapter you will learn about:
 
 We are now getting closer to having the mBot deal with the end of line problem.
 
-We would like to get it to turn around enough so that it can re-establish contact with the line and then continue moving in the opposite direction.
+We would like to get it to turn around enough to re-establish contact with the line and then continue moving in the opposite direction.
 
-There are multiple ways to achieve the same result, programmatically.
+There are multiple ways to achieve the same result, programmatically, and here is one possibility:
 
 ![](/assets/Img.5.29.1.jpg)
 
 \[Image 5.29.1: The modification to the program\]
 
+Replace the previous "run forward at speed 0" with these two blocks \(1\) :
 
+* turn right at speed 255
+* wait 0.5 secs
 
+The speed and wait values here have worked with a previous experiment but we can always try different values and put the mBot to test it, until we know for sure what works best.
 
+Let's "Upload to Arduino" and see the 
 
 The only modification that we need to make here is at the part of the program where we have detected that we've hit an obstacle and we want to deal with that situation there. I propose that we take a run block. We get the robot for example turn right. I want to try out number. Let's make it 255. Again I'm not sure if that number is correct. It's just a number that I've picked as a first attempt to solve this problem. I'm going to try it out on my track on the floor to see if it actually solves the problem here. That's all the risk to it. I think we can now try this and see if it works on the track.
 
