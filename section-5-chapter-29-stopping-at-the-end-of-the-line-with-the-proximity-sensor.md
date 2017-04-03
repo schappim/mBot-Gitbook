@@ -28,7 +28,7 @@ The additions:
 
 \(2\) We add a new "if...else" block in the forever loop, and nest in the else \(3\) most of the "line\_sensor\_status" conditions.
 
-What happens here is that the program gets two readings, one from the line follower module and one from the proximity sensor. If the latter is less than 10 cm. that means that the mBot has reached the object marking the end and it should stop setting its spead at zero. If not, it will keep on moving, either forward or by adjusting its route, depending on its position towards the line.
+What happens here is that the program gets two readings, one from the line follower module and one from the proximity sensor. If the latter is less than 10 cm. that means that the mBot has reached the object marking the end and it should stop setting its speed at zero. If not, it will keep on moving, either forward or by adjusting its route, depending on its position towards the line.
 
 Let's "Upload to Arduino" and see all that in practice.
 
