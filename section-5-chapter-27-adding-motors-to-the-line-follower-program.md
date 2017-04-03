@@ -18,21 +18,21 @@ If we think about what LEDs and motors have in common, we might say that they're
 
 In that effect, the structure of the program, as we have it by now, is ready to go. All we have to do is place the motor movement instructions next to the LED ones.
 
-Let's think about how to approach it, now.
+Let's think about how to approach it now.
 
 ### **Reacting to the readings**
 
-When the line follower module reports a zero, we know that the mBot must be fully within the track and all it has to do really is just to move forwards. No need to adjust its course.
+When the line-follower module reports a zero, we know that the mBot must be fully within the track and all it has to do really is just move forwards. No need to adjust its course.
 
-When the line follower module reports a one, that means that the right sensor got outside the line and we should turn the mBot a little to the left, to get both sensors inside the line and the robot back on track.
+When the line-follower module reports a one, that means that the right sensor got outside the line and we should turn the mBot a little to the left, to get both sensors inside the line and the robot back on track.
 
-When the line follower module reports a two, that means that the left sensor got outside the line and we should turn the mBot a little to the right.
+When the line-follower module reports a two, that means that the left sensor got outside the line and we should turn the mBot a little to the right.
 
-Finally, when the line follower module reports a three, then the mBot got way outside the line and maybe the best idea is to get it to move backwards in hope to meet the line again.
+Finally, when the line-follower module reports a three, then the mBot got way outside the line and maybe the best idea is to get it to move backwards hoping to meet the line again.
 
 ### **Expanding the program**
 
-All the above seems straight forward and here is how we can implement it.
+All the above seems straightforward and here is how we can implement it.
 
 First of all we need a variable in order to set a fixed speed, for the motors, that we can use within the program. So, let’s create a variable and call it "speed", and set it to some speed, say 150.
 
@@ -52,19 +52,19 @@ The modifications are pointed at, to make it easier to spot them:
 
 \(2\) is where the motor moving block is added
 
-What happens here is that every time we get a reading from the line follower module, we decide as to how the mBot must move. If things look good, it just moves forwards. If either one sensor seems to have gotten outside the line, we turn the mBot, to get it back on track. If both sensors have gotten outside the line, we move the mBot backwards in the hope to meet the line again, since the best chance is that the line is behind it.
+What happens here is that every time we get a reading from the line follower module, we decide as to how the mBot must move. If things look good, it just moves forwards. If one sensor seems to be outside the line, we turn the mBot, to get it back on track. If both sensors are outside the line, we move the mBot backwards, hoping to meet the line again, since the best chance is that the line is behind it.
 
 Let's get ready to test the program now:
 
 * First we make sure we have composed a line runway on some spacy surface, most probably on the floor.
-* Then we connect the mBot to the computer and "Upload to Arduino" and then we can switch it off, so that we can place it at the begin of the line.
-* And then, we can switch in on and see if it behaves as expected.
+* Then we connect the mBot to the computer and "Upload to Arduino" and then we can switch it off, so that we can place it at the beginning of the line.
+* And then, we can switch it on and see if it behaves as expected.
 
 ![](/assets/Img.5.27.3.jpg)\[Image 5.27.3: The mBot at start position\]
 
-As can be seen in the image above, we can place obstacles to mark the start and finish of the runway. These will prove useful in the improvements we are going to apply to the program, in the next chapter.
+As can be seen in the image above, we can place obstacles to mark the start and finish of the runway. These will prove useful in the improvements we are going to apply to the program in the next chapter.
 
-If we turn the mBot on, we will see it get going, following the line by constantly adjusting its route, until finally it reaches the end of the line. There, we will notice that the mBot doesn't stop, since we didn't include such behaviour in the program. Instead it will make erratic movements that might even get it to make a U-turn, eventually, due to difference in traction, between the wheels.
+If we turn the mBot on, we will see it get going, following the line by constantly adjusting its route, until finally it reaches the end of the line. There, we will notice that the mBot doesn't stop, since we didn't include such behaviour in the program. Instead it will make erratic movements that might even get it to make a U-turn, eventually, due to difference in traction between the wheels.
 
 We can actually improve the program even further by using the proximity sensor so that the robot can detect by itself the end of the line, by sensing the obstacle we have placed at the end of the line. And then even make a U-turn to get back to where it started. We will handle all this in the next chapter.
 
@@ -72,15 +72,15 @@ Do remember to save the project, before anything else.
 
 ### Questions
 
-Question 4.27.1: What does the "line follower \[Port\]" block do?
+Question 5.27.1: What does the "line-follower \[Port\]" block do?
 
-A. It writes values to the line follower module.
+A. It writes values to the line-follower module.
 
-B. It reads values from the line follower module.
+B. It reads values from the line-follower module.
 
-C. It resets the line follower module.
+C. It resets the line-follower module.
 
-D. It assigns a random port to the line follower module.
+D. It assigns a random port to the line-follower module.
 
 _Answer: B_
 
