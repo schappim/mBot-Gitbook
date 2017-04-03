@@ -48,7 +48,7 @@ B. By sensing the distance left, using the line follower sensor.
 
 C. By keeping count of the distance already run, using the proximity sensor.
 
-D. By sensing a marker object place at the end of the line, using the proximity sensor.
+D. By sensing a marker object placed at the end of the line, using the proximity sensor.
 
 _Answer: C_
 
