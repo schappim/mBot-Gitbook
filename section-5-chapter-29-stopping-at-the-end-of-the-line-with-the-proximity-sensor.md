@@ -42,13 +42,13 @@ There's one more thing to do now: get the robot to turn around, as soon as it de
 
 Question 5.28.1: How can we have the mBot stop at the end of the line?
 
-A. By keeping count of the distance run, using the line follower sensor.
+A. By keeping count of the distance already run, using the line follower sensor.
 
 B. By sensing the distance left, using the line follower sensor.
 
-C. By sensing the marker object put at the end of the line, using the proximity sensor.
+C. By keeping count of the distance already run, using the proximity sensor.
 
-D. 
+D. By sensing a marker object place at the end of the line, using the proximity sensor.
 
 _Answer: C_
 
