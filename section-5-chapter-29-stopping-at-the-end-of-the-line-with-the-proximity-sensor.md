@@ -77,15 +77,15 @@ D. By sensing a marker object placed at the end of the line, using the proximity
 
 _Answer: C_
 
-Question 5.28.2: How can we have the mBot stop at the end of the line?
+Question 5.28.2: What is one way to implement a U-turn?
 
-A. By keeping count of the distance already run, using the line follower sensor.
+A. By having the mBot turn around for a specific portion of time.
 
-B. By sensing the distance left, using the line follower sensor.
+B. By having the motors start spinning backwards.
 
-C. By keeping count of the distance already run, using the proximity sensor.
+C. By having the motors keep spinning forwards.
 
-D. By sensing a marker object placed at the end of the line, using the proximity sensor.
+D. By having the mBot turn 45 degrees to the right.
 
-_Answer: C_
+_Answer: A_
 
