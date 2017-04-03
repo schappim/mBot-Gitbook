@@ -13,7 +13,7 @@ In this chapter you will learn about:
 
 ---
 
-Often we find ourselves in need of repetitive actions. A loop allows us to group together multiple instructions that we need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turns: the right LED will shine a particular colour, then it will go off, then the left LED will show a different colour, then it will go off and then this process will repeat again, indefinitely.
+Often we find ourselves in need of repetitive actions. A loop allows us to group together multiple instructions that we need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turn: the right LED will shine a particular colour, then it will go off, then the left LED will show a different colour, then it will go off and then this process will repeat again, indefinitely.
 
 We must know, by now, how to create a new program: File &gt; New and then, since we mean to program the mBot: Robots and place the "mBot Program" onto the canvas.
 
@@ -31,15 +31,15 @@ We have seen how to control the LEDs. Let's pick the correct blocks and change t
 
 ![](/assets/Img.4.20.2.jpg)
 
-\[Image 4.20.2: The program for turning the LEDs on and off in turns\]
+\[Image 4.20.2: The program for turning the LEDs on and off in turn\]
 
-Reading the code: the left LED shines red for half a second, then turns off at the same time that the right LED starts to shine blue for another half a second, and then turns off. And that over and over again because it is contained in a "forever" loop.
+Reading the code: the left LED shines red for half a second, then turn off at the same time that the right LED starts to shine blue for another half a second, and then turn off. And that over and over again because it is contained in a "forever" loop.
 
 If we connect the mBot and run the program we are going to see the two LEDs blink red and blue, in turns, very much like on a police patrol car.
 
 ### Changing the block order
 
-Let's try a different apporach now. For starters lets incorporate a variable in the program. That half a second that an LEDs is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Varable" window. And then let's move the blocks around until we have the following program:
+Let's try a different approach now. For starters let's incorporate a variable in the program. That half a second that an LED is on can be stored in a variable. Let's create a new variable: Data&Blocks &gt; Make a Variable and give it the name "led\_on\_time", in the "New Varable" window. And then let's move the blocks around until we have the following program:
 
 ![](/assets/Img.4.20.3.jpg)
 
@@ -51,13 +51,13 @@ Even though we have a different block order, here, and an additional variable, w
 
 ### Saving and Opening a program
 
-We could take this one step further and use the proximity sensor on the mBot to change the amount of time that each LED is turned on, depending on the distance between the sensor and an object in front of it. For example, as the object goes closer to mBot, the timing will be faster, as the object goes further away, the pace will slow down. We are going to see that in the next chapter and for that purpose we will be reusing the program that we created here. We need, therefore, to save it on the disk so that we can reload it later and extend it.
+We could take this one step further and use the proximity sensor on the mBot to change the amount of time that each LED is turned on, depending on the distance between the sensor and an object in front of it. For example, as the object goes closer to the mBot, the timing will be faster, and the object goes further away, the pace will slow down. We are going to see that in the next chapter and for that purpose we will be reusing the program that we created here. We need, therefore, to save it on the disk so that we can reload it later and extend it.
 
 Saving a program on the disk allows you to reload it later on, eventually modify it, and re-execute it.
 
-The way to save a program is by going to the file menu and either choosing "Save Project" or "Save Project As". If this is the first time that you save a project then both options produce the same result: You will get the chance to pick a name for the program, and a location to save it.
+The way to save a program is by going to the file menu and either choosing "Save Project" or "Save Project As". If this is the first time that you save a project then both options produce the same result: you will get the chance to pick a name for the program, and a location to save it.
 
-As a general rule, chose "Save Project as..." when you need to create a new copy of a saved program, either with a different name or in a different location. Use "Save Project" to just update the saved copy you are working on.
+As a general rule, choose "Save Project as..." when you need to create a new copy of a saved program, either with a different name or in a different location. Use "Save Project" to just update the saved copy you are working on.
 
 Let's save this one with the name "forever loop alternating the LEDs with variable".
 
