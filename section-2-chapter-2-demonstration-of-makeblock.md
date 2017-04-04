@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
 * What is Makeblock
 * What you can you do with Makeblock
@@ -16,7 +16,19 @@ In this chapter you will learn about:
 
 ---
 
-In this Section, we are going to see three applications that you can run on a tablet computer, like an iPad, to control your mBot. These three applications are called **mBlock**, **mBlockly **and **Makeblock**. Each one emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so that you can get an idea of how you can use them.
+**This chapter contains hand-on activities.**
+
+You will not need any tools.
+
+You will need your mBot and an iPad tablet computer with the MakeBlock application installed.
+
+![](/assets/2017-04-04_16-45-01.png)
+
+Get MakeBlock from the Apple App Store \(for iOS devices\) or the Play Google Store \(for Android devices\). Find a download link at learn.makeblock.com/en/software/
+
+---
+
+In this Chapter, we are going to see three applications that you can run on a tablet computer, like an iPad, to control your mBot. These three applications are called **mBlock**, **mBlockly **and **Makeblock**. Each one emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so that you can get an idea of how you can use them.
 
 ### Makeblock
 
