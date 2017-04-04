@@ -30,17 +30,17 @@ Get MakeBlock from the Apple App Store \(for iOS devices\) or the Play Google St
 
 ### Makeblock
 
-By using the Makeblock app you can control your mBot without doing any programming at all. When you start the application, you see a lot of pre-existing apps that you can play with right away, instead of spending time programming the mBot. 
+By using the Makeblock app you can control your mBot without doing any programming at all. When you start the application, you see a lot of pre-existing apps that you can play with right away, instead of spending time programming the mBot.
 
 This way, you can explore the various features and capabilities of the mBot right away.
 
-After starting the app you see a variety of mBot configurations. The simplest of them, and the one you should start with is called _mBot_. 
+After starting the app you see a variety of mBot configurations. The simplest of them, and the one you should start with is called _mBot_.
 
 ---
 
 **BEWARE!**
 
-In MakeBlock, applications that are tagged with "M+" need an mBot with additional attached components. 
+In MakeBlock, applications that are tagged with "M+" need an mBot with additional attached components.
 
 For example, there's one that requires the six-legged robot extension components, in addition to the mBot. There's another one that requires a different kind of motor, called a "servo", as well as mechanical extension rods. These are available as a seperate kit.
 
@@ -78,23 +78,29 @@ Before going any further you should first connect your mBot to the iPad. Let's d
 
 #### Connecting the mBot to the iPad
 
-First thing to do is to turn the mBot on by toggling the power switch. After that we should be able to see a blue LED blinking, on the mBot. This is the Bluetooth module waiting to be connected to a Bluetooth device. That can be your smartphone, your tablet or your desktop computer, if it has got a Bluetooth module integrated.
+Turn the mBot on if it isn't on already. If your mBot is already turned on, and connected to another device via Bluetooth, the easiest way to reset it is to turn it off and then back on again. Doing this will drop the original Bluetooth connection, and make your mBot available to connect to another device or application.
+
+With this done, you should see a blue light blinking on the top of the mCore controller, near the power plug. This indicates that the Bluetooth module is available to be paired \(connected\) to a Bluetooth device. That can be your smartphone, your tablet or your desktop computer, if it has got a Bluetooth module integrated.
 
 ![](/assets/Img.2.2.4.jpg)
 
 \[Image 2.9.4: The Bluetooth icon\]
 
-In your device, tap onto the Bluetooth icon that is blinking on the top right corner of the screen. That will get the app to start searching for an mBot, in the vicinity, ready to connect. In case you see the message "Device found, please get closer", just get the mBot a little closer to the device. And that is actually all it takes to complete the connection between the app and the mBot.
+In your device, tap onto the Bluetooth icon that is blinking on the top right corner of the screen. That will get the app to start searching for a nearby mBot. In case you see the message "Device found, please get closer", just get the mBot a little closer to the device.
+
+And that is all it takes to complete the connection between the app and the mBot!
 
 #### Trying out the different controls
 
-Now we should be able to make a first attempt to change the colour of the LEDs on the mBot. Touch the colour wheel and try some colour. Touching the red, or the blue, for example, should turn the mBot LEDs accordingly.
+Now you can go ahead and make your first attempt to control something on the mBot.
 
-![](/assets/Img.2.2.5.jpg)
+How about trying to change the colour of the LEDs on the mBot? Touch the colour wheel and try changing the RGB LED colors. Touching on the red, or the blue, for example, will make the mBot LEDs to turn red and blue.
+
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-06-23-598.png)
 
 \[Image 2.9.5: The colour wheel\]
 
-Next, we can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
+Next, you can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
 
 Next, let's try the brightness. Try and cover the top of the mBot, where the sensor is located, and you should be able to see that the corresponding reading in the app increases. Remember to turn off the LEDs on the mBot first, for better results. If you don't, the light they produce will feed into the sensor, probably causing the brightness line in the cart to fluctuate. You can always turn the LEDs on and off by going to Design Mode \(just click on "Design" on the top of your screen\).
 
