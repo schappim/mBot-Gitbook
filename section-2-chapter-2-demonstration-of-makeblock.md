@@ -136,7 +136,7 @@ Last, try out the "Random" switch. Switching "Random" on will produce a random e
 
 #### The program behind the controls
 
-In MakeBlock, when you press a button or turn on a switch, the action that is triggered is defined by a program that is hiding behind the button. 
+In MakeBlock, when you press a button or turn on a switch, the action that is triggered is defined by a program that is hiding behind the button.
 
 Are you curious to find out what these programs look like? Sure you are!
 
@@ -148,9 +148,9 @@ To have a look at the mechanics behind the controls go back to "Design" tab. Let
 
 There are two instruction blocks behind the Sprint button. One contains code that controls the mBot when the button is pressed, and the other when the button is released. The first time you look at the Sprint code, there should not be any code under the "when button released" block.
 
-Under the "when button pressed" block, there are three instructions which should be easy for you to understand the purpose of. 
+Under the "when button pressed" block, there are three instructions which should be easy for you to understand the purpose of.
 
-The first one tells the mBot to move forwards at speed 255. 
+The first one tells the mBot to move forwards at speed 255.
 
 The second one tells the mBot to continue doing that \(moving forward at speed 255\) wait for five seconds.
 
@@ -160,7 +160,7 @@ The third one tells the mBot to stop moving.
 
 **BEWARE!**
 
-For the mBot, the value "255" describes the maximum possible speed that its motors can spin at. 
+For the mBot, the value "255" describes the maximum possible speed that its motors can spin at.
 
 Value "0" translates to the motors being stopped.
 
@@ -172,7 +172,7 @@ Value "0" translates to the motors being stopped.
 
 How about we add some instructions under the "when button released" block?
 
-Let's say, for example, that we'd like to hear a note when the button is released. Tap on "Controls" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just below "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then tap on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block from the Controls category. You can go to "Play", now, and test your programming. Tap on "Sprint" and see if releasing the button will produce a note, as expected \(see Image 2.9.11 for some hints on the layout of the Design screen as you are putting together your program, and Image 2.9.12 for the final set of instructions under "when button release"\). 
+Let's say, for example, that we'd like to hear a note when the button is released. Tap on "Controls" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just below "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then tap on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block from the Controls category. You can go to "Play", now, and test your programming. Tap on "Sprint" and see if releasing the button will produce a note, as expected \(see Image 2.9.11 for some hints on the layout of the Design screen as you are putting together your program, and Image 2.9.12 for the final set of instructions under "when button release"\).
 
 You might want to lift the mBot, so that it doesn't run of your table.
 
@@ -192,33 +192,37 @@ The "Buzz" button produces a note when pressed. How about you edit the instructi
 
 #### More controls
 
-Back to "Design" we can see that there are yet more useful controls that we can add to our mBot. There is, for example, in the "Move" tab a cross-shaped control that we could use, instead of the joystick-like one, to move our mBot.
+Back to "Design" we can see that there are yet more useful controls that you can add to your mBot. For example, in the "Move" tab there is a cross-shaped control that you can to control the movement of your mBot, instead of the joystick-like control.
 
-In tab "Display" we find the "Lightness" button which is interesting to test. Drag and drop it on some empty spot, on the right, and go to "Play" to check it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
+In tab "Display" you will find the "Lightness" button which is interesting to test. Drag and drop it on an empty area in the canvas, and go to "Play" mode to test it. Moving it left and right should cause the intensity of the LEDs to increase and decrease accordingly.
 
-Back to design mode we find a little piano. If you place it on the canvas and try it out, you will notice that it is not not very responsive. It has quite a bit of a lag between the time that we press on the button and the time that the sound actually comes out of the buzzer.
+Go back to design mode and look for a piano-like control in the Display category. Drop it in the canvas and try it out. You will notice that it is not not very responsive, but still, you can play a bit of music with it. It has quite a bit of a lag between the time that we press on the button and the time that the sound actually comes out of the buzzer.
 
-We can go to the sense menu, too. There you can find items that connect to the sensors that are on board. We've got the ultrasonic in two versions, the numerical and then the gauge with the line graph version and same thing with the brightness, we've got the numerical version and then the line graph version as well.
+Then, have a look in the Sense menu. There you can find controls that work with  the on-board sensors. You can see two controls that relate to the ultrasonic sensor. One is the numerical control and then the line graph control. The light sensor also has two associated controls: a numerical control and the line graph control.
 
 ![](/assets/Img.2.2.8.jpg)
 
-\[Image 2.9.8: The sense menu\]
+\[Image 2.9.13: The sense menu\]
 
 In the custom menu, you will find all kinds of programmable components.
 
 #### Draw and Run
 
-Another interesting addition in one of the newer versions of this application is the "Draw and Run" option. You can find it back in the begin screen. Clicking on it gives you a canvas in which you can do a little drawing and basically design the path that you would like your mBot to go on. Try, for example, and make a zig-zag route with your finger. When you press "Play", the mBot will try at least to follow the path that you have drawn. Again, take care there's enough space for it. You can experiment with different routes but keep in mind that the path that the mBot actually follows is just an approximation of the path that you have drawn on the path control widget.
+Another interesting addition in one of the newer versions of this application is the "Draw and Run" control. You can find it back in the Move category while in Design mode. You can use your finger to create a path for your mBot. When you tap on the play button, your mBot will move in a similar path on the floor. 
 
-![](/assets/Img.2.2.9.jpg)
+Try, for example, and make a zig-zag path with your finger. When you press "Play", the mBot will try at least to follow the path that you have drawn. Again, take care there's enough space for it. You can experiment with different path but keep in mind that the path that the mBot actually follows is just an approximation of the path that you have drawn on the path control widget.
 
-\[Image 2.9.9: The Draw and Run canvas\]
+![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-05-16-608.png)
+
+\[Image 2.9.14: The Draw and Run canvas\]
 
 Most of the components that you can drag and drop on the canvas are pre-programmed, meaning that you don't need to do any programming yourself. If you do want to do a bit of programming, you can use mBlock and we are going to handle this one, next.
 
-### Questions
 
-Question 2.9.1: What does the ultrasonic reading mean?
+
+---
+
+**Question 2.9.1: What does the ultrasonic reading mean?**
 
 A. It represents the distance between the ultrasonic sensor and some obstacle.
 
@@ -226,9 +230,11 @@ B. It represents the amount of light received by the ultrasonic sensor.
 
 C. It represents the amount of light emitted by the ultrasonic sensor.
 
-Answer: A
+_Answer: A_
 
-Question 2.9.2: Which instruction can stop the moving of the wheels?
+---
+
+**Question 2.9.2: Which instruction can stop the moving of the wheels?**
 
 A. wait 0 s
 
@@ -236,5 +242,25 @@ B. wait for ever
 
 C. stop moving
 
-Answer: C
+_Answer: C_
+
+---
+
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[   \] You have installed MakeBlock on your iPad or Android tablet
+
+\[   \] You have successfully connected your mBot to the MakeBlock app via Bluetooth
+
+\[   \] You were able to control the movelemtn of your mBot using the on-screen joystick
+
+\[   \] You were able to control the colour of the mBot's RGB LEDs using the appropriate MakeBlock controls
+
+\[   \] You were able to test the mBot's distance sensor using the two related MakeBlock controls
+
+\[   \] You were able to test the mBot's brigthness sensor using the two related MakeBlock controls
+
+\[   \] You were able to use the Path Control widget in MakeBlock to design a path for your mBot, and your mBot successfully followed that path
 
