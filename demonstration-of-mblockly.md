@@ -21,6 +21,8 @@ You will not need any tools.
 
 You will need your mBot and an iPad tablet computer with the mBlockly application installed.
 
+![](/assets/2017-04-04_16-45-51.png)
+
 Get mBlockly from the Apple App Store. Find a download link at learn.makeblock.com/en/software/
 
 _At this time, mBlockly is not available for Android tablets._
@@ -155,7 +157,7 @@ A very useful feature are the "Events", which can be used to mainly detect movem
 
 With the instructions in the Event group we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards \(blocks 5 and 4\) using the tablet itself as a control device.
 
-In the Detect group of instructions you can find blocks that work with sensors. 
+In the Detect group of instructions you can find blocks that work with sensors.
 
 ![](/assets/f787dcb0-1ab4-48c3-9761-1ed62863c304.jpeg)
 
@@ -256,8 +258,6 @@ Double-check that at this point, the following are completed:
 \[   \] You have successfully uploaded a program that you wrote in mBlockly on your iPad to your mBot
 
 \[   \] You are familiar with the basic Scratch blocks in mBlockly
-
-
 
 ---
 
