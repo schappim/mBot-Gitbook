@@ -15,6 +15,10 @@ In this chapter you will learn about:
 
 On the mBot, on the right side, there is a little board button that can be programmed to cause a reaction by the mBot. We can program it, for example, so that when the robot is powered on, the wheels either start or stop, by pressing it. Again, there are multiple ways to implement this behaviour and in this chapter we are going to see one.
 
+![](/assets/Img.5.29.1.jpg)
+
+\[Image 5.29.1: The board button\]
+
 Let's continue with our program of the previous chapters and create a variable named "button\_toggle" that will be used to hold the status of the board button. We will be assigning just two values to this variable:
 
 **-1** for having the wheels on
@@ -23,29 +27,33 @@ Let's continue with our program of the previous chapters and create a variable n
 
 First, and since our program will have the wheels spinning when loaded, let's initialize this variable to -1, at the very start of the program like this:
 
-![](/assets/Img.5.29.1.jpg)
+![](/assets/Img.5.29.2.jpg)
 
-\[Image 5.29.1: Initializing the "button\_toggle" variable\]
+\[Image 5.29.2: Initializing the "button\_toggle" variable\]
 
 For the rest, when the board button is pressed, we need to invert its value, assigning the opposite status to it. One simple way to do that is by multiplying its value by -1. If it was -1, it will now become 1, and vice versa. Here's how to do that:
 
-![](/assets/Img.5.29.2.jpg)
+![](/assets/Img.5.29.3.jpg)
 
-\[Image 5.29.2: Inverting the status of the board button\]
+\[Image 5.29.3: Inverting the status of the board button\]
 
 Here, if the board button is pressed, then we set the opposite value to the "button\_toggle" by multiplying its current value by -1. The "on board button \[pressed\]" can be found in the \(navy blue\) "Robots" segment.
 
 One last thing we need to do is, is check the status of the board button \(kept in variable "button\_toggle"\) using an if block, like this:
 
-![](/assets/Img.5.29.3.jpg)
+![](/assets/Img.5.29.4.jpg)
 
-\[Image 5.29.2: Checking the status of the board button\]
+\[Image 5.29.4: Checking the status of the board button\]
 
-If it is 1, we should procceed with the all the lot of instructions we created previously for trying to keep the mBot on track. If it is -1, we should just stop the wheels. That means that 
+If it is 1, we should procceed with the all the lot of instructions we created previously for trying to keep the mBot on track. If it is -1, we should just stop the wheels. That means that we should move all these instructions within the if \(board button status = 1\), and add a stop instruction \("move forward at speed 0"\) within the else \(board button status = -1\) 
 
+Here's how to combine these new instructions in the program:
 
+![](/assets/Img.5.29.5.jpg)
 
-~~~~~~~~~
+\[Image 5.29.5: The new modifications\]
+
+~~**~~~~~ {UP TO HERE BY DIMITRIS}**~~
 
 This will be the trigger for the wheels to start spinning and for the operation of the robot as a line follow to actually begin. Once I had enough of it, I would like to be able to press the same button again and get the robot to stop operating. To do that, cut back to the robot's section and look for the button block. There it is, so there's an on-board button.
 
