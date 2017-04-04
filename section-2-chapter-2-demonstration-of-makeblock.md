@@ -106,7 +106,7 @@ Next, you can try the ultrasonic sensor gauge. Put your hand, or some other obje
 
 \[Image 2.9.6: The ultrasonic distance indicator shows distance in centimetres. The brightness chart show light intensity from 0 \(dark\) to 1023 \(very bright\)\]
 
-Next, let's play with the light sensor. Use your palm to cover the top of the mBot, where the sensor is located. You should see that the corresponding reading in the app increases \(see example in Image 2.9.7\). 
+Next, let's play with the light sensor. Use your palm to cover the top of the mBot, where the sensor is located. You should see that the corresponding reading in the app increases \(see example in Image 2.9.7\).
 
 ---
 
@@ -122,13 +122,17 @@ Remember to turn off the LEDs on the mBot first, for better results. If you don'
 
 Obscuring the light sensor will make the yellow line in the brightness chart to go lower. The numbers you see on the left are not particular light measuring units but rather an analogue input number of the mBot: when the mBot is connected to an analogue device, like the light sensor, it produces a number that represents the the value that the sensor is measuring. In the case of the light sensor on the mBot, light of low intensity is represented by a small number in the chart. Light of higher intensity is represented by a larger number in the chart.
 
-Following up we can test the buzz button. Press it and you should hear a noise.
+How about you make some noise now? Tap on the button labeled "Buzz". Can you hear the noise?
 
-Next we can try and control the mBot. The control lever is very much like a joystick. Try all different directions with it and you should see the mBot react accordingly.
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-06-43-682 %280%29.png)
+
+\[Image 2.9.8: With the joystick you can control the movement of your mBot\]
+
+Next we can try and control the mBot. The control lever is very much like a joystick \(see image 2.9.8\). Try all different directions with it and you should see the mBot react accordingly.
 
 Before testing the sprint button make enough space for the mBot to run. You can always lift it up in the air, before it smashes on anything. Keep in mind that the sprint can be reset by using the joystick.
 
-Switching "Random" on will produce some random effect on the mBot like turning the LEDs on etc.
+Last, try out the "Random" switch. Switching "Random" on will produce a random effect on the mBot like turning the LEDs on etc.
 
 #### The program behind the controls
 
