@@ -136,23 +136,59 @@ Last, try out the "Random" switch. Switching "Random" on will produce a random e
 
 #### The program behind the controls
 
-It is interesting to see how all these actions are attached to the controls. To have a look at the mechanics behind the controls we should go back to "Design" tab. Let's have a look, for example, at the "Sprint" button. Tap on it and in the menu that opens choose "Code" and the actual program that is triggered when you press on the sprint button will appear.
+In MakeBlock, when you press a button or turn on a switch, the action that is triggered is defined by a program that is hiding behind the button. 
 
-The instruction blocks are actually self explanatory as it is very close to the natural language: when the button is pressed run forward at speed 255 \(which is the maximum\), wait for five seconds \(before proceeding to the next command\) and then stop moving.
+Are you curious to find out what these programs look like? Sure you are!
 
-Notice there's an event block there about what should happen when the button is released. It is empty, ready for you to put your ideas and orders there.
+To have a look at the mechanics behind the controls go back to "Design" tab. Let's find out how the Sprint button works. Tap on it and in the menu that opens choose "Code" and the actual program that is triggered when you press on the sprint button will appear.
 
-![](/assets/Img.2.2.7.jpg)
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-12-02-966.png)
 
-\[Image 2.9.7: Instructions for the sprint button\]
+\[Image 2.9.9: While in Design mode, tapping on a button reveals the options menu. Tap on Code to see the code behind a button\]
 
-Let's say, for example, that we'd like to hear a note when the button is released. Click on "**Controls**" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just below "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then click on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block. You can go to "Play", now, and test your programming. Click on "Sprint" and see if releasing the button will produce a note, as expected. Again, you might want to lift the mBot, so that it doesn't crash on your coffee cup.
+There are two instruction blocks behind the Sprint button. One contains code that controls the mBot when the button is pressed, and the other when the button is released. The first time you look at the Sprint code, there should not be any code under the "when button released" block.
 
-Let's make one last improvement. Go back to the Code \(Design &gt; Sprint Button &gt; Code\) and add a "stop moving" instruction block right bellow the "wait 1 s".
+Under the "when button pressed" block, there are three instructions which should be easy for you to understand the purpose of. 
 
-Go to "Play" and test the Sprint button, once more. Press "Sprint" and hold your finger there for two seconds and then release it to see if the wheels will stop moving one second after hearing the tone.
+The first one tells the mBot to move forwards at speed 255. 
 
-The "Buzz" button produces a note when pressed. Edit the instruction so that it produces a C6 note when released, too.
+The second one tells the mBot to continue doing that \(moving forward at speed 255\) wait for five seconds.
+
+The third one tells the mBot to stop moving.
+
+---
+
+**BEWARE!**
+
+For the mBot, the value "255" describes the maximum possible speed that its motors can spin at. 
+
+Value "0" translates to the motors being stopped.
+
+---
+
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-12-08-196.png)
+
+\[Image 2.9.10: Instructions for the sprint button\]
+
+How about we add some instructions under the "when button released" block?
+
+Let's say, for example, that we'd like to hear a note when the button is released. Tap on "Controls" on the toolbar, on the left, and different command blocks should appear. Drag and drop "play a note on ..." just below "when button released" taking care that they fit one into the other, like two jigsaw pieces. Then tap on the note to pick one of your liking. Eventually add a \(pink\) "wait 1 s" block from the Controls category. You can go to "Play", now, and test your programming. Tap on "Sprint" and see if releasing the button will produce a note, as expected \(see Image 2.9.11 for some hints on the layout of the Design screen as you are putting together your program, and Image 2.9.12 for the final set of instructions under "when button release"\). 
+
+You might want to lift the mBot, so that it doesn't run of your table.
+
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-12-37-970.png)
+
+\[Image 2.9.11: Drag the "play not on C5" block and attach it to the "when button released" block\]
+
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-12-56-169.png)
+
+\[Image 2.9.12: The final set of instructions for the Sprint button\]
+
+Let's make one last improvement. While still in Design mode, add the "stop moving" block from the Move category right under the "wait 1 s" block in the "when button released" block. This way, when you release the Sprint button, the mBot will first make a noise, and then it will stop moving.
+
+Go back to "Play" mode and test the Sprint button, once more. Press "Sprint" and hold your finger there for two seconds and then release it to see if the wheels will stop moving one second after hearing the tone.
+
+The "Buzz" button produces a note when pressed. How about you edit the instruction so that it produces a C6 note when released, too.
 
 #### More controls
 
