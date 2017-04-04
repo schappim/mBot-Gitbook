@@ -8,7 +8,11 @@
 
 In this chapter you will learn about:
 
-* How to control the mBot using MakeBlock on a tablet
+* What is Makeblock
+* What you can you do with Makeblock
+* How to connect your mBot to MakeBlock
+* How to use the various widgets to control your mBot
+* How to use the various widgets to receive sensor data from your mBot and visualise it
 
 ---
 
