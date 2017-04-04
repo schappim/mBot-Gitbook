@@ -100,15 +100,27 @@ How about trying to change the colour of the LEDs on the mBot? Touch the colour 
 
 \[Image 2.9.5: The colour wheel\]
 
-Next, you can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing.
+Next, you can try the ultrasonic sensor gauge. Put your hand, or some other object, like a book, in front of the sensor and slowly move it closer to the sensor and you should be able to see the ultrasonic reading, in the app, changing \(see Image 2.9.6\).
 
-Next, let's try the brightness. Try and cover the top of the mBot, where the sensor is located, and you should be able to see that the corresponding reading in the app increases. Remember to turn off the LEDs on the mBot first, for better results. If you don't, the light they produce will feed into the sensor, probably causing the brightness line in the cart to fluctuate. You can always turn the LEDs on and off by going to Design Mode \(just click on "Design" on the top of your screen\).
+![](/assets/Mbot - 0080 - Ipad 1 - demo of Makeblock mblockly mblock.CONSTANT-00-06-43-682.png)
+
+\[Image 2.9.6: The ultrasonic distance indicator shows distance in centimetres. The brightness chart show light intensity from 0 \(dark\) to 1023 \(very bright\)\]
+
+Next, let's play with the light sensor. Use your palm to cover the top of the mBot, where the sensor is located. You should see that the corresponding reading in the app increases \(see example in Image 2.9.7\). 
+
+---
+
+**BEWARE!**
+
+Remember to turn off the LEDs on the mBot first, for better results. If you don't, the light they produce will be detected by the sensor, probably causing the brightness line in the cart to fluctuate. You can always turn the LEDs on and off by going to Design Mode \(just click on "Design" on the top of your screen\).
+
+---
 
 ![](/assets/Img.2.2.6.jpg)
 
-\[Image 2.9.6: Covering the light sensor with the hand\]
+\[Image 2.9.7: Covering the light sensor with the hand\]
 
-Obscuring the light sensor will drop the reading down. The numbers you see on the left are not particular light measuring units but rather an analogue input number of the mBot: when the mBot is connected to an analogue device, like the light sensor, it produces a number that represents the state of that sensor meaning, when the sensor picks up little light, their number reduces, and when the sensor picks up more light, then the number increases.
+Obscuring the light sensor will make the yellow line in the brightness chart to go lower. The numbers you see on the left are not particular light measuring units but rather an analogue input number of the mBot: when the mBot is connected to an analogue device, like the light sensor, it produces a number that represents the the value that the sensor is measuring. In the case of the light sensor on the mBot, light of low intensity is represented by a small number in the chart. Light of higher intensity is represented by a larger number in the chart.
 
 Following up we can test the buzz button. Press it and you should hear a noise.
 
