@@ -28,38 +28,53 @@ Get MakeBlock from the Apple App Store \(for iOS devices\) or the Play Google St
 
 ---
 
-In this Chapter, we are going to see three applications that you can run on a tablet computer, like an iPad, to control your mBot. These three applications are called **mBlock**, **mBlockly **and **Makeblock**. Each one emphasizes a certain aspect of programming and controlling the mBot. We are going to demonstrate what each one does so that you can get an idea of how you can use them.
-
 ### Makeblock
 
-It is a good idea to start with the Makeblock app as it is one that allows you to actually control your mBot without doing any programming at all. Instead, when you start the application, you see a lot of pre-existing apps that you can execute right away, instead of programming the mBot yourself.
+By using the Makeblock app you can control your mBot without doing any programming at all. When you start the application, you see a lot of pre-existing apps that you can play with right away, instead of spending time programming the mBot. 
 
-After starting the app you see all kinds of mBot types, the simplest one called _mBot_. The ones marked with M+ need some add-on pack \(like, for example, the six-legged robot extension\), in addition to the mBot.
+This way, you can explore the various features and capabilities of the mBot right away.
 
-![](/assets/Img.2.2.1.jpg)
+After starting the app you see a variety of mBot configurations. The simplest of them, and the one you should start with is called _mBot_. 
+
+---
+
+**BEWARE!**
+
+In MakeBlock, applications that are tagged with "M+" need an mBot with additional attached components. 
+
+For example, there's one that requires the six-legged robot extension components, in addition to the mBot. There's another one that requires a different kind of motor, called a "servo", as well as mechanical extension rods. These are available as a seperate kit.
+
+---
+
+![](/assets/makebot1.png)
 
 \[Image 2.9.1: The begin screen\]
 
-We are going to start with the basic mBot app, on the top left. After clicking on it we get to see a set of controls:
+Let's start with the basic mBot app, at the top left. Once the app starts, you will see a set of controls:
 
-1. control of the movement
+1. A joystick for controlling the two DC motors. 
 2. numerical reading of the distance between the sensor and an object in front of it
-3. numerical reading of the light sensor
+3. A line chart display of the light sensor readings
 4. on/off switch that will get the robot to execute a random movement
-5. buzz button that will activate the buzzer and make some noise
-6. sprint button that will get the robot to take off at maximum speed
+5. A button that will activate the buzzer and make some noise
+6. A button  button that will make the robot to move forwards at maximum speed
 
 ![](/assets/Img.2.2.2.jpg)
 
 \[Image 2.9.2: The controls\]
 
-Tapping on the "Design" tab reveals additional components that can be dragged and dropped onto the canvas.
+Tapping on the "Design" tab reveals all the components that can be dragged and dropped onto the canvas. These components are sorted under four categories:
 
-![](/assets/Img.2.2.3.jpg)
+1. Move
+2. Display
+3. Sense
+4. Custom
+
+![](/assets/design.png)
 
 \[Image 2.9.3: Additional controls on the Design tab\]
 
-Before anything, of course, we need to connect the mBot to the iPad and here's how to do this:
+Before going any further you should first connect your mBot to the iPad. Let's do that now.
 
 #### Connecting the mBot to the iPad
 
