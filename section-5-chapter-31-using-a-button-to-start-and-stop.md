@@ -8,8 +8,7 @@
 
 In this chapter you will learn about:
 
-* How to 
-* How to 
+* How to program the board button to start and stop the wheels
 
 ---
 

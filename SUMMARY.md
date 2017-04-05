@@ -31,7 +31,7 @@
 * [Section 5 \| Chapter 27: Adding motors to the line follower program](section-5-chapter-27-adding-motors-to-the-line-follower-program.md)
 * [Section 5 \| Chapter 28: Turning around at the end of the line](section-5-chapter-29-stopping-at-the-end-of-the-line-with-the-proximity-sensor.md)
 * [Section 5 \| Chapter 29: Using a button to start and stop](section-5-chapter-31-using-a-button-to-start-and-stop.md)
-* Section 5 \| Chapter 32: Custom blocks \(functions\)
+* [Section 5 \| Chapter 30: Custom blocks \(functions\)](section-5-chapter-32-custom-blocks-functions.md)
 * Section 6 \| Chapter 33: Other things you should know introduction
 * Section 6 \| Chapter 34: Restoring the firmware
 * Section 6 \| Chapter 35: Restoring the default program
