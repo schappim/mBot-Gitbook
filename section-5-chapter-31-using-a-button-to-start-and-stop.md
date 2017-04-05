@@ -58,7 +58,17 @@ That is the last bit of functionality that we introduce to the mBot, at least in
 
 Next, we will see how to break down this long program into smaller parts that are easier to manage, called "functions".
 
+### Questions
 
+Question 5.29.1 What is the use of the board button?
 
+A. It is meant to start and stop the wheels, by default.
 
+B. 
+
+C. It has a general use and it can be programmed to perform some action.
+
+D. 
+
+_Answer: C_
 
