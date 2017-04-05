@@ -6,13 +6,40 @@
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
-* How to control the mBot using mBlock on a tablet
+* What is mBlock for iOS and Android devices
+* What you can you do with mBlock
+* How to connect your mBot to mBlock
+* How to learn Scratch programming by playing with mBlock
 
 ---
 
-If you have children in your family or if you’re a teacher using this information to teach your class, then mBlock is the ideal application for kids to get started with.
+**This chapter contains hand-on activities.**
+
+You will not need any tools.
+
+You will need your mBot and an iPad tablet computer with the mBlock application installed.
+
+![](/assets/2017-04-06_09-10-34.png)
+
+Get mBlock from the Apple App Store \(for iOS devices\) or the Play Google Store \(for Android devices\). Find a download link at learn.makeblock.com/en/software/
+
+---
+
+If you have children in your family or if you’re a teacher using this information to teach your class, then mBlock is the ideal application for children to get started with.
+
+mBlock was designed as a game. The objective of the player is to complete a series of programming tasks, discussed as challenges. For every completed challenge, the player earns points and is presented with a new, more challenging task. 
+
+All these tasks involve the use of Scratch blocks to control the behaviour of the mBot. This approach to learning is called "Gamification". 
+
+---
+
+**Did you know?**
+
+Gamification, the use of gaming techniques that children are already familiar with, like keeping a score, completing challenges and the like, in an environment that is typical of video games\) has been shown to significantly enhance learner's engagement with the learning program.
+
+---
 
 Start the application and it should be able to quickly detect a nearby mBot.
 
