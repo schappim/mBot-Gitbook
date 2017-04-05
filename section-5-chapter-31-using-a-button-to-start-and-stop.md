@@ -62,13 +62,13 @@ Next, we will see how to break down this long program into smaller parts that ar
 
 Question 5.29.1 What is the use of the board button?
 
-A. It is meant to start and stop the wheels, by default.
+A. It is meant by default to start and stop the wheels.
 
-B. 
+B. It starts and stops the power supply to the mBot.
 
-C. It has a general use and it can be programmed to perform some action.
+C. It has a general use and it can be programmed to perform assorted actions.
 
-D. 
+D. Both A and B.
 
 _Answer: C_
 
