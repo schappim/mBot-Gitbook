@@ -12,7 +12,7 @@
 * [Section 2 \| Chapter 8: Demonstration of mBlockly+](demonstration-of-mblockly.md)
 * [Section 2 \| Chapter 9: Demonstration of MakeBlock+](section-2-chapter-2-demonstration-of-makeblock.md)
 * [Section 2 \| Chapter 10: Demonstration of the mBlock+](section-2-chapter-4-demonstration-of-the-mblock.md)
-* [Section 2 \| Chapter 11: Section recap](section-2-chapter-5-recapping.md)
+* [Section 2 \| Chapter 11: Section recap+](section-2-chapter-5-recapping.md)
 * [Section 3 \| Chapter 12: Programming the mBot on the PC using mBlock - Introduction](section-3-chapter-12-programming-the-mbot-on-the-pc-using-mblock-introduction.md)
 * [Section 3 \| Chapter 13: Install mBlock on your computer](section-3-chapter-12-install-mblock-on-your-computer.md)
 * [Section 3 \| Chapter 14: A quick look at Scratch on mBlock](section-3-chapter-13-a-quick-look-at-scratch-on-mblock.md)
