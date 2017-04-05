@@ -51,7 +51,7 @@ If the Bluetooth LED on the mBot is solid blue, that means that the mBot is alre
 
 ---
 
-Once the connection between the mBot and mBlock is established, you will see a screen like the one in Image 2.4.1. Each one of the boxes represents a challenge that the learner can attempt. 
+Once the connection between the mBot and mBlock is established, you will see a screen like the one in Image 2.4.1. Each one of the boxes represents a challenge that the learner can attempt.
 
 ![](/assets/Img.2.4.1.jpg)
 
@@ -71,7 +71,7 @@ Tapping on "Play", on bottom right of the screen, will get the mBot to produce s
 
 \[Image 2.4.3: Your first task is to tap on the blue Play button\]
 
-Well done, you completed your first task! 
+Well done, you completed your first task!
 
 Next, Mr Panda will ask you to move an instruction block and place it under the other. The instructions are supplied by some explanatory animation so it should be fairly obvious to understand how to complete any task.
 
@@ -87,7 +87,17 @@ When you have completed this task, click on "Forward" \(the orange button next t
 
 \[Image 2.4.5: Tapping on the orange button takes you to the next task\]
 
-By now you should have a good understanding of what mBlock for tablets does. mBlock is a fun way for a student to learn mBot programming using Scratch. 
+By now you should have a good understanding of what mBlock for tablets does. mBlock is a fun way for a student to learn mBot programming using Scratch.
 
+---
 
+### **Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[   \] You have installed mBlock on your iPad or Android tablet
+
+\[   \] You have successfully connected your mBot to the mBlock app via Bluetooth
+
+\[   \] You were able to successfully complete the first 3 challenges, as assigned by Mr Panda
 
