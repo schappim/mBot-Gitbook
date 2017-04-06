@@ -199,7 +199,15 @@ There are a lot more blocks which you can play around with, so I invite you to e
 
 ### Question 3.14.4
 
-Which block 
+Have a look in the Pen block category, in the Blocks Palette. Notice that this category contains blocks that you can use to draw shapes in the Stage area. Once you attach a pen to the Panda, the pen will leave a trace behind the Panda as the Panda moves.
+
+Can you compose a program that uses the Pen block so that it draws a box when you press the "d" key on your keyboard?
+
+_Answer:_
+
+![](/assets/2017-04-06_17-37-10.png)
+
+Notice: of course, instead of using a negative turn angle you could use the anticlock-wise turn block, with a positive angle.
 
 ---
 
@@ -213,7 +221,7 @@ Double-check that at this point, the following are completed:
 
 \[   \] You know how to make the Panda Sprite speak
 
-\[   \] You know how to trigger a program via the keyboard 
+\[   \] You know how to trigger a program via the keyboard
 
 \[   \] You know how to trigger a program by clicking on the green flag
 
