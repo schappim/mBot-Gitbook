@@ -17,6 +17,14 @@ In this chapter you will learn about:
 
 ---
 
+**This chapter contains hand-on activities.**
+
+You will not need any tools.
+
+You will need mBlock installed on your computer. In this chapter you will only compose programs that control the Panda Sprite in the Stage area. You will not need your mBot, so you may put it aside for now.
+
+---
+
 Now that you have installed mBlock on your computer, go ahead and start it, if you have not already done so.
 
 In this chapter you will not use the mBot yet. Instead, you will learn how to manipulate the movement of the Panda sprite by writing a simple Scratch program. As you do that, you will learn how to use some of the most common Scratch programming blocks.
