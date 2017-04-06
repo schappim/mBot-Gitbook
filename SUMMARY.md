@@ -15,7 +15,7 @@
 * [Section 2 \| Chapter 11: Section recap+](section-2-chapter-5-recapping.md)
 * [Section 3 \| Chapter 12: Programming the mBot on your computer using mBlock - Introduction+](section-3-chapter-12-programming-the-mbot-on-the-pc-using-mblock-introduction.md)
 * [Section 3 \| Chapter 13: Install mBlock on your computer+](section-3-chapter-12-install-mblock-on-your-computer.md)
-* [Section 3 \| Chapter 14: A quick look at Scratch on mBlock](section-3-chapter-13-a-quick-look-at-scratch-on-mblock.md)
+* [Section 3 \| Chapter 14: A quick look at Scratch on mBlock+](section-3-chapter-13-a-quick-look-at-scratch-on-mblock.md)
 * [Section 3 \| Chapter 15: Create and upload your first program](section-3-chapter-14-create-and-upload-your-first-program.md)
 * [Section 3 \| Chapter 16: Motor control](section-3-chapter-15-motor-control.md)
 * [Section 3 \| Chapter 17: Moving left, right, backwards](section-3-chapter-17-moving-left-right-backwards.md)
