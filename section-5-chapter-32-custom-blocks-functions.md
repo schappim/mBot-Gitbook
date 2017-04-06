@@ -16,11 +16,33 @@ At this point, in this mBot programming crash course, we have implemented all th
 
 In this chapter we are going to see how we can simplify things by turning groups of instruction blocks into external functions that the main program can call by name.
 
-~~**{UP TO HERE BY DIMITRIS}**~~
+The first thing to do is to have a look around the program and try to distinguish groups of blocks that implement a specific functionality. Let's take, for example, the two blocks that initialize the two variables "line\_sensor\_status" and "distance\_to\_obstacle":
+
+![](/assets/Img.5.30.1.jpg)
+
+\[Image 5.30.1: A likely candidate to become a function\]
+
+These two instruction blocks can be seen as an entity and can, therefore, be turned into a single block or a function, like we use to call it. To do so we go to "Data&Blocks" \(1\) and there we click on "Make a Block" \(2\), like shown in the picture below:
+
+![](/assets/Img.5.30.2.jpg)
+
+\[Image 5.30.2: Where to create a new block \(a function\)\]
+
+There will open a window where we can name our new block. Let's name it "read\_sensor\_data":
+
+![](/assets/Img.5.30.3.jpg)
+
+\[Image 5.30.3: The "New Block" window\]
+
+and click "OK" once we are ready. Notice how there is an "Options" button here, and we will come back later to see more of it.
+
+
+
+
+
+For example, how about this bit here? The code right here is the part of the program that implements the actual line following algorithm. Another bit of code like this bit here is the bit that implements the functionality of the robot in dealing with running out of line or they’re actually finding an obstacle in front of it and then dealing with that obstacle.
 
 This is a common technique in the world of programming where we compartmentalize functionality and then this functionality can be easily referred to from within our program. I'm going to demonstrate what I mean by this, just to try and keep things simple.
-
-The first thing to do is to have a look around a code and see if we can distinguish groups of blocks that implement a specific functionality. For example, how about this bit here? The code right here is the part of the program that implements the actual line following algorithm. Another bit of code like this bit here is the bit that implements the functionality of the robot in dealing with running out of line or they’re actually finding an obstacle in front of it and then dealing with that obstacle.
 
 We got a bit more code at the top that simply gets the readings from the two sensors and updates two variables. Things like that, we can move outside the main body of the program and turn into functions. Let's do that now. The first thing to do is to create a new block which is the equivalent of a function. Inside the data end blocks sections of the scripts, there is -- I'll do that again. There is a Make a Block button. You click on that and you can create your first block. I would like this block to deal with reading the sensor data and updating the two variables. Let's call it Read Sensor Data, a sensible name.
 

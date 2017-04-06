@@ -33,7 +33,7 @@
 * [Section 5 \| Chapter 29: Using a button to start and stop](section-5-chapter-31-using-a-button-to-start-and-stop.md)
 * [Section 5 \| Chapter 30: Custom blocks \(functions\)](section-5-chapter-32-custom-blocks-functions.md)
 * Section 6 \| Chapter 33: Other things you should know introduction
-* Section 6 \| Chapter 34: Restoring the firmware
+* [Section 6 \| Chapter 34: Restoring the firmware](section-6-chapter-34-restoring-the-firmware.md)
 * Section 6 \| Chapter 35: Restoring the default program
 * Section 6 \| Chapter 36: Section recap
 
