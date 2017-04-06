@@ -44,17 +44,27 @@ There will appear a blue begin block and we should move the two "set" variable b
 
 We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute that smaller part of the program we placed aside: the new function shown in image 5.30.4.
 
-We should place first in the forever block, replacing thus the two "set" variable blocks that we took away:![](/assets/Img.5.30.5.jpg)\[Image 5.30.4: The new "read\_sensor\_data" function\]
+We should place first in the forever block, replacing thus the two "set" variable blocks that we took away:![](/assets/Img.5.30.5.jpg)\[Image 5.30.5: The new "read\_sensor\_data" function\]
 
 Let's see if we can another group of instructions that implement together a specific functionality. Let's take, for example, the following group of instructions:
 
 ![](/assets/Img.5.30.6.jpg)
 
-\[Image 5.30.5: Yet another candidate to become a function\]
+\[Image 5.30.6: Yet another candidate to become a function\]
 
-This is big chunk of blocks that can be seen to do one single thing:
+This is a big chunk of blocks that can be described as doing one single thing: follow a line.
 
-~~~~~~~~~~~~~~~~~~
+Following the same procedure, we can create a new block: Data&Blocks &gt; Make a Block and give the new block a suitable name, say "line\_follower".
+
+This function will need to take input, though: the status of the line sensor. Therefore, in the "New Block" window, this time we do click on "Options" and then on "Add number input". This will create a new attribute next to the name of the block, where we can type a name for the input value. Let's type "line\_value" and when we have everything like shown in the image below, click "OK".
+
+![](/assets/Img.5.30.7.jpg)
+
+\[Image 5.30.7: Creating a new block that can take number input\]
+
+
+
+~~~~~~~~~~
 
 For example, how about this bit here? The code right here is the part of the program that implements the actual line following algorithm. Another bit of code like this bit here is the bit that implements the functionality of the robot in dealing with running out of line or they’re actually finding an obstacle in front of it and then dealing with that obstacle.
 
