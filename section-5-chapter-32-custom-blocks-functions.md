@@ -8,7 +8,9 @@
 
 In this chapter you will learn about:
 
-* How to 
+* How to create a custom blocks \(a function\)
+* How to give th
+* How to use them in the program
 
 ---
 
@@ -36,7 +38,7 @@ There will open a window where we can name our new block. Let's name it "read\_s
 
 and click "OK" once we have typed the name in the available text box. Notice how there is an "Options" button here. We we will see more of it later on.
 
-There will appear a blue begin block and we should move the two "set" variable blocks below it like this:
+There will appear a blue "define" block and we should move the two "set" variable blocks below it like this:
 
 ![](/assets/Img.5.30.4.jpg)
 
@@ -62,9 +64,13 @@ This function will need to take input, though: the status of the line sensor. Th
 
 \[Image 5.30.7: Creating a new block that can take number input\]
 
+Now, we should move that big group of blocks shown in image 5.30.6 and connect them below the new "define" block. In addition, we need to replace the "line\_sensor\_status" by the new input "line\_value". Just drug and drop it like shown in the image below:
 
+![](/assets/Img.5.30.8.jpg)
 
-~~~~~~~~~~
+\[Image 5.30.8: The new "line\_follower" function\]
+
+~~~~~~
 
 For example, how about this bit here? The code right here is the part of the program that implements the actual line following algorithm. Another bit of code like this bit here is the bit that implements the functionality of the robot in dealing with running out of line or they’re actually finding an obstacle in front of it and then dealing with that obstacle.
 
