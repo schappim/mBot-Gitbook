@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 30: Custon blocks \(functions\)
+## Chapter 30: Custom blocks \(functions\)
 
 ---
 
