@@ -50,7 +50,7 @@ In the Blocks Palette, the Costumes tab gives you access to the sprite editor. Y
 
 ### Did you know?
 
-Because the mBot is based on the Arduino electronics board, it is common to use the term "sketch" in reference to a program. 
+Because the mBot is based on the Arduino electronics board, it is common to use the term "sketch" in reference to a program.
 
 A sketch is a program that we write for the purpose of testing an idea. In most cases, we will change this program in order to make it better or to get it to do something else, as new ideas come. So, a sketch is a temporary and always changing program.
 
@@ -59,6 +59,90 @@ In this book we do the same. We may use the term "sketch" or "program", meaning 
 ---
 
 Great work! Now that you have installed mBlock, started it for the first time, and are familiar with its components, go on to the next chapter where you will learn about the most important programming blocks and create your first programs.
+
+---
+
+**Question 3.13.1: What operating systems can mBlock work with?**
+
+A. Windows
+
+B. Mac OS
+
+C. Linux
+
+D. All of the above
+
+_Answer: D_
+
+---
+
+**Question 3.13.2: Which part of the mBlock window can you see the sprite \(by default, the Panda image\) move?**
+
+A. the Stage
+
+B. the Sprite List
+
+C. the Blocks Palette
+
+D. the Scripts Area
+
+E. the Costumes Area
+
+_Answer: A_
+
+---
+
+**Question 3.13.3: Which part of the mBlock window do you write your program?**
+
+A. the Stage
+
+B. the Sprite List
+
+C. the Blocks Palette
+
+D. the Scripts Area
+
+E. the Costumes Area
+
+_Answer: D_
+
+---
+
+**Question 3.13.4: Can you change the way that the Sprite looks?**
+
+A. Yes
+
+B. No
+
+_Answer: A_
+
+---
+
+**Question 3.13.5: Which part of the mBlock window will you use in order to change the way that the Sprite looks?**
+
+A. the Stage
+
+B. the Sprite List
+
+C. the Blocks Palette
+
+D. the Scripts Area
+
+E. the Costumes Area
+
+_Answer: E_
+
+---
+
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[ \] You have installed mBlock on your computer
+
+\[ \] You are familiar with the components that make up the mBlock window
+
+---
 
 
 
