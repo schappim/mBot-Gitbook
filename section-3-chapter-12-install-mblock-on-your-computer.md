@@ -6,11 +6,23 @@
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
-* How to download mBlock
+* How to download mBlock for Windows, Mac and Linux
 * How to install mBlock on your computer
 * How to start mBlock for the first time
+
+---
+
+**This chapter contains hand-on activities.**
+
+You will not need any tools.
+
+You will need a computer, access to the Internet, and the ability to install new software. If the computer that you are using is part of a lab in your school and are not able to install software on it, ask the lab administrator for assistance with this activity.
+
+![](/assets/2017-04-06_10-34-20.png)
+
+Get mBlock from http://www.mblock.cc/download
 
 ---
 
