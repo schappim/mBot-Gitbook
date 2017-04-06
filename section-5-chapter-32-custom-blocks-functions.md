@@ -34,11 +34,27 @@ There will open a window where we can name our new block. Let's name it "read\_s
 
 \[Image 5.30.3: The "New Block" window\]
 
-and click "OK" once we are ready. Notice how there is an "Options" button here, and we will come back later to see more of it.
+and click "OK" once we have typed the name in the available text box. Notice how there is an "Options" button here. We we will see more of it later on.
 
+There will appear a blue begin block and we should move the two "set" variable blocks below it like this:
 
+![](/assets/Img.5.30.4.jpg)
 
+\[Image 5.30.4: The new "read\_sensor\_data" function\]
 
+We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute that smaller part of the program we placed aside: the new function shown in image 5.30.4.
+
+We should place first in the forever block, replacing thus the two "set" variable blocks that we took away:![](/assets/Img.5.30.5.jpg)\[Image 5.30.4: The new "read\_sensor\_data" function\]
+
+Let's see if we can another group of instructions that implement together a specific functionality. Let's take, for example, the following group of instructions:
+
+![](/assets/Img.5.30.6.jpg)
+
+\[Image 5.30.5: Yet another candidate to become a function\]
+
+This is big chunk of blocks that can be seen to do one single thing:
+
+~~~~~~~~~~~~~~~~~~
 
 For example, how about this bit here? The code right here is the part of the program that implements the actual line following algorithm. Another bit of code like this bit here is the bit that implements the functionality of the robot in dealing with running out of line or they’re actually finding an obstacle in front of it and then dealing with that obstacle.
 
