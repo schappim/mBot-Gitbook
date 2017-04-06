@@ -27,7 +27,7 @@ You will need mBlock installed on your computer. In this chapter you will only c
 
 Now that you have installed mBlock on your computer, go ahead and start it, if you have not already done so.
 
-In this chapter you will not use the mBot yet. Instead, you will learn how to manipulate the movement of the Panda sprite by writing a simple Scratch program. As you do that, you will learn how to use some of the most common Scratch programming blocks.
+In this chapter you will not play with the mBot. Instead, you will learn how to manipulate the movement of the Panda sprite by writing a simple Scratch program. As you do that, you will learn how to use some of the most common Scratch programming blocks.
 
 ![](/assets/2017-03-24_16-46-55.png)
 
@@ -71,6 +71,26 @@ In Image 3.14.6 you can see how the text that you typed in the "Say" block appea
 
 Congratulations! You just executed your first Scratch program!
 
+---
+
+### Question 3.14.1
+
+Now that you know how to get your Panda Sprite to talk, how about you get it to "say" a couple of sentences?
+
+Compose a small program that makes the Panda say something like this:
+
+* Sentence 1: "Hello, I am Panda".
+* Sentence 2: "What is your name?"
+* Sentence 3: "Good to meet you Peter!"
+
+Of course, replace "Peter" for your own name. And design your program so that there are appropriate delays for the first two sentences. But, compose your program so that the last sentence is "said" permanently, that is, so that it does not disappear after an amount of time.
+
+_Answer:_
+
+![](/assets/2017-04-06_17-14-48.png)
+
+---
+
 In the Events group of blocks, there are several other triggers that you can use in your programs. For example, you may want to get the Sprite to move or to "Say" something when you press a key on your keyboard, instead of clicking on the Green icon. To do this, you can use the "When key pressed" block. In Image 3.14.7, you can see a variation of the program you wrote earlier.
 
 ![](/assets/2017-03-25_10-08-42.png)
@@ -83,9 +103,13 @@ So, what you have learned so far is that in order to start a program you need a 
 
 ---
 
-**EXERCISE**:
+### Question 3.14.2
 
 Try this: Create three programs with appropriate triggers. Design your programs so that when you press the key "A" on your keyboard, the Panda will say "you pressed A". Similarly, your Panda will say "you pressed B", and "you pressed C" when you press "B" and "C" respectively.
+
+Answer:
+
+![](/assets/2017-04-06_17-18-59.png)
 
 ---
 
@@ -93,13 +117,13 @@ Now let's do something else. Detach the "Say" block from the "When" block and th
 
 ![](/assets/2017-03-25_10-19-20.png)
 
-\[Image 3.14.8: Deleting a block\]
+\[Image 3.14.8: Deleting a block by right-clicking on it and selecting "delete"\]
 
 ![](/assets/2017-03-25_10-19-45.png)
 
-\[Image 3.14.9: Deleting a block\]
+\[Image 3.14.9: Deleting a block by dragging it to the Blocks Palette \(where it came from\)\]
 
-Let's make the Panda move.
+Next, let's make the Panda move.
 
 Select the Motion group. All the block in that group can produce some kind of movement.
 
@@ -119,13 +143,21 @@ Before you click on the Green flag, click on the Panda and drag it a bit to the 
 
 \[Image 3.14.12: The Panda moves 50 steps and then speaks!\]
 
-You can make Panda do something more elaborate. For example, get it to move by 50 steps, then to turn by 45 degrees, then to move by another 50 steps, and then for you to say, "Hello World!".
+---
+
+### Question 3.14.3
+
+Make Panda to do something more elaborate. Get it to move by 50 steps, then to turn by 45 degrees, then to move by another 50 steps, and then make it say, "Hello World!".
+
+_Answer:_
 
 ![](/assets/2017-03-25_10-35-14.png)
 
 \[Image 3.14.13: This program makes the Panda move straight, turn, and speak\]
 
-Panda will move so fast that practically as soon as you click on the Green flag, the whole movement will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 3.14.13.
+---
+
+The program from question 3.14.3 will cause the Panda to move so fast that as soon as you click on the Green flag, the whole program will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 3.14.13.
 
 ![](/assets/2017-03-25_10-38-16.png)
 
@@ -162,4 +194,28 @@ Notice that the "Repeat" block is shaped so that it encloses other blocks. It ta
 \[Image 3.14.18: The current version of the program\]
 
 There are a lot more blocks which you can play around with, so I invite you to experiment with those programming blocks and get your sprite to do different things like move and a box path, or around a circle or move. You can also get it to say things depending on its location, for example. Or you can program it to produce sounds. Experiment with the sound blocks for this kind of outcome.
+
+---
+
+### Question 3.14.4
+
+Which block 
+
+---
+
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[   \] You know how to move the Panda Sprite in a straight line
+
+\[   \] You know how to make the Panda Sprite turn
+
+\[   \] You know how to make the Panda Sprite speak
+
+\[   \] You know how to trigger a program via the keyboard 
+
+\[   \] You know how to trigger a program by clicking on the green flag
+
+\[   \] You know how to repeat a segment of your program for a specific number of times
 
