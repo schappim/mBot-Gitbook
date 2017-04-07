@@ -46,7 +46,7 @@ There will appear a blue "define" block and we should move the two "set" variabl
 
 We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute that smaller part of the program we placed aside: the new function shown in image 5.30.4.
 
-We should place first in the forever block, replacing thus the two "set" variable blocks that we took away:![](/assets/Img.5.30.5.jpg)\[Image 5.30.5: The new "read\_sensor\_data" function\]
+We should place first in the forever block, replacing thus the two "set" variable blocks that we took away:![](/assets/Img.5.30.5.jpg)\[Image 5.30.5: Calling the new "read\_sensor\_data" function\]
 
 Let's see if we can another group of instructions that implement together a specific functionality. Let's take, for example, the following group of instructions:
 
@@ -64,11 +64,15 @@ This function will need to take input, though: the status of the line sensor. Th
 
 \[Image 5.30.7: Creating a new block that can take number input\]
 
-Now, we should move that big group of blocks shown in image 5.30.6 and connect them below the new "define" block. In addition, we need to replace the "line\_sensor\_status" by the new input "line\_value". Just drug and drop it like shown in the image below:
+Now, we should move that big group of blocks shown in image 5.30.6 and connect them below the new "define" block. In addition, we need to replace the "line\_sensor\_status", in the function, by the new input "line\_value". Just drug and drop it like shown in the image below:
 
 ![](/assets/Img.5.30.8.jpg)
 
 \[Image 5.30.8: The new "line\_follower" function\]
+
+Last step, we must call this new function, from within the program. In other words, we must place the new block where the displaced group of blocks used to be, like shown in the image below:![](/assets/Img.5.30.9.jpg) 
+
+\[Image 5.30.9: Calling the new "line\_follower" function\]
 
 ~~~~~~
 
