@@ -74,17 +74,21 @@ Last step, we must call this new function, from within the program. In other wor
 
 \[Image 5.30.9: Calling the new "line\_follower" function\]
 
-But the function call is not ready yet. We need to make sure that the program will pass the status of the line sensor, stored in variable "line\_sensor\_status", to the function ![](/assets/Img.5.30.10.jpg)
+But the function call is not ready yet. We need to make sure that the program will pass the status of the line sensor, stored in variable "line\_sensor\_status", as an attribute to the function. To achieve that, we need to take the "line\_sensor\_status" variable block and drag and drop it in the "line\_follower" block \(1\) as an attribute: ![](/assets/Img.5.30.10.jpg)\[Image 5.30.10: passing and attribute to the function\]
 
-\[Image 5.30.10: \]
+Now, when we run the program and the execution reaches the "line\_follower" block, the program will call function "line\_follower" passing it the value of variable "line\_sensor\_status" \(2\). What will happen is that the value of "line\_sensor\_status" will be copied to local variable "line\_value", in order to be used by the function according to its needs. 
 
-Let's do one more and then I will leave the rest up to you to change as you see fit. Just experiment with this. The other part of the code that I would like to turn into a custom block, is the part where we implement the line following functionality. That code is right here, this bit. I'm going to create a new block, I’m going to call that Line Follower. I would like this to have a input now. I would like this to have the input and that input is the state of the sensor. The state of the sensor will be input to the Line Follower block. Let's call that Line Value. This allows us to create blocks that have parameters and then those parameters can be used inside the block just like any other variable.
+"line\_sensor\_status" belongs to the main program when "line\_value" is used locally by function "line\_follower".
 
-I'm going to say okay, and here is the header for the new block. Then I will populate that block with the code inside here, inside this part of the if/else statement. This is where we have a line following code. We're going to drag that over and put it here. Of course, I need to be able to call the Line Follower block. To do that, I'm going to drag the Line Follower block and put it where this bit of code used to be. Remember that we need a parameter here and the parameter that I want to pass is the Line Value, so the value that the line sensor has returned. I need to grab that line sensor status and put it in here.
+We can check the program for more things that can be turned into functions, simplifying the main program, but instead we will "Upload to Arduino" and check if the program executes like before, making sure we didn't mess our program while creating functions.
 
-Because now inside our block we have replaced the original line sensor status with a local variable line value, which eventually contains the same value but it's got a different name. One, Line Value is the internal name that is used inside the block, while line sensor status belongs to the outside program to the whole program. Just going to move that Line Value variable and replace any reference of the original line sensor status. Just like that. Okay, so this is what our new program looks like. If you look around the original program, there are still things that you can do to simplify it and convert some of its components into external blocks, custom blocks.
+Functions help organizing programs better by breaking them down in smaller parts, instead of building one monolithic program that is both difficult to read and understand what it does, and to edit.
 
-I think it's good enough for now. I’d like to upload that and make sure that my robot still works. Plug it into the USB. Actually, I don't need to turn it upside down because I've got the button functionality. Connect to comp six. Right click on the input header and upload to Arduino, and upload to Arduino, all done. Let's see, does it still work? I'm going to press the button, it looks like it is. All right. Let's go and try it out then on the track and hopefully everything would go well. The input now contains the last version of the program. It's supposed to behave in the exact same way as the previous version, it's just that now it's more organized using custom blocks than just having a one monolithic piece of code.
+The mBot has preserved all the functionality we aimed for: it can follow a line, it can detect an obstacle and make a U-turn. Only now our program is better organized, too. The instructions are more readable.
 
-Let's start it and see how it behaves. Yes, it looks like it behaves exactly like it did before. Great, okay, that's it. At this point, we've got the mBot behaving in the way that we planned for. It can follow a line, it can turn around when it reaches the end of the line and detects the obstacle in front of it. We were also able to improve the construction of our program by using custom blocks. Let's wrap it up in the next lecture and discuss things that your students can actually do going forward.
+Let's wrap it up in the next lecture and discuss things that your students can actually do, going forward.
+
+### Exercise
+
+
 
