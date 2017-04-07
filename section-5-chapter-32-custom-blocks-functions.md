@@ -8,13 +8,13 @@
 
 In this chapter you will learn about:
 
-* How to create a custom blocks \(a function\)
-* How to give th
-* How to use them in the program
+* How to create a custom blocks
+* When to create a custom block
+* How to pass values to a a custom block as attributes
 
 ---
 
-At this point, in this mBot programming crash course, we have implemented all the functionality that we aimed for. The only problem is that we have ended up with quite a long program that is somehow both difficult to handle, when trying to order the instruction blocks, and also difficult to read, when we look at the instructions, trying to understand what the program does.
+At this point, in this mBot programming crash course, we have implemented all the functionality that we aimed for. The only problem is that we have ended up with quite a long program that is somehow both difficult to handle, when placing instruction blocks, and also difficult to read, when we look at the instructions, trying to understand what the program does.
 
 In this chapter we are going to see how we can simplify things by turning groups of instruction blocks into external functions that the main program can call by name.
 
@@ -24,21 +24,21 @@ The first thing to do is to have a look around the program and try to distinguis
 
 \[Image 5.30.1: A likely candidate to become a function\]
 
-These two instruction blocks can be seen as an entity and can, therefore, be turned into a single block or a function, like we use to call it. To do so we go to "Data&Blocks" \(1\) and there we click on "Make a Block" \(2\), like shown in the picture below:
+These two instruction blocks can be seen as an entity and therefore can be turned into a new single block, also known as _function_. To create this new block we go to "Data&Blocks" \(1\) and there we click on "Make a Block" \(2\), like shown in the picture below:
 
 ![](/assets/Img.5.30.2.jpg)
 
 \[Image 5.30.2: Where to create a new block \(a function\)\]
 
-There will open a window where we can name our new block. Let's name it "read\_sensor\_data":
+There will open a window where we can give our new block a name. Let's call this one "read\_sensor\_data". We type the name into the give text box and when done click "OK":
 
 ![](/assets/Img.5.30.3.jpg)
 
 \[Image 5.30.3: The "New Block" window\]
 
-and click "OK" once we have typed the name in the available text box. Notice how there is an "Options" button here. We we will see more of it later on.
+Notice how there is an "Options" button that we don't need to use here. We we will see more of it later on.
 
-There will appear a blue "define" block and we should move the two "set" variable blocks below it like this:
+There will appear a blue "define" block and we should connect the two "set" variable blocks to it like this:
 
 ![](/assets/Img.5.30.4.jpg)
 
@@ -76,7 +76,7 @@ Last step, we must call this new function, from within the program. In other wor
 
 But the function call is not ready yet. We need to make sure that the program will pass the status of the line sensor, stored in variable "line\_sensor\_status", as an attribute to the function. To achieve that, we need to take the "line\_sensor\_status" variable block and drag and drop it in the "line\_follower" block \(1\) as an attribute: ![](/assets/Img.5.30.10.jpg)\[Image 5.30.10: passing and attribute to the function\]
 
-Now, when we run the program and the execution reaches the "line\_follower" block, the program will call function "line\_follower" passing it the value of variable "line\_sensor\_status" \(2\). What will happen is that the value of "line\_sensor\_status" will be copied to local variable "line\_value", in order to be used by the function according to its needs. 
+Now, when we run the program and the execution reaches the "line\_follower" block, the program will call function "line\_follower" passing it the value of variable "line\_sensor\_status" \(2\). What will happen is that the value of "line\_sensor\_status" will be copied to local variable "line\_value", in order to be used by the function according to its needs.
 
 "line\_sensor\_status" belongs to the main program when "line\_value" is used locally by function "line\_follower".
 
@@ -86,9 +86,13 @@ Functions help organizing programs better by breaking them down in smaller parts
 
 The mBot has preserved all the functionality we aimed for: it can follow a line, it can detect an obstacle and make a U-turn. Only now our program is better organized, too. The instructions are more readable.
 
-Let's wrap it up in the next lecture and discuss things that your students can actually do, going forward.
+Let's save the program and all the good work we have done with it and let's proceed to the next chappter and discuss things that our students can actually do, going forward.
 
-### Exercise
+### Exercises
 
+Exercise 5.30.1: Locate in the program a different group of blocks that has meaning to turn them into a fuction. Create a new block with them and replace the instructions in the program by a call to the new function. Think well whether you need to pass values as attributes.
 
+### Questions
+
+Exercise 5.30.1: 
 
