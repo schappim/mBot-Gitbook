@@ -44,49 +44,49 @@ There will appear a blue "define" block and we should connect the two "set" vari
 
 \[Image 5.30.4: The new "read\_sensor\_data" function\]
 
-We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute that smaller part of the program we placed aside: the new function shown in image 5.30.4.
+We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute those two inctructions we put aside, or better: it will execute function "read\_sensor\_data" \(Image 5.30.4\).
 
-We should place first in the forever block, replacing thus the two "set" variable blocks that we took away:![](/assets/Img.5.30.5.jpg)\[Image 5.30.5: Calling the new "read\_sensor\_data" function\]
+We need to place a call to the function at the begin of the forever block, at the exact spot where the two "set" variable blocks used to stand, replacing them:![](/assets/Img.5.30.5.jpg)\[Image 5.30.5: Calling the new "read\_sensor\_data" function\]
 
-Let's see if we can another group of instructions that implement together a specific functionality. Let's take, for example, the following group of instructions:
+Let's see if we can distinguish another group of instructions that seem to implement a specific functionality, together. Let's take, for example, the following group of instructions:
 
 ![](/assets/Img.5.30.6.jpg)
 
-\[Image 5.30.6: Yet another candidate to become a function\]
+\[Image 5.30.6: Another candidate to become a function\]
 
-This is a big chunk of blocks that can be described as doing one single thing: follow a line.
+This is a big chunk of blocks that can be described as doing one single thing: have the mBot follow a line.
 
-Following the same procedure, we can create a new block: Data&Blocks &gt; Make a Block and give the new block a suitable name, say "line\_follower".
+Following the same procedure, like before, we can create a new block: Data&Blocks &gt; Make a Block and give the new function a suitable name, say "line\_follower".
 
-This function will need to take input, though: the status of the line sensor. Therefore, in the "New Block" window, this time we do click on "Options" and then on "Add number input". This will create a new attribute next to the name of the block, where we can type a name for the input value. Let's type "line\_value" and when we have everything like shown in the image below, click "OK".
+This time the function needs input, though: it needs to know the status of the line sensor. Therefore, in the "New Block" window, we do click on "Options", this time, and then we choose "Add number input". This will create a new attribute spot in the new block. Let's give this attribte a name by typing "line\_value" and when we have everything like shown in the image below, click "OK".
 
 ![](/assets/Img.5.30.7.jpg)
 
-\[Image 5.30.7: Creating a new block that can take number input\]
+\[Image 5.30.7: Creating a new block that can take a number as input\]
 
-Now, we should move that big group of blocks shown in image 5.30.6 and connect them below the new "define" block. In addition, we need to replace the "line\_sensor\_status", in the function, by the new input "line\_value". Just drug and drop it like shown in the image below:
+Now, we should move aside that big group of blocks shown in image 5.30.6, breaking them off the main program and connect them to the "define" block, which is the start block of the function. In addition, we need to replace the "line\_sensor\_status", in the function, by the new "line\_value" input attribute. Just drug and drop it like shown in the image below:
 
 ![](/assets/Img.5.30.8.jpg)
 
 \[Image 5.30.8: The new "line\_follower" function\]
 
-Last step, we must call this new function, from within the program. In other words, we must place the new block in the "else", where the displaced group of blocks used to be, like shown in the image below:![](/assets/Img.5.30.9.jpg)
+Last step, we must call this new function, from within the program. In other words, we must place the new block in the "else", where the displaced group of blocks used to be, like shown in the image below:![](/assets/Img.5.30.9.jpg)\[Image 5.30.9: Calling the new "line\_follower" function\]
 
-\[Image 5.30.9: Calling the new "line\_follower" function\]
+The function call is not ready yet, though. We need to make sure that the program will pass the status of the line sensor, which is stored in variable "line\_sensor\_status", as an attribute to the function. To achieve that, we need to take the "line\_sensor\_status" variable block and drag and drop it in the "line\_follower" block \(1\) as an attribute: ![](/assets/Img.5.30.10.jpg)\[Image 5.30.10: passing an attribute to the function\]
 
-But the function call is not ready yet. We need to make sure that the program will pass the status of the line sensor, stored in variable "line\_sensor\_status", as an attribute to the function. To achieve that, we need to take the "line\_sensor\_status" variable block and drag and drop it in the "line\_follower" block \(1\) as an attribute: ![](/assets/Img.5.30.10.jpg)\[Image 5.30.10: passing and attribute to the function\]
+Now, when we run the program and the execution reaches the "line\_follower" block, the program will call function "line\_follower", passing it the value of variable "line\_sensor\_status" \(2\). What will happen is that the value of "line\_sensor\_status" will be copied to local variable "line\_value", so that the function can use it.
 
-Now, when we run the program and the execution reaches the "line\_follower" block, the program will call function "line\_follower" passing it the value of variable "line\_sensor\_status" \(2\). What will happen is that the value of "line\_sensor\_status" will be copied to local variable "line\_value", in order to be used by the function according to its needs.
+Once again: "line\_sensor\_status" belongs to the main program when "line\_value" is used locally by function "line\_follower".
 
-"line\_sensor\_status" belongs to the main program when "line\_value" is used locally by function "line\_follower".
+We can then check the program for more things that can be turned into functions, simplifying the main body.
 
-We can check the program for more things that can be turned into functions, simplifying the main program, but instead we will "Upload to Arduino" and check if the program executes like before, making sure we didn't mess our program while creating functions.
+Instead, let's "Upload to Arduino", for the time being, and check if the program executes like before, making sure we didn't mess it while creating functions.
 
-Functions help organizing programs better by breaking them down in smaller parts, instead of building one monolithic program that is both difficult to read and understand what it does, and to edit.
+Keep in mind: functions help organizing programs better by breaking them down into smaller parts, instead of keep building on one monolithic program that is both difficult to edit and to read and understand what it does.
 
 The mBot has preserved all the functionality we aimed for: it can follow a line, it can detect an obstacle and make a U-turn. Only now our program is better organized, too. The instructions are more readable.
 
-Let's save the program and all the good work we have done with it and let's proceed to the next chappter and discuss things that our students can actually do, going forward.
+We should now save the program and all the good work we have done with it and proceed to the next chapter and discuss things that our students can actually do, going forward.
 
 ### Exercises
 
@@ -94,5 +94,5 @@ Exercise 5.30.1: Locate in the program a different group of blocks that has mean
 
 ### Questions
 
-Exercise 5.30.1: 
+Exercise 5.30.1:
 
