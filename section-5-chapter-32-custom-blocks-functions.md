@@ -100,11 +100,21 @@ A. The instructions are all of the same colour.
 
 B. They are nested in a control block \(either an "if" block or a loop\)
 
-C. 
+C. They need to set values to variables.
 
 D. They seem to implement together a specific functionality.
 
-Answer: D
+_Answer: D_
 
-Question 5.30.2: 
+Question 5.30.2: How does the program pass a value to the function?
+
+A. By passing the value as an attribute during the call of the function.
+
+B. By passing the value as an attribute at the begin of the main program.
+
+C. By initializing a variable to zero.
+
+D. The main program never passes values to functions.
+
+_Answer: A_
 
