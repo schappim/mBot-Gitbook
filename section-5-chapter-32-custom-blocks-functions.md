@@ -94,5 +94,17 @@ Exercise 5.30.1: Locate in the program a different group of blocks that has mean
 
 ### Questions
 
-Exercise 5.30.1:
+Question 5.30.1: What is the criterion for choosing a group of instructions to create a new function?
+
+A. The instructions are all of the same colour.
+
+B. They are nested in a control block \(either an "if" block or a loop\)
+
+C. 
+
+D. They seem to implement together a specific functionality.
+
+Answer: D
+
+Question 5.30.2: 
 
