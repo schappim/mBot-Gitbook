@@ -44,7 +44,7 @@ There will appear a blue "define" block and we should connect the two "set" vari
 
 \[Image 5.30.4: The new "read\_sensor\_data" function\]
 
-We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute those two inctructions we put aside, or better: it will execute function "read\_sensor\_data" \(Image 5.30.4\).
+We notice there's a new block available, now, in "Data&Blocks", named "read\_sensor\_data". We can drag and drop it, like any other instruction block, and place it to be part of the program. Whenever reached by the program, this block will execute those two instructions we put aside, or better: it will execute function "read\_sensor\_data" \(Image 5.30.4\).
 
 We need to place a call to the function at the begin of the forever block, at the exact spot where the two "set" variable blocks used to stand, replacing them:![](/assets/Img.5.30.5.jpg)\[Image 5.30.5: Calling the new "read\_sensor\_data" function\]
 
@@ -58,7 +58,7 @@ This is a big chunk of blocks that can be described as doing one single thing: h
 
 Following the same procedure, like before, we can create a new block: Data&Blocks &gt; Make a Block and give the new function a suitable name, say "line\_follower".
 
-This time the function needs input, though: it needs to know the status of the line sensor. Therefore, in the "New Block" window, we do click on "Options", this time, and then we choose "Add number input". This will create a new attribute spot in the new block. Let's give this attribte a name by typing "line\_value" and when we have everything like shown in the image below, click "OK".
+This time the function needs input, though: it needs to know the status of the line sensor. Therefore, in the "New Block" window, we do click on "Options", this time, and then we choose "Add number input". This will create a new attribute spot in the new block. Let's give this attribute a name by typing "line\_value" and when we have everything like shown in the image below, click "OK".
 
 ![](/assets/Img.5.30.7.jpg)
 
@@ -90,7 +90,7 @@ We should now save the program and all the good work we have done with it and pr
 
 ### Exercises
 
-Exercise 5.30.1: Locate in the program a different group of blocks that has meaning to turn them into a fuction. Create a new block with them and replace the instructions in the program by a call to the new function. Think well whether you need to pass values as attributes.
+Exercise 5.30.1: Locate in the program a different group of blocks that has meaning to turn them into a function. Create a new block with them and replace the instructions in the program by a call to the new function. Think well whether you need to pass values as attributes.
 
 ### Questions
 
@@ -108,9 +108,9 @@ _Answer: D_
 
 Question 5.30.2: How does the program pass a value to the function?
 
-A. By passing the value as an attribute during the call of the function.
+A. By passing the value as an attribute, during the call of the function.
 
-B. By passing the value as an attribute at the begin of the main program.
+B. By passing the value as an attribute, at the begin of the main program.
 
 C. By initializing a variable to zero.
 
