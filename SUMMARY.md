@@ -34,7 +34,7 @@
 * [Section 5 \| Chapter 30: Custom blocks \(functions\)](section-5-chapter-32-custom-blocks-functions.md)
 * [Section 5 \| Chapter 31: Recapping](section-5-chapter-32-custom-blocks-functions/section-5-chapter-31-recapping.md)
 * [Section 6 \| Chapter 32: Other things you should know introduction](section-6-chapter-33-other-things-you-should-know-introduction.md)
-* [Section 6 \| Chapter 34: Restoring the firmware](section-6-chapter-34-restoring-the-firmware.md)
+* [Section 6 \| Chapter 33: Restoring the firmware](section-6-chapter-34-restoring-the-firmware.md)
 * Section 6 \| Chapter 35: Restoring the default program
 * Section 6 \| Chapter 36: Section recap
 
