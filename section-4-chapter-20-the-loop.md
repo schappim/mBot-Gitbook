@@ -13,9 +13,9 @@ In this chapter you will learn about:
 
 ---
 
-Often we find ourselves in need of repetitive actions. A loop allows us to group together multiple instructions that we need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turn: the right LED will shine a particular colour, then it will go off, then the left LED will show a different colour, then it will go off and then this process will repeat again, indefinitely.
+Often we find ourselves in need of repetitive actions. A loop allows us to group together multiple instructions that we need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turn: the right LED will shine a particular colour, then it will go off, then the left LED will shine a different colour, then it will go off and then this process will repeat again, indefinitely.
 
-We must know, by now, how to create a new program: File &gt; New and then, since we mean to program the mBot: Robots and place the "mBot Program" onto the canvas.
+We must know, by now, how to create a new program: File &gt; New and then, since we mean to program the mBot: "Robots" and place the "mBot Program" header onto the canvas.
 
 ### Looping "forever"
 
