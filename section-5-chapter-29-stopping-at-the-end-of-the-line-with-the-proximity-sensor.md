@@ -13,7 +13,7 @@ In this chapter you will learn about:
 
 ---
 
-In the previous chapter we programmed the mBot to follow a line. We noticed how it gets confused when it reaches the end of the line, though. There, through erratic movements and difference in traction between the two wheels it might even turn around and start following the line back to the beginning. In case we do want it to get back, we can understand that this is not an optimal solution.
+In the previous chapter we programmed the mBot to follow a line. We noticed, though, that it gets confused when it reaches the end of the line. There, through erratic movements and difference in traction between the two wheels it might even turn around and start following the line back to the beginning. In case we do want it to get back, we can understand that this is not an optimal solution.
 
 ### Stopping at the end of the line
 
@@ -21,17 +21,15 @@ In this chapter we will improve our program further by making it sense a marker,
 
 We will use therefore the proximity sensor as we have seen earlier.
 
-Let's start editing the program of the previous chapter by creating a new variable named "distance\_to\_obstacle"  
- first, and then modify the program until we have it like shown in this image:![](/assets/Img.5.28.1.jpg)\[Image 5.28.1: The additions to the program\]
+Let's start editing the program of the previous chapter by creating a new variable named "distance\_to\_obstacle" first, and then modify the program until we have it like shown in this image:![](/assets/Img.5.28.1.jpg)\[Image 5.28.1: The additions to the program\]
 
 The additions:
 
-\(1\) We assign to the new variable "distance\_to\_obstacle"  
- the reading from the proximity sensor.
+\(1\) We assign to the new variable "distance\_to\_obstacle" the reading from the proximity sensor.
 
-\(2\) We add a new "if...else" block in the forever loop, and nest in the else \(3\) most of the "line\_sensor\_status" conditions.
+\(2\) We add a new "if...else" block in the forever loop and nest in the else opening \(3\) most of the "line\_sensor\_status" conditions.
 
-What happens here is that the program gets two readings, one from the line follower module and one from the proximity sensor. If the latter is less than 10 cm. that means that the mBot has reached the object marking the end and it should stop setting its speed at zero. If not, it will keep on moving, either forward or by adjusting its route, depending on its position towards the line.
+What happens here is that the program gets two readings: one from the line follower module and one from the proximity sensor. If the latter is less than 10 cm. that means that the mBot has reached the object marking the end and it should stop by setting its speed at zero. If not, it will keep on moving, either forward or by adjusting its route, depending on its position towards the line.
 
 Let's "Upload to Arduino" and see all that in practice.
 
@@ -39,11 +37,11 @@ Let's "Upload to Arduino" and see all that in practice.
 
 \[Image 5.28.2: The mBot stopping before the end marker\]
 
-There's one more thing to do now: get the robot to turn around, as soon as it detects an obstacle, and go back where it started.
+There's one more thing to do now: get the robot to turn around, as soon as it detects an obstacle, and go back to where it started.
 
 ### Making a U-turn
 
-We are now getting closer to having the mBot deal with the end of line problem.
+We are now getting closer to having the mBot deal with the end of line issue.
 
 We would like to get it to turn around enough to re-establish contact with the line and then continue moving in the opposite direction.
 
@@ -60,7 +58,7 @@ We replace the previous "run forward at speed 0" with these two blocks \(1\) :
 
 The speed and wait values here have worked in a previous experiment but we can always try different values and test them until we like the way that the mBot executes the U-turn.
 
-So, let's "Upload to Arduino", put the mBot at the begin of the line and what it does now: instead of stopping, when it approaches the end marker object, it should now turn around and start following the line back to the start. If we have another object there, it should loop the runway endlessly.
+So, let's "Upload to Arduino", put the mBot at the begin of the line and check what it does: instead of stopping, when it approaches the end marker object, it should now turn around and start following the line back to the start. If we have yet another object there, it should loop the runway endlessly.
 
 Let's keep in mind that there is always space for improving the way the mBot executes the U-turn and we can try different values for speed and time until we have a satisfactory manoeuvre.
 
@@ -78,7 +76,7 @@ C. By keeping count of the distance already run, using the proximity sensor.
 
 D. By sensing a marker object placed at the end of the line, using the proximity sensor.
 
-_Answer: C_
+_Answer: D_
 
 Question 5.28.2: What is one way to implement a U-turn?
 
