@@ -24,7 +24,7 @@ Let's continue with our program of the previous chapters and create a variable n
 
 **1** for having the wheels stopped
 
-First, and since our program will have the wheels spinning when loaded, let's initialize this variable to -1, at the very start of the program like this:
+First, and since we mean for the mBot to have the wheels spinning when the program is loaded, let's initialize this variable to -1, at the very start, like this:
 
 ![](/assets/Img.5.29.2.jpg)
 
@@ -38,13 +38,13 @@ For the rest, when the board button is pressed, we need to invert its value, ass
 
 Here, if the board button is pressed, then we set the opposite value to the "button\_toggle" by multiplying its current value by -1. The "on board button \[pressed\]" can be found in the \(navy blue\) "Robots" segment.
 
-One last thing we need to do is, is check the status of the board button \(kept in variable "button\_toggle"\) using an if block, like this:
+One last thing we need to do is check the status of the board button \(stored in variable "button\_toggle"\) using an if block, like this:
 
 ![](/assets/Img.5.29.4.jpg)
 
 \[Image 5.29.4: Checking the status of the board button\]
 
-If it is 1, we should procceed with all the lot of instructions we created previously for trying to keep the mBot on track. If it is -1, we should just stop the wheels. That means that we should move all these instructions within the if block \(board button status = 1\), and add a stop instruction \("move forward at speed 0"\) within the else \(board button status = -1\)
+If it is 1, we should proceed with all the lot of instructions we created previously for trying to keep the mBot on track. If it is -1, we should just stop the wheels. That means that we should move all these instructions within the if block \(when the board button status is 1\), and add a stop instruction \("move forward at speed 0"\) within the else \(when the board button status is -1\)
 
 Here's how to combine these new instructions in the program:
 
@@ -52,11 +52,11 @@ Here's how to combine these new instructions in the program:
 
 \[Image 5.29.5: The new modifications\]
 
-It just needs some extra attention to get all this right. Once we got the program like we see it here, in the image above, we can "Upload to Arduino". Now, every time we press the button, the wheels must either stop or start moving, depending on their current status.
+It just needs some extra attention to get all this right. Once we get the program like we see it here, in the image above, we can "Upload to Arduino". Now, every time we press the button, the wheels must either stop or start moving, depending on their current status.
 
 That is the last bit of functionality that we introduce to the mBot, at least in the context of this crash course. We need to look into one last thing, though. We notice that this program has grown to quite a large size.
 
-Next, we will see how to break down this long program into smaller parts that are easier to manage, called "functions".
+Next, we will see how to break down this long program into smaller parts, called "functions", that are easier to manage.
 
 ### Questions
 
