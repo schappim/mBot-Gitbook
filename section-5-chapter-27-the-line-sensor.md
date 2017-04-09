@@ -14,7 +14,7 @@ In this chapter you will learn about:
 
 ---
 
-We have covered a lot of details in the previous chapters, but the fun is actually starting now. We are going to play around with the line-follower sensor. This is a module attached to the bottom of the mBot and even though it behaves as one single unit, it actually contains two sensors, as can be seen in the image below, which detect light intensity \(darkness or lightness\) of a colour right in front of them.
+We have covered a lot of details in the previous chapters, but the fun is actually starting now. We are going to play around with the line-follower module which is attached to the bottom of the mBot and even though it behaves as one single unit, it actually contains two sensors, as can be seen in the image below. These two sensors can detect light intensity \(darkness or lightness\) of a colour right in front of them.
 
 ![](/assets/Img.5.26.1.jpg)
 
