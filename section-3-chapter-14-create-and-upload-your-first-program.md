@@ -2,7 +2,7 @@
 
 ---
 
-## Chapter 15: Create and upload your first program
+## Chapter 15: Creating and uploading our first program
 
 ---
 
@@ -19,7 +19,7 @@ In this chapter you will learn about:
 
 We can move on to doing some actual playing around with the mBot using mBlock, now.
 
-On the right bottom corner of the Scripts tab \(1\) you will find the "Robots" group of blocks \(2\). Once you select it, there's an mBot section \(3\) which contains all of the different programming blocks that we can use with the mBot.
+On the right bottom corner of the Scripts tab \(1\) we find the "Robots" group of blocks \(2\). Once we select it, there's an mBot section \(3\) which contains all of the different programming blocks that we can use with the mBot.
 
 ![](/assets/Img.3.15.1.jpg)
 
@@ -97,11 +97,11 @@ After the program uploads, we should be able to see the two LEDs shine red.
 
 Let's try a variation of the program now and have the right LED shine green and the left LED shine blue.
 
-**Note**: Click on "Back" if you'd like to close the view of the Arduino program.
+**Note**: We click on "Back" if we'd prefer to close the view of the Arduino program.
 
 ![](/assets/Img.3.15.6.jpg)\[Image 2.15.6: A program for setting two different colours. On the left in Scratch blocks, on the right in Arduino text.\]
 
-Drag and drop blocks and change parameters until you have the program shown in the image above. Right click on the program and "Upload to Arduino". You should be able to see, now, the mBot LEDs shining in accordance with the instructions: left one green, right one blue.
+We drag and drop blocks and change parameters until we have the program shown in the image above. Right click on the program and "Upload to Arduino". We should be able to see, now, the mBot LEDs shining in accordance with the instructions: left one green, right one blue.
 
 From here on, we can play some more and experiment with different colour value combinations. Remember that we are not confined to using the values from the drop-down. We can actually go and change that to any value between 0 and 255.
 
