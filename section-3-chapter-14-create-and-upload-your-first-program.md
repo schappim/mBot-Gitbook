@@ -131,19 +131,19 @@ _Answer: C_
 
 Question 3.15.3: In what format is the program actually uploaded to the mBot?
 
-A. In binary \(zeros and ones\)
+A. In binary \(zeros and ones\).
 
-B. In Arduino text
+B. In Arduino text.
 
-C. In Scratch blocks
+C. In Scratch blocks.
 
-D. It doesn’t get uploaded but rather executed on the computer
+D. It doesn’t get uploaded but rather executed on the computer.
 
-Answer: A
+_Answer: A_
 
-Question 3.15.4: Fill in the RBG values of the colour known as “cornflower blue”? \(Hint: search on the internet for it\)
+Question 3.15.4: Fill in the RGB values of the colour known as “cornflower blue”. \(Hint: search on the internet for it\)
 
 R = \_\_\_\_\_\_\_\_ G = \_\_\_\_\_\_\_\_ B = \_\_\_\_\_\_\_\_
 
-Answer: R = 100 G = 149 B = 237
+_Answer: R = 100 G = 149 B = 237_
 
