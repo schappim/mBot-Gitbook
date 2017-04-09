@@ -22,19 +22,19 @@ They are connected to one of two ports as shown in the image below.
 
 \[Image 2.16.1: The two motor connectors\]
 
-Let's create a new program in order to see how to use the motors. Again, to do this, we go to the "File" menu and then click on "New".
+Let's create a new program in order to see how to use the motors. Again, to do this, we go to menu "File" and click on "New".
 
-Now, just like in the previous example, we'll start by dragging and dropping instruction blocks onto the canvas, the first one being the "mBot program" block.
+Now, just like in the previous example, we'll start by dragging and dropping instruction blocks onto the canvas, the first one being the "mBot program" header block.
 
-There are a couple of blocks that allow us to control the motors. Let's start with block "run forward at speed 0" which allows us to get the mBot to move forwards or backwards and turn left or right. We pick it and attach it to the "mBot program" header block and then we can configure its two attributes:
+There are a couple of blocks that allow us to control the motors. Let's start with block "\[run forward\] at speed \[0\]" which allows us to get the mBot to move forwards or backwards and turn left or right. We pick it and attach it to the "mBot program" header block and then we can configure its two attributes:
 
 a. the direction of the move
 
 b. the speed
 
-The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any valid value. A negative value here will have the robot run backwards, if configured to run forwards, and vice versa. Let's choose "forward" and a speed of 125.
+The speed can take any number between -255 and 255. Again, instead of selecting one of the values from the drop-down, you can click and enter any valid value. A negative value here will have the robot run backwards \(with the direction attribute set to "run forward\]\) and vice versa. Let's choose "forward" and a speed of 125.
 
-**Note**: The speed number is rather arbitrary and how fast the robot goes really depends on how depleted are the batteries or whether there is some heavy load on the robot.
+**Note**: The speed number is rather arbitrary and how fast the robot goes really depends on how depleted are the batteries or whether there is some load on the robot.
 
 Let's add now a wait block and set it to 5 seconds and another "run forward ..." and set it at a speed zero, which should stop the spinning of the wheels.
 
@@ -42,7 +42,7 @@ Let's add now a wait block and set it to 5 seconds and another "run forward ..."
 
 \[Image 2.16.2: The described Scratch blocks and the corresponding Arduino text\]
 
-We right click, now, on the program and upload it. We should first make sure, of course, that we are connected to the appropriate COM port, like we saw in the previous chapter. We might also want to hold the mBot up because it is going to start running the sketch immediately and the wheels are going to start spinning.
+We right click, now, on the program and upload it. We should first make sure, of course, that we are connected to the appropriate COM port, like we saw in the previous chapter. We might also want to hold the mBot up because it is going to run the sketch immediately and the wheels are going to start spinning.
 
 After uploading the program we should see the wheels spinning for 5 seconds and then stop.
 
@@ -55,7 +55,7 @@ There are two ways to re-execute the program:
 1. by powering cycle the mBot: turning it off and then back on.
 2. by pressing the reset button on the mBot
 
-The reset button does exactly that: it executes the program stored on the chip, on the Arduino board.
+**Note**: The reset button does exactly that: it executes the program stored on the chip, on the Arduino board.
 
 In the next chapter we are going to see how to get the mBot to turn left, right and then move backwards, as well.
 
@@ -63,7 +63,7 @@ In the next chapter we are going to see how to get the mBot to turn left, right 
 
 Question 3.16.1: What will be the effect of this command: "run backward at speed -100"
 
-A. It will hav e the mBot move forwards
+A. It will have the mBot move forwards
 
 B. It will have the mBot move backwards
 
@@ -71,7 +71,7 @@ C. It will have the mBot stop
 
 D. It will return an error
 
-Answer: A
+_Answer: A_
 
 Question 3.16.2: How can we re-execute the program?
 
@@ -83,5 +83,5 @@ C. By turning off the mBot, and then back on
 
 D. Both B and C
 
-Answer: D
+_Answer: D_
 
