@@ -31,7 +31,7 @@ These two control blocks can evaluate a given condition and execute some nested 
 
 \[Image 4.22.2: Operators like these can compare values and be used as conditions\]
 
-You will notice that such blocks have angular sides that make them fit in the condition spot, after the "if" word:
+We notice that such blocks have angular sides that make them fit in the condition spot, after the "if" word:
 
 ![](/assets/Img.4.22.3.jpg)
 
@@ -51,17 +51,17 @@ We notice that the if...else block is "nested" within the forever loop. Port3 re
 
 Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Following, check this value, stored in "distance", and if it is greater than 30, then set all LEDs to green, else set them to blue. And all that, over and over again, since it's nested in a forever loop.
 
-Now we can "Upload to Arduino" and check whether the mBot functions as expected: we place some obstacle in front of the sensor, at a distance somewhat greater than 30 cm. and the LEDs should turn to green. We move the object closer than 30 cm. and the LEDs should change colour and become blue.
+Now we can "Upload to Arduino" and check whether the mBot functions as expected: we place some obstacle in front of the sensor, at a distance somewhat greater than 30 cm., and the LEDs should turn to green. We move the object closer than 30 cm. and the LEDs should change colour and become blue.
 
 ### Expanding the program
 
-Remember, though, that the original goal we set was to have three different colours and three different distance categories. Therefore, we will have to expand our program a little and here's how. Add an extra if...else block and all other necessary instruction blocks in order to have the program like this:
+The original goal we set, though, was to have three different colours and three different distance categories. Therefore, we will have to expand our program a little more and here's how. We add an extra if...else block and all other necessary instruction blocks until we have the following program:
 
 ![](/assets/Img.4.22.5.jpg)
 
 \[Image 4.22.5: The expanded program\]
 
-In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have got this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red. And all that, repeated again and again until we turn off the mBot.
+In this new version, we first check whether the distance is greater than 30. If it is, we set the LEDs to green. Else we need to check further: if the distance is between 20 and 30 \(and we know it's 30 or less, or else we wouldn't have got this far\) then set the LEDs to blue, else the distance can be nothing else but 20 or less, and in that case set the LEDs to red. And all that is repeated again and again until we turn off the mBot.
 
 Notice that we have one "if...else" block nested in the forever block and yet another "if...else" block nested within the "else" of that first "if...else" block. It is not unusual to have layers of control blocks nested within other control blocks.
 
@@ -107,7 +107,7 @@ A. There is no way since when a condition is false, the program always exits imm
 
 B. We can combine more "if" and "if...else" blocks by nesting one into the other.
 
-C. We can nest the "if" and "if...else" blocks so that  sooner or later they can be evaluated to true.
+C. We can nest the "if" and "if...else" blocks so that  sooner or later they can be evaluated to True.
 
 D. We can use consecutive loops.
 
