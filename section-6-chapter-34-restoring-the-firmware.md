@@ -24,12 +24,27 @@ A second thing that the mBot is unable to do, right now, is to be controled by t
 
 Another thing that has changed is that the default factory programs, that the mBot came with, are also not there anymore because they have been overridden by our program.
 
-To restore the factory firmware with all the original functionality, we can follow the following steps:
+To restore the factory firmware with all the original functionality, we can follow these steps:
 
-1. Connect the mBot to the computer via USB.
-2. Connect the serial port via menu: Connect &gt; Serial Port &gt; ...
-3. Check to make sure that the mBot is checked in menu Boards
-4. Restore the original firmware by going to Connect &gt; Upgrade Firmware
+* Connect the mBot to the computer via USB.
+* Connect the serial port via menu: Connect &gt; Serial Port &gt; ...
+* Check to make sure that the mBot is checked in menu Boards
+* Restore the original firmware by going to Connect &gt; Upgrade Firmware
+
+Once clicked the firmware will start uploading like this:
+
+![](/assets/Img.6.33.2.jpg)
+
+\[Image 6.33.2: Uploading the firmware\]
+
+When the upload is finished we go on like this
+
+* Turn the mBot off and then back on again.
+* Disconnect the USB from the computer.
+* 
+
+
+
 
 
 
