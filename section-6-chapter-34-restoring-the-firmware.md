@@ -16,11 +16,11 @@ Let's start now the Makeblock application and try to connect the mBot to the tab
 
 ![](/assets/Img.6.33.1.jpg)
 
-\[Image 6.33.1: The conectivity error message\]
+\[Image 6.33.1: The connectivity error message\]
 
 This means that even though there is a connection between the mBot and the tablet, the latter is not able to send instructions to the mBot because of our software running on the mBot. Makeblock needs the original firmware, to interact with the mBot, but finds our software there, instead.
 
-A second thing that the mBot is unable to do, right now, is to be controled by the remote control. If we pick it and press the buttons on it, nothing will happen.
+A second thing that the mBot is unable to do, right now, is to be controlled by the remote control. If we pick it and press the buttons on it, nothing will happen.
 
 Another thing that has changed is that the default factory programs, that the mBot came with, are also not there anymore because they have been overridden by our program.
 
@@ -50,7 +50,7 @@ The Bluetooth LED should appear solid now and Makeblock might connect automatica
 
 If we click on buttons "Sprint" and "Buzz", now, the mBot should react by sprinting the wheels and making a beep, respectively.
 
-If we check the remote control, though, nothing much will happen and next we will see what to do in order to restore the factory default program so that your remote control can operate again.
+If we check the remote control, though, nothing much will happen and next we will see what to do in order to restore the factory default program so that the remote control can operate again.
 
 ### Questions
 
@@ -65,6 +65,4 @@ C. A custom program has replaced the factory software.
 D. At least on variable name cannot be recognized by the mBot.
 
 _Answer: C_
-
-
 
