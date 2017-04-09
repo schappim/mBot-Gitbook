@@ -72,15 +72,15 @@ And of course, let's remember to save the project, before anything else.
 
 ### Questions
 
-Question 5.27.1: What does the "line-follower \[Port\]" block do?
+Question 5.27.1: What will happen when the mBot reaches the end of the line, executing the program in image 5.27.2?
 
-A. It writes values to the line-follower module.
+A. It will stop moving.
 
-B. It reads values from the line-follower module.
+B. It will perform a U-turn by executing the corresponding U-turn block.
 
-C. It resets the line-follower module.
+C. It might perform a U-turn due to difference in traction between the wheels.
 
-D. It assigns a random port to the line-follower module.
+D. It will go on eventually crashing on some obstacle found in the way.
 
-_Answer: B_
+_Answer: C_
 
