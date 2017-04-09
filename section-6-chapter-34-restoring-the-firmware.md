@@ -37,28 +37,34 @@ Once clicked the firmware will start uploading like this:
 
 \[Image 6.33.2: Uploading the firmware\]
 
-When the upload is finished we go on like this
+When the upload is finished we go on like this:
 
-* Turn the mBot off and then back on again.
 * Disconnect the USB from the computer.
-* 
+* Turn the mBot off and then back on again.
+
+The Bluetooth LED should appear solid now and Makeblock might connect automatically. If it doesn't we should click on the Bluetooth icon, on the top right corner of the screen.
+
+![](/assets/Img.6.33.3.jpg)
+
+\[Image 6.33.3: The mBot "Connected" message\]
+
+If we click on buttons "Sprint" and "Buzz", now, the mBot should react by sprinting the wheels and making a beep, respectively.
+
+If we check the remote control, though, nothing much will happen and next we will see what to do in order to restore the factory default program so that your remote control can operate again.
+
+### Questions
+
+Question 6.33.1: What might be the cause of an "Unrecognizable Firmware" error?
+
+A. The USB is not connected to the mBot.
+
+B. The wrong COM port is checked.
+
+C. A custom program has replaced the factory software.
+
+D. At least on variable name cannot be recognized by the mBot.
+
+_Answer: C_
 
 
-
-
-
-
-\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\# I can use the mBlock application on my computer and I'm going to show you how to do that now.
-
-First, let's say that I'd like to restore the firmware so that I can play with my mBot using my iPad. The way to do that is to start up my mBlock application. I need to connect my mBot to my computer via USB. It's done. I'm going to connect the serial port. Right now, this is a serial port that my mBot is connected to my Mac, so we choose that. Usually bots are okay by default so import the mCore controller, it's all set. Then all I’ve got to do is to upgrade firmware, so click on that and then the upgrade starts.
-
-\[pause\]
-
-And upload finish so now let’s try again. I'm going to turn the mBot off and then back on again. Just remove things bit closer to my overhead camera. All right. That's better. I can remove the cable now from the computer. I don't need it anymore. I'll turn it on. The mBot is now connected. Let’s see. Connected automatically, that’s happened actually really quickly, surprisingly.
-
-Just because the application was running already on my iPad, as soon as the mBot went back to life, the Bluetooth module connected the mBot to my iPad. Now, I can interact with it. There you go. It works. I just lifted to do the sprint. \[background noise\] There you go.
-
-Back to normal. All right. That is great. Let’s see if my remote control works now. No, the remote control isn't working.
-
-Let me show you what to do in order to restore the factory default program so that your remote control can operate again.
 
