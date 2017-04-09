@@ -19,7 +19,7 @@ In this chapter you will learn about:
 
 We can move on to doing some actual playing around with the mBot using mBlock, now.
 
-On the right bottom corner of the Scripts menu \(1\) you will find the "Robots" section \(2\). Once you select it, there's an mBot section \(3\) which contains all of the different programming blocks that we can use with the mBot.
+On the right bottom corner of the Scripts tab \(1\) you will find the "Robots" group of blocks \(2\). Once you select it, there's an mBot section \(3\) which contains all of the different programming blocks that we can use with the mBot.
 
 ![](/assets/Img.3.15.1.jpg)
 
@@ -39,19 +39,19 @@ Out of the box, the mBot comes with a number of capabilities based on sensors or
 
 * an ultrasonic sensor
 * an infrared sensor
-* a line follower
+* a line follower module
 * a light intensity sensor
 
 As far as outputs and actuators are concerned, there are:
 
 * two motors connected to two individual ports: one for each motor
-* RGB LEDs
+* two RGB LEDs
 
 Apart from these basic capabilities, though, we can purchase and plug onto the mBot additional components and eventually make use of the mBlock extension to interact with them. So, for example, we can purchase a sound sensor separately and use the corresponding mBlock instruction block to interact with it. A sound sensor is practically a microphone and we can clap, for example, and get the mBot to react to that clapping.
 
 We can have a 3-axis gyroscope, too, which is very good for detecting a change in direction like when the robot turns over, upside-down.
 
-For this crash course on the mBot of course, we will be focusing on the capabilities that the mBot comes with out of the box without any additional components.
+For this crash course on the mBot though, we will be focusing on the capabilities that the mBot comes with out of the box without any additional components.
 
 ### Creating a new program
 
