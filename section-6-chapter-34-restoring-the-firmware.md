@@ -62,7 +62,7 @@ B. The wrong COM port is checked.
 
 C. A custom program has replaced the factory software.
 
-D. At least on variable name cannot be recognized by the mBot.
+D. At least one variable name cannot be recognized by the mBot.
 
 _Answer: C_
 
