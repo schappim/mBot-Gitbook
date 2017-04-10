@@ -8,7 +8,8 @@
 
 In this chapter you will learn about:
 
-* How to \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+* How to restore the default program
+* What is the difference between the "firmware" and the "default program"
 
 ---
 
@@ -31,11 +32,25 @@ If all went well, the mBot should react to the remote control, now. Check it by 
 * program B: and watch whether the line follower sensors react to darkness and brightness.
 * program C: and~~** \#\#\#\#\#\#\#\#\#\#\#\#\#NOTSUREWHATITDOES\#\#\#\#\#\#\#\#\#\#\#\#\#**~~
 
-Next, let's use the default program to connect to one of the tablet applications.
+Next, let's click on makeBlock, on the tablet, and see what happens there. Click on the Bluetooth icon on the top right of the screen and you will find that the application is anable to connect to the mBot.
+
+![](/assets/Img.6.34.2.jpg)
+
+\[Image 6.34.2: makeBlock trying to establish connection\]
+
+Notice how the Bluetooth LED on the mBot is solid and that state is actually the reason whey makeBlock cannot connect.
+
+To solve this problem you just need to turn off the mBot and then back again so that the mBot will get into discovering mode, having the Bluetooth LED blinking. Now, makeBlock should be able to connect with it.
+
+![](/assets/Img.6.34.3.jpg)
+
+\[Image 6.34.3: makeBlock establishing connection\]
+
+And that's the difference between the "firmware" and the "default program" options. With "default program" you are able to use your remote control and trigger the three little programs that are stored inside this default program, and in addition you can connect your nBot to your tablet device, and use one of the tablet applications to play around with the mBot.~~** {{{When with "firmware" happens what exaclty?}}}**~~
 
 
 
- so I'll go back to make block.
 
-The blue LED on the Bluetooth model is solid, so it's trying to find a net block device. It's not able to find it because of the state of the Bluetooth module, so I'm going to try to turn off nCore and turn it back on. Go back to get my Bluetooth module back into discovering mode. You can see that the device found now can be closer and connected. There we go. That's the difference between firmware option and the default program option. With the default program option you are able to use your remote control and trigger the three little programs that are stored inside this default program, but you can also use it to connect your nBot to your tablet device, and use one of the tablet applications to play around with your NBot.
+
+
 
