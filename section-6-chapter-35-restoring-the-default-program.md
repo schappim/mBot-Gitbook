@@ -46,7 +46,17 @@ To solve this problem you just need to turn off the mBot and then back again so 
 
 \[Image 6.34.3: makeBlock establishing connection\]
 
-And that's the difference between the "firmware" and the "default program" options. With "default program" you are able to use your remote control and trigger the three little programs that are stored inside this default program, and in addition you can connect your nBot to your tablet device, and use one of the tablet applications to play around with the mBot.~~** {{{When with "firmware" happens what exaclty?}}}**~~
+And that's the difference between the "firmware" and the "default program" options. With "default program" you are able to use your remote control and trigger the three little programs that are stored inside this default program, and in addition you can connect your nBot to your tablet device, and use one of the tablet applications to play around with the mBot.
+
+~~** {{{When with "firmware" happens what exaclty?}}}**~~
+
+
+
+
+
+
+
+
 
 
 
