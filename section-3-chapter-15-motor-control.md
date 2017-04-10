@@ -14,7 +14,7 @@ In this chapter you will learn about:
 
 ---
 
-In the last chapter we learned how to get the two LEDs to display two different colours. In this part of the crash course, we are going to learn how to use the two motors. Each mBot comes with two motors, left and right, depending on how we look at it.
+In the last chapter you learned how to get the two LEDs to display two different colours. In this part of the crash course, you are going to learn how to use the two motors. Each mBot comes with two motors, left and right, depending on how we look at it.
 
 They are connected to one of two ports as shown in the image below.
 
@@ -22,11 +22,11 @@ They are connected to one of two ports as shown in the image below.
 
 \[Image 2.16.1: The two motor connectors\]
 
-Let's create a new program in order to see how to use the motors. Again, to do this, we go to menu "File" and click on "New".
+Let's create a new program in order to see how to use the motors. Again, to do this, you should go to menu "File" and click on "New".
 
-Now, just like in the previous example, we'll start by dragging and dropping instruction blocks onto the canvas, the first one being the "mBot program" header block.
+Now, just like in the previous example, you can start by dragging and dropping instruction blocks onto the canvas, the first one being the "mBot program" header block.
 
-There are a couple of blocks that allow us to control the motors. Let's start with block "\[run forward\] at speed \[0\]" which allows us to get the mBot to move forwards or backwards and turn left or right. We pick it and attach it to the "mBot program" header block and then we can configure its two attributes:
+There are a couple of blocks that allow you to control the motors. Let's start with block "\[run forward\] at speed \[0\]" which allows us to get the mBot to move forwards or backwards and turn left or right. Pick it and attach it to the "mBot program" header block and then continue by configuring its two attributes:
 
 a. the direction of the move
 
@@ -42,11 +42,11 @@ Let's add now a wait block and set it to 5 seconds and another "run forward ..."
 
 \[Image 2.16.2: The described Scratch blocks and the corresponding Arduino text\]
 
-We right click, now, on the program and upload it. We should first make sure, of course, that we are connected to the appropriate COM port, like we saw in the previous chapter. We might also want to hold the mBot up because it is going to run the sketch immediately and the wheels are going to start spinning.
+Right click, now, on the program and upload it. You should make sure first, of course, that you the mBot is connected to the appropriate COM port, like we saw in the previous chapter. You might also want to hold the mBot up because it is going to run the sketch immediately and the wheels are going to start spinning.
 
-After uploading the program we should see the wheels spinning for 5 seconds and then stop.
+After uploading the program you should see the wheels spinning for 5 seconds and then stop.
 
-In order to test the robot on the floor we should turn the switch off, unplug the USB cable and put the robot on some clear space.
+In order to test the robot on the floor you should turn the switch off, unplug the USB cable and put the robot on some clear space.
 
 The mBot is powered by the batteries and the program is always stored inside the Arduino board. Turning the mBot back on will execute it automatically, but then only once.
 
