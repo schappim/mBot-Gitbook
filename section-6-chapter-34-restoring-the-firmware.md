@@ -6,6 +6,12 @@
 
 ---
 
+In this chapter you will learn about:
+
+* How to restore the original firmware
+
+---
+
 At this point, we spent quite a bit of time programming the mBot using mBlock. Let's make an experiment, now.
 
 To begin with, let's have some program executing on the mBot. And let's say that we would like to experiment further with the mBot using one of the three applications we have seen at the beginning of the course, on the tablet.
