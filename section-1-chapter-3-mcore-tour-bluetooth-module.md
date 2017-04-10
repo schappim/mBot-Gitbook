@@ -37,7 +37,7 @@ The small square integrated circuit in the middle is the ATmega328/P microcontro
 
 a. The infrared receiver
 
-b. The infrared transmitter.
+b. The infrared transmitter
 
 With the infrared receiver, we are able to use the remote controller \(the one that comes with the mBot\) and get it to move in particular directions. We can program the mBot so that it performs a particular behaviour when a button of the remote controller is pressed. For example, we can program key "0" to play a tone, and button "1" to make the mBot spin. With the transmitter, on the other hand, we can get the mBot to transmit infrared signals to other mBots.
 
