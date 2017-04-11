@@ -37,4 +37,5 @@
 * [Section 6 \| Chapter 33: Restoring the firmware](section-6-chapter-34-restoring-the-firmware.md)
 * [Section 6 \| Chapter 34: Restoring the default program](section-6-chapter-35-restoring-the-default-program.md)
 * [Section 6 \| Chapter 35: Recapping](section-6-chapter-36-section-recap.md)
+* [Appendix A: Glossary](appendix-a-glossary.md)
 
