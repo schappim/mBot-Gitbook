@@ -30,7 +30,7 @@ If all went well, the mBot should react to the remote control, now. Check it by 
 
 * program A: and watch whether you can direct the mBot using the arrows on the remote control
 * program B: and watch whether the line follower sensors react to darkness and brightness.
-* program C: and~~** \#\#\#\#\#\#\#\#\#\#\#\#\#NOTSUREWHATITDOES\#\#\#\#\#\#\#\#\#\#\#\#\#**~~
+* program C: and~~** 
 
 Next, let's click on makeBlock, on the tablet, and see what happens there. Click on the Bluetooth icon on the top right of the screen and you will find that the application is anable to connect to the mBot.
 
