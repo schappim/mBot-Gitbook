@@ -8,29 +8,29 @@
 
 **3-axis gyroscope:**A sensor that can detect change in orientation, like when it is turned over.
 
-**Arduino board:**Computer hardware, in the form of a board, which contains a microcontroller that can be programmed to use sensors and other hardware connected to the board. Synonyms: Arduino UNO
+**Arduino board:**Computer hardware, in the form of a board, which contains a microcontroller that can be programmed to use sensors and other hardware connected to the board. _Synonyms: Arduino UNO board_
 
-**ATmega328/P:**The specific type of microcontroller found on the Arduino board in the mBot. See: Arduino board and microcontroller
+**ATmega328/P:**The specific type of microcontroller found on the mCore board, in the mBot. _See: mCore, microcontroller_
 
-**attribute:**Often a function, in a program, needs input. That input is supplied to the function by the main program, while calling the function, and it is called “attribute”. A function can have more than one attributes. See: function
+**attribute:**Often a function, in a program, needs input. That input is supplied to the function by the main program, while calling the function, and it is called “attribute”. A function can have more than one attributes. _See: function_
 
 **Bluetooth:**A wireless technology standard for exchanging data over short distances that is also used by the mBot to communicate with a mobile device, like a tablet.
 
 **buzzer:**An output component, found on the mBot, that can be programmed to produce basic music tones in the form of beeps.
 
-**code:**See: program
+**code: **_See: program_
 
-**COM port:**A virtual port that represents the USB connection and can be set in some applications, in order to make it possible to upload a program to the Arduino board. See: Arduino board, program, USB
+**COM port:**A virtual port that represents the USB connection and can be set in some applications, in order to make it possible to upload a program to the Arduino board. _See: Arduino board, program, USB_
 
-**compiler:**The programs we compose for the mBot are good for the mBot user, to read and edit, but cannot be used as such by the mBot itself because the mBot can only execute instructions in “binary” and not graphical instruction blocks, Arduino code etc. There is a program that translates the “source code” into binary, suitable for direct execution by the mBot, called compiler. See: binary, instruction blocks, program, source code
+**compiler:**The programs we compose for the mBot are good for the mBot user, to read and edit, but cannot be used as such by the mBot itself because the mBot can only execute instructions in “binary” and not graphical instruction blocks, Arduino code etc. There is a program that translates the “source code” into binary, suitable for direct execution by the mBot, called compiler. _See: binary, instruction blocks, program, source code_
 
-connector:
+**connector:**A small socket on the mBot, where various modules can be plugged. _See: module_
 
-**control block:**An instruction block that can affect the flow of the execution of a program, or in other words: the order of execution of the blocks. It can be either a loop block or a decision \(if\) block. instruction blocks, program
+**control block:**An instruction block that can affect the flow of the execution of a program, or in other words: the order of execution of the blocks. It can be either a loop block or a decision \(if\) block. _See: instruction block, program_
 
 **DC motor:**A small machine that coverts direct current electrical energy into mechanical energy making the wheels of the mBot spin. DC stands for Direct Current.
 
-**distance module:**A module, found on the mBot, that can sense the distance to an object in front of it. It makes use of two infrared sensors, very much like a radar. See: infrared sensors
+**distance module:**A module, found on the mBot, that can sense the distance to an object in front of it. It makes use of two infrared sensors, very much like a radar. _See: infrared sensors_
 
 **drag & drop:**The process, applied with graphical interfaces, where the user picks an element found on the screen andmoves it to a new position.
 
@@ -64,7 +64,7 @@ connector:
 
 **mBot:**An application, designed as a game, that makes it easy to program the mBot.
 
-**mCore:**The main control board of the mBot, which consists of a microcontroller, connectors, LEDs, a buzzer and other components. It can be seen as the backbone of the mBot. See: microcontroller, connector, LED, buzzer
+**mCore:**The main control board of the mBot, which consists of a microcontroller, connectors, LEDs, a buzzer and other components. It is based on the Arduino board and it can be seen as the backbone of the mBot. See: microcontroller, connector, LED, buzzer
 
 **microcontroller:**A programmable chip that can execute instructions. A microcontroller can be seen as the brain of a computer or some other programmable device, like the mBot. See: ATmega328/P
 
@@ -86,17 +86,15 @@ connector:
 
 **source code:**The program in the form that it is composed by the programmer. A program made of instruction blocks is considered to be source code. The source program can be compiled by a compiler, in order to produce an executable program, in binary. See: binary, compiler, instruction block, program
 
-sprite
+**sprite:**A game object \(like a fighter, an animal, a spacecraft etc.\) that can perform actions.
 
-ultrasonic module/sensor
+**ultrasonic module/sensor:**See: distance module
 
-ultrasonic sensor gauge
+**ultrasonic sensor gaugeßthis term must be replaced in the book by “distance module”**
 
-upload
+**upload:**The action of transferring data from a workstation \(a computer, a tablet etc.\) to a distant device.
 
-USB
+**USB:**An industry standard for cable connection. It is the standard connection we use to upload programs to the mBot. See: program, upload
 
-variable A small storage space meant for data \(numbers, text etc.\), that can be used within a program and can be refered to by some name.
-
-wheel module
+**variable:**A small storage space in the computer memory, meant to hold data \(like numbers, text etc.\), that can be used within a program and can be referred to by some name.
 
