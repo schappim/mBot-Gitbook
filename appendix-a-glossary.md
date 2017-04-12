@@ -36,13 +36,13 @@
 
 **firmware:**the software originally loaded to the mBot by the factory. It can be replaced by user made software and it can be restored, if needed.
 
-**function:**A smaller part of a program, placed outside the main program, that can be seen as an autonomous entity performing a specific action. Functions can be called by the main program to execute their functionality. Functions can take input values, called attributes. See: attribute, program
+**function:**A smaller part of a program, placed outside the main program, that can be seen as an autonomous entity performing a specific action. Functions can be called by the main program to execute their functionality. Functions can take input values, called attributes._ See: attribute, program_
 
-**infrared sensors:**The infrared transmitter and infrared receiver found on the distance module. See: distance module, infrared receiver, infrared transmitter
+**infrared sensors:**The infrared transmitter and infrared receiver found on the distance module. _See: distance module, infrared receiver, infrared transmitter_
 
-**infrared receiver:**A sensor, found on the distance module, that receives the echo of an ultrasonic sound emitted by the infrared transmitter. See: distance module, infrared transmitter
+**infrared receiver:**A sensor, found on the distance module, that receives the echo of an ultrasonic sound emitted by the infrared transmitter. _See: distance module, infrared transmitter_
 
-**infrared transmitter:**A sensor, found on the distance module, that emits an ultrasonic sound that is meant to bounce off some object, in front of it, so that the infrared receiver can pick the echo and the mBot can use the delay of the echo to calculate the distance to that object.See: distance module, infrared receiver
+**infrared transmitter:**A sensor, found on the distance module, that emits an ultrasonic sound that is meant to bounce off some object, in front of it, so that the infrared receiver can pick the echo and the mBot can use the delay of the echo to calculate the distance to that object. _See: distance module, infrared receiver_
 
 **initialization:**The assignment of an original value to a variable.
 
