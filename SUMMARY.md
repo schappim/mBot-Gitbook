@@ -18,7 +18,7 @@
 * [Section 3 \| Chapter 14: A quick look at Scratch on mBlock+](section-3-chapter-13-a-quick-look-at-scratch-on-mblock.md)
 * [Section 3 \| Chapter 15: Creating and uploading our first program+](section-3-chapter-14-create-and-upload-your-first-program.md)
 * [Section 3 \| Chapter 16: Motor control+](section-3-chapter-15-motor-control.md)
-* [Section 3 \| Chapter 17: Moving left, right, backwards](section-3-chapter-17-moving-left-right-backwards.md)
+* [Section 3 \| Chapter 17: Moving left, right, backwards+](section-3-chapter-17-moving-left-right-backwards.md)
 * [Section 3 \| Chapter 18: Section recap](section-3-chapter-18-section-recap-and-quiz.md)
 * [Section 4 \| Chapter 19: Programming structures and sensors - Introduction](section-4-chapter-19-programming-structures-and-sensors-introduction.md)
 * [Section 4 \| Chapter 20: The Loop](section-4-chapter-20-the-loop.md)
