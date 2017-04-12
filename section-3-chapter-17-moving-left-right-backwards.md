@@ -75,7 +75,7 @@ Let's look at a new programming concept, now: the variable.
 
 Looking at the program we notice that we've got a speed of 100 in four of the move blocks. If you would like, for some reason, to change the speed to 150, you would have to individually change that in all the movement blocks. Imagine a program with dozens of such instructions that need to be adjusted. To avoid such a tedious job, you can use a variable. A variable is like a storage area that can contain a value: some text or some number.
 
-Back to our program, you can create a variable to store a number that represents a speed. To do that go to Scripts &gt; Data&Blocks &gt; Make a Variable \(see Image 2.17.3\).
+Back to our program, you can create a variable to store a number that represents a speed. To do that go to Scripts \(1\) &gt; Data&Blocks \(2\) &gt; Make a Variable \(3\) \(see Image 2.17.3\).
 
 ![](/assets/Img.3.17.3.jpg)
 
@@ -87,27 +87,31 @@ In the window that opens you can type a name for the variable. Variable names ne
 
 \[Image 2.17.4: Giving a name to the variable\]
 
-Scratch programs often uses "Sprites" as the object on which a program operates, but we use the mBot instead. So just ignore the two radio buttons under the "Variable name" text field, titles "For all sprites" and "For this sprite only". Just click "OK" to close this dialog box.
+Scratch programs often use "Sprites" as the object on which a program operates, but you use the mBot instead. So just ignore the two radio buttons under the "Variable name" text field, titles "For all sprites" and "For this sprite only". Just click "OK" to close this dialog box.
 
-After that, you have a brand new variable available, that is, some storage space with the reference name "wheel\_speed". You will notice that after creating the variable, new instruction blocks appear in the "Data&Blocks" segment.
+Now, you have a brand new variable available, called "wheel\_speed". A variable is a dedicated space in the memory of your mBot in which you can store data \(numbers, text\), that you can access \(that means, to read from or to write to\) using its name. 
 
-Now, you first need to store some number in your new variable and then use it within the instruction blocks. To store a value in the variable you need the "set..." block.
+You may have noticed that after you created the variable, a new instruction blocks appeared in the "Data&Blocks" segment.
+
+Let's get back to your program. You created this new variable because you want to store the motor speed number in it. To store a value in the variable you need the "set..." block.
 
 ![](/assets/Img.3.17.5.jpg)
 
 \[Image 2.17.5: The variable blocks\]
 
-Drag and drop it onto the canvas, attaching it immediately after the header block \(1\), and then set the value attribute to some speed, say 150. From now on, you can use the variable name instead of the numeral 150. You can do that by picking the "wheel\_speed" variable block and drag and drop it into the speed attribute of each move block \(2\). ![](/assets/Img.3.17.6.jpg)\[Image 2.17.6: Using the variable in the program\]
+Drag and drop it onto the canvas, attaching it right after the header block \(1\), and then set the value attribute to some speed, say 150. From now on, you can use the variable name instead of the numeral 150. You can do that by picking the "wheel\_speed" variable block and drag and drop it into the speed attribute of each move block \(2\). ![](/assets/Img.3.17.6.jpg)\[Image 2.17.6: Using the variable in the program\]
 
-### Introducing an arithmetic operand
+### Introducing arithmetic operators
 
-Let's add a little twist. Let's say that for the first "run forward block", instead of 150 you want a speed of 125 and here's a way to handle it. Go to "Operators" \(the green family of blocks\) and drag and drop the second operator block, the one with the minus, onto the canvas. The minus operator takes two operands, one on each side. Drag and drop the variable block "wheel\_speed" and make it the first operand and then type 25 as the second one. When you are done you can drag and drop the whole block it into the "run forward" block, so that the whole expression "wheel\_speed - 25" becomes the new speed attribute, like in the image below.
+Let's add a little twist. Let's say that for the first "run forward block", instead of 150 you want a speed of 125. Here's one way you can go about doing this. 
+
+Go to "Operators" \(the green family of blocks\) and drag and drop the second operator block, the one with the minus sign, onto the sketch area. The minus operator allows you to do a subtraction, and takes two operands, one on each side. Drag and drop the variable block "wheel\_speed" and make it the first operand and then type 25 in the second operand. When you are done you can drag and drop the whole block it into the "run forward" block, so that the whole expression "wheel\_speed - 25" becomes the new speed attribute, like in Image 2.17.7.
 
 ![](/assets/Img.3.17.7.jpg)
 
 \[Image 2.17.7: Subtracting 25 from the wheel\_speed variable\]
 
-Once you are have that you can run the new program:
+You program should now look like the one in Image 2.17.8.
 
 ![](/assets/Img.3.17.8.jpg)
 
@@ -115,9 +119,9 @@ Once you are have that you can run the new program:
 
 Make sure the USB cable is connected and we are connected to a COM port and then "Upload to Arduino".
 
-### Questions
+---
 
-Question 3.15.1: How can you make the mBot turn left?
+#### Question 3.15.1: How can you make the mBot turn left?
 
 A. You use a combination of three different move blocks.
 
@@ -129,7 +133,9 @@ D. You use a "turn right" block with a negative speed value.
 
 _Answer: B_
 
-Question 3.17.2: How can you best describe a variable?
+---
+
+#### Question 3.17.2: How can you best describe a variable?
 
 A. As an arithmetic expression.
 
@@ -140,4 +146,18 @@ C. As storage space.
 D. As an operation between two operands.
 
 _Answer: C_
+
+---
+
+#### Question 3.17.3: Compose an mBot program that makes both RGB leds to light up in a light green where the R, G, B values are R:45, G:206 and B:131, but without setting those values directly into the "set led on board" block. 
+
+_Answer: _
+
+![](/assets/2017-04-13_08-40-00.png)
+
+
+
+---
+
+
 
