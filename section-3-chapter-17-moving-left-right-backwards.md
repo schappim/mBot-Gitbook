@@ -15,6 +15,16 @@ In this chapter you will learn about:
 
 ---
 
+**This chapter contains hand-on activities.**
+
+You will need your mBot, and a fresh set of batteries installed.
+
+You will need the mBlock software installed on your computer.
+
+In this chapter you will compose a sketch that makes your mBot turn left and right.
+
+---
+
 In the last chapter we programmed the mBot to move forwards for five seconds at speed 125 and then stop.
 
 In this chapter we will continue building on the same program and we will add to the mBot the ability to turn as well, either left or right, and also move backwards.
