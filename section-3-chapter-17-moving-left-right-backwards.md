@@ -89,7 +89,7 @@ In the window that opens you can type a name for the variable. Variable names ne
 
 Scratch programs often use "Sprites" as the object on which a program operates, but you use the mBot instead. So just ignore the two radio buttons under the "Variable name" text field, titles "For all sprites" and "For this sprite only". Just click "OK" to close this dialog box.
 
-Now, you have a brand new variable available, called "wheel\_speed". A variable is a dedicated space in the memory of your mBot in which you can store data \(numbers, text\), that you can access \(that means, to read from or to write to\) using its name. 
+Now, you have a brand new variable available, called "wheel\_speed". A variable is a dedicated space in the memory of your mBot in which you can store data \(numbers, text\), that you can access \(that means, to read from or to write to\) using its name.
 
 You may have noticed that after you created the variable, a new instruction blocks appeared in the "Data&Blocks" segment.
 
@@ -103,7 +103,7 @@ Drag and drop it onto the canvas, attaching it right after the header block \(1\
 
 ### Introducing arithmetic operators
 
-Let's add a little twist. Let's say that for the first "run forward block", instead of 150 you want a speed of 125. Here's one way you can go about doing this. 
+Let's add a little twist. Let's say that for the first "run forward block", instead of 150 you want a speed of 125. Here's one way you can go about doing this.
 
 Go to "Operators" \(the green family of blocks\) and drag and drop the second operator block, the one with the minus sign, onto the sketch area. The minus operator allows you to do a subtraction, and takes two operands, one on each side. Drag and drop the variable block "wheel\_speed" and make it the first operand and then type 25 in the second operand. When you are done you can drag and drop the whole block it into the "run forward" block, so that the whole expression "wheel\_speed - 25" becomes the new speed attribute, like in Image 2.17.7.
 
@@ -149,15 +149,25 @@ _Answer: C_
 
 ---
 
-#### Question 3.17.3: Compose an mBot program that makes both RGB leds to light up in a light green where the R, G, B values are R:45, G:206 and B:131, but without setting those values directly into the "set led on board" block. 
+#### Question 3.17.3: Compose an mBot program that makes both RGB leds to light up in a light green where the R, G, B values are R:45, G:206 and B:131, but without setting those values directly into the "set led on board" block.
 
 _Answer: _
 
 ![](/assets/2017-04-13_08-40-00.png)
 
-
-
 ---
 
+**Checklist**
 
+Double-check that at this point, the following are completed:
+
+\[   \] You know how program your mBot to move left and right
+
+\[   \] You know how to create a new variable
+
+\[   \] You know how to set a variable to a particular value
+
+\[   \] You know how use a variable
+
+\[   \] You have answered all of the questions
 

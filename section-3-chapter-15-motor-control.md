@@ -133,3 +133,5 @@ Double-check that at this point, the following are completed:
 
 \[   \] You know how to reset your mBot
 
+\[   \] You have answered all of the questions 
+
