@@ -211,5 +211,17 @@ _Answer: R = 100 G = 149 B = 237 - or search Google for "cornflower blue RGB val
 
 ---
 
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[ \] You know how to start the composition of a program for the mBot
+
+\[ \] You know how to reveal the Arduino code pane in mBlock
+
+\[ \] You know how to upload a program to the mBot
+
+\[ \] You understand the relation between a Scratch mBot program and the equivalent Arduino code.
+
 
 
