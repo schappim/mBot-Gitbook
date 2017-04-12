@@ -14,6 +14,14 @@ In this chapter you will learn about:
 
 ---
 
+**This chapter contains hand-on activities.**
+
+You will not need any tools.
+
+You will need mBlock installed on your computer. In this chapter you will only compose programs that control the Panda Sprite in the Stage area. You will not need your mBot, so you may put it aside for now
+
+---
+
 In the last chapter you learned how to get the two LEDs to display two different colours. In this part of the crash course, you are going to learn how to use the two motors. Each mBot comes with two motors, left and right, depending on how we look at it.
 
 They are connected to one of two ports as shown in the image below.
