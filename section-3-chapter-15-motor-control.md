@@ -20,7 +20,7 @@ You will need your mBot, and a fresh set of batteries installed.
 
 You will need the mBlock software installed on your computer.
 
-In this chapter you will compose a sketch that makes your mBot move forwards and backwards.
+In this chapter you will compose a sketch that makes your mBot move forwards.
 
 ---
 

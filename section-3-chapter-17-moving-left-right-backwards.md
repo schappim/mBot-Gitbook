@@ -25,27 +25,47 @@ In this chapter you will compose a sketch that makes your mBot turn left and rig
 
 ---
 
-In the last chapter we programmed the mBot to move forwards for five seconds at speed 125 and then stop.
+In the last chapter you programmed the mBot to move forwards for five seconds at speed 125 and then stop.
 
-In this chapter we will continue building on the same program and we will add to the mBot the ability to turn as well, either left or right, and also move backwards.
+In this chapter you will continue working on the same program and add to the ability to turn left or right, and also move backwards.
 
 ### Turn left, right and go backwards
 
-In order to make the mBot turn, we are going to change the direction attribute of the last instruction block. Just click on "run forward" and pick "turn right" from the drop-down menu.
+In order to make the mBot turn, you are going to change the direction attribute of the last instruction block. Just click on "run forward" and pick "turn right" from the drop-down menu.
 
 ![](/assets/Img.3.17.1.jpg)
 
 \[Image 2.17.1: Altering the direction attribute\]
 
-You shouldn't forget to set some speed, of course, other than zero. Click on the speed attribute and pick 100 from the drop-down menu. Then go on and build the following program, dragging and dropping blocks and setting their attributes:
+Don't forget to set some speed, of course, other than zero. Click on the speed attribute and pick 100 from the drop-down menu. Then go on and compose the following program, dragging and dropping blocks and setting their attributes:
 
 ![](/assets/Img.3.17.2.jpg)
 
 \[Image 2.17.2: A program with all kinds of wheel motion\]
 
-The wait blocks take care that the mBot changes smoothly from one move to the other. The last one, at speed zero, just stops the spinning.
+The "wait" blocks maintain the previous instruction for one second, before moving to the next one. 
 
-**Note**: Even though not as fast as the subprocessor of a general purpose computer, the processor inside the mBot is fairly fast. It operates at 16 megahertz, which means that there's a clock that ticks 16 million times per second and that's how many instructions it can execute every second. It's quite a lot!
+---
+
+#### Question 3.17.1: The very last "run forward" instruction has its speed parameter set to zero. What will the mBot do when it reaches this instruction?
+
+A. It will continue moving forwards at the previously set speed.
+
+B. It will stop.
+
+C. It will reverse
+
+D. It will blink its RGB LEDs
+
+_Answer: B_
+
+---
+
+#### DID YOU KNOW?
+
+Even though not as fast as the processor of your computer, the processor inside the mBot is fairly fast. It operates at 16 megahertz, which means that it can execute 16 million instructions every single second! Isn't that impressive?
+
+---
 
 After you are done, connect the USB cable on the mBot, connect to the COM port, right-click and "Upload to Arduino" and see the mBot move following the instructions.
 
