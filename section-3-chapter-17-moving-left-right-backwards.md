@@ -43,7 +43,7 @@ Don't forget to set some speed, of course, other than zero. Click on the speed a
 
 \[Image 2.17.2: A program with all kinds of wheel motion\]
 
-The "wait" blocks maintain the previous instruction for one second, before moving to the next one. 
+The "wait" blocks maintain the previous instruction for one second, before moving to the next one.
 
 ---
 
@@ -73,13 +73,13 @@ After you are done, connect the USB cable on the mBot, connect to the COM port, 
 
 Let's look at a new programming concept, now: the variable.
 
-Looking at the program we notice that we've got a speed of 100 in four of the move blocks. If you would like, for some reason, to change the speed to 150, you would have to individually change that in all the move blocks. Imagine a program with dozens of such instructions that need to be adjusted. To avoid such a tedious job, you can use a variable. A variable is like a storage area that can contain a value: some text or some number.
+Looking at the program we notice that we've got a speed of 100 in four of the move blocks. If you would like, for some reason, to change the speed to 150, you would have to individually change that in all the movement blocks. Imagine a program with dozens of such instructions that need to be adjusted. To avoid such a tedious job, you can use a variable. A variable is like a storage area that can contain a value: some text or some number.
 
-Back to our program, you can create a variable to store a number that represents a speed. To do that go to Scripts &gt; Data&Blocks &gt; Make a Variable
+Back to our program, you can create a variable to store a number that represents a speed. To do that go to Scripts &gt; Data&Blocks &gt; Make a Variable \(see Image 2.17.3\).
 
 ![](/assets/Img.3.17.3.jpg)
 
-\[Image 2.17.3: Where to create a variable\]
+\[Image 2.17.3: Creating a variable\]
 
 In the window that opens you can type a name for the variable. Variable names need to be descriptive of the values they are going to hold. You need the variable to store a value for the speed of the wheels so an obvious choice would be "wheel\_speed". You can use the underscore to connect multiple words because spaces are not allowed in variable names.
 
@@ -87,7 +87,7 @@ In the window that opens you can type a name for the variable. Variable names ne
 
 \[Image 2.17.4: Giving a name to the variable\]
 
-Scratch often uses "sprites" but we use the mBot instead so you shouldn't worry much about the two sprite connected options, found here, and just leave the default option "For all sprites" set, and click "OK".
+Scratch programs often uses "Sprites" as the object on which a program operates, but we use the mBot instead. So just ignore the two radio buttons under the "Variable name" text field, titles "For all sprites" and "For this sprite only". Just click "OK" to close this dialog box.
 
 After that, you have a brand new variable available, that is, some storage space with the reference name "wheel\_speed". You will notice that after creating the variable, new instruction blocks appear in the "Data&Blocks" segment.
 
