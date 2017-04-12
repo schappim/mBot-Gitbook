@@ -86,7 +86,7 @@
 
 **source code: **The program in the form that it is composed by the programmer. A program made of instruction blocks is considered to be source code. The source program can be compiled by a compiler, in order to produce an executable program, in binary. _See: binary, compiler, instruction block, program_
 
-**sprite: **A game object \(like a fighter, an animal, a spacecraft etc.\) that can perform actions.
+**sprite: **A game object \(like a fighter, an animal, a cannon, a spacecraft etc.\) that can perform actions.
 
 **ultrasonic module/sensor: **_See: distance module_
 
