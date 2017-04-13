@@ -13,7 +13,17 @@ In this chapter you will learn about:
 
 ---
 
-Often you will find yourself in need of repetitive actions. A loop allows you to group together multiple instructions that you need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turns: the right LED will shine a particular colour, then it will go off, then the left LED will shine a different colour, then it will go off and then this process will repeat itself again, indefinitely.
+**This chapter contains hands-on activities.**
+
+You will need your mBot, and a fresh set of batteries installed.
+
+You will need the mBlock software installed on your computer.
+
+In this chapter you will compose a sketch that makes use of loops to repeat a segment of code, and learn about to save your program.
+
+---
+
+Often, you there will be situations where a part of your program needs to be executed many times. A loop allows you to group together multiple instructions that you need to execute several times. To see such a loop in practice, let's create a new program that will make the two RGB LEDs blink in turns: the right LED will shine a particular colour, then it will go off, then the left LED will shine a different colour, then it will go off and then this process will repeat itself again, indefinitely.
 
 You must know, by now, how to create a new program: File &gt; New and then, since we mean to program the mBot: "Robots" and place the "mBot Program" header onto the canvas.
 
