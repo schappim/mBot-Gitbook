@@ -31,21 +31,26 @@ You must know, by now, how to create a new program: File &gt; New and then, sinc
 
 Loops are found in the yellow, "Control" group of instructions. Go there, pick the "forever" block and make it the first instruction just below the header block.
 
-![](/assets/Img.4.20.1.jpg)
+![](/assets/2017-04-13_12-23-31.png)
 
 \[Image 4.20.1: The forever loop control instruction block\]
 
-Whatever is placed within the forever block opening \(1\) is going to get repeated over and over again, forever, or at least until we either turn off the mBot or replace the program that is running with another program.
+Any Scratch blocks bound within the forever block will be repeated over and over, forever, or at least until we either turn off the mBot or replace the program that is running with another program.
 
-You have seen how to control the LEDs. Let's pick the correct blocks and edit their attributes to create the following program:
+You have learned how to control the onboard LEDs. Go ahead and drag the appropriate blocks to compose the following program \(see Image 4.20.2\):
 
 ![](/assets/Img.4.20.2.jpg)
 
 \[Image 4.20.2: The program for turning the LEDs on and off in turns\]
 
-Reading the code: the left LED shines red for half a second, then it is turned off at the same time that the right LED starts to shine blue for another half a second, and then it is turned off. And that over and over again because it is contained in a "forever" loop.
+Let's read the program inside the "forever" loop, one block at a time:
 
-If you connect the mBot and run the program, you are going to see the two LEDs blink red and blue, in turns, very much like on a police patrol car.
+1. Turn the left LED light up in red for half a second
+2. then, turned the left LED off and at the same time turn the right LED light up in blue for another half a second
+3. then, turned the right LED off. 
+4. After that, the loop will back to its beginning and the same code will execute again.
+
+Go ahead, connect your mBot to your computer and upload the program. You will see the two LEDs blinking red and blue, in turns, very much like on a police patrol car.
 
 ### Changing the block order
 
