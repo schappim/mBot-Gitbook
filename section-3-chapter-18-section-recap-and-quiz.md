@@ -6,9 +6,15 @@
 
 ---
 
-In this chapter, we saw how to create a Scratch program, with mBlock, how to connect to a COM port, how to upload the program to the Arduino board, which is inside the mBot, and how to have the program run. We had the chance to compare between Scratch blocks and Arduino text code. We saw how to use the move instruction block to move the mBot forwards, backwards and have it turn either left or right.
+In this chapter, you learned how to create a Scratch program in mBlock, how to connect your mBot to your computer, how to upload the program to your mBot, and how to execute the program. 
 
-We made acquaintance with the concept of variables and saw how to set up a simple arithmetic operation.
+You learned about the relation between Scratch blocks and Arduino text code. 
 
-At this point we are starting to get a good understanding of how movement can be achieved with the mBot. This is something but we need more. In the next part of this crash course we are going to handle more important programming concepts like the loop and the "if else" structure.
+You learned how to use the "move" instruction block to move the mBot forwards, backwards and have it turn left or right.
+
+You learned about variables and used them in a simple arithmetic operation.
+
+At this point you are starting to form an understanding of how you can program your mBot to move around. This is a great start, but there's much more to do!.
+
+In the next part of this course you are going to handle more important programming concepts like the loop and the "if else" structure.
 
