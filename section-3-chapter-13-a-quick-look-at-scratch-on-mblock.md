@@ -47,7 +47,7 @@ By default, this block simply prints "Hello" over the Panda, but you can change 
 
 \[Image 14.3: The "Say" block has two attributes that you can change, the Text and the Duration attributes\]
 
-Now you have a block that is meant to show the text "Hello World!" for two seconds next to the Panda sprite. This is a program, with only one block of code in it. But how do you actually trigger \(start\) the program, so that it actually does what you designed it to do?
+Now you have a block that is meant to show the text "Hello World!" for two seconds next to the Panda sprite. This is a program, with only one instruction block in it. But how do you actually trigger \(start\) the program, so that it actually does what you designed it to do?
 
 You need to use another block, the purpose of which is to start the execution of a program. There are a few such blocks, under the Event group of blocks, inside the Scripts tab of the Blocks palette \(see Image 14.4\).
 

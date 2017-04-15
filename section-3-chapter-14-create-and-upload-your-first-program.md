@@ -2,11 +2,11 @@
 
 ---
 
-## Chapter 15: Creating and uploading our first program
+## Chapter 15: Creating and uploading your first program
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
 * How to create a new Scratch program
 * How to program the mBot using Scratch instructions
@@ -222,6 +222,4 @@ Double-check that at this point, the following are completed:
 \[ \] You know how to upload a program to the mBot
 
 \[ \] You understand the relation between a Scratch mBot program and the equivalent Arduino code.
-
-
 
