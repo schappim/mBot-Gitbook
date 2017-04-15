@@ -151,51 +151,49 @@ _Answer:_
 
 ---
 
-The program from question 3.14.3 will cause the Panda to move so fast that as soon as you click on the Green flag, the whole program will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 3.14.13.
+The program from question 14.3 will cause the Panda to move so fast that as soon as you click on the Green flag, the whole program will be complete. To slow it down, you can use the "wait" block. Select the Control group of blocks, and drag two "wait" blocks, one before the "turn" block and one after the "turn block. You can see the new program in Image 14.13.
 
 ![](/assets/2017-03-25_10-38-16.png)
 
-\[Image 3.14.14: Using the "wait" block\]
+\[Image 14.14: Using the "wait" block\]
 
 Change the wait time to 2 seconds \(instead of 1 second\), and click on the Green flag. You will see the Panda moving 50 steps, then waiting for 2 seconds, then turning by 45 degrees, then waiting for 2 seconds, then moving for another 50 steps and finally speaking to us.
 
 The parameter of the "wait" block can be a whole number or a decimal, like 0.5 seconds.
 
-You can edit the parameters of a sprite by clicking on the "i" button at the top left corner of the sprite's icon \(see Image 3.14.15\).
+You can edit the parameters of a sprite by clicking on the "i" button at the top left corner of the sprite's icon \(see Image14.15\).
 
 ![](/assets/2017-03-25_11-10-20.png)
 
-\[Image 3.14.15: Editing the parameters of a sprite\]
+\[Image 14.15: Editing the parameters of a sprite\]
 
 When you are in sprite edit mode, you can change the name of the sprite, you can call it mBot, for example, or mBot Panda to be more specific. You can also change its direction by manipulating the direction knob. Go ahead, use these controls to change the name of your sprite to "M-Bot-Panda", and its direction to 90 degrees.
 
 ![](/assets/2017-03-25_11-13-44.png)
 
-\[Image 3.14.16: Editing the parameters of a sprite\]
+\[Image 14.16: Editing the parameters of a sprite\]
 
 Next, let's try out one of the available control structures. In particular, I would like to use a control structure that allows us to execute a block of code many times. Please follow along with this example.
 
-Select the Control group from the Scripts tab, and drag the "Repeat" block into the Scripts area. Arrange the program as is shown in Image 3.14.17.
+Select the Control group from the Scripts tab, and drag the "Repeat" block into the Scripts area. Arrange the program as is shown in Image 14.17.
 
 ![](/assets/2017-03-25_11-19-12.png)
 
-\[Image 3.14.17: Insert the "Repeat" block\]
+\[Image 14.17: Insert the "Repeat" block\]
 
-Notice that the "Repeat" block is shaped so that it encloses other blocks. It takes a single parameter, which is the number of times that we would like to repeat the code that it contains. In the case of the example, it is 10 times, but you can change that to whichever value you like. I'd like the sprite to say "Hello World!" when the 10 repeats are complete, so drag the "Say" block at the end of the "Repeat" block and change the default text. Image 3.14.17 shows the program at this point \(the parameter for the "Wait" block is now 1 second to make the sprite move a bit faster\).
+Notice that the "Repeat" block is shaped so that it encloses other blocks. It takes a single parameter, which is the number of times that we would like to repeat the code that it contains. In the case of the example, it is 10 times, but you can change that to whichever value you like. I'd like the sprite to say "Hello World!" when the 10 repeats are complete, so drag the "Say" block at the end of the "Repeat" block and change the default text. Image 14.17 shows the program at this point \(the parameter for the "Wait" block is now 1 second to make the sprite move a bit faster\).
 
 ![](/assets/2017-03-25_11-24-58.png)
 
-\[Image 3.14.18: The current version of the program\]
+\[Image 14.18: The current version of the program\]
 
 There are a lot more blocks which you can play around with, so I invite you to experiment with those programming blocks and get your sprite to do different things like move and a box path, or around a circle or move. You can also get it to say things depending on its location, for example. Or you can program it to produce sounds. Experiment with the sound blocks for this kind of outcome.
 
 ---
 
-### Question 3.14.4
+**Exercise 14.4: **Have a look in the Pen block category, in the Blocks Palette. Notice that this category contains blocks that you can use to draw shapes in the Stage area. Once you attach a pen to the Panda, the pen will leave a trace behind the Panda as the Panda moves.
 
-Have a look in the Pen block category, in the Blocks Palette. Notice that this category contains blocks that you can use to draw shapes in the Stage area. Once you attach a pen to the Panda, the pen will leave a trace behind the Panda as the Panda moves.
-
-Can you compose a program that uses the Pen block so that it draws a box when you press the "d" key on your keyboard?
+Compose a program that uses the Pen block so that it draws a box when you press the "d" key on your keyboard.
 
 _Answer:_
 
