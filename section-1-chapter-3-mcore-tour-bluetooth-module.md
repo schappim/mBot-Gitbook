@@ -25,9 +25,9 @@ Remove the protective film from the bottom of the mCore as there is no need for 
 
 ![](/assets/Img.2.3.1.mCore.jpg)
 
-\[Img 1.3.1: The mCore layout\]
+\[Img 3.1: The mCore layout\]
 
-Take a few minutes to become familiar with the parts that make up this module. Here they are \(use Image 1.3.1 as reference\):
+Take a few minutes to become familiar with the parts that make up this module. Here they are \(use Image 3.1 as reference\):
 
 ### 1
 

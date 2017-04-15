@@ -30,7 +30,7 @@ The second way is with the use of a Lithium Ion/Polymer \(LiPo\) battery. The ki
 
 ---
 
-Question 4.1: What are the 2 main differences between Alkaline and Lithium Ion/Polymer batteries?
+**Question 4.1: What are the 2 main differences between Alkaline and Lithium Ion/Polymer batteries?**
 
 1 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -56,7 +56,7 @@ Take one of the two pairs of the adhesive velcro strip and attach it on the bott
 
 ![](/assets/2017-03-15_14-13-01.png)
 
-\[Image 1.4.1: Attach one velcro pair strip to the battery pack\]
+\[Image 4.1: Attach one velcro pair strip to the battery pack\]
 
 Then, remove second piece of paper that protects the adhesive tape of the second velcro strip, and push it against the top of the mBot chassis to make it stick.
 
@@ -72,19 +72,19 @@ Your battery pack will sit on the chassis like this.
 
 ![](/assets/2017-03-15_14-14-09.png)
 
-\[Image 1.4.2: Attach the battery pack to the top of the mBot chassis\]
+\[Image 4.2: Attach the battery pack to the top of the mBot chassis\]
 
 Route the cables so that the battery cable comes out of the back of the mBot, the cables from the motors and line-follower module to the right \(as you are observing the mBot from the front\), and the cable from the distance module to the left.
 
 ![](/assets/2017-03-15_14-26-09.png)
 
-\[Image 1.4.3: Cable arrangement before attaching the mCore\]
+\[Image 4.3: Cable arrangement before attaching the mCore\]
 
 Now you are ready to attach the mCore module. The battery pack will be sandwiched in between the chassis and the microcontroller unit
 
 ---
 
-**Professional tip: **Even though you can connect mBot modules to almost any available socket on the mCore,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to change the module connection ports in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 1.4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the range finder module to socket 4.
+**Professional tip: **Even though you can connect mBot modules to almost any available socket on the mCore,  by default the demonstration programs that come with the mBot expect that they'll find the sensors connected to specific ports. To avoid the trouble of having to change the module connection ports in the software later, and start playing with the mBot as soon as the assembly is finished, ensure that the cables are routed to the right side of the mBot, as you can see in image 4.3. Soon, when the mCore is attached, you will plug the line follower module cable to socket 2 and the range finder module to socket 4.
 
 ---
 
@@ -92,19 +92,19 @@ Now that you have the wires routed correctly, go ahead and attach the mCore. Sta
 
 ![](/assets/2017-03-15_14-36-52.png)
 
-\[Image 1.4.4: Use these spacers to attach the mCore over the battery pack\]
+\[Image 4.4: Use these spacers to attach the mCore over the battery pack\]
 
 Then place the mCore on the spacers, and secure it in place with four short screws with the hexagonal heads.
 
 ![](/assets/2017-03-15_14-37-23.png)
 
-\[Image 1.4.5: Attach the mCore on the spacers, over the battery pack\]
+\[Image 4.5: Attach the mCore on the spacers, over the battery pack\]
 
 Let's do the connections now. The cable that is coming from the line follower will go to connector number two. The range finder goes to number three. The left motor goes to motor connector M1 and the right motor to motor connector M2.
 
 ![](/assets/2017-03-15_14-42-26.png)
 
-\[Image 1.4.6: A summary of the connections\]
+\[Image 4.6: A summary of the connections\]
 
 ---
 
