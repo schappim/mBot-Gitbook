@@ -6,7 +6,7 @@
 
 ---
 
-### **In this chapter you will learn about:**
+**In this chapter you will learn about:**
 
 * What is mBlock for iOS and Android devices
 * What you can you do with mBlock
@@ -15,7 +15,7 @@
 
 ---
 
-### **This chapter contains hand-on activities.**
+**This chapter contains hand-on activities.**
 
 You will not need any tools.
 
@@ -51,25 +51,25 @@ If the Bluetooth LED on the mBot is solid blue, that means that the mBot is alre
 
 ---
 
-Once the connection between the mBot and mBlock is established, you will see a screen like the one in Image 2.4.1. Each one of the boxes represents a challenge that the learner can attempt.
+Once the connection between the mBot and mBlock is established, you will see a screen like the one in Image 10.1. Each one of the boxes represents a challenge that the learner can attempt.
 
 ![](/assets/Img.2.4.1.jpg)
 
-\[Image 2.4.1: The game stages\]
+\[Image 10.1: The game stages\]
 
-Tap on the first box. You should see Mr. Panda, who is your teacher \(see Image 2.4.2\). Mr. Panda will explain the objective of each challenge and help you achieve the required goal. Just tap anywhere on the screen to prompt Mr. Panda to go on with his instructions.
+Tap on the first box. You should see Mr. Panda, who is your teacher \(see Image 10.2\). Mr. Panda will explain the objective of each challenge and help you achieve the required goal. Just tap anywhere on the screen to prompt Mr. Panda to go on with his instructions.
 
 ![](/assets/Img.2.4.2.jpg)
 
-\[Image 2.4.2: Mr. Panda\]
+\[Image 10.2: Mr. Panda\]
 
 After Mr. Panda's welcoming message, he will give you your first task. Tap on the "Play" button to view mBot movements.
 
-Tapping on "Play", on bottom right of the screen, will get the mBot to produce some actions, like buzzing and getting the motors to move \(see Image 2.4.3\).
+Tapping on "Play", on bottom right of the screen, will get the mBot to produce some actions, like buzzing and getting the motors to move \(see Image 10.3\).
 
 ![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.CONSTANT-00-08-03-742.png)
 
-\[Image 2.4.3: Your first task is to tap on the blue Play button\]
+\[Image 10.3: Your first task is to tap on the blue Play button\]
 
 Well done, you completed your first task!
 
@@ -77,15 +77,15 @@ Next, Mr Panda will ask you to move an instruction block and place it under the 
 
 ![](/assets/Img.2.4.3.jpg)
 
-\[Image 2.4.4: Moving one block under another\]
+\[Image 10.4: Moving one block under another\]
 
 Once the two blocks hook against each other like jigsaw pieces, tap on "Play" to see the program you just assembled executed. The program will cause the mBot to move forward for one second at speed 150.
 
-When you have completed this task, click on "Forward" \(the orange button next to "Play"\) to get to the next task \(see Image 2.4.5\). This time we are asked to combine blocks to make the mBot first go forwards and then go backwards. All the blocks are already on the canvas, so you just need to drag the one that is out of place and lock it under the other two. When done, click on "Play" to see the mBot do as programmed. Just remember to make some space on your desk for your mBot to move without hitting anything or falling off the table!
+When you have completed this task, click on "Forward" \(the ora nge button next to "Play"\) to get to the next task \(see Image 10.5\). This time we are asked to combine blocks to make the mBot first go forwards and then go backwards. All the blocks are already on the canvas, so you just need to drag the one that is out of place and lock it under the other two. When done, click on "Play" to see the mBot do as programmed. Just remember to make some space on your desk for your mBot to move without hitting anything or falling off the table!
 
 ![](/assets/Mbot - 0080 - Ipad 3 - demo of Makeblock mblockly mblock.CONSTANT-00-08-23-042.png)
 
-\[Image 2.4.5: Tapping on the orange button takes you to the next task\]
+\[Image 10.5: Tapping on the orange button takes you to the next task\]
 
 By now you should have a good understanding of what mBlock for tablets does. mBlock is a fun way for a student to learn mBot programming using Scratch.
 

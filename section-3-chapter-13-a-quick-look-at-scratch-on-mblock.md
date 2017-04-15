@@ -6,9 +6,9 @@
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
-* The basic blocks for creating a Scratch program
+* What are the basic blocks for creating a Scratch program
 * How to control the movement of a sprite
 * How to print messages from a Scratch program
 * How to execute a program
@@ -31,39 +31,39 @@ In this chapter you will not play with the mBot. Instead, you will learn how to 
 
 ![](/assets/2017-03-24_16-46-55.png)
 
-\[Image 3.14.1: In this chapter you will learn how to control the Panda using Scratch\]
+\[Image 14.1: In this chapter you will learn how to control the Panda using Scratch\]
 
 Let's start with the "Say" block.
 
 ![](/assets/2017-03-24_16-50-35.png)
 
-\[Image 3.14.2: The "Say" block\]
+\[Image 14.2: The "Say" block\]
 
 The "Say" block allows you to print a text message in a bubble over the Panda. Select the Scripts tab from the blocks palette, and find the "Say" block at the top of the Looks group of blocks. Click on it, and while you hold the mouse button, drag the block into the Script area.
 
-By default, this block simply prints "Hello" over the Panda, but you can change this text to anything you like. Simply click on the white text box and replace the current text with something else. Write "Hello world," for example, by clicking in the text box marked "1" in Image 3.14.3. You can also control how long you'd like the message to appear for, before it disappears. Let's make it two seconds by clicking in the text box marked "2" in Image 3.14.3.
+By default, this block simply prints "Hello" over the Panda, but you can change this text to anything you like. Simply click on the white text box and replace the current text with something else. Write "Hello world," for example, by clicking in the text box marked "1" in Image 14.3. You can also control how long you'd like the message to appear for, before it disappears. Let's make it two seconds by clicking in the text box marked "2" in Image 14.3.
 
 ![](/assets/2017-03-24_16-58-03.png)
 
-\[Image 3.14.3: The "Say" block has two attributes that you can change, the Text and the Duration attributes\]
+\[Image 14.3: The "Say" block has two attributes that you can change, the Text and the Duration attributes\]
 
 Now you have a block that is meant to show the text "Hello World!" for two seconds next to the Panda sprite. This is a program, with only one block of code in it. But how do you actually trigger \(start\) the program, so that it actually does what you designed it to do?
 
-You need to use another block, the purpose of which is to start the execution of a program. There are a few such blocks, under the Event group of blocks, inside the Scripts tab of the Blocks palette \(see Image 3.14.4\).
+You need to use another block, the purpose of which is to start the execution of a program. There are a few such blocks, under the Event group of blocks, inside the Scripts tab of the Blocks palette \(see Image 14.4\).
 
 ![](/assets/2017-03-25_09-33-18.png)
 
-\[Image 3.14.4: Get the trigger block from the Events group in the Scripts tab\]
+\[Image 14.4: Get the trigger block from the Events group in the Scripts tab\]
 
 Find the block with the green flag in it, drag it \(by clicking on it and holding the mouse button down\), over the existing "Say" block in the Script area. As you move the Green flag block over the "Say" block, you will notice that a white outline appears. This indicates that the two blocks can work together. Not all blocks are compatible with each other. The white outline is a confirmation that they are compatible. You can let go of the button, and then two blocks will snap together, and connect.
 
 ![](/assets/2017-03-25_09-40-24.png)
 
-\[Image 3.14.5: Click on the Green flag icon to start your program\]
+\[Image 14.5: Click on the Green flag icon to start your program\]
 
 Now, click on the Green flag icon at the top right side of the Sprite area. This will start the program that is connected to the Green flag block.
 
-In Image 3.14.6 you can see how the text that you typed in the "Say" block appears inside a bubble over the Panda sprite for two seconds, and then disappears.
+In Image 14.6 you can see how the text that you typed in the "Say" block appears inside a bubble over the Panda sprite for two seconds, and then disappears.
 
 ![](/assets/2017-03-25_10-04-29.png)
 
@@ -73,9 +73,7 @@ Congratulations! You just executed your first Scratch program!
 
 ---
 
-### Question 3.14.1
-
-Now that you know how to get your Panda Sprite to talk, how about you get it to "say" a couple of sentences?
+**Exercise 14.1: **Now that you know how to get your Panda Sprite to talk, how about you get it to "say" a couple of sentences?
 
 Compose a small program that makes the Panda say something like this:
 
@@ -91,11 +89,11 @@ _Answer:_
 
 ---
 
-In the Events group of blocks, there are several other triggers that you can use in your programs. For example, you may want to get the Sprite to move or to "Say" something when you press a key on your keyboard, instead of clicking on the Green icon. To do this, you can use the "When key pressed" block. In Image 3.14.7, you can see a variation of the program you wrote earlier.
+In the Events group of blocks, there are several other triggers that you can use in your programs. For example, you may want to get the Sprite to move or to "Say" something when you press a key on your keyboard, instead of clicking on the Green icon. To do this, you can use the "When key pressed" block. In Image 14.7, you can see a variation of the program you wrote earlier.
 
 ![](/assets/2017-03-25_10-08-42.png)
 
-\[Image 3.14.7: Use a different trigger to get the Panda to speak\]
+\[Image 14.7: Use a different trigger to get the Panda to speak\]
 
 Let's modify the existing program so that the Panda speaks when you press the space bar on your keyboard. First, detach the "Say" block from the Green flag block, and move it somewhere else in the Script area. Then, drag the "When space key pressed" block over the "Say" block, and lock it in place. Notice that if you click on the text box that currently contains the word "space", you will be able to select one of several other keys, instead of space. Select one of them, or just leave the currently selected "space" as your desired key. Now, press the space bar on your keyboard. Notice that "Hello world" appeared again in a bubble over the Panda, just like in the first program.
 
@@ -103,9 +101,7 @@ So, what you have learned so far is that in order to start a program you need a 
 
 ---
 
-### Question 3.14.2
-
-Try this: Create three programs with appropriate triggers. Design your programs so that when you press the key "A" on your keyboard, the Panda will say "you pressed A". Similarly, your Panda will say "you pressed B", and "you pressed C" when you press "B" and "C" respectively.
+**Exercise 14.2: **Try this: Create three programs with appropriate triggers. Design your programs so that when you press the key "A" on your keyboard, the Panda will say "you pressed A". Similarly, your Panda will say "you pressed B", and "you pressed C" when you press "B" and "C" respectively.
 
 Answer:
 
@@ -113,15 +109,15 @@ Answer:
 
 ---
 
-Now let's do something else. Detach the "Say" block from the "When" block and then delete the "When" block. There are two ways to delete a block. First, you can right-click on it and select "Delete" from the submenu that appears \(Image 3.14.8\). You can also drag the block inside the Blocks palette.
+Now let's do something else. Detach the "Say" block from the "When" block and then delete the "When" block. There are two ways to delete a block. First, you can right-click on it and select "Delete" from the submenu that appears \(Image 14.8\). You can also drag the block inside the Blocks palette.
 
 ![](/assets/2017-03-25_10-19-20.png)
 
-\[Image 3.14.8: Deleting a block by right-clicking on it and selecting "delete"\]
+\[Image 14.8: Deleting a block by right-clicking on it and selecting "delete"\]
 
 ![](/assets/2017-03-25_10-19-45.png)
 
-\[Image 3.14.9: Deleting a block by dragging it to the Blocks Palette \(where it came from\)\]
+\[Image 14.9: Deleting a block by dragging it to the Blocks Palette \(where it came from\)\]
 
 Next, let's make the Panda move.
 
@@ -129,31 +125,29 @@ Select the Motion group. All the block in that group can produce some kind of mo
 
 ![](/assets/2017-03-25_10-24-13.png)
 
-\[Image 3.14.10: The blocks inside the Motion group\]
+\[Image 14.10: The blocks inside the Motion group\]
 
 Drag the Move block \(at the very top of the group\) and connect it to the Green flag trigger in the Script area. Click inside the text box of the Move block and change the value from "10" to "50". This value controls how far the Panda will move. Each step is tiny, so using the value "50" will cause the Panda to move further away from its starting point, and will make it easier to see the movement. Then, connect the "Say" block to the end of the program. The objective is to make the Panda move by 50 steps, and when it finishes, to say "Hello World!" for two seconds.
 
 ![](/assets/2017-03-25_10-24-54.png)
 
-\[Image 3.14.11: This program makes the Panda move and speak\]
+\[Image 14.11: This program makes the Panda move and speak\]
 
 Before you click on the Green flag, click on the Panda and drag it a bit to the left edge of the Sprite area. This will leave more available space to its right to move. OK, now click on the Green flag. See what happened?
 
 ![](/assets/2017-03-25_10-31-59.png)
 
-\[Image 3.14.12: The Panda moves 50 steps and then speaks!\]
+\[Image 14.12: The Panda moves 50 steps and then speaks!\]
 
 ---
 
-### Question 3.14.3
-
-Make Panda to do something more elaborate. Get it to move by 50 steps, then to turn by 45 degrees, then to move by another 50 steps, and then make it say, "Hello World!".
+**Exercise 14.3: **Make Panda to do something more elaborate. Get it to move by 50 steps, then to turn by 45 degrees, then to move by another 50 steps, and then make it say, "Hello World!".
 
 _Answer:_
 
 ![](/assets/2017-03-25_10-35-14.png)
 
-\[Image 3.14.13: This program makes the Panda move straight, turn, and speak\]
+\[Image 14.13: This program makes the Panda move straight, turn, and speak\]
 
 ---
 
