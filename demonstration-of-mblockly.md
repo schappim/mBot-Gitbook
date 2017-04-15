@@ -6,12 +6,12 @@
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
 * How to control the mBot using mBlockly on a tablet
 * The various Scratch graphical blocks that are available and what they do
-* Assembling a simple Scratch program
-* Uploading a Scratch program to the mBot
+* How to assemble a simple Scratch program
+* How to upload a Scratch program to the mBot
 
 ---
 
@@ -35,17 +35,17 @@ Immediately after starting the mBlockly on your tablet, it will detect a nearby 
 
 ![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-07-25-736.png)
 
-\[Image 2.8.1: Your tablet running mBlockly will detect your mBot very quickly\]
+\[Image 8.1: Your tablet running mBlockly will detect your mBot very quickly\]
 
 If it doesn't, check that your mBot is turned on, and that the Bluetooth module is in discovery mode. You can confirm that by looking for the blue, blinking LED of the Bluetooth module. If the blue LED is solid \(not blinking\) then you know that it is connected to another Bluetooth device. If this device is not your tablet, try turning the mBot off and then on again in order to switch the Bluetooth module back to discovery mode \(blinking blue LED\).
 
 ![](/assets/IMG_9727.JPG)
 
-\[Image 2.8.2: Look at the blue LED of the Bluetooth module to determine the connection status\]
+\[Image 8.2: Look at the blue LED of the Bluetooth module to determine the connection status\]
 
 ---
 
-**Question 2.8.1: What is the purpose of the blue LED that you can see near the battery connectors on the mCore?**
+**Question 8.1: What is the purpose of the blue LED that you can see near the battery connectors on the mCore?**
 
 A. It is the battery indicator
 
@@ -59,7 +59,7 @@ _Answer: C_
 
 ---
 
-**Question 2.8.2: You are trying to connect your mBot to your iPad, and you can see that the blue Bleutooth indicator LED is blinking. What does that mean?**
+**Question 8.2: You are trying to connect your mBot to your iPad, and you can see that the blue Bleutooth indicator LED is blinking. What does that mean?**
 
 A. The mBot is not connected to a host
 
@@ -77,13 +77,13 @@ The programming happens using Scratch, which is a block-based programming langua
 
 ![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-08-01-967.png)
 
-\[Image 2.8.3: To load a program, tap on its thumbnail\]
+\[Image 8.3: To load a program, tap on its thumbnail\]
 
 ---
 
 **BEWARE!**
 
-If the projects that you see in your Projects screen are not the ones that we show in Image 2.8.3, it's Ok! The mBlockly app is updated frequently, and these examples may change by the time you read this book. The purpose of this chapter is to make you familiar with the basics of using Scratch in mBlockly. If the sample projects in your mBlockly are not the same as the ones you see in Image 2.8.3, don't be discouraged. Simply tap on any of them and start exploring it on your own!
+If the projects that you see in your Projects screen are not the ones that we show in Image 8.3, it's Ok! The mBlockly app is updated frequently, and these examples may change by the time you read this book. The purpose of this chapter is to make you familiar with the basics of using Scratch in mBlockly. If the sample projects in your mBlockly are not the same as the ones you see in Image 8.3, don't be discouraged. Simply tap on any of them and start exploring it on your own!
 
 ---
 
@@ -95,7 +95,7 @@ Tap on the one called: "run forward and backward" and have a look at the instruc
 
 ![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-08-17-385.png)
 
-\[Image 2.8.4: To upload a program to the paired mBot, tap on "Go"\]
+\[Image 8.4: To upload a program to the paired mBot, tap on "Go"\]
 
 Click on "Go" to execute the instructions.
 
@@ -109,13 +109,13 @@ Here is how: Go to the "Control" submenu that you can find on the left side of t
 
 ![](/assets/Mbot - 0080 - Ipad 2 - demo of Makeblock mblockly mblock.CONSTANT-00-09-35-387.png)
 
-\[Image 2.8.5: To insert a block, select it from a submenu and drag it to your program. It will snap in place when you place it near a compatible block\]
+\[Image 8.5: To insert a block, select it from a submenu and drag it to your program. It will snap in place when you place it near a compatible block\]
 
 Then, since you want to stop the motors, which is a movement type of instruction, go to the "Move" submenu, pick the "stop moving" block, drag it and place it right under the last two second wait.
 
 ![](/assets/Img.2.3.1.jpg)
 
-\[Image 2.8.6: The program, with your modifications\]
+\[Image 8.6: The program, with your modifications\]
 
 Tap the "Go" button to see your mBot going forward for two seconds, then backwards for another two seconds and then  stop moving.
 
@@ -125,7 +125,7 @@ If you got it right, you can now start combining all the different types of bloc
 
 ![](/assets/e596d7cc-5626-4aa5-a357-15ed5188276a.jpeg)
 
-\[Image 2.8.7: The "Move" instructions\]
+\[Image 8.7: The "Move" instructions\]
 
 From top to bottom, you see instructions that will get the mBot to:
 
@@ -140,7 +140,7 @@ Next we have the instructions in the "Display" group:
 
 ![](/assets/91ce23c0-a970-4522-a251-07ee27a8b4ba.jpeg)
 
-\[Image 2.8.8: The "Display" instructions\]
+\[Image 8.8: The "Display" instructions\]
 
 You can use these to:
 
@@ -153,7 +153,7 @@ A very useful feature are the "Events", which can be used to mainly detect movem
 
 ![](/assets/b1918a53-8366-4f28-b32d-e379a49f72c5.jpeg)
 
-\[Image 2.8.9: The "Events" blocks\]
+\[Image 8.9: The "Events" blocks\]
 
 With the instructions in the Event group we can get the robot, for example, to move depending on whether the tablet is tilting forwards or backwards \(blocks 5 and 4\) using the tablet itself as a control device.
 
@@ -161,7 +161,7 @@ In the Detect group of instructions you can find blocks that work with sensors.
 
 ![](/assets/f787dcb0-1ab4-48c3-9761-1ed62863c304.jpeg)
 
-\[Image 2.8.10: The "Detect" blocks\]
+\[Image 8.10: The "Detect" blocks\]
 
 These can be used to take input from the sensors. Based on these readings, the mBot can decide how to move in the event of detecting an obstacle. For example, it can stop, turn left or right, or go around the obstacle.
 
@@ -169,11 +169,11 @@ In the Math submenu are blocks that can perform the basic mathematical and logic
 
 ![](/assets/a9bdda61-f991-41d1-a003-e3f1243ad05b.jpeg)
 
-\[Image 2.8.11: The "Math" blocks\]
+\[Image 8.11: The "Math" blocks\]
 
 In the Control submenu are blocks that allow us to implement control structures.These structures allow your program to contain loops in which a segment of your program is executed repeatedly, or to execute part of your program depending on a condition.![](/assets/bf43ec4e-3e40-468e-8d2a-4cb2266ec148.jpeg)
 
-\[Image 2.8.12: The "Control" structures\]
+\[Image 8.12: The "Control" structures\]
 
 You can use these, for example, to repeat a set of instructions either forever or a particular number of times. Or even repeat until the sensor senses something, like an obstacle in front of it, for example.
 
@@ -185,21 +185,19 @@ Let’s try out some of the other projects. To do this, click on "My Projects" o
 
 #### The Colour Show example
 
-Tap on "Colour Show" and have a look at it. If this example is not available in the list of programs, that's OK. You can assemble it yourself by finding the right blocks inside the various submenus and connecting them together, as you can see in image 2.8.13.
+Tap on "Colour Show" and have a look at it. If this example is not available in the list of programs, that's OK. You can assemble it yourself by finding the right blocks inside the various submenus and connecting them together, as you can see in image 8.13.
 
 ---
 
 **BEWARE!**
 
-In Image 2.8.13 \(and in several other images\), the numbers inside the orange boxes are not part of the program! These are simply
-
-numbered pointers to different parts of the program so that we can reference them from this text.
+In Image 8.13 \(and in several other images\), the numbers inside the orange boxes are not part of the program! These are simply numbered pointers to different parts of the program so that we can reference them from this text.
 
 ---
 
 ![](/assets/88ea9406-0534-4aac-9872-765dcc62fce3.jpeg)
 
-\[Image 2.8.13: The "Colour Show" program\]
+\[Image 8.13: The "Colour Show" program\]
 
 In this example there is a loop block, called "repeat forever" \(block 1\). Anything you put inside this block will do exactly that, repeat for ever. In the repeat forever block, the first thing that happens is to turn both onboard RGB LEDs to red \(block 2\) and then to wait for a particular amount of time \(block 3\). The "wait" block requires a numerical value \(or variable and I’ll talk about variables in an upcoming chapter\). To provide a number, simply tap on the existing number of the "wait" block. This will bring up a keypad.
 
@@ -221,13 +219,13 @@ To test it just tap on "Go" and you will be able to see the program run, one ins
 
 When you write a program using mBlockly, you should remember that the program is actually running on the tablet, not on the mBot. On the mBot itself, and inside the microcontroller, a remote control program is executed, basically waiting for instructions from the tablet, transmitted via Bluetooth. The mBot is just connected and remotely controlled by the tablet.
 
-That has a detrimental effect on the speed by which the instructions get executed: the execution speed is actually very low. There are many types of applications that you will not be able to implement on your mBot by remote control, like the line-follower ones. The problem here is that the speed by which the mBot needs to take readings of its line-following sensors and from the ultrasonic sensor, and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
+That has a detrimental effect on the speed by which the instructions get executed: the execution speed is actually very low. There are many types of applications that you will not be able to implement on your mBot by remote control, like the line-follower ones. The problem here is that the speed by which the mBot needs to take readings of its line-following module and from the distance sensor, and then translate that information into a movement for the motors, has to happen very quickly and the slow pace of the tablet execution will just not do.
 
 Just remember that the applications shown here are good for a few simple types of programming with the mBot but you will grow out of them fairly quickly. For more sophisticated programs we will need to move to the computer. A significant part of this course is dedicated to programming the mBot on the computer in order to maximize the efficiency of the mounting tool on the mBot.
 
 ---
 
-**Question 2.8.1: What is the way to insert decimal numbers \(i.e. numbers like 0.5, 1.0 or 5.25\) in a wait block?**
+**Question 8.1: What is the way to insert decimal numbers \(i.e. numbers like 0.5, 1.0 or 5.25\) in a wait block?**
 
 A. Use the decimal point in the keypad to type in the number
 
@@ -237,7 +235,7 @@ C. It is not possible to insert decimal numbers in a wait block. A wait block wi
 
 _Answer: B_
 
-**Question 2.8.2: Where is the Scratch program that you write in mBlockly executed?**
+**Question 8.2: Where is the Scratch program that you write in mBlockly executed?**
 
 A. On the mCore microcontroller
 
