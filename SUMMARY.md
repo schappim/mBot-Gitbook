@@ -22,7 +22,7 @@
 * [Section 3 \| Chapter 18: Section recap+](section-3-chapter-18-section-recap-and-quiz.md)
 * [Section 4 \| Chapter 19: Programming structures and sensors - Introduction+](section-4-chapter-19-programming-structures-and-sensors-introduction.md)
 * [Section 4 \| Chapter 20: The Loop+](section-4-chapter-20-the-loop.md)
-* [Section 4 \| Chapter 21: The distance/proximity sensor](section-4-chapter-20-the-distanceproximity-sensor.md)
+* [Section 4 \| Chapter 21: The distance/proximity sensor+](section-4-chapter-20-the-distanceproximity-sensor.md)
 * [Section 4 \| Chapter 22: The "if" and "if...else" control structure](section-4-chapter-23-the-if-and-ifelse-control-structure.md)
 * [Section 4 \| Chapter 23: The buzzer](section-4-chapter-24-the-buzzer.md)
 * [Section 4 \| Chapter 24: Recapping](section-4-chapter-25-section-recap-and-quiz.md)
