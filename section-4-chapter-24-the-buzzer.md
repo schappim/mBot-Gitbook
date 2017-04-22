@@ -66,9 +66,19 @@ _Answer: D_
 
 ---
 
-**Question 4.23.2: Adjust the program from Image 4.23.1 so that a different tone is played depending on the distance of the object from the sensor. Choose your own tones, or use C2 for detected distances larger than 30 cm, C3 for distances between 20 cm and 30 cm, and C4 for distances less than 20 cm.**
+**Question 4.23.2: Adjust the program from Image 4.23.1 so that a different tone is played depending on the distance of the object from the sensor. Choose your own tones, or use C2 for detected distances larger than 30 cm, C3 for distances between 20 cm and 30 cm, and C4 for distances less than 20 cm, and for duration use "Eighth".**
 
-Answer: 
+Answer:
 
+![](/assets/2017-04-22_16-57-06.png)
 
+---
+
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[   \] You know how use the buzzer on board the mCore controller
+
+\[   \] You know the meaning of music note notations like "C4", "F2", and "G3"
 
