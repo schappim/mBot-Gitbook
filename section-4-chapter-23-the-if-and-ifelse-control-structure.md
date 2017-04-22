@@ -6,7 +6,7 @@
 
 ---
 
-In this chapter you will learn about:
+**In this chapter you will learn about:**
 
 * How to have the mBot make decisions
 * How to use the "if" and "if...else" control blocks
@@ -15,9 +15,21 @@ In this chapter you will learn about:
 
 ---
 
-In the last chapter we built ourselves an mBot that blinks its LEDs blue and red, depending on the distance between its ultrasonic sensor and a target object. That has given us an understanding of how the ultrasonic sensor and the forever loop work.
+**This chapter contains hands-on activities.**
 
-In this chapter we will see how we can get the mBot to make decisions, depending on sensor readings, like the ultrasonic sensor. Towards that goal, we're going to build a new program that, once more, uses the LEDs and the distance sensor, only this time it turns the LEDs into a particular colour depending on the distance between a sensor and the target: green when it is far away, blue when it gets closer, red when it is too close.
+You will need your mBot, and a fresh set of batteries installed.
+
+You will need the mBlock software installed on your computer.
+
+In this chapter you will learn about the "_if_" and "_if...else_" control structures.
+
+---
+
+In the previous chapter you programmed your mBot to control its RGB LEDs in accordance to the distance between its ultrasonic sensor and an object in-front of it. This experiment has helped you to understand how to use the ultrasonic sensor and the "forever" loop control structure.
+
+In this chapter you will learn how to program your mBot to make decisions. The decision will depend on sensor readings, such as the ultrasonic sensor. To achieve this kind of functionality, you will compose a new program that, once again, will use the LEDs and the distance sensor. 
+
+But this time, it will turns the LEDs into a particular colour depending on the distance between a sensor and the object: green when it is far away, blue when it gets closer, red when it is close.
 
 In order to make decisions we use the "if" and "if...else" blocks that we can see in the image below:
 
@@ -25,13 +37,15 @@ In order to make decisions we use the "if" and "if...else" blocks that we can se
 
 \[Image 4.22.1: The "if" and "if...else" blocks\]
 
-These two control blocks can evaluate a given condition and execute some nested instructions, depending on whether this condition is true or not. Blocks suitable to be used as conditions can be found in the \(green\) "Operators" family of blocks:
+You will find the "if" and "if...else" blocks in the Control block group.
+
+These two control blocks can evaluate a given condition and execute some nested instructions, depending on whether this condition is true or not. Blocks suitable to be used as conditions can be found in the \(green\) "Operators" group of blocks:
 
 ![](/assets/Img.4.22.2.jpg)
 
 \[Image 4.22.2: Operators like these can compare values and be used as conditions\]
 
-We notice that such blocks have angular sides that make them fit in the condition spot, after the "if" word:
+Notice that such blocks have angular sides that make them fit in the condition spot, after the "if" word:
 
 ![](/assets/Img.4.22.3.jpg)
 
@@ -39,19 +53,39 @@ We notice that such blocks have angular sides that make them fit in the conditio
 
 ### A program that makes decisions
 
-Let's create a new program: File &gt; New and use an if...else block to make a decision
+Create a new program.
 
-First, let's create a variable distance and by adding blocks and fitting them together let's compose the program shown in the image below:
+First, create a new variable named "distance" and add the appropriate blocks so compose the program that you can see in Image 4.22.4.
 
 ![](/assets/Img.4.22.4.jpg)
 
 \[Image 4.22.4: The program\]
 
-We notice that the if...else block is "nested" within the forever loop. Port3 refers to the port where the ultrasonic is connected on the mBot. We should always check such things in order to get the corresponding attributes right.
+Notice how the "if...else" block is nested within the forever loop? 
 
-Here's how to read this program: Get a reading from the ultrasonic sensor and store it in the "distance" variable. Following, check this value, stored in "distance", and if it is greater than 30, then set all LEDs to green, else set them to blue. And all that, over and over again, since it's nested in a forever loop.
+---
 
-Now we can "Upload to Arduino" and check whether the mBot functions as expected: we place some obstacle in front of the sensor, at a distance somewhat greater than 30 cm., and the LEDs should turn to green. We move the object closer than 30 cm. and the LEDs should change colour and become blue.
+**Question 4.22.1: In the program of Image 4.22.4, which port is the ultrasonic sensor connected to?**
+
+A. 1
+
+B. 2
+
+C. 3
+
+D. 4
+
+_Answer: C_
+
+---
+
+Try to read this program to understand what it will do before you upload it to your mBot. 
+
+1. Get a reading from the ultrasonic sensor and store it in the "distance" variable. 
+2. Check the value stored in "distance", and if it is greater than 30, then set all LEDs to green, else set them to blue. 
+3. Repeat, forever.
+
+Upload your program to your mBot and check whether the mBot functions as expected. Place an obstacle in front of the sensor, at a distance somewhat greater than 30 cm., and the LEDs should turn to green. Move the object closer than 30 cm and the LEDs should change colour and become blue.
 
 ### Expanding the program
 
