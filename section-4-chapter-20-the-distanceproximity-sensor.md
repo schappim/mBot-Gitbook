@@ -27,13 +27,13 @@ In the previous chapter you learned to use the "forever" loop block, and wrote a
 
 ### Operation of a distance/proximity sensor
 
-The proximity sensor measures the distance between the mBot and an object in front of it. The sensor works well at distances up to 30 or 40 centimetres. The measurement accuracy depends on the shape and material of the object. 
+The proximity sensor measures the distance between the mBot and an object in front of it. The sensor works well at distances up to 30 or 40 centimetres. The measurement accuracy depends on the shape and material of the object.
 
 The sensor works by emitting an ultrasound, which is a high-pitched sound that humans can't hear. Other animals, like bats, do, and use ultrasounds to navigate in space. The sensor will emit a short-duration ultrasonic "ping" of a few milliseconds in duration. The sounds will travel until it reaches an object. Then, it will bounce on the object and, at least part of it, will travel back to the sensor. The receiver on the sensor will pick up the echo, and using the total time it took for the original sound to travel to the object and return, it will calculate the distance of the object.
 
-For the distance calculation to be accurate, the surface of the object must be reflective and large enough for the ultrasonic ping to return to the sensor with enough power. Small objects, or objects that absorb sound will not reflect enough sound, so the reading from the sensor will not be accurate. 
+For the distance calculation to be accurate, the surface of the object must be reflective and large enough for the ultrasonic ping to return to the sensor with enough power. Small objects, or objects that absorb sound will not reflect enough sound, so the reading from the sensor will not be accurate.
 
-The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to detect and to measure its distance. A larger object with a flat surface, like a book, makes a better target for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine. 
+The further away you go from the object, the larger the object has to be in order for the sensor to pick up the distance correctly. You will find, for example, that a pen might be too small for the sensor to be able to detect and to measure its distance. A larger object with a flat surface, like a book, makes a better target for this kind of sensor. The principle of operation is the same by which a sonar works for a submarine.
 
 The sensor contains two main components:
 
@@ -54,7 +54,7 @@ C. Between 20 kHz and 40 kHz
 
 D. Anything above 20 kHz
 
-Answer: D \(from https://en.wikipedia.org/wiki/Ultrasound\)
+Answer: D \(from [https://en.wikipedia.org/wiki/Ultrasound\](https://en.wikipedia.org/wiki/Ultrasound\)\)
 
 ---
 
@@ -68,7 +68,7 @@ C. 64 kHz
 
 D. 160 kHz
 
-Answer: B \(from https://en.wikipedia.org/wiki/Ultrasound\#Animals\)
+Answer: B \(from [https://en.wikipedia.org/wiki/Ultrasound\#Animals\](https://en.wikipedia.org/wiki/Ultrasound#Animals\)\)
 
 ---
 
@@ -76,7 +76,7 @@ Answer: B \(from https://en.wikipedia.org/wiki/Ultrasound\#Animals\)
 
 Go ahead and create a new project in order to see how the ultrasonic distance sensor works \(in the mBlock menu click on File and then New\).
 
-As always, start by placing the mBot program header block in the program area. Next, drag and drop an "ultrasonic sensor \[Port3\] distance" on the canvas. 
+As always, start by placing the mBot program header block in the program area. Next, drag and drop an "ultrasonic sensor \[Port3\] distance" on the canvas.
 
 Remember to set the port for the ultrasonic sensor block to the port that you have connected the sensor to your mBot's mCore controller.
 
@@ -100,9 +100,9 @@ Next, add a "set led on board ..." block, attach it to the program and place var
 
 \[Image 4.21.2: Setting the LEDs to emit a quantity of light corresponding to the distance from the object\]
 
-Τhe problem, here, is that these two instruction blocks will only execute once and then the program will stop. If you upload and execute this program, you will see that it will get just one single measurement with the sensor and then finish, which is not what we want. 
+Τhe problem, here, is that these two instruction blocks will only execute once and then the program will stop. If you upload and execute this program, you will see that it will get just one single measurement with the sensor and then finish, which is not what we want.
 
-In most cases where a sensor is involved, you want to take measurements repeatedly, and as quickly as possible, because you want your robot to continue sensing changes in the environment. In order to have these two instructions execute repeatedly you need to place them within a loop. 
+In most cases where a sensor is involved, you want to take measurements repeatedly, and as quickly as possible, because you want your robot to continue sensing changes in the environment. In order to have these two instructions execute repeatedly you need to place them within a loop.
 
 So, go ahead and add a "forever" loop block, and arrange the blocks by moving them around, to achieve the order shown here below:
 
@@ -140,19 +140,19 @@ Objects you experimented with:
 
 3.\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-The one that works best with the sensor is \(circle one\):      1        2         3   
+The one that works best with the sensor is \(circle one\):      1        2         3
 
 And this is why \(explain how you came to your conclusion\):
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ---
 
@@ -176,7 +176,7 @@ Once you have the program loaded, let's make some changes to it. Delete blocks a
 
 The new program will make the onboard LEDs blink with a frequency that corresponds to the distance of an object detected by the ultrasonic sensor.
 
-Here's what happens: 
+Here's what happens:
 
 * the left LED turns on \(red\) while right LED is turns off, 
 * and this is maintained for an amount of time that is the result of the multiplication of _distance times 0.01 seconds_. 
@@ -204,9 +204,7 @@ This was just another example of how you can get input from sensors and then man
 
 What is your new program?
 
-
-
-Answer: 
+Answer:
 
 ![](/assets/2017-04-22_12-22-56.png)
 
@@ -239,4 +237,18 @@ D. The sensor returns detailed readings \(for example, millimetres instead of ce
 _Answer: C_
 
 ---
+
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[   \] You know how use the distance sensor
+
+\[   \] You know how to take a reading from the distance sensor and store it in a variable
+
+\[   \] You know how to do calculations between fixed number and variables 
+
+\[   \] You understand the difference between a human-audible sound and an ultrasound
+
+
 
