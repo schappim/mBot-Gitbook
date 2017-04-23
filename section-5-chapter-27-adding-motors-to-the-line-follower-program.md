@@ -22,23 +22,23 @@ In this chapter you will learn how to take input from the line follower module a
 
 ---
 
-It's about time to get the wheel motors moving. We are going to work on the program that we created in the previous chapter and just modify it slightly.
+In this chapter you will continue to work on the program that you started in the previous chapter. You will make a small modification that involves the motors, so that your mBot can move.
 
-If we think about what LEDs and motors have in common, we might say that they're both output devices, actuators: they both modify the world in some way. The motors by producing motion and the LEDs by producing light.
+If you consider what LEDs and motors have in common, we might say that they're both output devices, actuators: they both change the world in some way. The motors change the worlds by producing motion and the LEDs by producing light.
 
-In that effect, the structure of the program, as we have it by now, is ready to go. All we have to do is place the motor movement instructions next to the LED ones.
+In that effect, the structure of the program, as it is at the moment, is fully capable to drive both LEDs and motors. All you have to do is place the motor movement instructions next to the LED ones.
 
-Let's think about how to approach it.
+Let's think about how to approach this modification.
 
-### **Reacting to the readings**
+### **Reacting to the line follower module status**
 
-When the line-follower module reports 0, we know that the mBot must be fully within the track and all it has to do really is just move forwards. No need to adjust its course.
+When the line-follower module reports "0", meaning that the mBot is fully within the track, then your mBot does not need to correct its course. It can simply continue to move forwards.
 
-When the line-follower module reports 1, that means that the right sensor got outside the line and we should turn the mBot a little to the left, to get both sensors inside the line and the robot back on track, again.
+When the line-follower module reports 1, meaning that the right line sensor is outside , then your mBot should slightly to the left. This small correction will eventually get the right line sensor back over the black line, and the robot back on track, again.
 
-When the line-follower module reports 2, that means that the left sensor got outside the line and we should turn the mBot a little to the right.
+When the line-follower module reports 2, meaning that that the left sensor is outside the line, then your mBot should turn slightly to the right, until the left sensor is again over the black line.
 
-Finally, when the line-follower module reports 3, then the mBot got way outside the line and maybe the best idea is to get it to move backwards hoping to meet the line again.
+Finally, when the line-follower module reports 3, meaning that the mBot is fully outside the line, then your mBot should move backwards until it finds the line.
 
 ### **Expanding the program**
 
