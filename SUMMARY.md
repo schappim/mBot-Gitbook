@@ -29,7 +29,7 @@
 * [Section 5 \| Chapter 25: The line-follower program introduction+](section-5-the-line-follower-program-introduction.md)
 * [Section 5 \| Chapter 26: The line sensor+](section-5-chapter-27-the-line-sensor.md)
 * [Section 5 \| Chapter 27: Adding the motors+](section-5-chapter-27-adding-motors-to-the-line-follower-program.md)
-* [Section 5 \| Chapter 28: Turning around at the end of the line](section-5-chapter-29-stopping-at-the-end-of-the-line-with-the-proximity-sensor.md)
+* [Section 5 \| Chapter 28: Turning around at the end of the line+](section-5-chapter-29-stopping-at-the-end-of-the-line-with-the-proximity-sensor.md)
 * [Section 5 \| Chapter 29: Using a button to start and stop](section-5-chapter-31-using-a-button-to-start-and-stop.md)
 * [Section 5 \| Chapter 30: Custom blocks \(functions\)](section-5-chapter-32-custom-blocks-functions.md)
 * [Section 5 \| Chapter 31: Recapping](section-5-chapter-32-custom-blocks-functions/section-5-chapter-31-recapping.md)

@@ -130,3 +130,5 @@ Double-check that at this point, the following are completed:
 
 \[   \] You understand the relation between the motor speed and the ability of the mBot to follow the line
 
+---
+
