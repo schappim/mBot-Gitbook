@@ -8,7 +8,17 @@
 
 In this chapter you will learn about:
 
-* How to program the mBot to follow a line
+* How to use the motors to control the movement of the mBot using input from the line follower module
+
+---
+
+**This chapter contains hands-on activities.**
+
+You will need your mBot, and a fresh set of batteries installed.
+
+You will need the mBlock software installed on your computer.
+
+In this chapter you will learn how to take input from the line follower module and use it to control the motors so that your mBot can move forwards while staying on the path that the line forms.
 
 ---
 
