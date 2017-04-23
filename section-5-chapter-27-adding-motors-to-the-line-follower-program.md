@@ -42,55 +42,91 @@ Finally, when the line-follower module reports 3, meaning that the mBot is fully
 
 ### **Expanding the program**
 
-All the above seems straightforward and here is how we can implement it.
+All the above is straightforward. Let's implement the necessary changes to the program.
 
-First of all we need a variable in order to set a fixed speed for the motors, that we can use within the program. So, let’s create a variable and call it "speed", and set it to some speed, say 150.
+First, introduce a variable to store the speed for the motors. Because you will be using the motor blocks in several locations in the program, it is better to define the speed at one place, and reuse it with the motor blocks.
 
-For the rest we will need the "\[run forward\] at speed \[0\]" instruction block, that can be found in the "Robots" instruction family.
+Go ahead, create a new variable and call it "speed". Set it to a value, say 150.
+
+---
+
+**Did you know**
+
+Remember, from earlier chapters, what is the meaning of the second parameter in the motor block? It is a number that ranges from 0 to 255. At 255, the speed of the motor is maximum. At 0, the motor is stopped.
+
+When you work with motors, it is best to initially select a middle-of-the-range speed, instead of the two extremes. Once you have your prototype working, you can then experiment with higher or lower values as you optimise your program settings.
+
+---
+
+Next, insert the "\[run forward\] at speed" instruction block, that you can find in the "Robots" blocks group.
 
 ![](/assets/Img.5.27.1.jpg)
 
 \[Image 5.27.1: The "\[run forward\] at speed \[0\]" instruction block\]
 
-The first attribute of this block can be altered to make the mBot move either forwards or backwards and turn either left or right. As for the second attribute, we will set it to variable "speed".
+You can change the first attribute of this block to make the mBot move either forwards or backwards and turn either left or right. As for the second attribute, set it to variable "speed" that you created earlier.
 
-Here is how we must modify the program:![](/assets/Img.5.27.2.jpg)\[Image 5.27.2: The program\]
+Make the appropriate changes to your existing program so that eventually it matches the program in Image 5.27.2.![](/assets/Img.5.27.2.jpg)\[Image 5.27.2: This version of the program includes the motor control blocks \]
 
-The modifications are pointed at, to make it easier to spot them:
+The numbers in Image 5.27.2 refer to the following notes:
 
-\(1\) is where variable "speed" is set to 150.
+\(1\) Set the variable "speed" to 150.
 
-\(2\) is where the motor moving blocks are added
+\(2\) Insert the motor control blocks.
 
-What happens here is that every time we get a reading from the line follower module, we decide as to how the mBot must move. If things look good, it just moves forwards. If one sensor seems to be outside the line, we turn the mBot, to get it back on track. If both sensors are outside the line, we move the mBot backwards, hoping to meet the line again, since the best chance is that the line is behind it.
+Every time the loop starts, the program reads the line follower module status and uses this information to direct the motion that the motors should perform. If the module returns "0" then the mBot just moves forwards. If the module returns a value that indicates that one of the sensors is outside the line, then the mBot will turn left or right to eventually get it back on the track. If both sensors are outside the line, then the mBot will move backwards, until it to detects the line again.
 
-Let's get ready to test the program now:
+Get ready to test the program now.
 
-* First we make sure we have composed a line runway on some spacy surface, like the floor.
-* Then we connect the mBot to the computer and "Upload to Arduino" and then we can switch it off, so that we can place it at the beginning of the line.
-* And then, we can switch it on and see if it behaves as expected.
+* First we make sure that there is a line for your mBot to follow, on a sufficiently large surface, like the floor.
+* Then, upload the program to your mBot. When the upload completes switch it off, and place it at the beginning of the line.
+* And then, switch on.
+
+Did your mBot behaves as expected? Did it follow the line?
 
 ![](/assets/Img.5.27.3.jpg)\[Image 5.27.3: The mBot at start position\]
 
-As can be seen in the image above, we can place obstacles to mark the start and finish of the runway. These will prove useful in the improvements we are going to apply to the program in the next chapter.
+As can be seen in the image above, you can place obstacles to mark the start and finish of the runway. These will be useful in the improvements that you will apply to the program in the next chapter.
 
-If we turn the mBot on, we will see it get going, following the line by constantly adjusting its route, until finally it reaches the end of the line. There, we will notice that the mBot doesn't stop, since we didn't include such behaviour in the program. Instead it will make erratic movements that might even get it to make a U-turn, eventually, due to difference in traction between the wheels.
+If your mBot behaved as expected, you must have noticed that it followed the line by constantly adjusting its direction of movement, until finally it reached the end of the line. There, the mBot didn't stop, since you didn't include such behaviour in the program. Instead it made erratic movements in its effort to get its line sensor module back on the line, by moving backwards. Eventually, due to difference in traction between the wheels, it is possible that your mBot managed to turn enough to get back on track.
 
-We can actually improve the program even further by using the proximity sensor so that the robot can detect by itself the end of the line, by sensing the obstacle we have placed there. And then even make a U-turn to get back to where it started. We will handle all this in the next chapter.
+We can actually improve the way that the mBot behaves when it reaches the end of the line so that it can get back on the track much faster that with the current version. You can use the proximity sensor so that the robot can detect the end of the line, by sensing the obstacle we have placed there. After it detects an obstacle, you can program it to do a U-turn \(i.e. a 180 degree turn\) and quickly find itself back on the track. This is what you will do in the next chapter.
 
-And of course, let's remember to save the project, before anything else.
+And of course, let's remember to save the project, before continuing!
 
-### Questions
+---
 
-Question 5.27.1: What will happen when the mBot reaches the end of the line, executing the program in image 5.27.2?
+#### Question 5.27.1: What will happen when the mBot reaches the end of the line, executing the program in image 5.27.2?
 
 A. It will stop moving.
 
 B. It will perform a U-turn by executing the corresponding U-turn block.
 
-C. It might perform a U-turn due to difference in traction between the wheels.
+C. It may perform a U-turn due to difference in traction between the wheels.
 
 D. It will go on eventually crashing on some obstacle found in the way.
 
 _Answer: C_
+
+---
+
+#### Question 5.27.2: Experiment with the motor speed value that is stored in variable "speed". What is the highest value that you can set this variable at with the mBot still able to follow your line?
+
+Max speed:  \_\_\_\_\_\_\_\_
+
+Answer: in my experiments, with the line in Image 5.27.3, the max speed was around 200.
+
+---
+
+**Checklist**
+
+Double-check that at this point, the following are completed:
+
+\[   \] Your mBot can follow the line on the floor
+
+\[   \] You the way that the mBot turns in relation to the values that the line following module reports
+
+\[   \] You understand the difficulty that the current version of the program has to help the mBot find the line when it reaches the end of the line
+
+\[   \] You understand the relation between the motor speed and the ability of the mBot to follow the line
 
