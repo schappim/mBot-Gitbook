@@ -8,7 +8,7 @@
 
 ### This chapter is a recap of what you have learned so far
 
-In this chapter you will not learn anything new, but you will recapture on what you learned so far in Section 2.
+In this chapter you will not learn anything new, but you will recapture on what you learned so far in Section 3.
 
 There are no hands-on activities in this chapter.
 
@@ -24,7 +24,7 @@ In this chapter, you learned about:
 * how to use the "move" instruction block to move the mBot forwards, backwards and have it turn left or right,
 * about variables and used them in a simple arithmetic operation.
 
-At this point you are starting to gain an understanding of how you can program your mBot to use its motors so that it can move around. 
+At this point you are starting to gain an understanding of how you can program your mBot to use its motors so that it can move around.
 
 This is a great start, but there's much more to do!
 
