@@ -6,7 +6,13 @@
 
 ---
 
-In this section we are going to see how to use the line sensor. We'll start putting together everything we learned up to now in order to construct, step-by-step, a line-following program.
+### This chapter is a an introduction to a new section {#this-chapter-is-a-recap-of-what-you-have-learned-so-far}
+
+There are no hands-on activities in this chapter.
+
+---
+
+In this section you will learn  how to use the line sensor. We'll start putting together everything we learned up to now in order to construct, step-by-step, a line-following program.
 
 In addition, we will introduce the use of a button and will learn how to create custom Scratch blocks, which is the equivalent of a programming function or subroutine. Using custom blocks is a good practice for when our programs become large.
 

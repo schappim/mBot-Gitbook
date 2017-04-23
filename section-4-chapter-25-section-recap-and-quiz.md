@@ -14,7 +14,7 @@ There are no hands-on activities in this chapter.
 
 ---
 
-In this section you had a first serious look at the ultrasonic sensor. 
+In this section you had a first serious look at the ultrasonic sensor.
 
 You learned:
 
@@ -26,7 +26,7 @@ You learned:
 * how to save a program to your computer,
 * how to load it to mBlock, when needed.
 
-You now know everything you need in order to continue with composing a program that will make your mBot to follow a black line on the floor. When you are ready, continue with the next chapter to get started!
+You now know almost everything you need in order to create the line following program for your mBot. In the next section, you will learn about the line sensor, the sensor that is at the center of the line following program. Once that is done, you can proceed to actually compose the line follower program.
 
-
+When you are ready, continue with the next chapter to get started!
 
