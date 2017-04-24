@@ -12,6 +12,16 @@
 
 ---
 
+**This chapter contains hands-on activities.**
+
+You will need your mBot, and a fresh set of batteries installed.
+
+You will need the mBlock software installed on your computer.
+
+In this chapter you will learn how restore the firmware program on your mBot. By doing this, you will be able to control your mBot from an iPad or Android tablet.
+
+---
+
 Let's start this chapter with an experiment.
 
 Start by uploading the last version of the line following program to your mBot. Next, take your tablet, start Makeblock, and try to connect your mBot as described in Chapter 9.
@@ -105,8 +115,4 @@ Double-check that at this point, the following are completed:
 \[   \] You know the functionality implemented by the firmware
 
 \[   \] You know the difference between the functionalities implemented by the firmware, and the default program
-
-
-
-
 
