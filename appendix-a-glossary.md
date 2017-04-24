@@ -78,19 +78,17 @@
 
 **RGB: **A system for representing an extensive array of colours just by adding together values for red \(R\), green \(G\) and blue \(B\). Each of these three values must be within the range of 0 to 255.
 
-**sensor: **A hardware device that can detect somestimulus in the environment\(like sound, light, moisture etc.\) and then return a reading that can be used by the mBot.
+**sensor: **A hardware device that can detect some stimulus in the environment\(like sound, light, moisture etc.\) and then return a reading that can be used by the mBot.
 
 **sketch: **_See: program_
 
-**Skratch: **A programming language that can be used to create programs by putting graphical instruction blocks together. Skratch is broadly used to create stories, games and animation, mainly for educational purposes. It can be also used to program the mBot. _See: instruction block, program_
+**Scratch: **A programming language that can be used to create programs by putting graphical instruction blocks together. Skratch is broadly used to create stories, games and animation, mainly for educational purposes. It can be also used to program the mBot. _See: instruction block, program_
 
 **source code: **The program in the form that it is composed by the programmer. A program made of instruction blocks is considered to be source code. The source program can be compiled by a compiler, in order to produce an executable program, in binary. _See: binary, compiler, instruction block, program_
 
 **sprite: **A game object \(like a fighter, an animal, a cannon, a spacecraft etc.\) that can perform actions.
 
 **ultrasonic module/sensor: **_See: distance module_
-
-~~**ultrasonic sensor gauge &lt;-- this term must be replaced in the book by “distance module”**~~
 
 **upload: **The action of transferring data \(like a program\) from a workstation \(a computer, a tablet etc.\) to a distant device.
 
